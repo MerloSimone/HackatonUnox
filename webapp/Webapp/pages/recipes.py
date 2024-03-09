@@ -14,7 +14,7 @@ with right_column:
     general_recip_butt = right_column.button('General recipes')
 
 if custom_recip_butt: # and esiste l'indice con i file caricati
-    folder_path = '../../recipes_and_proc'
+    folder_path = '../../user_product_index'
     if os.listdir(folder_path):
         st.switch_page("pages/custom_recipes.py")
         st.session_state.chat_type = "my_recipes"
