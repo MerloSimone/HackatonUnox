@@ -14,7 +14,7 @@ sys.path.append('..')
 import bot_lib as bot
 
 import streamlit as st
-
+import mysql.connector
 from email.mime.text import MIMEText
 from email.message import EmailMessage
 from requests import HTTPError
@@ -125,8 +125,39 @@ def sendEmail(recipient, response):
         print(F'An error occurred: {error}')
         message = None
 
+def connect_to_database(host, user, password, database):
+    try:
+        connection = mysql.connector.connect(
+            host=host,
+            user=user,
+            password=password,
+            database=database
+        )
+        print("Connected to the database!")
+        return connection
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+        return None
+    
+def insert_response_into_database(connection, sender_email, email_content, chatbot_response):
+    if connection is not None:
+        try:
+            cursor = connection.cursor()
+            insert_query = """
+                INSERT INTO users (email_address)
+                VALUES (%s);
+            """
+            values = []
+            values.append(sender_email)
+            cursor.execute(insert_query, values)
+            connection.commit()
+        except mysql.connector.Error as err:
+            print(f"Error: {err}")
+        finally:
+            cursor.close()
 
 
+#db_connection = connect_to_database('89.40.142.15', 'acme_user', 'acme_user', 'unox')
 
 while (1):
     lista_param = readEmails()
@@ -141,10 +172,12 @@ while (1):
         response = bot.get_rag_mail_response(input_text=prompt, index=bot.get_index(),) #call the model through the supporting library
 
 
-
         sendEmail(lista_param[0], response)
+        #insert_response_into_database(db_connection, lista_param[0], lista_param[1], response)
         
 
     time.sleep(3)
     print("slept...")
     
+if db_connection:
+    db_connection.close()
