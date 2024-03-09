@@ -23,16 +23,16 @@ def get_llm():
 		elif st.session_state.chat_type == 'my_recipes':
 			print('ok')
 		elif st.session_state.chat_type == 'other_recipes':
-			print('ok')
+			return llm_model(maxTokens=1024,temperature=0.2, topP=0.2).get_model()
 		elif st.session_state.chat_type == 'add_recipes':
 			print('ok')
 		elif st.session_state.chat_type == 'email':
-			return llm_model(maxTokens=2048,temperature=0.5,topP=0.5).get_model()
+			return llm_model(maxTokens=4096,temperature=0.55,topP=0.9).get_model()
 		else:
 			print('ok')
 
 
-	return llm_model(maxTokens=1024,temperature=0.2, topP=0.2).get_model()
+	return llm_model(maxTokens=2048,temperature=0.55, topP=0.9).get_model()
 """ 
     model_kwargs =  { #AI21
         "maxTokens": 1024, 
