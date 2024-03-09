@@ -1,0 +1,44 @@
+{
+    "id": "90041",
+    "title": "Zucchini",
+    "signatureUrl": null,
+    "author": "Unox S.P.A. Unox",
+    "description": null,
+    "duration": 330,
+    "family": "MIND_MAPS_BIG",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [],
+    "holdable": false,
+    "image": "company/recipes/837b2130221019742322d95ca6ca26703542bfd9df5d59350e50b8fddc5f61b3.jpg",
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/837b2130221019742322d95ca6ca26703542bfd9df5d59350e50b8fddc5f61b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZRJQXHFDT%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T162144Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJIMEYCIQD6y8cNvtQV2FdO3EnggmWW696oLgTiTzo2ttXVnuqslgIhAPL9YQBxgbeqDIh88AyMNqGCvv1nvfEICHWedCCWfIOGKqMDCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg2Njc4Njc3MzYzIgzcaw%2FU4MHhdsLx9qoq9wIuwlqAKD9VTEpTJtteMpguuEnB79XO4ZUX3x18egsyWz6Vv5SiWu3BcPBr4aFgl8aRgfFFgBClVA30EFfBLGxB48Zk%2B8j4P2aCz4UZA9au0iohoTAdImuWEXuhZfUNAZsxFC2h6cqlclKhc%2FR%2BfDuUqimVbS71Y9gi6zGiADvGRneKbUgdzDdufaTWjQkK84t6c8fuRelNt7P1EhzaQ9cEBEAgtoO2rwmnu%2Bnw%2BNCKB0t9mtWo7qk1N8EFRSaFTphawAtWo6IMZceNLWUQw7KY%2FK5hH00LNPX%2FwhhmbdIVytBcuLe%2Bwkjr6y%2BoIn%2F6Tq0v27DcJXYEIE2EVXU4L5sMUkr18kiEw9tn7rARomP23jFXmXVYkhIYMQcsAb3Jls70ZvSsThfbCY0RkEkZJS10Q%2BfCAUifFGjIbVfb%2FSgWPpWEzwDN%2BbicAD8D3KN5bWHtDtZEvImuej0udt2UWjIFRaTGT3EfhxaWqBYGd36e1Ko%2BPoqmWoww5JSyrwY6nAHhDnWx0X5qljBQwGUOvB8norXQBxtyOMie4a1kd0rJXclbnTZXoigDBVJWjnIxw035NNnKUoGfU2ZQf0B6A1i%2F0AwLqCeBZzkn0W0dAuCvpO53uCXfahvynHU3AEDcE2TluY7AUAiyEO%2FJ0cROhOCO7XUeI2s5vUr%2FE0FDrNaBmTos51wPLOrjoVUlkgzDqTHOt4dEUWIblTVJfo0%3D&X-Amz-Signature=f3e20b1920d43d6644ce25947eb4b24406e559f7055a5a61007bf790c5a649cc&X-Amz-SignedHeaders=host",
+    "createdAt": "2023-10-11T08:18:58.892Z",
+    "modifiedAt": "2023-10-11T09:26:05.266Z",
+    "id_community_recipe": null,
+    "precooking": [],
+    "postcooking": [],
+    "lifespan": 0,
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 240,
+                "time": "330",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "",
+    "ingredients": [],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

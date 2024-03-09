@@ -1,0 +1,60 @@
+{
+    "id": "89927",
+    "title": "Cheesecake",
+    "signatureUrl": null,
+    "author": "UNOX",
+    "description": null,
+    "duration": 2100,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "cakes_and_pastries"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "holdable": false,
+    "image": "company/recipes/d768dd2001853d2b8462db58d14a79f74e6a4424e6fa775d0d6aebee8d81ae8d.jpg",
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/d768dd2001853d2b8462db58d14a79f74e6a4424e6fa775d0d6aebee8d81ae8d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZWRJU6T6U%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T162152Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJIMEYCIQD%2BTxDoxHvk45gEFM1WyPEOMAi6ZBgfnGLnlxiqdcWWMwIhAOTLTx6FRC7KO4hcugO4IIUFH%2F6gvXGUg2W%2F3ZgXDVkBKqMDCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg2Njc4Njc3MzYzIgzDQJOUly2WolfyP%2Bkq9wImp0w4NFIxB9Hb%2FxQjF7E7586%2BfVt%2BAbUEbYiFfg99CFZBF5zG%2BooO%2F3M5JAoiyCF8uER%2FT2M6Avd7T0M9f%2FFQhP%2B4tLPqOZ5IScbnmv1Q58ynSNKIVCk5UnkR4QZYkGakU3jGH8qdmqZl1xCxZNLx%2FRqmF5uPcOfz8OCUD9WgfwgwDlqk5eB%2FdEbgiiqQwyhm8IgCp5CPz3CCdklYLNVCMSbXRXN3qa7NW7sSiA7KqA4bRrH7WUVVCwyPXhGIcsQdxCNWkRLlKHZDsBHLeuDOA9CLXQV9DDiW0G2HX5CHyRJ2Hi2SAbqHGl8xbYn6Nggqr%2BLmrWdYwSUDLaDtb2fSzxIxc0RR3qSeI0GGIRSmNPz2Z8hLmHYvnyCD1qeAe8j4yXcg44CLIdDMWsJC9ImQ49RKjNcV%2F0K%2FosNlgIIjh5Tf0e7uVH86dLKsofLw8YhAw8b2ORsf6kg9nvw0PEUeq0vNx7s3RWhHwclUjFO0N07p3GxCz2sw9Y6yrwY6nAHfmlS8AUidwIxz0hwewQ0Pze3F7X%2BIW6d2GU3bJGTkGUO%2F6UyKdCntDJa64POopdUz7BnvPpCPO4gKEYQEf2hwmQHR8BOD0xp6HeShgQlphG3fJ%2FDKuf2O1n6BYgiWTBb6zZ5UZcCGH2hYDWgh8dIgfO8FqhoOvoK1QqRzmAHvsH76WgtJq9JNE%2Buqja%2F0EHGeNWr91MjFY6BnYo4%3D&X-Amz-Signature=12bd9951c626d446baa0911738a9b08a145c02928c03fd63a13e6b5dd54b8c86&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-10-21T15:44:57.528Z",
+    "modifiedAt": "2023-10-12T10:43:12.336Z",
+    "id_community_recipe": null,
+    "precooking": [],
+    "postcooking": [],
+    "lifespan": 0,
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 180
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 140,
+                "time": "2100",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Crush finely the biscuits adding the cinnamon. Pour in the melted butter and mix through. Transfer the mix onto a 16 cm diameter cake mold and push it down with the back of a spoon applying gentle pressure. Set in the fridge while proceeding with the rest of the preparation. Now mix together the fresh cheese and the sugar in a bowl using an electric whisk, proceed with adding eggs, one at the time until you end up with a smooth and creamy mixture. Add now the zest of a lemon, the cream and the sifted starch. Transfer the mixture on top of the biscuit base, level it even and bake. Leave to cool down and set in fridge for at least 3 hours.",
+    "ingredients": [
+        "350 g Digestive biscuits",
+        "120 g Butter",
+        "450 g Fresh cheese",
+        "100 g White sugar",
+        "100 ml Fresh cream",
+        "40 g Starch",
+        "3 Eggs",
+        "1 tbs Cinnamon",
+        "Lemon zest"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,44 @@
+{
+    "id": "89872",
+    "title": "Stuffed olives",
+    "signatureUrl": null,
+    "author": "Unox S.P.A. Unox",
+    "description": null,
+    "duration": 480,
+    "family": "MIND_MAPS_BIG",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [],
+    "holdable": false,
+    "image": "company/recipes/5dfcfa98225524c581390bc00eb7412b6eeb083e631bc4cdde951b0b2e0f5de8.jpg",
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/5dfcfa98225524c581390bc00eb7412b6eeb083e631bc4cdde951b0b2e0f5de8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5Z2354GO5Z%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T162137Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJIMEYCIQCGLYOqSkP7V9bmGWQ187eYqAlAemqo7Kd7b1B6CRG1xAIhAKyQSfoPS%2BkUPFmFeIrMv3zmBndpqVPRFvKfGFRvlFIRKqMDCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg2Njc4Njc3MzYzIgwDu8Z%2FsQqMcfWBk%2Boq9wLN2h3J5xvDXWNpxo0lHwVvY3W9CK9Bhf40Xtj%2BZS9sFtuthAx24eKbBWPQgza8iIQPlFKlG6VF0WoDFSw2hXlig0iT9BRtTIhzZdzzt%2F5M%2F%2FzzbrMv6utCfvQMMGmHCwbmp9MEBiLpEIr9A%2BBu9pnYnmTcwmpYJYx3f9ejccQOtP1sG96tFO8O0w0HxogeJWbK2CEQsivqRnBGVR%2BwNNU7vbao7d8ONub915cTPGQczoMdJccrXhOPWVS5x21onX8xW04JNSRx1snrYKL2iS3hcdcu3VNoLzKxx6fDDAQ3z3cq%2FjDVdE1yxRwKZqJzAB135dVMNf6GDGcC3x%2Brlo2klfW0Aooi%2FiIzU3soRJ6f81u%2BWNftdiJOq2VdiKUbrJevHK7O10UeYvZrkYNuc%2FH1CxE9LsM%2F8VsbD4jZmRZpq0Gibsb9wwMII5nRLGc4bK9xHT3J3sSec8ruKNrb8SpE0ntH%2FFVAXaAl5XsgRl61ZudxArC9%2FAow04CyrwY6nAEVhRJTJLJiGUl64bvtGFNWGpTNCm6p%2BJLvip9BfIA8b1Dxv9HudmhOfjuJu%2FXKog0wH1mOUvosiTsbaYFJUAAsrHzsI4Zmb4GE%2Fj%2BSb0DKyua3JpgutHaC8sKvYNURtsYoadWLhE54QcLoOuoF0a%2B2BLPN6Tb0Fm1H1mpomNXX54l9OdHDP7ajP%2FOpoRujaxxEzfYqMUAcSyKzBBI%3D&X-Amz-Signature=04edf9c9db449ccc599d25b9911ec889dfe351a2576327f054c33ecb09fad8fe&X-Amz-SignedHeaders=host",
+    "createdAt": "2023-10-11T07:36:52.988Z",
+    "modifiedAt": "2023-10-11T09:27:04.768Z",
+    "id_community_recipe": null,
+    "precooking": [],
+    "postcooking": [],
+    "lifespan": 0,
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 96,
+                "time": "480",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "",
+    "ingredients": [],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}
