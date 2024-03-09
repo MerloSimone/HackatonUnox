@@ -1,5 +1,5 @@
 import streamlit as st #all streamlit commands will be available through the "st" alias
-import rag_chatbot_lib as glib #reference to local lib script
+import bot_lib as glib #reference to local lib script
 
 
 st.set_page_config(page_title="RAG Chatbot") #HTML title
@@ -15,7 +15,7 @@ if 'chat_history' not in st.session_state: #see if the chat history hasn't been 
 
 if 'vector_index' not in st.session_state: #see if the vector index hasn't been created yet
     with st.spinner("Indexing document..."): #show a spinner while the code in this with block runs
-        st.session_state.vector_index = glib.get_index("recipes_index") #retrieve the index through the supporting library and store in the app's session cache
+        st.session_state.vector_index = glib.get_index("test_recipe_new_index") #retrieve the index through the supporting library and store in the app's session cache
 
 
 
@@ -33,7 +33,7 @@ if input_text: #run the code in this if block after the user submits a chat mess
     
     with st.chat_message("user"): #display a user chat message
         st.markdown(input_text) #renders the user's latest message
-    
+
     st.session_state.chat_history.append({"role":"user", "text":input_text}) #append the user's latest message to the chat history
     
     chat_response = glib.get_rag_chat_response(input_text=input_text, memory=st.session_state.memory, index=st.session_state.vector_index,) #call the model through the supporting library
