@@ -57,8 +57,9 @@ def get_llm():
 
 
 
-def get_index(): #creates and returns an in-memory vector store to be used in the application
-    
+def get_index(index_name=None): #creates and returns an in-memory vector store to be used in the application
+    if index_name is None:
+        index_name = "new_index"
     
     embeddings = BedrockEmbeddings(
         credentials_profile_name="default", #sets the profile name to use for AWS credentials (if not the default)
@@ -98,7 +99,7 @@ def get_index(): #creates and returns an in-memory vector store to be used in th
     
     #return index_from_loader #return the index to be cached by the client app
     """
-    return FAISS.load_local("new_index",embeddings)
+    return FAISS.load_local(index_name, embeddings)
 
 
 def get_memory(): #create memory for this chat session
