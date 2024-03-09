@@ -11,7 +11,13 @@ from langchain.document_loaders import PyPDFLoader
 
 from models import llm_model
 
+from pathlib import Path
+
 import streamlit as st #all streamlit commands will be available through the "st" alias
+
+
+
+
 
 
 def get_pdf_splits(pdf_file):
@@ -60,6 +66,23 @@ def embed_index(doc_list, embed_fn, index_store):
 
 
 
+
+
+
+doc_folder="./downloads"
+file_list=[]
+
+
+
+def list_directory_tree_with_pathlib(starting_directory):
+    path_object = Path(starting_directory)
+    for file_path in path_object.rglob('*'):
+        if file_path.is_file():
+            file_path_str=file_path.as_posix()
+            if file_path_str.endswith("pdf"):
+              file_list.append(file_path_str)
+
+
 embeddings = BedrockEmbeddings(
         credentials_profile_name="default", #sets the profile name to use for AWS credentials (if not the default)
         region_name="us-east-1", #sets the region name (if not the default)
@@ -69,13 +92,15 @@ embeddings = BedrockEmbeddings(
 
 
 pdf_path = "XAVC-0511-EPRM-SPC_en_08-2023.pdf" #assumes local PDF file with this name
-documento = get_pdf_splits(pdf_path)
-     
+i=0
+for elem in file_list:
+  print(i)
+  i=i+1
+  documento = get_pdf_splits(elem)
+       
 
-embed_index(doc_list=documento,
-            embed_fn=embeddings,
-            index_store='new_index')
+  embed_index(doc_list=documento,
+              embed_fn=embeddings,
+              index_store='new_index')
      
 print("---------------")
-
-index = FAISS.load_local("new_index",embeddings)

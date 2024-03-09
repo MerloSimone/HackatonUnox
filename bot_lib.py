@@ -59,13 +59,14 @@ def get_llm():
 
 def get_index(): #creates and returns an in-memory vector store to be used in the application
     
-    """
+    
     embeddings = BedrockEmbeddings(
         credentials_profile_name="default", #sets the profile name to use for AWS credentials (if not the default)
         region_name="us-east-1", #sets the region name (if not the default)
         #endpoint_url=os.environ.get("BWB_ENDPOINT_URL"), #sets the endpoint URL (if necessary)
     ) #create a Titan Embeddings client
     
+    """
     #base_path=""
 
     #pdf_files_paths = [base_path+f for f in os.listdir() if (os.path.isfile(f) and f.endswith("pdf"))]
