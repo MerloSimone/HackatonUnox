@@ -1,6 +1,10 @@
 import streamlit as st #all streamlit commands will be available through the "st" alias
 # import rag_chatbot_lib as glib #reference to local lib script
-from pages import rag_chatbot_lib as glib
+
+import sys
+sys.path.append('../../')
+# Use absolute import for bot_lib
+import bot_lib as glib
 
 st.set_page_config(page_title="Our products") #HTML title
 
@@ -18,7 +22,7 @@ if 'chat_history' not in st.session_state: #see if the chat history hasn't been 
 
 if 'vector_index' not in st.session_state: #see if the vector index hasn't been created yet
     with st.spinner("Indexing document..."): #show a spinner while the code in this with block runs
-        st.session_state.vector_index = glib.get_index() #retrieve the index through the supporting library and store in the app's session cache
+        st.session_state.vector_index = glib.get_index("../../new_index") #retrieve the index through the supporting library and store in the app's session cache
 
 
 
