@@ -78,6 +78,7 @@ def list_directory_tree_with_pathlib(starting_directory):
     path_object = Path(starting_directory)
     for file_path in path_object.rglob('*'):
         if file_path.is_file():
+            print(file_path)
             file_path_str=file_path.as_posix()
             if file_path_str.endswith("pdf"):
               file_list.append(file_path_str)
@@ -92,6 +93,7 @@ embeddings = BedrockEmbeddings(
 
 
 pdf_path = "XAVC-0511-EPRM-SPC_en_08-2023.pdf" #assumes local PDF file with this name
+list_directory_tree_with_pathlib(doc_folder)
 i=0
 for elem in file_list:
   print(i)
