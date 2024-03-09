@@ -11,5 +11,6 @@ recip_button = right_column.button('Recipes', key="Recipes")
 
 if prod_button:
     st.switch_page("pages/product.py")
+    st.session_state.chat_type = "product_exploration"
 if recip_button:
     st.switch_page("pages/recipes.py")
