@@ -1,0 +1,64 @@
+{
+    "id": "625",
+    "title": "Polpette di manzo e vitello",
+    "signatureUrl": null,
+    "slug": "polpette-di-manzo-e-vitello",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 6120,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 438,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/8cf593b4a804806bff627ae8204d3b870013669a5c834abd70e46d5a7c926745.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200908Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=f23c58d81e936a58aeafdfad0a1adaa2995c442b703d76658098e7a00f573ae8&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 170,
+                "time": "720",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "manual"
+            },
+            {
+                "fan": 2,
+                "temp": 120,
+                "time": "5400",
+                "clima": 10,
+                "pulse": "0",
+                "preset": "braise"
+            }
+        ]
+    },
+    "preparation": "Per prima cosa preparare le polpette mischiando i due tipi di macinato con sale, pepe, cipolla tritata e aglio. Amalgamare bene utilizzando le mani. Aggiungere 2 uova sbattute e il pangrattato per amalgamare il tutto e creare delle palline da circa 40-50 cm. Disporre le polpette in 2 teglie BLACK.40 con olio di oliva e cucinarle utilizzando il programma indicato. Durante lo STEP 1 che andr\u00e0 a sigillare le polpette, potete mescolare la passata di pomodoro, il vino, sale, pepe e il rosmarino tagliato finemente. Non appena lo Step 1 sar\u00e0 finito, aggiungete il liquido alla teglia e proseguite la cottura con lo Step 2.",
+    "ingredients": [
+        "500 g Carne macinata di manzo",
+        "500 g Carne macinata di vitello",
+        "100 g Cipolla rossa",
+        "2 Uova",
+        "5 g Rosmarino",
+        "1 l Passata di pomodoro",
+        "100 g Pane grattugiato",
+        "2 Spicchi d'aglio",
+        "Sale",
+        "Pepe",
+        "100 ml Olio d'oliva"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

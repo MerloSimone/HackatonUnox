@@ -1,0 +1,59 @@
+{
+    "id": "232",
+    "title": "Frittura di pesce al forno",
+    "signatureUrl": null,
+    "slug": "frittura-di-pesce-al-forno",
+    "author": "UNOX",
+    "description": null,
+    "duration": 480,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 1353,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/32cdd42829fb707c260374f7a0db0a57289f19a90300aedf7ca127d97129d47c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200910Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=f15165be1305454668235d01c3257d42e3b5b371db2b5617f783fc0333c83921&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-01-26T10:21:27.749Z",
+    "modifiedAt": "2019-12-30T09:59:42.531Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 250
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 225,
+                "time": "480",
+                "clima": -100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Pulire il gamberone eliminando la corazza , il calamaro aprendolo e tagliandolo  a strisce e a met\u00e0 la testa. La rana pescatrice in 2 fette o pezzi e le sarde spinate e aperte a farfalla. Lavare la capasanta e mantenere solo il muscolo e la parte arancione. Passare il tutto prima nella farina, poi nell'uovo e infine nel pangrattato. lasciar riposare in frigo per mezz'ora prima di cuocere in una teglia leggermente oliata seguendo il programma di cottura suggerito.  Servire caldo assieme a mezzo limone e una spolverata di sale marino. ",
+    "ingredients": [
+        "10 Gamberone",
+        "10 Calamaro",
+        "10 Capasanta",
+        "100 g Rana pescatrice",
+        "6 Sarde",
+        "100 g Farina 00",
+        "4 Uova",
+        "60 g Pangrattato",
+        "1 Limone"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

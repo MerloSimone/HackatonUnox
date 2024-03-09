@@ -1,0 +1,63 @@
+{
+    "id": "694",
+    "title": "Crusted Pork Fillet",
+    "signatureUrl": null,
+    "slug": "crusted-pork-fillet",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": -2,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_core_probe",
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 133,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/12a5588f84dd17e8695137fbfb02de15852fda91cab37bc31c5c19d36c6c8e4e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200926Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=f4ec67fbb4d3e5c422b4ebd1a967a4c5aaf27151396976a6e7aec02472ca5b2e&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-07-07T12:27:00.263Z",
+    "modifiedAt": "2022-07-07T12:27:00.263Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 170,
+                "time": "600",
+                "clima": 30,
+                "pulse": "0",
+                "preset": "combi"
+            },
+            {
+                "fan": 4,
+                "temp": 165,
+                "clima": -50,
+                "probe": 69,
+                "pulse": "0",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "First, season the meat with salt and pepper. On a very hot pan with a little extra virgin olive oil, sear the meat on all sides then let it rest for 5 minutes. Dry the meat properly and roll the slices of speck around the fillet  helping with cling wrap. Let it rest in the fridge for 1 hour. Roll out the puff pastry and place the fillet with speck in the middle, roll it in the puff pastry and cut out the excess. Brush the outside with beaten egg. At this point if you want you can apply light decorative engravigs or you can apply seeds such as sesame or flax. Once decorated, place it in the oven on a FORO.BLACK.  \nLet it rest at least 5 minutes after cooking before cutting and serving.",
+    "ingredients": [
+        "Puff pastry",
+        "Salt",
+        "Pepper",
+        "Extra virgin olive oil",
+        "500 g Pork fillet",
+        "100 g Speck",
+        "1 Egg"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

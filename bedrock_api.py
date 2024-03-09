@@ -38,8 +38,15 @@ for root, dirs, files in os.walk(doc_folder):
         if file.endswith(".json"):
             file_list.append(os.path.join(root, file))
 
+final_file_list = []
+# remove the existing pdf files
+for file in file_list:
+    # if the directory contains a pdf file, remove it
+    if not os.path.exists(file + ".pdf"):
+        final_file_list.append(file)
 
-for json_file in file_list:
+
+for json_file in final_file_list:
     with open(json_file, "r") as f:
         data = json.load(f)
     prompt = f"""Instructions: 

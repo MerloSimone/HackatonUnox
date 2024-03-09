@@ -1,0 +1,61 @@
+{
+    "id": "684",
+    "title": "Coniglio stufato",
+    "signatureUrl": null,
+    "slug": "coniglio-stufato",
+    "author": "Samuele De Nardi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 153,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/89d4b51468e31451f57c4fbc3e5c9885ca780d07b18b172bc634a6b4c20aa539.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200925Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=722282d9f4a69862bdb01a876b579f1aa7002b56eccc51a442997ee4464d5392&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-01-24T12:57:53.960Z",
+    "modifiedAt": "2022-01-24T12:57:53.960Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 135,
+                "time": "1800",
+                "clima": 50,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Tritare la cipolla, il pomodoro e l'aglio in mirepoix e unirli con il resto degli ingredienti: rosmarino, salvia, timo, alloro, acqua, vino rosso e concentrato di pomodoro. Disporre uniformemente le verdure e gli aromi nella cooking.essential BLACK.40. Per questa ricetta devi usare due chili di carne di coniglio diviso in parti uniformi: condisci i pezzi di carne con sale, pepe e olio vegetale, strofinandoli bene su tutte le sue parti. Quindi disponi le varie parti del coniglio sopra al resto dei condimenti. Alla fine della cottura, separa le carni dai liquidi e prepara una salsa per accompagnare il coniglio. Aggiungi sale e pepe a piacere e, perch\u00e9 no, servire con patate o riso al vapore.",
+    "ingredients": [
+        "250 ml Acqua",
+        "50 ml Vino rosso",
+        "3 g Salvia",
+        "3 g Rosmarino",
+        "3 g Timo",
+        "20 ml Olio vegetale",
+        "2 Kg Coniglio",
+        "300 g Cipolla",
+        "300 g Pomodoro",
+        "10 g Aglio",
+        "50 g Concentrato di pomodoro",
+        "10 g Sale",
+        "1 g Pepe",
+        "1 Foglia di alloro"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

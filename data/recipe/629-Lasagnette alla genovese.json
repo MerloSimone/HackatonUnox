@@ -1,0 +1,59 @@
+{
+    "id": "629",
+    "title": "Lasagnette alla genovese",
+    "signatureUrl": null,
+    "slug": "lasagnette-alla-genovese",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 2100,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 277,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/702d30466a35f59c41753c89ce8bf0646eeaf94a15793f73b5fdf9296b0fdd3e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200915Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=f080ae3b65f4fb31613cb2a839966337c637d1b660b3d0759f760b5eb8c9a640&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-06-16T16:08:02.249Z",
+    "modifiedAt": "2020-06-16T16:08:02.249Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 155,
+                "time": "1200",
+                "clima": 20,
+                "pulse": "0",
+                "preset": "combi"
+            },
+            {
+                "fan": 4,
+                "temp": 160,
+                "time": "900",
+                "clima": -30,
+                "pulse": "0",
+                "preset": "combi"
+            }
+        ]
+    },
+    "preparation": "Ricercare per questa ricetta delle sfoglie di pasta fresca di misura gn1/1 in modo da entrare perfettamente nella teglia di cottura BLACK.40\nSbucciare le patate e dopo averle tagliate a fettine di mezzo centimetro, sbollentatele in acqua bollente.\nStesso procedimento anche per i fagiolini che dopo essere stati puliti devono essere sbollentati.(questo passaggio pu\u00f2 anche essere fatto in forno a vapore.\nOra che le verdure sono pronte si pu\u00f2 procedere con l'assemblaggio delle lasagne.\nPer prima cosa, mescolare il pesto di basilico con la besciamella.\nSul fondo della teglia BLACK.40 cospargere un p\u00f2 di besciamella, poi distendere un velo di pasta, distribuire in ordine sparso un p\u00f2 dei fagiolini e delle patate prima di spolverare con il parmigiano. Ripetere gli strati nello stesso modo per 4 volte. Alla fine del processo, forare la lasagna con uno stuzzicadente in modo da non farla gonfiare in cottura.\nCuocere secondo programma.",
+    "ingredients": [
+        "4 Sfoglie di pasta fresca gn1/1",
+        "1 kg besciamella",
+        "300 g patate",
+        "300 g pesto di basilico",
+        "300 g fagiolini",
+        "150 g parmigiano"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

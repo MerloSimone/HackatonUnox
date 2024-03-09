@@ -1,0 +1,56 @@
+{
+    "id": "690",
+    "title": "Baccal\u00e0 alla vicentina al forno",
+    "signatureUrl": null,
+    "slug": "baccala-alla-vicentina-al-forno",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 7200,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 104,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/6f82dbbde0f7d4d71b70a6f8974e96671312a9b833ac814cf73b28e0cf5bfdb5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200926Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=516fbd16955ae22c657245c4c3398bc6b1519ca5cecedcbe5fac7296298e7c9a&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-07-07T12:21:10.346Z",
+    "modifiedAt": "2022-07-07T12:21:10.346Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 120,
+                "time": "7200",
+                "clima": -20,
+                "pulse": "0",
+                "preset": "braise"
+            }
+        ]
+    },
+    "preparation": "Per la preparazione di questa ricetta tipica, bisogna mettere a bagno lo stoccafisso con largo anticipo (almeno 12 ore prima)\nQuando lo stoccafisso \u00e8 completamente reidratato, rimuoverlo dall'acqua e con le mani, rimuovere i pezzi di polpa dalla lisca facendo attenzione di rimuovere tutte le spine e a non buttare via la pelle.\nIn una teglia BLACK.40, disporre l'olio di oliva, i filetti di acciuga, le olive nere, i capperi e la foglia di alloro in maniera molto urdinata.\nAdagiare sopra i pezzi (pi\u00f9 o meno piccoli \u00e8 a vostro piacimento) di stoccafisso, salare, pepare e ricoprire con il latte, il brodo e la rimanenza dell'olio di oliva. Infornare e cuocere secondo il programma suggerito.\n",
+    "ingredients": [
+        "500 g stoccafisso",
+        "200 ml latte",
+        "10 olive nere",
+        "4 acciughe salate",
+        "10 capperi",
+        "1 foglia di alloro",
+        "200 ml brodo vegetale",
+        "sale",
+        "pepe"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

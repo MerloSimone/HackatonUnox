@@ -1,0 +1,61 @@
+{
+    "id": "246",
+    "title": "Calamari confit",
+    "signatureUrl": null,
+    "slug": "calamari-confit",
+    "author": "UNOX",
+    "description": "Cottura lenta con olio e aromi. Ottimi in insalata fresca o come antipasti. Teneri e perfetti per essere serviti interi o affettati.",
+    "duration": 2100,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 1355,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/0591bebdf4610898ad67e59eb2b8c407ec0e6d917f8eb0589cce86e18e339ffe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200909Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=f41d0d8b435a4aeb490ffb0a6fad761c7d1dbf31b2491b8918fb9c61461a0d55&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-04-16T10:10:41.005Z",
+    "modifiedAt": "2019-12-30T09:59:42.543Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 113
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 87,
+                "time": "2100",
+                "clima": 50,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "In una busta di plastica sous-vide, mescolare i 2 oli con peperoni a fette, aglio, cipolla, rosmarino, salvia, pepe, chiodi di garofano. Chiudere la borsa con cura con una macchina per sous-vide. Una volta chiusa, cuocere per 3 ore a circa 55 \u00b0C. A quella temperatura gli oli essenziali all'interno degli ingredienti si mescoleranno con l'olio rilasciando fragranza e buoni aromi. Una volta che l'olio sar\u00e0 pronto, aprire la borsa e filtrare l'olio in un vassoio. Lavare i calamari e posizionarli sul vassoio facendo attenzione che l'olio li copra completamente. Cucinarli in forno con il seguente programma.",
+    "ingredients": [
+        "1 kg Calamari",
+        "500 g Olio EVO",
+        "500 g Olio vegetale",
+        "30 g Peperoni rossi",
+        "30 g Peperoni gialli",
+        "20 g Cipolla",
+        "10 g Aglio",
+        "5 g Pepe nero intero",
+        "5 g Chiodi di garofano",
+        "2 g Rosmarino fresco",
+        "2 g Salvia fresca"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

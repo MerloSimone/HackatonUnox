@@ -1,0 +1,63 @@
+{
+    "id": "671",
+    "title": "Sbrisolona Mantovana",
+    "signatureUrl": null,
+    "slug": "sbrisolona-mantovana",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 136,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/1e45c42a9e8d61cea11f58e53f0842f1faf4a95ad4d8df26929ceef1805cdc0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200922Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=21d2acaada20b3b829f87bf09b796f07e28dd1c9884d996ba2945c58ebb9a9a0&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:19:47.557Z",
+    "modifiedAt": "2021-09-21T07:19:47.557Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 260
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 170,
+                "time": "900",
+                "clima": 0,
+                "pulse": "1",
+                "preset": "pastry"
+            },
+            {
+                "fan": 4,
+                "temp": 155,
+                "time": "900",
+                "clima": -70,
+                "pulse": "0",
+                "preset": "pastry"
+            }
+        ]
+    },
+    "preparation": "Ricetta per una teglia BLACK.20 o BLACK.40 Prima di tutto con un mixer tritare 200 g di mandorle con lo zucchero, fino ad ottenere una farina polverizzata. ma attenzione a non prolungare troppo, altrimenti le mandorle tireranno fuori l\u2019olio. Unire a questo punto la farina di mandorle alla farina bianca e gialla, aggiungere 3 pizzichi di sale e mescolare insieme. Infine agiungere i tuorli, il vino bianco e il burro freddo, tagliato a cubetti piccoli, e iniziare a sbriciolare con le mani per creare un composto sabbioso a briciole grosse. Unire 50 g di mandorle intere e disporre il composto in una teglia BLACK.20/.40 assicurandosi di formare uno strato ben distribuito mantenendo le briciole grosse. Cospargere con un paio di cucchiai di zucchero la superficie e aggiungere le mandorle ( 50 g rimanenti) per decorazione, leggermente incastonate nella sbrisolona. Cuocere in forno e una volta terminata la cottura lasciar raffreddare prima di servire. Pu\u00f2 essere ultimata, a piacere, con nocciole intere e servita con zabaione o crema al mascarpone.",
+    "ingredients": [
+        "300 g farina \"00\"",
+        "300 g farina di mais fine",
+        "300 g zucchero semolato",
+        "300 g burro",
+        "3 tuorli d'uovo",
+        "300 g mandorle intere",
+        "45 ml vino bianco secco",
+        "sale"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

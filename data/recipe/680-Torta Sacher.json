@@ -1,0 +1,66 @@
+{
+    "id": "680",
+    "title": "Torta Sacher",
+    "signatureUrl": null,
+    "slug": "torta-sacher",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 2100,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 350,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/346d0228e85ac761ff6eba6671115df8b108167dcfbe6393dd7f3e73c5d896e8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200923Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=e320d1bd269835ae6f16d272c41d541c4e5b6d8e17045722fb634b8f47e7cbdc&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:23:41.533Z",
+    "modifiedAt": "2021-09-21T07:23:41.533Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 190
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 160,
+                "time": "1200",
+                "clima": 0,
+                "pulse": "1",
+                "preset": "pastry"
+            },
+            {
+                "fan": 3,
+                "temp": 170,
+                "time": "900",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "pastry"
+            }
+        ]
+    },
+    "preparation": "Per preparare la Sacher come prima cosa trasferire il cioccolato in piccoli pezzi in una bastardella e fondere a bagnomaria oppure in microonde. Nel frattempo aggiungere nella ciotola di una planetaria il burro morbido, lo zucchero a velo e un pizzico di sale. Aggiungere anche i semi del baccello di vaniglia e iniziare a lavorare il composto con la frusta fino ad ottenere una consistenza cremosa. \nVersare poi i tuorli leggermente sbattuti in due volte e continuare a montare il composto, ci vorranno circa 8-10 minuti fino a che il composto \u00e8 ben spumoso. \nQuando il cioccolato fuso \u00e8 ad una temperatura compresa tra 45 e 55\u00b0; \u00e8 preferibile utilizzare un termometro per misurarla, se dovesse essere troppo alta, infatti, rischierebbe di sciogliere il burro, viceversa rischierebbe di indurire troppo il composto. Aggiungere il cioccolato nel composto di burro e tuorli e continuare a mescolare fino ad ottenere un composto uniforme. Versare poi gli albumi nella ciotola di una planetaria e iniziare a montarli a velocit\u00e0 alta. E' importante aspettare che gli albumi siano leggermente montati prima di aggiungere il restante zucchero semolato, altrimenti l'albume diventer\u00e0 troppo pesante e far\u00e0 molta pi\u00f9 fatica a montare. \nA questo punto unire gli albumi in due volte nel composto di tuorli e cioccolato e incorporare con una spatola dal basso all'alto. \nAggiungere poi anche la farina setacciata fino ad ottenere un composto liscio ed uniforme. \nImburrare e infarinare uno stampo da 18 cm di diametro, poi versare il composto all'interno, livellare la superficie e cuocere in forno. \nUna volta ultimata la cottura lasciare raffreddare la torta completamente, tagliare la torta in due dischi, utilizzando un coltello dalla lama lunga seghettata.\nDisporre la confettura di albicocche e spargerla con una spatola su tutta la superficie della base della torta. Ricoprire con il secondo disco e posizionarlo sopra il disco di base.\nTrasferire la torta su una gratella e procedere a preparare la ganache. Mettere la panna in un pentolino e portarla a sfiorare il bollore, unire il cioccolato e mescolare con una frusta fino a che il cioccolato sar\u00e0 completamente sciolto e ben amalgamato.\nAiutandosi con una spatola versare la ganache sulla torta e ricoprire sia la superficie che i bordi e lisciarla allo stesso tempo. Per risultare liscia e lucida la ganache deve avere una temperatura di circa 40\u00b0. \nRaffreddare in frigorifero ( a +4\u00b0) per circa 20 minuti. Servire con panna semimontata.\n",
+    "ingredients": [
+        "260 g cioccolato fondente 70%",
+        "60 g tuorlo d'uovo",
+        "90 g albumi",
+        "65 g burro",
+        "85 g farina",
+        "50 g zucchero a velo",
+        "50 g zucchero semolato",
+        "1 bacello di vaniglia",
+        "sale",
+        "150 g confettura albicocche",
+        "125 g panna liquida"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

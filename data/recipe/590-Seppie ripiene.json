@@ -1,0 +1,55 @@
+{
+    "id": "590",
+    "title": "Seppie ripiene",
+    "signatureUrl": null,
+    "slug": "seppie-ripiene",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1500,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 578,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/5438cf4c8aa375214bddc54a081fd4813d41b4d3d8f7708dc02de37f8f681cf2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200902Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=015ce8e1c2ce04c5274b31e57b202bbe1208b3b35cdc81755cfb09e715667d50&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 230
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 200,
+                "time": "1500",
+                "clima": 30,
+                "pulse": "0",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "Bagnare la mollica di pane con un po\u2019 d\u2019acqua senza farla ammorbidire troppo, intanto pulire le seppie con cura senza romperle: separare il corpo della seppia dalla testa aiutandosi con le forbici, tagliare e sfilarla insieme ai tentacoli in modo da far fuoriuscire anche l'intestino e la vescicola con l'inchiostro che vanno eliminati. Pelare la sacca tirando via la pelle ed estrarre l'osso; dal centro della testa eliminare la bocca a becco e gli occhi con le forbici facendo attenzione a lasciare intatto il mantello. Sciacquare bene sotto l'acqua corrente e far sgocciolare in uno scolapasta. Preparare il ripieno in una ciotola capiente unendo alla mollica bagnata e poi strizzata le uova, l\u2019aglio e il prezzemolo tritati, i capperi, il formaggio, i tentacoli tagliati a pezzetti, sale e pepe: amalgamare bene il tutto fino ad ottenere un composto omogeneo e compatto.Farcire le seppie con il composto ottenuto, richiudere con uno o pi\u00f9 stuzzicadenti o con dello spago da cucina lungo l\u2019apertura orrizontale. Effettuare delle leggere incisioni su un lato del mantello ad una distanza di circa 1 cm l'una dall'altra. Oliare il fondo di una placca da forno, porre all\u2019interno le seppie ripiene ben chiuse, spennellarle leggermente con olio d'oliva o un olio aromatizzato sulla superfice e infornare.",
+    "ingredients": [
+        "1 kg Seppie media grandezza",
+        "2 Uova",
+        "100 g Pecorino grattugiato",
+        "Aglio",
+        "Prezzemolo",
+        "300 g Mollica di pane",
+        "Capperi",
+        "Olio extravergine d'oliva",
+        "Sale",
+        "Pepe"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

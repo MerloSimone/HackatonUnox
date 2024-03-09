@@ -1,0 +1,50 @@
+{
+    "id": "604",
+    "title": "Uovo cocotte",
+    "signatureUrl": null,
+    "slug": "uovo-cocotte",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 540,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 491,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/a22a131c2a3f94fdc646ca8edfad2a8b9081140ab05f30f030b413152afc09b8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200904Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=32b2f597b72d6c05fa0d934045785b64ea901c5af5a1d1b57e3241d67de0bdbe&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 190
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 180,
+                "time": "540",
+                "clima": 30,
+                "pulse": "0",
+                "preset": "combi"
+            }
+        ]
+    },
+    "preparation": "Separare tuorli e albumi, montare leggermente gli albumi  incorporare la panna il sale il pepe e il parmigiano continuando a montare il tutto leggermente fino ad ottenere un composto morbido.\r\nPorre il tuorlo all'interno della cocotte assicurandosi di lasciarlo intatto, inserire il composto di albume panna e parmigiano nella cocotte con delicatezza spolverare leggermente col parmigiano e infornare.\r\n",
+    "ingredients": [
+        "1 Uovo taglia grande",
+        "60 ml Panna fresca",
+        "Sale",
+        "Pepe",
+        "Parmigiano 24 mesi"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

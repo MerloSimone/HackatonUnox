@@ -1,0 +1,50 @@
+{
+    "id": "577",
+    "title": "Paninetti asiatici al vapore",
+    "signatureUrl": null,
+    "slug": "paninetti-asiatici-al-vapore",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 900,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 2271,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/ead0f9e5fbb965d921404a4379b409be58f2a861db478c2dfa2345fb808a2efc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200858Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=46ab8569453e4ae74d2e3b0eb1296190c329c150db3197afda496f4177f35e54&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-04-17T14:42:26.686Z",
+    "modifiedAt": "2020-04-17T14:42:26.686Z",
+    "cookingTag": "BREAD AND PIZZA",
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 100,
+                "time": "900",
+                "clima": 120,
+                "pulse": "0",
+                "preset": "pressure_steam"
+            }
+        ]
+    },
+    "preparation": "Amalgamare in planetaria la farina, lo zucchero e met\u00e0 del latte. Separatamente, aggiungere il lievito al resto del latte e mescolare bene. Versare lentamente il latte e il lievito nel resto dell\u2019impasto e quando esso sar\u00e0 liscio e omogeneo, aggiungere l\u2019olio vegetale e continuare a mescolare finch\u00e9 non si assorbir\u00e0 completamente. A questo punto, coprire con un panno umido e lasciar lievitare a 28 \u00b0C per mezz\u2019ora. A lievitatura ultimata, creare delle palline di impasto da 50 g, posizionarle su un cerchio di carta da forno e lasciar lievitare nuovamente per mezz\u2019ora. Mettere i paninetti su di una teglia STEAM (sempre sopra al cerchio di carta da forno) e cuocere utilizzando il programma PRESSURE.Steam.",
+    "ingredients": [
+        "300 g Latte",
+        "500 g Farina 00",
+        "5 g Lievito di birra secco",
+        "25 g Olio vegetale",
+        "35 g Zucchero"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

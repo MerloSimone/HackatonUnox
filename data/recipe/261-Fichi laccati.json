@@ -1,0 +1,56 @@
+{
+    "id": "261",
+    "title": "Fichi laccati",
+    "signatureUrl": null,
+    "slug": "fichi-laccati",
+    "author": "UNOX",
+    "description": null,
+    "duration": 28800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "veggies"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 387,
+    "userRating": 5,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/1b3b2b74760bfc1fa165b0e11f91dedbd0dd6355c7484af55aa8e6465d045ec0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200914Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=e3758ea1abfea2c831ae28e44afb40fbe6460fb42e1f781490b553c0f50f8fc1&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-01-26T12:47:52.639Z",
+    "modifiedAt": "2019-12-30T09:59:42.551Z",
+    "cookingTag": "DESSERT",
+    "program": {
+        "preheat": {
+            "temp": 90
+        },
+        "steps": [
+            {
+                "fan": 1,
+                "temp": 65,
+                "time": "28800",
+                "clima": -100,
+                "pulse": 1,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Innanzitutto preparare la laccatura per i fichi unendo il miele, le scorze grattuggiate degli agrumi e i chiodi di garofano e lasciarla  a temperatura ambiente coperta.  Pulire bene i fichi e privarli del gambo e tagliarli a met\u00e0, pennellarli  da entrambe i lati e ripetere l'operazione affinche i fichi iniziano ad assorbirne un po. Una volta laccati adagiarli su silpat sopra una teglia Black.Bake  e porre ad essiccare  nel forno secondo il seguente programma.",
+    "ingredients": [
+        "1 kg Fichi misti",
+        "30 g Miele d'acacia",
+        "10 Chiodi di garofano",
+        "Buccia di arancio",
+        "Buccia di limone",
+        "Buccia di pompelmo"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

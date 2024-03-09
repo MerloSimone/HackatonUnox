@@ -1,0 +1,62 @@
+{
+    "id": "576",
+    "title": "Costolette di maiale alla griglia",
+    "signatureUrl": null,
+    "slug": "costolette-di-maiale-alla-griglia",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 360,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 3235,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/bc0e92cdd50bbddd2a3744d8bf7c23454741abbeb44f73226d688aafe9503c27.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200859Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=96e037797b419b6c149aacc793fd996fc2bd046c7e830505e347cff7bbbcf34a&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-04-17T14:42:26.686Z",
+    "modifiedAt": "2020-04-17T14:42:26.686Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 230,
+                "time": "180",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            },
+            {
+                "fan": 4,
+                "temp": 230,
+                "time": "180",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            }
+        ]
+    },
+    "preparation": "Per marinare le costolette di maiale, iniziare scaldando in una casseruola l\u2019acqua, il vino, le foglie di alloro, il pepe e il rosmarino.\r\nAggiungere l\u2019aglio schiacciato, il sedano sminuzzato, il sale, lo zucchero e togliere dal fuoco. Lasciare da parte a raffreddate in frigorifero.\r\nLasciar marinare le costolette per almeno 12 ore in frigorifero prima di asciugarle con del panno carta. Preriscaldare il forno con la teglia FAKIRO.Grill al suo interno per accumulare calore e poi cuocere usando il programma indicato.\r\nIl risultato sar\u00e0 delizioso ed estremamente succoso.",
+    "ingredients": [
+        "250 g 6 Costolette di maiale",
+        "1 l Acqua",
+        "100 g Zucchero",
+        "100 g Sale",
+        "{5 Foglie di alloro",
+        "20 Grani di pepe",
+        "10 g Rosmarino",
+        "100 g Sedano",
+        "5 Spicchi d\u2019Aglio"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,55 @@
+{
+    "id": "233",
+    "title": "Fiorentina",
+    "signatureUrl": null,
+    "slug": "fiorentina",
+    "author": "UNOX",
+    "description": null,
+    "duration": 870,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "beef"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 1382,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/16bd01cfe9c22a33f42993908d015f8c6feea3b9a505aecd96380e0d95857a82.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200913Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=a7aa92a97f0fafc10dc276024c88645bb133a35fa075ed427f1a1da37f769ff8&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T13:40:08.482Z",
+    "modifiedAt": "2019-12-30T09:59:42.533Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 260,
+            "time": 600
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 260,
+                "time": "270",
+                "clima": -100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Togliete la bistecca dal frigo almeno un paio d'ore prima di cucinarla. Preriscaldate la FAKIRO.grill per circa 10 minuti. Nel frattempo massaggiate la bistecca in ambo i lati con sale grosso. Non appena la FAKIRO.grill \u00e8 ben riscaldata, cuocete la bistecca Fiorentina. Una volta pronta, trasferirla in un tagliere di legno oppure in un piatto riscaldato, tagliarla a pezzi, insaporirla con pepe nero macinato al momento e un filo di olio extravergine e servire la bistecca alla fiorentina subito in tavola.",
+    "ingredients": [
+        "1,2 kg Fiorentina",
+        "Sale grosso",
+        "Olio EVO",
+        "Pepe nero"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

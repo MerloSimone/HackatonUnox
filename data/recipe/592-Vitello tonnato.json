@@ -1,0 +1,63 @@
+{
+    "id": "592",
+    "title": "Vitello tonnato",
+    "signatureUrl": null,
+    "slug": "vitello-tonnato",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": -2,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_core_probe",
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 2,
+    "popularity": 978,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/7ba00a364cc5feebc2a372f3873f456edf42dbd2d84c421d0626093c501f34ab.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200902Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=4552ff32c3c357bdaeaeee3a10a71b130b6285e764ebea37a5d1845b25293548&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 140
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 100,
+                "clima": 100,
+                "probe": 80,
+                "pulse": "0",
+                "preset": "steam"
+            }
+        ]
+    },
+    "preparation": "Prendere il girello e inserirlo in un contenitore coprire con vino bianco, profumare con il sedano a pezzetti, 2 foglie di alloro, 3 chiodi di garofano, 6 foglie di salvia. Coprire la ciotola con la pellicola, marinare in frigo per almeno 12 ore. Rimuovere il girello dalla marinatura e posizionarlo su una placca STEAM&FRY, salare e pepare abbondantemente tutti i lati del girello e infornare. Tenere una parte della marinatura filtrata in una casseruola, aggiungete la stessa quantit\u00e0 d'acqua e fate ridurre il liquido della met\u00e0 del suo volume iniziale, una volta raffreddata verr\u00e0 usata nella salsa.\r\nPer la salsa frullare il tonno sgocciolato con i tuorli sodi, un cucchiaio abbondante di capperi, il succo di un limone, le acciughe, mezzo bicchiere di olio e un cucchiaio di aceto. Aggiungere alla salsa tonnata ottenuta 2 mestolini della riduzione tenuta da parte, per renderla liscia e vellutata.\r\nConcluso il programma di cottura coprire la carne e lasciarla raffreddare per almeno un ora nel frigo prima di affettarla.\r\nServire le fettine di vitello coperte dalla salsa e decorare con i capperi sciacquati.",
+    "ingredients": [
+        "1 kg Girello di vitello",
+        "300 g Tonno sott'olio",
+        "6 Acciughe",
+        "3 Uova sode",
+        "Gambo di sedano",
+        "Aceto di vino bianco",
+        "Vino bianco secco",
+        "Alloro",
+        "Salvia",
+        "Chiodi di garofano",
+        "Capperi sott'aceto",
+        "Cetriolini sott'aceto",
+        "Limone",
+        "Olio extravergine d'oliva",
+        "Sale"
+    ],
+    "autoSoft": 1,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

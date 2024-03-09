@@ -1,0 +1,56 @@
+{
+    "id": "679",
+    "title": "Fesa di tacchino aromatica sottovuoto",
+    "signatureUrl": null,
+    "slug": "fesa-di-tacchino-aromatica-sottovuoto",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 5400,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 184,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/2bf358fd99b24aea68bb39a74ce23b51f0456cbecac4cd6234033fc0f4fd666e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200923Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=c18134fa11b3cd52922071f2a0404cb3268b36f15daaf645aa26c39e1cde1239&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:23:28.157Z",
+    "modifiedAt": "2021-09-21T07:23:28.157Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 75,
+                "time": "5400",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "sous_vide"
+            }
+        ]
+    },
+    "preparation": "Iniziare dalle erbe aromatiche, tritare finemente rosmarino salvia e maggiorana assieme allo spicchio d'aglio privato dell'anima, unire il composto alla senape all'olio evo e unire sale e pepe. Coprire la fesa di tacchino con la salsa e lasciare marinare nel frigo per almeno 2 ore. inserire la fesa di tacchino in un sacchetto sottovuoto per cotture e infornare, posizionandolo in una teglia STEAM. Un piatto semplice ma ricco di gusto e profumo.",
+    "ingredients": [
+        "1 fesa di tacchino",
+        "25 g senape",
+        "60 ml olio extravergine d'oliva",
+        "20 g rosmarino",
+        "20 g salvia",
+        "20 g maggiorana",
+        "1 spicchio d'aglio",
+        "sale e pepe",
+        "1 rametto di timo fresco"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

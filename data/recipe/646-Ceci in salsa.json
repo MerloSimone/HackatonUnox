@@ -1,0 +1,57 @@
+{
+    "id": "646",
+    "title": "Ceci in salsa",
+    "signatureUrl": null,
+    "slug": "ceci-in-salsa",
+    "author": "Samuele De Nardi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 5100,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 3,
+    "popularity": 119,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/18ba9d4a915d0c0721bf4d60021f71680bd967328ab75f4ad04d8b4a5cf6e0fb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200917Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=25fe30aaa3ceba53664e18acdbd1235c94ac375b7d7ba5c8c84b81644d2bf36a&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-11-25T09:24:40.535Z",
+    "modifiedAt": "2020-11-25T09:24:40.535Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 110,
+                "time": "5100",
+                "clima": 120,
+                "pulse": "0",
+                "preset": "pressure_steam"
+            }
+        ]
+    },
+    "preparation": "Per la preparazione della ricetta \u00e8 fondamentale mettere in ammollo i ceci in frigorifero per 12 ore. Quindi disporre in una cooking.essential INOX h65 i ceci, l'acqua, il pepe, le foglie di alloro, l'aglio tritato, il concentrato di pomodoro e mescolare. Tagliare in mirepoix la cipolla bianca e verde, il chorizo, il coriandolo, la carota e metterli insieme ai ceci. Assicurarsi che tutta la preparazione sia uniformemente sotto al livello dell'acqua. Cucinare. Quando il forno avvisa che il processo \u00e8 ultimato frullare 200 g di ceci, sale e 200 ml di acqua di cottura. Mescolare questa salsa con tutti i ceci e saranno pronti per essere serviti. Per chi desidera ottenere una preparazione pi\u00f9 densa, semplicemente frullare una maggior quantit\u00e0 di ceci.",
+    "ingredients": [
+        "2 kg ceci",
+        "2 g pepe",
+        "50 g coriandolo",
+        "2 foglie alloro",
+        "5 g aglio",
+        "30 g concentrato di pomodoro",
+        "100 g cipolla",
+        "300 g chorizo",
+        "200 g carote",
+        "30 g sale",
+        "150 g cipollotto",
+        "2.5 l acqua"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,51 @@
+{
+    "id": "603",
+    "title": "Focaccia croccante",
+    "signatureUrl": null,
+    "slug": "focaccia-croccante",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 630,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 954,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/3fc79d26d92545b49aae5e6d5efd189f25a8319a12496445df60721d758b419e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200904Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=0c4c01857067c8fb3aa0c5be86d617eeba6fe18363e53ebc8911a1bb6df8692c&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 260
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 210,
+                "time": "630",
+                "clima": -50,
+                "pulse": "0",
+                "preset": "focaccia"
+            }
+        ]
+    },
+    "preparation": "Mettere il lievito nell'acqua ad una temperatura di circa 35 \u00b0C , aggiungere l'olio lo zucchero e met\u00e0 della farina in una planetaria con gancio ad uncino. Impastare circa 5 minuti quindi aggiungere il sale e poco a poco la farina rimanente continuando ad impastare fino ad ottenere un composto elastico e che stacca perfettamente dai bordi della planetaria. Una volta ottenuto il composto porzionarlo in 4 palline e posizionarle su una teglia con il fondo farinato, coprire con un canovaccio umido o pellicola trasparente e lasciare lievitare per circa 60-90 minuti, l'impasto deve raddoppiare di volume. Lavorare l'impasto col mattarello e la farina fino ad ottenere uno spessore di circa 0.5 cm porre l'impasto su una placca leggermente spennellata con olio d'oliva e infornare.",
+    "ingredients": [
+        "375 g Farina tipo 0",
+        "235 g Acqua",
+        "20 g Olio extravergine d'oliva",
+        "3 g Zucchero semolato",
+        "6 g Sale",
+        "24 g Lievito di birra fresco"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

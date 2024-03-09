@@ -1,0 +1,55 @@
+{
+    "id": "605",
+    "title": "Pancia di maialino cotta a bassa temperatura",
+    "signatureUrl": null,
+    "slug": "pancia-di-maialino-cotta-a-bassa-temperatura",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 18480,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat"
+    ],
+    "rating": 4,
+    "popularity": 1298,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/69ecfa79b0771a7e219a1c8f6b439e18efa3c0badcc5bb1c8395c9c58f3b823e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200905Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=534bcbc56cb8d7427bee9e70b5c6f8b91b0b23ffe52f1437bbc080c4c4e6f8ee&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 260
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 250,
+                "time": "480",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            },
+            {
+                "fan": 2,
+                "temp": 74,
+                "time": "18000",
+                "clima": 40,
+                "pulse": "0",
+                "preset": "over_night"
+            }
+        ]
+    },
+    "preparation": "Punzecchiare la cotenna della pancetta con la punta di un coltello in modo da praticare diverse piccole incisioni. Cospargere abbondantemente con le spezie il sale e il pepe, lasciare marinare per almeno 3 ore, quindi trasferire la pancetta in una teglia Bacon con la parte della cotenna rivolta verso l'alto, infornare e procedere con i  seguenti step fino a cottura ultimata cos\u00ec da ottenere una cotenna dorata e croccante.",
+    "ingredients": [
+        "1 kg Pancetta fresca intera di maialino",
+        "Sale",
+        "Pepe",
+        "Spezie a piacere"
+    ],
+    "smartPreheating": 1
+}

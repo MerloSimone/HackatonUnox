@@ -1,0 +1,58 @@
+{
+    "id": "601",
+    "title": "Carciofi ripieni",
+    "signatureUrl": null,
+    "slug": "carciofi-ripieni",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1200,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 406,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/f483f8274e622c8f5c858cff8829c9174a31f3c0f842f1b097cda2b12494957e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200904Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=91f75490998c07b33c5f03f013a1c1e6835d112c3d22d5e5052b267e14699c15&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 190
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 170,
+                "time": "1200",
+                "clima": 30,
+                "pulse": "0",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "Lavare accuratamente e un paio di volte i carciofi e poi privarli delle foglie esterne, quelle pi\u00f9 dure.\r\nEliminare la parte superiore delle punte delle foglie del carciofo, scavarlo rimuovere la barba, poi tagliare il gambo tenendo solo il cuore e le foglie.\r\nCon le mani, aprire le foglie verso l\u2019esterno, rendendo cos\u00ec il cuore del carciofo pi\u00f9 capiente per l\u2019imbottitura, e lasciarli in ammollo in acqua e limone per circa 30 minuti.\r\nDurante l\u2019attesa, preparare il ripieno. Tritare finemente l\u2019aglio e il prezzemolo e mescolarli in una ciotola con il provolone tagliato a pezzetti, il pecorino, le olive, i capperi e il pangrattato, aggiustare con sale e pepe, aggiungere un filo d\u2019olio e mescolare l\u2019impasto facendo amalgamare tutti gli ingredienti.\r\nOttenuto questo primo impasto, aggiungere un uovo battuto e mescolare ulteriormente.\r\nCompletata l\u2019imbottitura, farcire i carciofi, posizionarli in una placca da forno BLACK.20 precedentemente oleata e poi infornare.",
+    "ingredients": [
+        "5 Carciofi",
+        "70 g Provolone",
+        "40 g Olive nere",
+        "20 g Capperi dissalati",
+        "2 Cucchiai di pane grattato",
+        "2 Cucchiai di pecorino stagionato grattugiato",
+        "1 Spicchio d'aglio",
+        "1/2 Limone",
+        "1 Uovo",
+        "Prezzemolo",
+        "Olio extra vergine d'oliva",
+        "Sale",
+        "Pepe"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

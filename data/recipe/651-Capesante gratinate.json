@@ -1,0 +1,53 @@
+{
+    "id": "651",
+    "title": "Capesante gratinate",
+    "signatureUrl": null,
+    "slug": "capesante-gratinate",
+    "author": "Giacomo Bortolussi, UNOX Chef",
+    "description": null,
+    "duration": 480,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 147,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/1431fe61c8b549b19069f3ba79bdc127791ef65310ef1bcecb436b43fed89f6f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200918Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=8b6905adfa317654d5cb551769cb42fdbdc0ebfb3b9ca2b53bd6087634cbafbc&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-01-11T07:53:02.375Z",
+    "modifiedAt": "2021-01-11T07:53:02.375Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 170,
+                "time": "480",
+                "clima": -50,
+                "pulse": "0",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "Innanzitutto aprire le capesante sotto l'acqua fredda, con l'aiuto di uno spelucchino eliminare la parte esterna senza per\u00f2 eliminare la parte aracione. Conservare la met\u00e0 del guscio pi\u00f9 concava che servir\u00e0 per la cottura.\nDopo aver sciacquato bene le capesante, posarle su della carta ad asciugare leggermente.\nA questo punto preparare la panure mescolando pane grattuggiato, olio di oliva, sale, pepe.\nTritare il pi\u00f9 finemente possibile l'aglio assieme al rosmarino e al prezzemolo. Unirli al pane grattuggiato che dovrebbe aver raggiunto la consistenza della sabbia bagnata.\nAdagiare le mezze conchiglie su una teglia BLACK.20 e versare al loro interno una minima quantit\u00e0 di cognac e olio extravergina. Adagiarvici sopra le capesante e con l'aiuto di un cucchiaio, coprirle leggermente con una bella spolverata di panure aromatica.\nSelezionare il programma di cottura e arrostire.\n\n",
+    "ingredients": [
+        "50 g pane grattuggiato",
+        "5 g prezzemolo",
+        "20 ml cognac",
+        "2 g rosmarino",
+        "10 capesante",
+        "1 spicchio d'aglio",
+        "olio extra vergine d'oliva",
+        "sale e pepe"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,55 @@
+{
+    "id": "659",
+    "title": "Ragout di soia",
+    "signatureUrl": null,
+    "slug": "ragout-di-soia",
+    "author": "Claudio Novello, UNOX Chef",
+    "description": null,
+    "duration": 2700,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 86,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/3ef43c36aac096e92c9487a300edd57f4b2856b11c55aeac26463e0d16e28d3f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200920Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=bcb965962d4076b15d57ca5c29f5df53e2540df9b5edeba80531adaf68a077ad&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-05-10T07:21:56.895Z",
+    "modifiedAt": "2021-05-10T07:21:56.895Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 120,
+                "time": "2700",
+                "clima": 30,
+                "pulse": "0",
+                "preset": "braise"
+            }
+        ]
+    },
+    "preparation": "Ottimo sostituto del classico ragout alla bolognese per accontentare anche Vegani ed intolleranti. Per prima cosa rosolare le verdure tritate finemente con il garam masala e un filo d'olio, per le quantit\u00e0 indicate \u00e8 pi\u00f9 rapido in padella ma nel caso di carichi pi\u00f9 importanti possono essere dorate al forno, usando una temperatura di 175\u00b0C per 10 minuti. Una volta rosolate unire la passata di pomodoro, la soia e il brodo in una teglia da forno BLACK.40, salare a piacere e cuocere, con il programma indicato, fino a che il liquido non si sia ritirato del tutto e la pietanza non prende i colori e la consistenza di un classico ragout alla Bolognese. Quando il rag\u00f9 sar\u00e0 cotto, usarlo direttamente per condire paste o lasagne.",
+    "ingredients": [
+        "250 g soia testurizzata",
+        "70 g sedano",
+        "100 g carota",
+        "100 g cipolla",
+        "3 spicchi aglio",
+        "350 g salsa pomodoro",
+        "sale e pepe",
+        "olio extra vergine d'oliva",
+        "2 cucchiai garam masala",
+        "1200 ml brodo vegetale"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

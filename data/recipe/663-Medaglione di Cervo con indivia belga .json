@@ -1,0 +1,52 @@
+{
+    "id": "663",
+    "title": "Medaglione di Cervo con indivia belga ",
+    "signatureUrl": null,
+    "slug": "medaglione-di-cervo-con-indivia-belga",
+    "author": "Claudio Novello, UNOX Chef",
+    "description": null,
+    "duration": 1800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 92,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/db2c890b72e31f486670ec947034922daa1de91a690fe85bb7d7da329e6762fc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200920Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=666ecafbf11b7f423ce9a325159781260b4a086e5d1bd71a50a7f1d0179bc9ef&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-05-10T07:24:17.271Z",
+    "modifiedAt": "2021-05-10T07:24:17.271Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 60,
+                "time": "1800",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "sous_vide"
+            }
+        ]
+    },
+    "preparation": "In questa ricetta daremo una precottura al filetto di cervo in un sacchetto sottovuoto, contemporaneamente cuoceremo sottovuoto anche l'indivia di contorno. Entrambi andranno poi finiti su una FAKIRO GRILL prima di servirli. La ricetta \u00e8 da considerarsi per 6 porzioni.\nIn un sacchetto inseriamo i filetti di cervo salati, pepati e massaggiati con la senape. Aggiungere 50 g di burro, il ginepro e 4 rametti di timo. In un altro sacchetto inseriamo l'indivia belga tagliata a met\u00e0, 50 g di burro, uno spicchio d'aglio in camicia, sale e pepe.\nInforniamo i due sacchetti su una teglia STEAM. Una volta completata la cottura estraiamo i sacchetti dal forno. Inseriamo la FAKIRO GRILL con il lato liscio rivolto verso l'alto e impostiamo il forno a 200 C\u00b0/ 5 min / 4 ventola / 100% estrazione, cos\u00ec facendo daremo una veloce grigliatura alla carne e all'indivia prima di servirle donandogli colore e un sapore deciso.",
+    "ingredients": [
+        "100 g burro",
+        "6 medaglioni di cervo ( 200 g l'uno)",
+        "6 teste indivia belga",
+        "60 g senape",
+        "4 bacche ginepro",
+        "sale e pepe",
+        "timo"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

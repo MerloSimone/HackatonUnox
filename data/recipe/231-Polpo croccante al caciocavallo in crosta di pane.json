@@ -1,0 +1,54 @@
+{
+    "id": "231",
+    "title": "Polpo croccante al caciocavallo in crosta di pane",
+    "signatureUrl": null,
+    "slug": "polpo-croccante-al-caciocavallo-in-crosta-di-pane",
+    "author": "UNOX ",
+    "description": null,
+    "duration": 3600,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 1317,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/f4a53607c33d216ff8837be59f2496914ddd060b71e352892ec7364a3bd37d53.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200911Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=c130e05312d683368075e331c401238cb9cd739bdbcabf39215ddf479132dcfb&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-01-26T13:21:48.878Z",
+    "modifiedAt": "2019-12-30T09:59:42.530Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 120
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 100,
+                "time": "3600",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Lavate accuratamente il polpo e disponetelo in una teglia Black40 con 0,5 l d'acqua all'interno e aromi a piacimento. Fate cuocere per 1 ora a vapore e successivamente lasciare riposare il polpo. Nel frattempo tagliare delle scaglie di caciocavallo e cuocerle in forno per 1 minuto a 160 \u00b0C, fin quando diventano croccanti. Tagliare delle fette sottili di pane e metterle per 5 minuti in forno, a 160 \u00b0C. Si otterranno cosi delle cialde croccanti. Tagliare il restante caciocavallo in cubetti e cuocere in forno, a vapore, con la panna fino al totale scioglimento. Frullare poi il tutto per un risultato ottimale. Una volta cotto il polpo, tagliate i tentacoli e grigliarli in FAKIRO.grill per 5 minuti, in modo da risultare croccanti esternamente.",
+    "ingredients": [
+        "1 Polpo",
+        "400 g Caciocavallo",
+        "1 Filoncino di pane al carbone",
+        "1 Bicchiere di panna liquida fresca"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,60 @@
+{
+    "id": "211",
+    "title": "Pesce al cartoccio",
+    "signatureUrl": null,
+    "slug": "pesce-al-cartoccio",
+    "author": "UNOX",
+    "description": null,
+    "duration": 720,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 3,
+    "popularity": 1290,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/c0ee93dbd96c5d18cb4a8262e90aca6805f9b2afa61a11c0554bd5b24b5227cb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200927Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=ce40516c9c6387a88a432e187a62894ae2b8732966b73771158cfd51c0e665e5&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-01-11T15:28:11.664Z",
+    "modifiedAt": "2019-12-30T09:59:42.515Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 230
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 220,
+                "time": "720",
+                "clima": -100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Preparare un pezzo di carta stagnola e un pezzo di carta da forno della dimensione di 30x30 cm e attaccarli assieme sovrapposti usando un filo d'olio. Al centro posarvi dalla parte della carta da forno il cous cous, finocchio a julienne, le fettine di limone, capperi, acciuga e pomodorini tagliati a met\u00e0. Ora adagiate sopra il filetto di cernia, un pizzico di sale, olio extravergine e mezzo bicchiere di vino bianco. Chiudere a met\u00e0 e poi iniziare ad arrotolare chiudendo bene i bordi fino a creare una mezzaluna. Cuocere usando il seguente programma.",
+    "ingredients": [
+        "150 g Filetto di cernia",
+        "40 g Finocchio",
+        "3 Fette di limone",
+        "8 Capperi",
+        "1 Filetto di acciuga",
+        "50 g Cous cous cotto",
+        "5 Pomodorini",
+        "50 ml Bicchiere di vino bianco",
+        "Sale",
+        "Olio Extra Vergine di oliva"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

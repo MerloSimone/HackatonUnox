@@ -32,7 +32,7 @@ def get_llm():
 			print('ok')
 
 
-	return llm_model(maxTokens=1024,temperature=0.2,topP=0.5).get_model()
+	return llm_model(maxTokens=1024,temperature=0.2, topP=0.2).get_model()
 """ 
     model_kwargs =  { #AI21
         "maxTokens": 1024, 

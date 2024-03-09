@@ -1,0 +1,66 @@
+{
+    "id": "257",
+    "title": "Salsa di pomodoro",
+    "signatureUrl": null,
+    "slug": "salsa-di-pomodoro",
+    "author": "UNOX",
+    "description": null,
+    "duration": 3900,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "veggies"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 1584,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/4309a14cba642e4ac6a4700db2e0685d49501cd27028f831e78ab60b8bed4c4f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200912Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=9b3e56d7d9a2d29a330e61ff28b1fc6a5b3aa7ca84c0922d5aa69c4127dbc3e7&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T10:24:25.119Z",
+    "modifiedAt": "2019-12-30T09:59:42.549Z",
+    "cookingTag": "VEGETABLES & SIDES",
+    "program": {
+        "preheat": {
+            "temp": 160
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 140,
+                "time": "300",
+                "clima": -50,
+                "pulse": 0,
+                "preset": "manual"
+            },
+            {
+                "fan": 3,
+                "temp": 110,
+                "time": "3600",
+                "clima": -30,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Tritare finemente cipolla, sedano, carota e aglio, riporre il tutto in una teglia Black 4.0. Preriscaldare il forno e inserire la teglia, colorare il soffritto per alcuni minuti e non appena il primo step di cottura \u00e8 ultimato aggiungere al soffritto i pelati e il basilico. Condire a piacere con sale e pepe e ultimare il programma di cottura per la restante ora.",
+    "ingredients": [
+        "1 kg Pomodori pelati",
+        "4 Spicchi d'aglio",
+        "1 Basilico fresco in mazzetto",
+        "1 Bicchiere olio EVO",
+        "1 Cipolla",
+        "1 Carota",
+        "1 Sedano",
+        "Pepe nero"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

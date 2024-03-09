@@ -1,0 +1,65 @@
+{
+    "id": "245",
+    "title": "Fagottini di sfoglia ai funghi",
+    "signatureUrl": null,
+    "slug": "fagottini-di-sfoglia-ai-funghi",
+    "author": "UNOX",
+    "description": null,
+    "duration": 1140,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "veggies",
+        "bread_and_bakery"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 802,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/9551fda6b47b3201e9eca93905fa204629aed6d3aae994cd867feb5f0040341a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200913Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=85818b84aec394f72cc4eaf8b961a1b813d6d362f72e95c3aa7143fb3f7dda4e&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-19T11:17:30.598Z",
+    "modifiedAt": "2019-12-30T09:59:42.542Z",
+    "cookingTag": "VEGETABLES & SIDES",
+    "program": {
+        "preheat": {
+            "temp": 190
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 160,
+                "time": "240",
+                "clima": 20,
+                "pulse": 0,
+                "preset": "manual"
+            },
+            {
+                "fan": 4,
+                "temp": 160,
+                "time": "900",
+                "clima": -100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Tagliate in lamine sottili i funghi, e in cubettini la cipolla e soffriggete il tutto in una black20 per 5 minuti a 200 \u00b0C. Tagliate poi la sfoglia, aiutandovi con un coppapasta rotondo, facendo dei cerchi di 12 cm di diametro e riempiteli con i funghi, chiudeteli a mezzaluna aiutandovi con l'albume per sigillarli bene. Riponete ora i fagottini su una teglia Blake.bake ed infornate seguendo il seguente programma. Finita la cottura lasciate raffreddare leggermente e serviteli.",
+    "ingredients": [
+        "450 g Pasta sfoglia",
+        "500 g Champignon",
+        "2 Cipolle",
+        "20 g Burro",
+        "1 Albume",
+        "Pepe"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

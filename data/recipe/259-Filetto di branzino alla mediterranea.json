@@ -1,0 +1,59 @@
+{
+    "id": "259",
+    "title": "Filetto di branzino alla mediterranea",
+    "signatureUrl": null,
+    "slug": "filetto-di-branzino-alla-mediterranea",
+    "author": "Nicola Lai, UNOX Corporate Chef",
+    "description": "Tutto il sapore del Mediterraneo in un filetto saporito e leggero!",
+    "duration": 720,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish",
+        "oven_baked"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 831,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/efb128a1722191a1061540dddc47d776a0232409ef374a0ca71993dc0a4171e8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200910Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=2539eb935dab253fa592a4642c37b4464e2fce75cb1596e855cf1ce534b6eeda&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-11-15T17:26:25.605Z",
+    "modifiedAt": "2019-12-30T09:59:42.550Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 200
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 175,
+                "time": "720",
+                "clima": 30,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Per prima cosa, preparare l'olio profumato che servir\u00e0 a condire i filetti di branzino (Per gli ingredienti e la ricetta cerca \"Olio profumato\" nell'app). L'olio profumato non \u00e8 indispensabile per questa ricetta ma sicuramente d\u00e0 un contributo importante. Eviscerare e squamare il branzino. Sfilettarlo avendo cura di non rovinare i filetti e di non scartare troppa carne. Condire con sale, pepe e olio. Posizionare i filetti conditi bene su una teglia antiaderente piana e sopra ad ogni filetto, disporre le olive taggiasche, i pomodori semisecchi e i filetti di acciughe. Pelare e lavare la patata, affettarla sottilissima e con l'aiuto di un coppapasta, coppare delle fettine tonde regolari. Coprire i filetti di branzino come se fossero delle squame (le patate proteggeranno la polpa del pesce, le olive, le acciughe ed i pomodorini). Infornare e buon appetito!",
+    "ingredients": [
+        "300 g Branzino intero",
+        "6 Pomodorini semi secchi",
+        "6 Olive taggiasche",
+        "3 Acciughe",
+        "1 Spicchio d'aglio",
+        "1 Cipolla",
+        "1 Patate",
+        "100 g Olio EVO"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,53 @@
+{
+    "id": "654",
+    "title": "Trota grigliata con salsa chimichurri",
+    "signatureUrl": null,
+    "slug": "trota-grigliata-con-salsa-chimichurri",
+    "author": "Riccardo Polonelli, UNOX Chef",
+    "description": null,
+    "duration": 390,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 62,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/7b287db8a03df7d71d25ef6e4d937f3fd22f072c8542b4271813cdcb48903ea8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200919Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=06ca0ab85211397a5b6ec2829665b8d683db50a6ff298404659213d20fe6ac7c&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-04-06T08:08:59.405Z",
+    "modifiedAt": "2021-04-06T08:08:59.405Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 240,
+                "time": "390",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            }
+        ]
+    },
+    "preparation": "Pulire le trote, rimuovere la lisca e la testa tenendo i filetti uniti, quindi condirle con sale, pepe e olio vegetale. In una cooking.essential GRILL disporre i filetti con la pelle verso l'alto: questo dettaglio ci consentir\u00e0 di avere una pelle croccante. Cucinare. Nel frattempo preparare la salsa chimichurri tritando finemente al coltello prezzemolo, aglio, peperoncino fresco e unendo l'olio di oliva con il succo di limone. Mescolare tutti gli ingredienti, aggiungere sale a piacere. Una volta terminata la cottura della trota, servire e irrorare con abbondante salsa!",
+    "ingredients": [
+        "1 kg filetti di trota",
+        "50 ml olio vegetale",
+        "200 g prezzemolo",
+        "1 spicchio d'aglio",
+        "150 ml olio extravergine d'oliva",
+        "50 ml succo limone",
+        "20 g peperoncino fresco",
+        "sale e pepe"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

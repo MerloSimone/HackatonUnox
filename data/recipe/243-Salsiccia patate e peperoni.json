@@ -1,0 +1,60 @@
+{
+    "id": "243",
+    "title": "Salsiccia patate e peperoni",
+    "signatureUrl": null,
+    "slug": "salsiccia-patate-e-peperoni",
+    "author": "UNOX",
+    "description": null,
+    "duration": 14400,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "beef",
+        "pork",
+        "poultry"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 3,
+    "popularity": 1041,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/a6c3c713af36235a7735eefcdc62eb6661ba82b101f283ffccb79be9a3384e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200912Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=d822763bc9a084a40284db0f22f599096fe80b208b7f2c304c951963b92d1341&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-01-24T16:19:29.120Z",
+    "modifiedAt": "2019-12-30T09:59:42.541Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 120
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 75,
+                "time": "14400",
+                "clima": 40,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Pulire il peperone e tagliarlo a pezzi gradi. Sbucciare le patate e tagliare anch\u2019esse a pezzi grandi. Spellare le salsicce o se si preferisce fare dei fori nel budello. Mettere sulla parte piu bassa del forno le patate e i peperoni  in una teglia Black.40 assieme alle erbe, aggiungere poco sale.Tenere il prezzemolo per quando si andr\u00e0 a servire. Mescolare per fare assorbire uniformemente il sale. Poggiare le salsicce  a cuocere  in una teglia Grill sopra le verdure in modo che i liquidi colino sopra le stesse per esaltarne il sapore. Cuocere per 6 ore secondo il seguente programmma. ",
+    "ingredients": [
+        "450 g Salsicce",
+        "200 g Peperone rosso",
+        "200 g Patate media",
+        "25 g Foglie di salvia",
+        "25 g Rametto di rosmarino",
+        "25 g Prezzemolo fresco",
+        "Sale",
+        "Pepe"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

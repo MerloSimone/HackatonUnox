@@ -1,0 +1,61 @@
+{
+    "id": "228",
+    "title": "Filetto di pesce persico",
+    "signatureUrl": null,
+    "slug": "filetto-di-pesce-persico",
+    "author": "UNOX",
+    "description": null,
+    "duration": 900,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 565,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/306d2f601703702574e1c70a72900f11d1257ea8bfc452946c6b2e55bdc608b0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200911Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=7a5d7cd7daa93c63fa9e657aee6a0c0c5dfd3ec4c432413781a741b83192cbb1&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T09:06:07.384Z",
+    "modifiedAt": "2019-12-30T09:59:42.527Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 180
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 96,
+                "time": "900",
+                "clima": 20,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Tagliate i pomodorini a met\u00e0 e aggiungere l\u2019aglio tritato l'olio un goccio d'acqua e mettere il tutto in una Black.40, cuocete in forno per qualche minuto fino a che i pomodorini si ammorbidiscono, finita la cottura aggiungere il pane raffermo e far ammorbidire nel pomodoro. Amalgamare bene fino a raggiungere la consistenza desiderata. Salare, pepare, aggiungere lo zucchero e il basilico. Pulite il pesce persico privandolo delle interiora. Condite con sale, pepe e olio e cuocetelo. Tritare grossolanamente le olive taggiasche e i capperi, aggiungete il tutto al pesce. Servire il pesce persico assieme a una cucchiaiata di salsa al pomodoro.",
+    "ingredients": [
+        "1,5 kg Filetto di pesce persico",
+        "500 g Pomodorini datterini",
+        "4 Fette pane in cassetta raffermo",
+        "1 Cucchiaino di zucchero",
+        "1 Cucchiai di olive taggiasche",
+        "Olio EVO",
+        "Basilico",
+        "Sale",
+        "Pepe",
+        "Aglio",
+        "Capperi"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

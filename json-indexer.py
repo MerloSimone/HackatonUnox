@@ -7,7 +7,7 @@ from langchain.embeddings import BedrockEmbeddings
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import JSONLoader
+from langchain.document_loaders import JSONLoader, PyPDFLoader
 
 from models import llm_model
 
@@ -17,16 +17,58 @@ import streamlit as st #all streamlit commands will be available through the "st
 
 
 
+def flatten_json(json_obj, prefix=''):
+    flattened = {}
+    for key, value in json_obj.items():
+        new_key = prefix + key
+        if isinstance(value, dict):
+            flattened.update(flatten_json(value, new_key + '_'))
+        else:
+            flattened[new_key] = value
+    return flattened
+def metadata_func(record: dict, metadata: dict) -> dict:
+    # flatten the record
+    flatten = flatten_json(record)
+
+    # iterate over the record and add the metadata
+    for key, value in flatten.items():
+        if key == "imgUrl":
+            continue
+        metadata[key] = value
+    return metadata
+
+def get_json_splits(json_file):
+    """Function takes in the pdf data and returns the
+    splits so for further processing can be done."""
+
+    loader = JSONLoader(json_file, jq_schema=".", content_key="title", metadata_func=metadata_func)
+    return loader.load()
 
 
-jq_schema = ".[].text"
 def get_pdf_splits(pdf_file):
     """Function takes in the pdf data and returns the
     splits so for further processing can be done."""
 
-    loader = JSONLoader(pdf_file, ".", )
-    return loader.load()
+def get_pdf_splits(pdf_file):
+    """Function takes in the pdf data and returns the
+    splits so for further processing can be done."""
 
+    loader = PyPDFLoader(pdf_file)
+    pages = loader.load_and_split()
+
+    text_splitter = RecursiveCharacterTextSplitter( #create a text splitter
+        separators=["\n\n", "\n", ".", " "], #split chunks at (1) paragraph, (2) line, (3) sentence, or (4) word, in that order
+        chunk_size=1000, #divide into 1000-character chunks using the separators above
+        chunk_overlap=100 #number of characters that can overlap with previous chunk
+    )
+
+    doc_list = []
+    #Pages will be list of pages, so need to modify the loop
+    for pg in pages:
+        pg_splits = text_splitter.split_text(pg.page_content)
+        doc_list.extend(pg_splits)
+
+    return doc_list
 
 
 def embed_index(doc_list, embed_fn, index_store):
@@ -36,7 +78,7 @@ def embed_index(doc_list, embed_fn, index_store):
     New embedding is merged with the existing index. If no
     index given a new one is created"""
     #check whether the doc_list is documents, or text
-    faiss_db = FAISS.from_texts(doc_list, embed_fn)
+    faiss_db = FAISS.from_documents(doc_list, embed_fn)
 
 
     if os.path.exists(index_store):
@@ -61,13 +103,13 @@ file_list=[]
 
 
 
-def list_directory_tree_with_pathlib(starting_directory):
+def list_directory_tree_with_pathlib(starting_directory, file_type="pdf"):
     path_object = Path(starting_directory)
     for file_path in path_object.rglob('*'):
         if file_path.is_file():
-            print(file_path)
             file_path_str=file_path.as_posix()
-            if file_path_str.endswith("json"):
+            if file_path_str.endswith(file_type):
+                print(file_path_str)
                 file_list.append(file_path_str)
 
 
@@ -80,18 +122,17 @@ embeddings = BedrockEmbeddings(
 
 
 pdf_path = "XAVC-0511-EPRM-SPC_en_08-2023.pdf" #assumes local PDF file with this name
-list_directory_tree_with_pathlib(doc_folder)
+list_directory_tree_with_pathlib(doc_folder, "json")
 i=0
 for elem in file_list:
     print(i)
     i=i+1
-    documento = get_pdf_splits(elem)
-
-
+    documento = get_json_splits(elem)
+    # documento = get_pdf_splits(elem)
     embed_index(
         doc_list=documento,
         embed_fn=embeddings,
-        index_store='test_recipe_new_index'
+        index_store='pdf_json_recipe_new_index'
     )
 
 print("---------------")

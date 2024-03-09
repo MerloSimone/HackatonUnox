@@ -1,0 +1,59 @@
+{
+    "id": "240",
+    "title": "Baccal\u00e0 mantecato con polenta croccante",
+    "signatureUrl": null,
+    "slug": "baccala-mantecato-con-polenta-croccante",
+    "author": "UNOX",
+    "description": null,
+    "duration": 3600,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 655,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/71b4769f848c47f7e2607c88b87169484f6dadd9fcae5efe35d51be97d24b499.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200912Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=59719cd231f7b7c3c02a82439403a55714039e6ead2ca1aecd6fd8477efd9884&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T10:03:43.918Z",
+    "modifiedAt": "2019-12-30T09:59:42.539Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 120
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 100,
+                "time": "3600",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Dividete in due Black.40 il latte con il brodo e cuocere il baccal\u00e0 a vapore con il seguente programma. Preparare la polenta, versarla su un tagliere e lasciarla raffreddare completamente. Sbucciare l'aglio e cuocerlo al vapore per 10 minuti. Pulire il prezzemolo, lavarlo e tritarlo. Sgocciolare il pesce, spellarlo e sfaldarlo con le mani, eliminando le spine. Frullare 2/3 del pesce con l'olio e l'aglio fino a ottenere una crema liscia e omogenea. Regolare di sale, pepe e profumare con il prezzemolo. Tagliare la polenta a fette spesse e cuocerla in forno sulla griglia, pochi minuti per parte. Suddividere nei piatti individuali fettine di polenta, pezzetti di baccal\u00e0 e crema all'aglio e servire immediatamente.",
+    "ingredients": [
+        "900 g Baccal\u00e0 ammollato",
+        "1 l Latte",
+        "1 l Brodo vegetale",
+        "1 l Olio",
+        "3 Spicchi d'aglio",
+        "1 kg Farina da polenta a cottura rapida",
+        "50 g Prezzemolo",
+        "Pepe",
+        "Sale"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

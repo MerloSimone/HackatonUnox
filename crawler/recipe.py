@@ -14,7 +14,7 @@ for recipe in recipes:
     title = recipe["title"]
     recipe_id = recipe["id"]
 
-    response = requests.get(f"https://apiv2.datadrivencooking.com/v1/company/recipes/{recipe_id}", headers=headers)
+    response = requests.get(f"https://apiv2.datadrivencooking.com/v1/community/recipes/{recipe_id}", headers=headers)
 
     if response.status_code == 200:
         with open(f"data/recipe/{recipe_id}-{title}.json", "w") as file:

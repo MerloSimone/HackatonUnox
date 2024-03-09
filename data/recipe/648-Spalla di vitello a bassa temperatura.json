@@ -1,0 +1,55 @@
+{
+    "id": "648",
+    "title": "Spalla di vitello a bassa temperatura",
+    "signatureUrl": null,
+    "slug": "spalla-di-vitello-a-bassa-temperatura",
+    "author": "Claudio Novello, UNOX Chef",
+    "description": null,
+    "duration": 18000,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 219,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/cf267b4a2a5ddd5de20109e0b80ff9df3e237af909c443e0693e681f8201d9d7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200918Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=c1180848c6f31651bd0110f1b4c2f6fd22caa1cef35f20906d6c1b589c89acbc&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-12-15T08:36:24.962Z",
+    "modifiedAt": "2020-12-15T08:36:24.962Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 75,
+                "time": "18000",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "sous_vide"
+            }
+        ]
+    },
+    "preparation": "Per cominciare la preparazione della spalla di vitello: inserire nel sacchetto sottovuoto il rosmarino, l'aglio, l'alloro e le verdure pelate e tagliate grossolanamente. Prendere la spalla di vitello e massaggiarla con il sale, alcuni grani di pepe e un po d'olio extravergine d'oliva; inserire quindi la spalla di vitello nel sacchetto sottovuoto e iniziare la cottura in forno, posizionando il sacchetto in una teglia STEAM. Ultimata la cottura abbattere la temperatura del sacchetto fino a 3 C\u00b0, aprire il sacchetto e estrarre delicatamente la carne, il contenuto del sacchetto pu\u00f2 essere trasferito in un pentolino, frullato e fatto ridurre per ottenerne una salsa. Affettare la carne da fredda faciliter\u00e0 il taglio e potrete rigenerare le fette nel forno, impostandolo a 90 C\u00b0 7 min 1 ventola 20% umidit\u00e0, prima di servirle. \n",
+    "ingredients": [
+        "3 kg spalla di vitello",
+        "3 rametti rosmarino",
+        "2 spicchi d'aglio",
+        "pepe nero in grani",
+        "2 foglie alloro",
+        "olio extra vergine d'oliva",
+        "1 gamba di sedano",
+        "1 carota",
+        "1/2 cipolla",
+        "20 g sale"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,59 @@
+{
+    "id": "244",
+    "title": "Zuppa di patate e porri",
+    "signatureUrl": null,
+    "slug": "zuppa-di-patate-e-porri",
+    "author": "UNOX",
+    "description": null,
+    "duration": 5400,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "veggies"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 725,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/95c1b2f61b186237fa381c1c4b65f76220ff9f6e21a80a3457567bb24bacbb52.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200914Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=0716f4cc20f42d59b896e863374b0b8d359bb54e9f4ead0578dd31738d1568fa&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T11:49:23.101Z",
+    "modifiedAt": "2019-12-30T09:59:42.542Z",
+    "cookingTag": "VEGETABLES & SIDES",
+    "program": {
+        "preheat": {
+            "temp": 90
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 85,
+                "time": "5400",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Inserire tutti gli ingredienti tagliati accuratamente: le patate, i porri, il brodo vegetale, il burro, l'aglio e la foglia di alloro in un sacchetto sottovuoto e condire il tutto a piacere con sale e pepe. Sigillare il sacchetto e collocarlo su una Griglia Neutra. Cuocere in forno con il seguente programma. Terminata la cottura, aprire la borsa e scartare la foglia di alloro. Trasferire l'intero contenuto della borsa in un blender con la panna, se necessario aggiungere ulteriore brodo o panna per raggiungere la consistenza desiderata.",
+    "ingredients": [
+        "10 Patate",
+        "5 Porri",
+        "4 l Brodo vegetale",
+        "2 Spicchi d'aglio",
+        "1 Foglia d'alloro",
+        "600 ml Panna",
+        "50 g Burro",
+        "Sale",
+        "Pepe"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

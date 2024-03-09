@@ -1,0 +1,54 @@
+{
+    "id": "692",
+    "title": "Roll\u00e8 di Pollo con Fontina e Speck Sottovuoto",
+    "signatureUrl": null,
+    "slug": "rolle-di-pollo-con-fontina-e-speck-sottovuoto",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 2100,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 151,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/108eaa3b091154996fdc60738a223f7af7cf170810b4fa102a1aaabdfd91a06f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200926Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=3202ecf0ba342cca3d5425a409c8527677e029368dbc4b835c7131fde8fa66ac&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-07-07T12:25:47.165Z",
+    "modifiedAt": "2022-07-07T12:25:47.165Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 75,
+                "time": "2100",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "sous_vide"
+            }
+        ]
+    },
+    "preparation": "Per cominciare prendere i petti di pollo e tagliarli a met\u00e0, batterli con un batticarne affinch\u00e8 siano ben aperti. Preparare a parte, 3/4 fogli di pellicola (lunghi almeno 40 cm) sovrapposti l'uno all'altro. Posizionare due fettine di speck un poco sovrapposte in modo che formino una fetta unica e poi disponeteci sopra una fettina di petto di pollo. Condire con olio, sale, pepe e 2 foglie di salvia fresca. Terminare con una fetta di fontina affettata finemente o a julienne, sempre molto fine. Iniziare ad arrotolare su se stesso il petto di pollo aiutandosi con la pellicola, fino a formare una ''caramella''. Prendere i lati della pellicola e arrotolare fino ad avere un roll\u00e8 ben rotondo e compatto. A questo punto inserire il petto, con la pellicola, in un sacchetto sottovuoto per cotture, monoporzione e sigillare. Ripetere l'operazione per tutte le fettine di petto di pollo. Disporre all\u2019interno di una teglia STEAM e procedere alla cottura. Al termine della cottura abbattere immediatamente oppure servire i roll\u00e8 rosolando, utilizzando una teglia BLACK.20 o FAKIRO.GRILL, per 5 minuti in forno ad alta temperatura (dai 200\u00b0 ai 240\u00b0). Servire una volta che lo speck all'esterno sar\u00e0 ben croccante e dorato.",
+    "ingredients": [
+        "400 g petto di pollo",
+        "100 g speck affettato",
+        "120 g fontina",
+        "salvia fresca",
+        "olio extravergine d'oliva",
+        "sale",
+        "pepe"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

@@ -1,0 +1,50 @@
+{
+    "id": "631",
+    "title": "Focaccia tipo pugliese Gluten Free",
+    "signatureUrl": null,
+    "slug": "focaccia-pugliese-gluten-free",
+    "author": "Marco Moresco, UNOX Corporate Chef",
+    "description": null,
+    "duration": 900,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 3,
+    "popularity": 491,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/abbc73711812aa12c8f21d0203c9517bc531bafb4133bdd8a2148f76c4280c33.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200915Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=1ba389727cb41e92fe1e00db95c530c8e08379553f3305bc0bc893df3fb34617&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-06-22T07:55:05.313Z",
+    "modifiedAt": "2020-06-22T07:55:05.313Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 200,
+                "time": "900",
+                "clima": 20,
+                "pulse": "1",
+                "preset": "focaccia"
+            }
+        ]
+    },
+    "preparation": "Partire con acqua lievito olio e miele nell'impastatrice ( utilizzare acessorio foglia e non il gancio ) \nAggiungere gradualmente il preparato per pizza gluten free e dopo pochi minuti il sale.\nLasciare andare l'impastatrice fino ad ottenere una crema liscia ed omogenea, utilizzare dei guanti ben oleati e appoggiare il composto su banco ben oleato,dare una forma tonda al composto e posizionarlo su teglia BLACK.40 ben oleata.\nFar lievitare in teglia per un' ora.\nUna volta raddoppiata,massaggiare con le dita l intera massa fino a coprire tutta la teglia BLACK.40, assicurandosi che sia ben coperta di olio.\nLasciare lievitare per un ora fino a che l impasto sar\u00e0 lievitato quasi fino ad uscire dalla teglia.\nFarcire con dei pomodori confit precedentemente preparati seguendo la ricetta POMODORI CONFIT UNOX alternando pomodori ed olive nere. \nAggiungere rosmarino e sale di Maldon a piacere prima di andare in cottura. \nUna volta terminate la cottura trasferire la focaccia su teglia forata per scaricare l umidit\u00e0.",
+    "ingredients": [
+        "1 kg Preparato GlutenFree per pane e pizza",
+        "840 ml Acqua",
+        "30 g Lievito",
+        "15 g Miele",
+        "40 ml Olio E.v.o."
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

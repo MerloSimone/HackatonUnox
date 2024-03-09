@@ -1,0 +1,62 @@
+{
+    "id": "599",
+    "title": "Orata in crosta di sale",
+    "signatureUrl": null,
+    "slug": "orata-in-crosta-di-sale",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": -2,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_core_probe",
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 610,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/6217acb7eb44f3f43805d0ca97f43c2b86082d187e01a60faf63fe74516398c5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200904Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=626f2a8900c4991e48d4b522b40b645ea4f33981e1e7a97b2f565fea665edea1&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 200
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 190,
+                "time": "600",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "roast"
+            },
+            {
+                "fan": 4,
+                "temp": 160,
+                "clima": 10,
+                "probe": 68,
+                "pulse": "0",
+                "preset": "combi"
+            }
+        ]
+    },
+    "preparation": "Pulire l'orata dalle branchie e le pinne, aprire la pancia e rimuovere le interiora, lavare e asciugare le erbe aromatiche e posizionarle nella sacca della pancia dell'orata assieme a sale pepe e 2 cucchiai di olio d'oliva.\r\nMontare a neve gli albumi, unire la buccia del limone grattuggiato e il suo succo al sale grosso e incorporare gli albumi montati a neve.\r\nposizionare su una placca uno strato di composto di albumi e sale, poi posizionare l'orata sopra e coprire con la rimanenza del composto.\r\nUna volta coperta l'orata infornare.\r\nUltimata la cottura lasciare riposare 10 minuti e procedere alla rimozione della crosta di sale , sfilettare e servire.",
+    "ingredients": [
+        "800 g Orata",
+        "1 Limone",
+        "Erbe aromatiche",
+        "Sale",
+        "Pepe",
+        "1 kg Sale grosso",
+        "Olio extravergine d'oliva",
+        "5 Albumi d'uovo"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

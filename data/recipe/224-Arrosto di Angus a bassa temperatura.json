@@ -1,0 +1,66 @@
+{
+    "id": "224",
+    "title": "Arrosto di Angus a bassa temperatura",
+    "signatureUrl": null,
+    "slug": "arrosto-di-angus-a-bassa-temperatura",
+    "author": "UNOX",
+    "description": null,
+    "duration": 21840,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "beef"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 1986,
+    "userRating": 4,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/3833e7efb344a5b277bb365981cff51296a08c87f543a270db55a329d439ce49.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200913Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=8ba1a66d0287207b1f3a78a9265c86fe7ae870d4884044067383fb6f61ef1e84&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T14:03:44.333Z",
+    "modifiedAt": "2019-12-30T09:59:42.525Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 170
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 225,
+                "time": "240",
+                "clima": 20,
+                "pulse": 0,
+                "preset": "manual"
+            },
+            {
+                "fan": 2,
+                "temp": 85,
+                "time": "21600",
+                "clima": 70,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Riporre la carne in una teglia Black 40, quindi tagliare a fette sottili il limone (eliminando i semi) e la cipolla, disporre le fette sulla carne. Cospargere la carne con pepe e chiodi di garofano. Preriscaldare il forno, inserire l'Angus e rosolare per 4 minuti. Aggiungete il vino e l'acqua portate a termine la cottura del petto per 6 ore. A cottura ultimata, affettare allo spessore desiderato e servire con olio d'oliva.",
+    "ingredients": [
+        "4 kg Punta di petto di Angus",
+        "2 Limoni",
+        "1 l Vino rosso",
+        "2 l Acqua",
+        "2 Cipolle",
+        "4 Spicchi d'aglio",
+        "Sale",
+        "Pepe"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

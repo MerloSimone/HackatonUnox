@@ -1,0 +1,59 @@
+{
+    "id": "242",
+    "title": "Brasato di angus alla zucca",
+    "signatureUrl": null,
+    "slug": "brasato-di-angus-alla-zucca",
+    "author": "UNOX",
+    "description": null,
+    "duration": 300,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "beef"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 779,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/3846b406f00df9f1a9a45a42b2c3518b3ebe0e816a943a326f95d9929dd65d8a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200914Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=cc70cc8070abab403f4f34a79d14e8315eaa7cc24d28c4b7800c5934ebfa74ce&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-19T22:57:35.405Z",
+    "modifiedAt": "2019-12-30T09:59:42.540Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 220
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 200,
+                "time": "300",
+                "clima": 0,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Realizzare il brodo vegetale. Una volta pronto pulire la zucca: sbucciarla, eliminare i semi e i filamenti interni, quindi tagliare prima a fette e poi a cubetti. Tagliare la cipolla a fette sottili, versarla nella teglia Black.40 insieme all'olio, aggiungere il controfiletto, rosolare a temperatura medio-alta. Aprire la porta e sfumare con il vino rosso, unire il rosmarino tritato, il sale, un pizzico di pepe e lasciare cuocere utilizzando la sonda ad una temperatura di 85 \u00b0C al cuore con 95 \u00b0C in camera (per 2 ore e mezza circa). Finita la cottura, tenete da parte dei cubetti di zucca per la guarnizione finale e frullare i restanti insieme al fondo di cottura, fino ad ottenere una crema. A questo punto affettare la carne, adagiare un letto di crema di zucca su un piatto da portata, posizionare la carne sopra e guarnire con i cubetti di zucca tenuti da parte.",
+    "ingredients": [
+        "1000 g Controfiletto di manzo Angus",
+        "500 g Zucca gi\u00e0 pulita",
+        "150 ml Vino rosso",
+        "150 g Cipolle bianche",
+        "100 ml Olio extravergine di oliva",
+        "450 g Olio vegetale",
+        "3 Rametti di rosmarino",
+        "Sale fino",
+        "Pepe nero"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

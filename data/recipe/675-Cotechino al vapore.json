@@ -1,0 +1,52 @@
+{
+    "id": "675",
+    "title": "Cotechino al vapore",
+    "signatureUrl": null,
+    "slug": "cotechino-al-vapore",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 6300,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 156,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/c92dd109171fc49419120c75212b7383258f6d6d6709f47ee7901d9043a3a24c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200922Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=5b31b0485c522103b8e2b04a047d389c3d8fe31d56532d3486bf53777b90077e&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:21:40.294Z",
+    "modifiedAt": "2021-09-21T07:21:40.294Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 96,
+                "time": "6300",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "steam"
+            }
+        ]
+    },
+    "preparation": "Un metodo semplice per non sprecare acqua e dover lavare pentoloni sporchi di grasso di maiale. Sigillare i cotechini in due buste sottovuoto per cotture, inserire 10 grani di pepe e l'aceto. Posizionare i cotechini in una teglia STEAM e infornare. Un piatto tipico della tradizione italiana che pu\u00f2 essere servito con lenticchie o con un ottimo pur\u00e8 di patate.\nuna volta finita la cottura coprire con un contenitore ermetico o della pellicola per non farlo asciugare.  Servire con salse a scelta, come ad esempio salsa verde e cren.",
+    "ingredients": [
+        "2 cotechini sottovuoto",
+        "pepe in grani",
+        "1 cucchiaino di aceto di mele",
+        "salsa verde",
+        "cren"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

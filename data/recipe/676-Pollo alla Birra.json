@@ -1,0 +1,61 @@
+{
+    "id": "676",
+    "title": "Pollo alla Birra",
+    "signatureUrl": null,
+    "slug": "pollo-alla-birra",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 2400,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 311,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/8aef6b663dbbb9e9517fcfe048e0d6c5c768b867b7839b1c42faf7a56a662678.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200923Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=b403fb044f4811e4a10cdf7767104c42cde92ec49d25c7cdbe19a5b2bca46d5c&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:22:31.856Z",
+    "modifiedAt": "2021-09-21T07:22:31.856Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 200,
+                "time": "600",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "roast"
+            },
+            {
+                "fan": 3,
+                "temp": 165,
+                "time": "1800",
+                "clima": 10,
+                "pulse": "0",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "In un contenitore mettere le cosce di pollo (circa 320 g l'una) con 4 cucchiai d\u2019olio, 4 rametti di rosmarino, l\u2019aglio schiacciato e regolate di sale e pepe. Lasciare marinare la carne per almeno 1 ora in frigorifero. Trascorso il tempo di marinatura, in una teglia BLACK.40 posizionare il pollo e la relativa marinatura. Quando il forno sar\u00e0 pronto per la cottura inserire il pollo e procedere con il primo step, per la rosolatura esterna. Al termine di questo primo step di cottura aprire il forno e versare la birra nella teglia e continuare con il secondo step di cottura. Girare il pollo a met\u00e0 cottura e proseguire la cottura per il tempo restante. Estrarre immediatamente e filtrare la salsa di cottura per coprire, con un paio di cucchiai, il pollo prima di servirlo.",
+    "ingredients": [
+        "16 cosce di pollo",
+        "5 spicchi d'aglio",
+        "4 rametti di rosmarino",
+        "1 l birra scura",
+        "sale e pepe",
+        "olio extravergine d'oliva"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

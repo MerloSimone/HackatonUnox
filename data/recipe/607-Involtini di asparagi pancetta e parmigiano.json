@@ -1,0 +1,58 @@
+{
+    "id": "607",
+    "title": "Involtini di asparagi pancetta e parmigiano",
+    "signatureUrl": null,
+    "slug": "involtini-di-asparagi-pancetta-e-parmigiano",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 900,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 353,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/7983c3a3a3843d3185d94d1049a102650d6c1d053413e112f95b29d8fdea83cb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200905Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=a18e439e5f6cf4e94ac1bdccc185d7131bfe21eafebce42ad49f9162463a0d0a&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 160
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 120,
+                "time": "600",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "steam"
+            },
+            {
+                "fan": 4,
+                "temp": 200,
+                "time": "300",
+                "clima": -100,
+                "pulse": "1",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "Lavare e pulire gli asparagi pelare il gambo e disporli in una teglia STEAM&FRY procedere col primo step di cottura. Al termine del primo step rimuovere la teglia salare e pepare gli asparagi e arrotolare le fettine di pancetta agli asparagi uno per uno, poggiare gli involtini in una teglia BLACK.20 spolverare gli involtini col parmigiano e procedere al secondo step di cottura.",
+    "ingredients": [
+        "500 g Asparagi",
+        "150 g Pancetta affumicata",
+        "Sale",
+        "Pepe",
+        "Parmigiano grattugiato fine"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

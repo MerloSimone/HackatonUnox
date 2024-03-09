@@ -1,0 +1,51 @@
+{
+    "id": "596",
+    "title": "Filetto di manzo con pancetta croccante",
+    "signatureUrl": null,
+    "slug": "filetto-di-manzo-con-pancetta-croccante",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": -2,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_core_probe",
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 790,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/e76a6f05445caf9b602b99f702c830de6517193d160bb5c5d7f10b29b86000c6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200903Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=69c7ba44eb090c2e978a76ea18cc3bad365be4b75e58c70567eb27aafc3f07da&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-05-04T08:25:44.527Z",
+    "modifiedAt": "2020-05-04T08:25:44.527Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 260
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 170,
+                "clima": -100,
+                "probe": 55,
+                "pulse": "0",
+                "preset": "roast"
+            }
+        ]
+    },
+    "preparation": "Cospargere tutte le parti del filetto con sale e pepe macinato fino e mezzo cucchiaio d'olio extravergine d'oliva. Con una padella molto calda sigillare tutti i lati del filetto e lasciarlo riposare qualche minuto, disporre un foglio di pellicola su un piano da lavoro poi posizionare sopra le fette di pancetta per il verso della lunghezza e leggermente sovrapposte, poggiare il filetto sulla pancetta e con l'aiuto della pellicola arrotolare la pancetta al filetto, coprire con un ulteriore strato di pellicola fino ad ottenere un rotolo solido e lasciarlo riposare nel frigo per 20 minuti.\r\nUna volta riposato rimuovere la pellicola posizionare il rotolo su un placca BACON o una griglia, posizionare la sonda al cuore del filetto e infornare fino a cottura ultimata.\r\nOtterrete un roseo filetto di manzo con una crosta croccante di pancetta. ",
+    "ingredients": [
+        "900 g Trancio di filetto di manzo ben parato",
+        "150 g Pancetta affumicata a fette",
+        "Sale",
+        "Pepe",
+        "Olio extravergine d'oliva"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

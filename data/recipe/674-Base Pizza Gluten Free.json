@@ -1,0 +1,54 @@
+{
+    "id": "674",
+    "title": "Base Pizza Gluten Free",
+    "signatureUrl": null,
+    "slug": "base-pizza-gluten-free",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 300,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 3,
+    "popularity": 256,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/80a6d7b25dca3538793810734aee095be42814fc08c0d5f9f327adf3c9ab9533.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200922Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=613c51315e6d889117ac232e8018672de0dfa14285ccba2e13af4463cfb0b5f7&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:21:26.006Z",
+    "modifiedAt": "2021-09-21T07:21:26.006Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 260,
+                "time": "300",
+                "clima": 30,
+                "pulse": "0",
+                "preset": "pizza"
+            }
+        ]
+    },
+    "preparation": "Partire con acqua lievito olio e miele nell'impastatrice ( utilizzare acessorio foglia e non il gancio ).\nAggiungere gradualmente il preparato per pizza gluten free e dopo pochi minuti il sale.\nImpastare fino ad ottenere una crema liscia ed omogenea, utilizzare dei guanti ben oleati e appoggiare il composto su banco ben oleato per poi dare una forma tonda al composto.\nFar riposare per 10 minuti e porzionare, 280 g per pallina.\nUna volta lievitate a sufficienza, ovvero quando la pallina ha triplicato la sua forma iniziale (ci vorranno dalle 2 alle 3 ore) utilizzare dei teglini in alluminio di diametro 30 cm ben oleati e stendere massaggiando leggermente con le mani unte dal centro verso l esterno.\nLasciare lievitare in teglino per 30 minuti e andare a precuocere in forno.\nFinire a piacere e ripassare in forno nel caso ci sia mozzarella da sciogliere.",
+    "ingredients": [
+        "1 kg preparato gluten free per pizza",
+        "820 ml acqua",
+        "30 ml olio extravergine d'oliva",
+        "10 g sale",
+        "30 g lievito",
+        "10 g miele"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

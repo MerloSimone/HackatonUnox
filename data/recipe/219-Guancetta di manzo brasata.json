@@ -1,0 +1,66 @@
+{
+    "id": "219",
+    "title": "Guancetta di manzo brasata",
+    "signatureUrl": null,
+    "slug": "guancetta-di-manzo-brasata",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": "Morbidissime guancette brasate per un secondo piatto economico ma dal gusto intenso. Scopri come stupire i tuoi clienti...",
+    "duration": 28800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "beef"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 2011,
+    "userRating": null,
+    "holdable": true,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/94d18858c2ee757d23cddebeb4e7b1e2bf9a909c5f7a004fdd907b7acf11811b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200928Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=1fa0ab40ff32998e62fd0ab1686fc4be3aea533d3c04569b8b17ea98059eeb06&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-11-15T17:29:00.519Z",
+    "modifiedAt": "2019-12-30T09:59:42.522Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 100
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 78,
+                "time": "28800",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Pulire, pelare e lavare sedano, carote e cipolla. Tagliarle a concass\u00e8. Rosolare le verdure in una casseruola con le erbe aromatiche, salare e pepare a piacere. In un pentolino far ridurre il vino rosso avendo cura che tutta la parte alcolica venga consumata (\u00e8 possibile aiutarsi con un cannello). Al termine il vino sar\u00e0 ridotto del 50% concentrando aromi e gusto. A questo punto unire il vino alle verdure rosolate e aromatizzate insieme alla salsa pomodoro. Continuare a cuocere il tutto a fuoco lento per una mezz'ora. Nel frattempo, pulire le guance dal grasso e dai tessuti fibrosi esterni e porzionarle a piacere (intera, met\u00e0, quarti). Infarinare le guance (si consiglia di usare la farina di riso cosicch\u00e8 possa essere servito anche a clienti celiaci), e rosolarle in padella con olio girandole puntualmente su tutti i lati. Raffreddarle in abbattitore a temperatura positiva. Frullare la salsa e aggiustare la consistenza con brodo vegetale o acqua fino ad ottenere la giusta densit\u00e0. Raffreddare anche la salsa separata dalle guance. Una volta che guance e salsa saranno completamente fredde, porzionare a piacere nei sacchetti S/V con 1 parte di guance e 1 parte di salsa. Chiudere i sacchetti sottovuoto e posizionarli distesi su una teglia forata Steam&Fry. Cuocere secondo il programma di cottura consigliato.",
+    "ingredients": [
+        "20 Guance di manzo",
+        "200 g Sedano",
+        "200 g Carote",
+        "200 g Cipolla",
+        "4 Chiodi di Garofano",
+        "4 Bacche di ginepro",
+        "Sale",
+        "Pepe",
+        "Olio EVO",
+        "2 g Rosmarino",
+        "2 g Timo",
+        "4 g Salvia",
+        "2 g Maggiorana",
+        "2 l Vino rosso",
+        "500 g Farina di riso",
+        "200 g Salsa pomodoro"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

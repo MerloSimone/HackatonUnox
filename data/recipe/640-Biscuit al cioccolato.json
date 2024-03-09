@@ -1,0 +1,52 @@
+{
+    "id": "640",
+    "title": "Biscuit al cioccolato",
+    "signatureUrl": null,
+    "slug": "biscuit-al-cioccolato",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 720,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 1263,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/97c8e143bf1300bc4ff4503926a9fb52f7276e59f996ed3c6653df34764e8da1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200900Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=5cf7cfa8aa9e3680046c94f63acc08565b9583499f27481814f08121a3ba19aa&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-07-06T07:33:59.938Z",
+    "modifiedAt": "2020-07-06T07:33:59.938Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 260
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 170,
+                "time": "720",
+                "clima": -20,
+                "pulse": "1",
+                "preset": "pastry"
+            }
+        ]
+    },
+    "preparation": "Per iniziare, riunire nella ciotola dell'impastatrice i tuorli con 100 g dello zucchero a disposizione e fate montare con la frusta fino a ottenere un composto chiaro e spumoso. Nel frattempo, montare a parte gli albumi a neve con la parte rimanente dello zucchero fino ad ottenere una meringa fissa. Proseguire setacciando la farina, la fecola ed il cacao ed incorporare questi ingredienti secchi alla montata di tuorli pochi per volta e mescolando dal basso verso l'alto, incorporare anche il burro fuso, sempre poco alla volta. Incorporare, ora, la meringa sempre con la stessa modalit\u00e0 di mescolamento. Versare la pastella ottenuta in una teglia FORO.BLACK con carta forno, livellarla molto bene e infornare. A cottura ultimata il biscuit \u00e8 pronto per realizzare i vostri dolci, ideale soprattutto rotoli ripieni.",
+    "ingredients": [
+        "4 uova",
+        "2 tuorlo d'uovo",
+        "120 g zucchero semolato",
+        "30 g farina \"0\"",
+        "30 g fecola di patate",
+        "30 g cacao amaro",
+        "60 g burro fuso"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

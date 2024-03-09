@@ -1,0 +1,55 @@
+{
+    "id": "265",
+    "title": "Chips di mele",
+    "signatureUrl": null,
+    "slug": "chips-di-mele",
+    "author": "UNOX",
+    "description": null,
+    "duration": 21600,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "veggies",
+        "cakes_and_pastries"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 1916,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/2e95c0a395aed20f48a08c2728d835bed6543f55fe366bd7e644dcf46fe5a923.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200913Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=fcdfa90bab08619e4ae2149e8ef463f4d787ddc43375622c3b36f00644aea447&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-26T09:35:50.734Z",
+    "modifiedAt": "2019-12-30T09:59:42.554Z",
+    "cookingTag": "DESSERT",
+    "program": {
+        "preheat": {
+            "temp": 80
+        },
+        "steps": [
+            {
+                "fan": 1,
+                "temp": 78,
+                "time": "21600",
+                "clima": -100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Preparate lo sciroppo da utilizzare poi per le mele: versare lo zucchero nell'acqua e far sciogliere il tutto a bassa temperatura. Trasferire lo sciroppo ottenuto in una pirofila e farlo raffreddare; quando sar\u00e0 a temperatura ambiente, spremere un limone e unire il suo succo allo sciroppo precedentemente preparato. Lavare le mele, privarle del torsolo e, con l\u2019aiuto di una mandolina, affettatele, ottenendo uno spessore di un paio di millimetri al massimo. Adeguare lo spessore delle fette in base alla consistenza della mela. Immergere poi le fettine di mela nello sciroppo preparato. Sgocciolare e riporle su teglie Black.Bake utilizzando un tappetino silpat; metterle a disidratare in forno con il seguente programma. Lasc\u0131arle po\u0131 a raffreddare, cosicch\u00e9 acquistino maggior croccantezza.",
+    "ingredients": [
+        "500 g Mele Red Del\u0131c\u0131ous",
+        "150 g Zucchero",
+        "200 ml Acqua",
+        "1 Limone"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

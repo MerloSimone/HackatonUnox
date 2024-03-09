@@ -1,0 +1,55 @@
+{
+    "id": "681",
+    "title": "Crumble di mandorle",
+    "signatureUrl": null,
+    "slug": "crumble-di-mandorle",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 900,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 117,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/8632f131c6b928e3dfd2c047ac8d258864a70edda3b3a43ef77b349d337900c0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200924Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=e2b1db0edbca34ac72fe7f372025a471dc1be06902435c8746bf3bef9883f2c6&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-01-24T12:54:24.340Z",
+    "modifiedAt": "2022-01-24T12:54:24.340Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 180
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 155,
+                "time": "900",
+                "clima": -70,
+                "pulse": "0",
+                "preset": "pastry"
+            }
+        ]
+    },
+    "preparation": "Per il crumble sbriciolare con le mani grossolanamente farina 00, farina di mandorle, farina per polenta , zucchero di canna con il burro freddo direttamente dal frigo, precedentemente tagliato a cubetti molto piccoli. Non lavorare troppo l'impasto per non sciogliere troppo il burro. Sbriciolare il composto in una teglia BLACK.20, formando uno strato ben distribuito. Spolverare lo zenzero in polvere assieme allo zucchero semolato. Infornare e una volta cotto servire con crema inglese e pere al vino rosso.\n\n",
+    "ingredients": [
+        "150 g farina 00",
+        "100 g farina di mandorle",
+        "170 g zucchero di canna",
+        "200 g burro",
+        "80 g mandorle intere o lamelle",
+        "20 g zenzero in polvere",
+        "30 g zucchero semolato",
+        "80 g farina di mais per polenta"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

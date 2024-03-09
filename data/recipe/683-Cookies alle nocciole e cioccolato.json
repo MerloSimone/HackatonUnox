@@ -1,0 +1,57 @@
+{
+    "id": "683",
+    "title": "Cookies alle nocciole e cioccolato",
+    "signatureUrl": null,
+    "slug": "cookies-alle-nocciole-e-cioccolato",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 960,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 2,
+    "popularity": 213,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/66e3293956f7d21ec100dc052166749eab25dff49414d15ce64608b289eadba6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200924Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=346b83980ee132e7586ee8b649164350907abc0771a09a4419e2ed8f8f1e4ce0&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-01-24T12:56:57.938Z",
+    "modifiedAt": "2022-01-24T12:56:57.938Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 260
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 170,
+                "time": "960",
+                "clima": -70,
+                "pulse": "1",
+                "preset": "pastry"
+            }
+        ]
+    },
+    "preparation": "Per prima cosa montare con delle fruste il burro morbido con lo zucchero di canna. Aggiungere lo zucchero bianco e montare per bene fino a ottenere un composto cremoso e liscio. Aggiungere a questo punto l'uovo e il tuorlo e continuare a montare. Iniziare a versare la farina setacciata a pi\u00f9 riprese, il sale e il bicarbonato. Nel frattempo tritare grossolanamente le nocciole tostate, togliere le fruste e con un cucchiaio di legno o una spatola, versare poco a poco le gocce di cioccolato e poi le nocciole amalgamando bene tutto l'impasto, che a questo punto sar\u00e0 molto fisso e compatto. Lasciare riposare l'impasto in frigorifero per 20 minuti. Disporre della carta da forno o ungere di olio staccante spray una teglia FORO.BLACK e con le mani formare delle palline della dimensione di circa 3 cm di diametro. Adagiarle sulla teglia mantenendo una certa distanza tra una e l'altra perch\u00e8 durante la cottura si allargheranno. Infornare e a fine cottura i cookies saranno croccanti fuori e morbidi all'interno.",
+    "ingredients": [
+        "150 g Burro morbido",
+        "180 g Zucchero di canna",
+        "90 g Zucchero semolato",
+        "1 Uovo",
+        "1 Tuorlo d'uovo",
+        "260 g Farina \"00\"",
+        "150 g Gocce di cioccolato",
+        "80 g Nocciole tostate",
+        "1 Cucchiaino di bicarbonato",
+        "1 Pizzico di sale"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

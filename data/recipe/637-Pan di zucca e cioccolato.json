@@ -1,0 +1,70 @@
+{
+    "id": "637",
+    "title": "Pan di zucca e cioccolato",
+    "signatureUrl": null,
+    "slug": "pan-di-zucca-cioccolato",
+    "author": "Marco Moresco, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1500,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 1,
+    "popularity": 152,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/8e3e8d88b1b719998ada4f1ca5fd29f4d1ed24919a05a5786da921d8ab14faa2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200916Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=6978f12053051198e52993787c694c53b83789116553d30c329c8ae8cfd3a5cb&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-07-02T07:18:03.691Z",
+    "modifiedAt": "2020-07-02T07:18:03.691Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 190,
+                "time": "300",
+                "clima": 20,
+                "pulse": "1",
+                "preset": "bread"
+            },
+            {
+                "fan": 2,
+                "temp": 180,
+                "time": "600",
+                "clima": 10,
+                "pulse": "1",
+                "preset": "bread"
+            },
+            {
+                "fan": 2,
+                "temp": 175,
+                "time": "600",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "bread"
+            }
+        ]
+    },
+    "preparation": "Preparare uno starter nella planetaria sciogliendo il lievito nel latte con le bacche di vaniglia e 220 g di farina.\nLasciare lo starter coperto per un'ora a 28 \u00b0C coperto.\nPreparare la purea di zucca tagliando delle fette spesse 1-2cm disposte su teglia BLACK.20 cotte a vapore per 20 minuti, dopodiche pulite dalla buccia, passate. Tenere 330 g di purea (se non fosse sufficiente allungare con l'acqua rilasciata).\nDopo 1 ora, aggiungere allo starter, la purea di zucca, il resto della farina, lo zucchero ed incorporare lentamente il burro morbido pezzo dopo pezzo.\nUna volta assorbito tutto il burro aggiungere il sale e terminare l'impasto lucido, liscio ed elastico.\nA questo punto aggiungere a mano le scaglia di cioccolato ed incorporarle piano piano.\nLasciare a riposo in massa per 3 ore l'impasto coperto, a 28 \u00b0C.\nTagliare porzioni di pasta da 20 g l'una e formare delle palline da disporre su teglia BLACK.40 alternate, a distanza di 2-3cm l'una dall'altra. Lasciare lievitare 2 ore fino a che tutte le palline si attacchino e spennellare con latte e tuorlo prima di infornare.",
+    "ingredients": [
+        "1 kg Farina forte (W>350)",
+        "800 g Zucca cruda",
+        "330 g Purea di zucca da quella cruda",
+        "220 ml Latte tiepido (max 40 \u00b0C)",
+        "100 g Zucchero",
+        "100 g Burro (morbido)",
+        "1 Baccello di vaniglia",
+        "20 g Sale",
+        "200 g Cioccolato fondente a scaglie"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

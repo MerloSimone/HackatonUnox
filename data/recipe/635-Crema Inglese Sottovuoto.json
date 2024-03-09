@@ -1,0 +1,51 @@
+{
+    "id": "635",
+    "title": "Crema Inglese Sottovuoto",
+    "signatureUrl": null,
+    "slug": "crema-inglese-sottovuoto",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 480,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 280,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/9db304fe8740d1c3da1eb06897f7f096f258480348714a5b15a3f6d72a4abfd0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200916Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=eaecdebe8b4a4cb7cbae7ed33fb23715645b02524ef355cdb9d88aab732dfc40&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-06-26T16:07:50.301Z",
+    "modifiedAt": "2020-06-26T16:07:50.301Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 85,
+                "time": "480",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "sous_vide"
+            }
+        ]
+    },
+    "preparation": "In una terrina separare i tuorli dagli albumi e sbattere solo i tuorli d\u2019uovo con lo zucchero. Aggiungere la panna e il latte, mescolare ed infine aggiungere la vaniglia. Passare il composto attraverso un colino e passare per tre volte dentro la macchina a campana del sottovuoto per farlo sgasare in un contenitore aperto. Cofezionare in 3 buste sottovuoto (circa 500 g l'una) e cuocere in forno a vapore assicurando di distribuire uniformemente il composto all\u2019interno della busta e sulla teglia. Abbattere e conservare in frigo e utilizzare all\u2019occorrenza.",
+    "ingredients": [
+        "500 ml Panna",
+        "500 ml Latte",
+        "240 g Tuorlo",
+        "200 g Zucchero semolato",
+        "1 Bacello di vaniglia",
+        "3 sacchetti sous-vide media grandezza"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

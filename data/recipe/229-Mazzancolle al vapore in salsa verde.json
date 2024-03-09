@@ -1,0 +1,59 @@
+{
+    "id": "229",
+    "title": "Mazzancolle al vapore in salsa verde",
+    "signatureUrl": null,
+    "slug": "mazzancolle-al-vapore-in-salsa-verde",
+    "author": "UNOX",
+    "description": null,
+    "duration": 480,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 840,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/5b541502a4bee8648fb06d6700bf12a4fc86701cd05ba19b247f7a29c6e5e758.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200911Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=6f972a31f65e524ecaf2bf8f86143a8d16cd682ba5c1678323ba6714df2ca0cd&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-03-19T22:52:20.880Z",
+    "modifiedAt": "2019-12-30T09:59:42.528Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 126
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 96,
+                "time": "480",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Lavare bene le mazzancolle e, successivamnete sistematele all'interno di una Steam&Fry, per poi lasciarle cuocere per circa 8 minuti. Una volta cotte lasciarle intiepidire. Frullare le olive per la salsa verde in un mixer da cucina assieme ai capperi tritati, il basilico, il prezzemolo e l'olio EVO, fino ad ottenere un composto quanto pi\u00f9 possibile omogeneo. Travasare la salsa ottenuta in una ciotola, aggiungere lo yogurt ed il pepe e mescolare amalgamando bene il tutto. Sgusciare le mazzancolle mantenendo soltanto la coda, e servirle tiepide con la salsa appena preparata.",
+    "ingredients": [
+        "10 g Capperi",
+        "20 Mazzancolle",
+        "5 Foglie di basilico",
+        "100 g Olive verdi",
+        "10 g Prezzemolo",
+        "50 g Yogurt intero",
+        "Olio Evo",
+        "Sale",
+        "Pepe"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

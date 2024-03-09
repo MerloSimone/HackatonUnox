@@ -1,0 +1,61 @@
+{
+    "id": "678",
+    "title": "Pulled pork con salsa BBQ",
+    "signatureUrl": null,
+    "slug": "pulled-pork-con-salsa-bbq",
+    "author": "Claudio Novello, UNOX Corporate Chef",
+    "description": null,
+    "duration": 32400,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 4,
+    "popularity": 629,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/d480a106396e298ec936b7be1920f2de3c2fedaa13cce04ce8cd7807602ddeca.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200923Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=11fec56bdc0c410a6e60b808744179f58b1f4f9e030837f6653ef3541348ef81&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:23:09.068Z",
+    "modifiedAt": "2021-09-21T07:23:09.068Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 78,
+                "time": "32400",
+                "clima": 40,
+                "pulse": "0",
+                "preset": "over_night"
+            }
+        ]
+    },
+    "preparation": "Per questa ricetta verranno impiegati lunghi tempi di marinatura e di cottura. Preparare la salamoia unendo l'acqua, il sale, lo zucchero il rosmarino, la salvia e le bacche di ginepro. Posizionare la carne in un contenitore ermetico con la salamoia facendo in modo di coprirla interamente, se non dovesse essere sufficiente aggiungere acqua e il resto degli ingredienti in proporzione. Lasciare il contenitore in frigo per 12 ore. Una volta passate le 12 ore far scolare la carne e lasciarla a riposo fino a che non avr\u00e0 raggiunto la temperatura ambiente. Spalmare la superficie della carne con un composto di senape, zucchero di canna integrale, pepe macinato, peperoncino, paprica, aglio in polvere e salsa bbq. Disporre la carne su una teglia BACON e infornare. Alla fine del programma di cottura sfilacciare la carne a mano utilizzando 2 paia di guanti e irrorarla col suo sugo raccolto nella teglia. Servire caldo.",
+    "ingredients": [
+        "2 kg spalla di maiale",
+        "1 l acqua",
+        "150 g sale",
+        "50 g zucchero di canna",
+        "rosmarino",
+        "pepe nero in grani",
+        "salvia",
+        "10 bacche di ginepro",
+        "sale",
+        "peperoncino",
+        "paprica",
+        "aglio in polvere",
+        "2 cucchiai di senape liscia",
+        "4 cucchiai di salsa barbecue"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

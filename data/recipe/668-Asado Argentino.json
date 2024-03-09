@@ -1,0 +1,74 @@
+{
+    "id": "668",
+    "title": "Asado Argentino",
+    "signatureUrl": null,
+    "slug": "asado-argentino",
+    "author": "Claudio Novello, UNOX Chef",
+    "description": null,
+    "duration": -2,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_core_probe",
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": null,
+    "popularity": 212,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/f8e5fc03aea021780dd09233b2b489ff2d4db5a384b4d038b1682b2917672d6c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200921Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=64767dcc38c950be5563a59a9203ed79ff79a11d3798d78a3bf5f03e4a51d7ae&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-05-10T07:26:42.775Z",
+    "modifiedAt": "2021-05-10T07:26:42.775Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 240,
+                "time": "900",
+                "clima": -80,
+                "pulse": "0",
+                "preset": "grill"
+            },
+            {
+                "fan": 2,
+                "temp": 90,
+                "clima": -30,
+                "probe": 70,
+                "pulse": "0",
+                "preset": "over_night"
+            },
+            {
+                "fan": 2,
+                "temp": 65,
+                "time": "INF",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "over_night"
+            }
+        ]
+    },
+    "preparation": "Partire con la marinatura. Unire all'interno di un mortaio capiente o di un mixer le foglie di prezzemolo, l'origano, l'aglio pulito, il cipollotto tritato, il peperoncino sminuzzato. Lavorare energicamente il tutto per ottenere un trito fine nel caso del mixer o una pasta nel caso del mortaio. Aggiungere l'aceto di mele, il limone, il sale e il pepe. Mescolare il tutto ed  infine aggiungere l'olio extravergine di oliva a filo continuando a lavorare il composto, cos\u00ec da ottenere una salsa. Selezionare un taglio di carne giovane e ben frollata; mantenere le coste unite. Mettere in ammollo la carne in aceto di vino bianco per 10 minuti. Rimuovere dall'aceto e farla riposare per 30 minuti. Procedere spalmando la salsa sulla carne, disporre la carne con la salsa su una teglia BACON con sonda e infornare. Alla fine della cottura utilizzare la salsa raccolta sul fondo della teglia per condire la carne.  ",
+    "ingredients": [
+        "4 kg costine di manzo con osso",
+        "olio  extra vergine d'oliva",
+        "1 mazzetto di prezzemolo",
+        "40 g origano fresco",
+        "60 g cipollotto",
+        "1 peperoncino piccolo",
+        "succo di mezzo limone",
+        "3 cucchiai d'aceto di mele",
+        "sale e pepe",
+        "2 spicchi d'aglio"
+    ],
+    "autoSoft": 1,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

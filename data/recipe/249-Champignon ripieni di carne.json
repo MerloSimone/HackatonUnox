@@ -1,0 +1,63 @@
+{
+    "id": "249",
+    "title": "Champignon ripieni di carne",
+    "signatureUrl": null,
+    "slug": "champignon-ripieni-di-carne",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": "Ottimi come antipasto o secondo piatto, i funghi champignon ripieni di carne, sono sfiziosi e veloci da preparare.",
+    "duration": 840,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "beef",
+        "pork",
+        "oven_baked"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 5,
+    "popularity": 302,
+    "userRating": null,
+    "holdable": true,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/b3c2f14f22099970a3041afe58e7d291f772dcbe8852336e4b9193590a8cd0cb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200917Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=fc16277e76cd2f7b54faa337d4060160861c72e58a4b7f56d16dc560780b5e29&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-04-17T14:42:26.686Z",
+    "modifiedAt": "2020-04-17T14:42:26.686Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 180
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 175,
+                "time": "840",
+                "clima": 30,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Pulire bene i funghi e separarli dal gambo. Disporli su una teglia con la parte svuotata rivolta verso l'alto. Condirli con olio, sale e pepe. A parte, preparare il ripieno mescolando assieme le carni macinate, l'aglio e il prezzemolo tritati e l'uovo sbattuto. Asciugare il composto con il parmigiano. A questo punto riempire con un cucchiaio i funghi con l'impasto di carne, spolverare con del formaggio e cuocere in forno seguendo il programma di cottura indicato.",
+    "ingredients": [
+        "8 Funghi champignon",
+        "200 g Carne macinata di manzo",
+        "200 g Carne macinata di maiale",
+        "1 Aglio",
+        "10 g Prezzemolo",
+        "Sale",
+        "Pepe",
+        "2 Uovo",
+        "100 g Pane grattuggiato",
+        "50 g Parmigiano",
+        "80 g Olio EVO"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

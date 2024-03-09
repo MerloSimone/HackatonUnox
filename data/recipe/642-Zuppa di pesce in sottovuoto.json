@@ -1,0 +1,58 @@
+{
+    "id": "642",
+    "title": "Zuppa di pesce in sottovuoto",
+    "signatureUrl": null,
+    "slug": "zuppa-di-pesce-in-sottovuoto",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1500,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 3,
+    "popularity": 554,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/1c9d5a59ca540dc9fd80542488e96e5584c005986a71c43eb62f69192350cb72.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200900Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=2b0512d10e60a7e48f884f611ad6f1589da07fe1ba9b35802cdd518ec2606969&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-11-16T10:43:10.366Z",
+    "modifiedAt": "2020-11-16T10:43:10.366Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 78,
+                "time": "1500",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "sous_vide"
+            }
+        ]
+    },
+    "preparation": "Iniziare a pulire la triglia rimuovendo le squame e le interiora sotto l'acqua fredda corrente.\nFare lo stesso con la seppiolina e il calamaro rimuovendo la pelle, l'osso e le parti non commestibili dalla testa. Tagliare la seppiolina a met\u00e0 per il lungo e il calamaro a rondelle. \nLavare cozze e vongole assicurandosi di batterle bene per evitare che siano vuote o piene di sabbia.\nPer quanto riguarda gli scampetti, lavarli bene e inciderne il carapace solamente con una forbice, senza rimuoverlo\nStessa cosa per la cicala di mare che andr\u00e0 invece tagliata in 3 o 4 segmenti a piacimento.\nIn una terrina adagiare tutti i prodotti precedentemente preparati e condirli con pepe, olio di oliva e met\u00e0 del prezzemolo tritato grossolanamente.Far riposare in frigorifero per un oretta almeno.\nImbustare gli ingredienti in sacchetto da cottura assieme al pomodoro, le olive, l'aglio spaccato e la foglia di alloro.\nDopo aver messo in vuoto, posizionare in teglia STEAM e cuocere con il programma suggerito.\nServire, dopo aver rimosso l'aglio, con crostone di pane caldo, e la rimanenza del prezzemolo tritato.\n\n\n",
+    "ingredients": [
+        "1 triglia da scoglio",
+        "1 seppiolina",
+        "2 cozze",
+        "2 vongole veraci",
+        "1 cicala di mare",
+        "2 scampi piccoli",
+        "1 calamaretto",
+        "50 ml passata di pomodoro",
+        "5 olive nere",
+        "1 foglia di alloro",
+        "pepe nero",
+        "2 g prezzemolo fresco",
+        "20 ml olio extravergine d'oliva"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

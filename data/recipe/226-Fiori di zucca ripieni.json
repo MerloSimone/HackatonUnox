@@ -1,0 +1,59 @@
+{
+    "id": "226",
+    "title": "Fiori di zucca ripieni",
+    "signatureUrl": null,
+    "slug": "fiori-di-zucca-ripieni",
+    "author": "UNOX",
+    "description": null,
+    "duration": 480,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "veggies"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 605,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/5f85fcdc0697a3b10f4f00a5b2dcb6dedb833093d679c2cdee9e16ec95e4efe8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200929Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=3b6d873dfbc950cdd3ab678d77d75f7433c23308516dcd01c8b8f81b016b26cd&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-04-09T12:53:00.285Z",
+    "modifiedAt": "2019-12-30T09:59:42.526Z",
+    "cookingTag": "VEGETABLES & SIDES",
+    "program": {
+        "preheat": {
+            "temp": 126
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 96,
+                "time": "480",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Tritare la zucchina a brunoise. Fare sciogliere in un tegame il burro e cuocere i cubetti di zucchina finch\u00e8 non saranno  dorati, salare e pepare e successivamente raffreddare.  Tritare finemente il prezzemolo e qualche foglia di basilico, unire alla ricotta in un contenitore, salare e pepare ed aggiungere i cubetti di zucchina cotti in precendenza. Amalgamare con cura e versare il ripieno dei fiori di zucca in una sach a poche e fare un foto abbastanza grande da far si che possano passare i cubetti di zucchina ma non troppo perch\u00e8 altrimenti vi verr\u00e0 difficoltoso riempire i fiori. Prendere i fiori di zucca freschissimi, aprire delicatamente il fiori in modo da eliminare il pistillo interno, lavare accuratamente ed asciugare con un panno morbido. Una volta chiusi riempire i fiori di zucca con il ripieno preparato e riporre in una teglia Steam & Fry. Cucinare seguendo il programma di cottura seguente.",
+    "ingredients": [
+        "4 Fiori di zucca grandi",
+        "120 g Ricotta",
+        "1 Zucchina",
+        "1/2 Cipolla bianca",
+        "20 g Burro",
+        "Prezzemolo",
+        "Sale",
+        "Pepe",
+        "Olio EVO"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

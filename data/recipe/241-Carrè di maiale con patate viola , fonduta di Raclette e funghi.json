@@ -1,0 +1,65 @@
+{
+    "id": "241",
+    "title": "Carr\u00e8 di maiale con patate viola , fonduta di Raclette e funghi",
+    "signatureUrl": null,
+    "slug": "carre-di-maiale-con-patate-viola-fonduta-di-raclette-e-funghi",
+    "author": "UNOX ",
+    "description": null,
+    "duration": 10800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "pork"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 1061,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/8b0e329c0256e13f948dc7944e3d00afd710d79d802dec5a90ed755cf90aca4d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200917Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=9f2eeb847903f02b51db29e5f57d61179ef59c265683532874263f56d75e6fb0&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-01-26T15:54:42.520Z",
+    "modifiedAt": "2019-12-30T09:59:42.540Z",
+    "cookingTag": "MEAT",
+    "program": {
+        "preheat": {
+            "temp": 96
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 65,
+                "time": "10800",
+                "clima": 40,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Per il carr\u00e8 di maiale: Mettere in una pirofila la fetta di carr\u00e9 affumicata e coprirla con una marinatura realizzata con la birra, lo zucchero di canna e la salsa di soja. Quindi infornare seguendo il programma seguente. Sfornare e mettere la marinatura a ridurre in una casseruola a fiamma alta. Servire versando sul lato della crosta un cucchiaio della riduzione della marinatura. Per la preparazione dei crauti: Privare il cavolo delle foglie esterne e tagliarlo a striscioline e adagiarlo in una Black.40. Aggiungere un paio di cucchiai d\u2019acqua, il vino bianco e bacche di ginepro. Salare e pepare. Stufare per circa 20 minuti in forno a 90 \u00b0C. Per la preparazione della fonduta: Tagliare gli champignons e il formaggio Raclette a dadini fini e piazzare il tutto in una teglia Black.40 assieme all'aglio e al latte. Cuocere assieme ai crauti nel forno. Al termine frullare il tutto. Per la preparazione delle patate viola: Cuocere a vapore le patate viola con la buccia per circa 30 minuti a 96 \u00b0C. Raffreddarle, sbucciarle e tagliarle a dadini. Lucidarle con un filo d\u2019olio EVO e salarle. Comporre il piatto adagiando il carr\u00e9 di maiale su un nido di cavoli ben caldi ed accompagnare con le patate sulla fonduta di raclette ai funghi.",
+    "ingredients": [
+        "600 g Carr\u00e9 di maiale affumicato in fetta spessa",
+        "200 g Patate viola",
+        "330 ml Birra chiara a bassa gradazione",
+        "200 g Formaggio Raclette",
+        "1 Cucchiaio zucchero di canna",
+        "4 Funghi champignons",
+        "1 Cucchiaio di salsa di soia",
+        "1 Spicchio d\u2019aglio",
+        "1/2 Cavolo cappuccio",
+        "10 Bacche di ginepro",
+        "1/4 Bicchiere vino bianco",
+        "20 ml Latte",
+        "Olio Evo",
+        "Sale",
+        "Pepe"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

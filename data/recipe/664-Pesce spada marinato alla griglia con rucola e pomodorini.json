@@ -1,0 +1,54 @@
+{
+    "id": "664",
+    "title": "Pesce spada marinato alla griglia con rucola e pomodorini",
+    "signatureUrl": null,
+    "slug": "pesce-spada-marinato-alla-griglia-con-rucola-e-pomodorini",
+    "author": "Giacomo Bortolussi, UNOX Chef",
+    "description": null,
+    "duration": 420,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 100,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/2b1588808eb580bde33971b78dc9a351c49d4edef91ca4b8b04de5278ce0b353.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200921Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=d2485eb6ef85565c5a9bf7602611d28a51445af3c40dc9bc96f69f4d53b1e960&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-05-10T07:24:44.479Z",
+    "modifiedAt": "2021-05-10T07:24:44.479Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 230,
+                "time": "420",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            }
+        ]
+    },
+    "preparation": "Una preparazione molto semplice che per\u00f2 necessita di attenzione nei dettagli, prima di tutto bisogna marinare la fetta di pesce spada per un paio di ore prima di cuocerla.\nIn una caraffa, mettiamo l'olio extravergine, il vino bianco, prezzemolo e il pepe macinato.\nFrulliamo bene il tutto con un frullatore creando un emulsione.\nQuesta sar\u00e0 la marinatura del pesce, spada che va messo in infusione per un paio d'ore.\nPreriscaldare il forno con la teglia FAKIRO.Grill al suo interno.\nAsciugare bene il pesce dalla marinatura e appena il forno \u00e8 pronto, posarlo al centro della teglia calda.\nMentre il pesce cuoce, tagliate i pomodorini a met\u00e0, uniteli alla rucola e al succo di limone.\nimpiattarre il tutto non appena cotto.\n",
+    "ingredients": [
+        "180 g filetto pesce spada",
+        "1 limone",
+        "20 ml olio extra vergine d'oliva",
+        "prezzemolo fresco",
+        "50 ml vino bianco",
+        "pepe",
+        "20 g rucola",
+        "8 pomodorini",
+        "origano secco"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

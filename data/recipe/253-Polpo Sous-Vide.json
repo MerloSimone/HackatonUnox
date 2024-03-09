@@ -1,0 +1,55 @@
+{
+    "id": "253",
+    "title": "Polpo Sous-Vide",
+    "signatureUrl": null,
+    "slug": "polpo-sous-vide",
+    "author": "UNOX",
+    "description": null,
+    "duration": 28800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "fish"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 2713,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/af1639d1d030a4dbcdaa6c9b261c01fe79d9067371a2cfd3138ee0eeac5179c2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200909Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=d1368e3f6412d421610c323c261e3ad83f0efbf7a21851ba494beb2910fb5fe6&X-Amz-SignedHeaders=host",
+    "createdAt": "2018-04-16T06:55:50.354Z",
+    "modifiedAt": "2019-12-30T09:59:42.546Z",
+    "cookingTag": "SEAFOOD",
+    "program": {
+        "preheat": {
+            "temp": 80
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 75,
+                "time": "28800",
+                "clima": 100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Rimuovere le viscere, gli occhi e il becco del polipo e passarlo sotto acqua corrente per rimuovere le eventuali impurit\u00e0. Tamponare il polpo con carta assorbente fino a renderlo asciutto. Mettere in un sacchetto sottovuoto con olio d'oliva, timo, rosmarino e sale marino. Sigillare il sacchetto sottovuoto e collocarlo su una teglia Steam & Fry, evitando di mettere due sacchetti uno sopra l'altro. Quando il programm di cottura sar\u00e0 ultimato, aprire la borsa e scartare il liquido. Asciugare delicatamente tutte le parti della pelle, facendo attenzione a non strappare le ventose. Separare i tentacoli e passare attentamente ciascuno con carta assorbente fino a renderli asciutti. Condite a piacimento il vostro polpo e servite.",
+    "ingredients": [
+        "1 Polpo",
+        "90 ml Olio EVO",
+        "2 Rametti di timo",
+        "2 Rametti di rosmarino",
+        "Sale marino"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

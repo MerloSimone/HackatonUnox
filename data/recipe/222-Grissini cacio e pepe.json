@@ -1,0 +1,74 @@
+{
+    "id": "222",
+    "title": "Grissini cacio e pepe",
+    "signatureUrl": null,
+    "slug": "grissini-cacio-e-pepe",
+    "author": "Nicola Lai, UNOX Corporate Chef",
+    "description": "Croccanti grissini homemade, ottimi da mangiare da soli come snack oppure come accompagnamento a salumi e formaggi.",
+    "duration": 1500,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "bread_and_bakery"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "rating": 4,
+    "popularity": 850,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipes/212b31c26178470e6b820ece5d64e9a810c9f9583cae2dfe1a46169506295c93.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200930Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=01e4f5b7db95243fcac5fff07e0540ab2f8053fb99ec03ef678991b43a575efd&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-04-17T14:42:26.686Z",
+    "modifiedAt": "2020-04-17T14:42:26.686Z",
+    "cookingTag": "BREAD AND PIZZA",
+    "program": {
+        "preheat": {
+            "temp": 220
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 175,
+                "time": "480",
+                "clima": 50,
+                "pulse": 0,
+                "preset": "manual"
+            },
+            {
+                "fan": 4,
+                "temp": 170,
+                "time": "720",
+                "clima": 0,
+                "pulse": 0,
+                "preset": "manual"
+            },
+            {
+                "fan": 4,
+                "temp": 185,
+                "time": "300",
+                "clima": -100,
+                "pulse": 0,
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Preparare gli ingredienti: grattuggiare finemente il pecorino romano e poi il pepe nero.  Versare nella planetaria le due farine, il pecorino romano grattuggiato, il pepe e il lievito di birra.  Azionare la planetaria a bassa velocit\u00e0 per mescolare gli ingredienti. Versare una parte dell'acqua a disposizione, aggiungere il sale e continuare poi ad aggiungere un p\u00f2 alla volta l'acqua che resta e l'olio. Azionare ora la marcia piu veloce della planetaria e lasciar lavorare fino a quando il composto risulter\u00e0 essere compatto.  Quando il composto sar\u00e0 ben incordato al gancio, trasferire il tutto in un contenitore oliato e lasciatelo riposare e lievitare finch\u00e9 l'impasto non raddoppier\u00e0 le dimensioni.  Tagliare l'impasto secondo la grammatura desiderata e dare la forma del grissino.  Cucinare il prodotto fino a raggiungere la doratura desiderata.",
+    "ingredients": [
+        "100 g Semola di grano duro",
+        "150 g Farina",
+        "150 g Acqua",
+        "3 g Lievito di birra secco",
+        "15 g Olio EVO",
+        "25 g Pecorino romano",
+        "2 g Pepe nero",
+        "3 g Sale"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

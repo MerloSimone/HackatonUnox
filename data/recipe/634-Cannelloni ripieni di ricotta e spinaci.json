@@ -1,0 +1,57 @@
+{
+    "id": "634",
+    "title": "Cannelloni ripieni di ricotta e spinaci",
+    "signatureUrl": null,
+    "slug": "cannelloni-ripieni-ricotta-spinaci",
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 1500,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 204,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/eb1aefe8f636fd63954126715399572181737c3e81597c5c5004ed658d8e99d1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200916Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=bf01707505a45be17bddf9272a4407166880792f0c695abdd747bc6fee96d27b&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-06-22T08:10:12.400Z",
+    "modifiedAt": "2020-06-22T08:10:12.400Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 165,
+                "time": "1500",
+                "clima": -30,
+                "pulse": "0",
+                "preset": "combi"
+            }
+        ]
+    },
+    "preparation": "Con le quantit\u00e0 suggerite andremo a preparare 2 porzioni di cannelloni.\nPer prima cosa, ritagliare 4 veli di pasta fresca di pi\u00f9 o meno 12 cm x 12 cm e posarli su di un tagliere finch\u00e8 si prepara il ripieno.\nFar soffriggere l'olio e lo spicchio d'aglio in una padella e aggiungervi gli spinaci lavati coprendo immediatamente, far appassire per 4 minuti. A questo punto raffreddare e trutare grossolanamente.\nA parte, mescolare in una terrina la ricotta, noce moscata, uovo sale e pepe.\nUna volta fatto, unire gli spinaci tritati e met\u00e0 del Parmigiano grattuggiato. Inserire il tutto in una sac a poche e far riposare in frigo.\nIn una teglia BLACK.20, posare due cucchiaiate di besciamella e stenderle leggermente, serviranno da base per i cannelloni.\nusando la sac a poche, farcire i 4 quadrati di pasta da un lato prima di arrotolarli su se stessi formando i cannelloni.\nPosateli sulla base di besciamella vicini tra loro e ricopriteli con il restante della stessa.\nPrima di infornare, guarnite con pomodorini tagliati a met\u00e0 e il resto del formaggio grattuggiato.\nInfornare e poi servire con foglie di basilico fresco.",
+    "ingredients": [
+        "150 g Ricotta fresca",
+        "150 g Spinaci freschi",
+        "Uovo 1",
+        "Noce moscata",
+        "Sale e pepe",
+        "200 g Pasta fresca",
+        "Pomodorini 4",
+        "Basilico fresco 4 foglie",
+        "Spicchio d'aglio 1",
+        "Olio di oliva",
+        "50 g Parmigiano grattuggiato",
+        "500 g Besciamella"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

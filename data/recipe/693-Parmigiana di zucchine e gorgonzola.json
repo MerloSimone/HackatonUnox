@@ -1,0 +1,54 @@
+{
+    "id": "693",
+    "title": "Parmigiana di zucchine e gorgonzola",
+    "signatureUrl": null,
+    "slug": "parmigiana-di-zucchine-e-gorgonzola",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 2700,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 129,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/d4526ff1f84b56a5aa996d002cb3a77846ebeb0cddb49c2e328e96241ef6a095.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200926Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=4d887380f61d606c3e6266a5c0a7a28c94093939206640f2505d6c14b5c65621&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-07-07T12:26:42.340Z",
+    "modifiedAt": "2022-07-07T12:26:42.340Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 210,
+            "time": "600"
+        },
+        "steps": [
+            {
+                "fan": 3,
+                "temp": 180,
+                "time": "2100",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "In un pentolino mettere a scaldare il latte, in un' altra pentola sciogliere il burro, levare dal fuoco e aggiungere la farina incorporandola al burro. Rimettere il composto sul fuoco fino a quando non avr\u00e0 un colore dorato. A questo punto aggiungere il latte a poco a poco e il gorgonzola continuando a mescolarle con una frusta per evitare la formazione di grumi fino a quando la besciamella non sar\u00e0 della giusta consistenza.\nIn una teglia GN 1/2 versare della besciamella fino a cospargere il fondo di modo che il primo strato di zucchine non si attacchi durante la cottura.\nDisporre le zucchine nello stesso verso fino a coprire il fondo della teglia, versare altra besciamella e distribuire uniformemente. Spolverare con del parmigiano.\nRipetere la copertura della strato con le zucchine cambiando la direzione in modo da formare una specie di griglia.\nContinuare l'operazione fino alla creazione di almeno 3 strati. Completare l'ultimo strato con besciamella e abbondante parmigiano.\nCuocere a 180\u00b0 per 35min.",
+    "ingredients": [
+        "1 kg Zucchine grigliate",
+        "1 l Latte",
+        "100 g Burro",
+        "100 g Farina \"00\"",
+        "75 g Gorgonzola",
+        "200 g Parmigiano",
+        "Sale q.b."
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 0
+}

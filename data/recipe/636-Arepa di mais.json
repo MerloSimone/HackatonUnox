@@ -1,0 +1,49 @@
+{
+    "id": "636",
+    "title": "Arepa di mais",
+    "signatureUrl": null,
+    "slug": "arepa-di-mais",
+    "author": "Samuele De Nardi, UNOX Corporate Chef",
+    "description": null,
+    "duration": 360,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": 5,
+    "popularity": 249,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/33f5bc0d2907da7873d2ccb6b6070319ebdfb4bb54faf09c538cd9cef402952a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200916Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=af854b5df8a4340ba734ae7fb21918a008877448ba94e8e0c8a7274398a282b5&X-Amz-SignedHeaders=host",
+    "createdAt": "2020-07-02T07:18:03.691Z",
+    "modifiedAt": "2020-07-02T07:18:03.691Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 230,
+                "time": "360",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            }
+        ]
+    },
+    "preparation": "Mescolare la farina di mais con l'acqua e il sale, fino a ottenere una massa omogenea. La farina di mais varia la sua umidit\u00e0 naturale e per questo motivo, la quantit\u00e0 di acqua necessaria per preparare l'impasto potrebbe essere differente. Modella le arepas nella classica forma tondeggiante di circa 60 gr ciascuna, disponendo un massimo di 15 unit\u00e0 per teglia, in questo caso specifico serve la cooking.essential GRILL. Applicare l'olio con un pennello su entrambi i lati dell'arepa. Servire con ci\u00f2 che ti stuzzica di pi\u00f9. ",
+    "ingredients": [
+        "20 ml Olio vegetale",
+        "1 kg Farina di mais pilado",
+        "140 ml Acqua",
+        "10 g Sale"
+    ],
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

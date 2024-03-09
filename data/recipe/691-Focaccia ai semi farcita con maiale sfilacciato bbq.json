@@ -1,0 +1,57 @@
+{
+    "id": "691",
+    "title": "Focaccia ai semi farcita con maiale sfilacciato bbq",
+    "signatureUrl": null,
+    "slug": "focaccia-ai-semi-farcita-con-maiale-sfilacciato-bbq",
+    "author": "Marco Moresco, UNOX Corporate Chef",
+    "description": null,
+    "duration": 420,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 43,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/18eb8d9b01432a6536cf20a74303262beda7e37f51a4806f75a583991f20f458.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200926Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=321a6c56c9c631b0686746fdda861b6005724969ec9fd82357ad51e7efeb2cee&X-Amz-SignedHeaders=host",
+    "createdAt": "2022-07-07T12:21:50.840Z",
+    "modifiedAt": "2022-07-07T12:21:50.840Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 2,
+                "temp": 200,
+                "time": "420",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "focaccia"
+            }
+        ]
+    },
+    "preparation": "Partire con l'acqua in impastatrice,aggiungere gradualmente lievito e farina impastando fino a quando la farina verr\u00e0 assorbita, a quel punto aggiungere il sale. Una volta che il sale verr\u00e0 assorbito aggiungere i semi ( si possono anche tostare per esaltarne ulteriormente il sapore ) ed infine l olio. Quando anche l olio verr\u00e0 incorporato, lasciare riposare l impasto sul banco coperto per 10 minuti, piegare una volta affinch\u00e9 l impasto risulti bello liscio.\nLasciare la massa riposare per 30 minuti coperta. Porzionare in palline da 280 g e lasciare a lievitare in tegliette di alluminio precedentemente ben oleate di diametro 30cm, quando la pallina raddoppia iniziare a stendere spingendo con le dita l'aria dal centro verso l esterno, aiutandosi roteando il teglino. Lasciare riposare 15 minuti, ripassare con le dita per aiutare il disco di pasta a raggiungere i bordi della teglia. Lasciare lievitare 1 ora e cucinare.\nDopo la cottura, raffreddare, tagliare a met\u00e0 come un panino e, a piacere, grigliare 2 ulteriori minuti su FAKIRO.GRILL assieme al maiale sfilacciato bbq preparato in precedenza da ricetta Unox DDC dello chef Claudio Novello.\nComporre la focaccia farcita con un' insalatina fresca, il maiale, salsa bbq e delle mele disidratate.",
+    "ingredients": [
+        "1 kg farina 00",
+        "20 g semi di papavero",
+        "20 g semi di sesamo bianchi",
+        "20 g semi di sesamo neri",
+        "20 g semi di lino",
+        "20 g granella di soia",
+        "600 ml acqua",
+        "10 g lievito di birra fresco",
+        "20 g sale",
+        "20 ml olio extravergine d'oliva"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

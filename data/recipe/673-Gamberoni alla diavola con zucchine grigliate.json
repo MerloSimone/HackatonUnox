@@ -1,0 +1,53 @@
+{
+    "id": "673",
+    "title": "Gamberoni alla diavola con zucchine grigliate",
+    "signatureUrl": null,
+    "slug": "gamberoni-alla-diavola-con-zucchine-grigliate",
+    "author": "Riccardo Polonelli, UNOX Corporate Chef",
+    "description": null,
+    "duration": 540,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "rating": null,
+    "popularity": 113,
+    "userRating": null,
+    "holdable": false,
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/6a4ca9f3c3316ed2ad9e7590a0a7fac71b38aa6002f9dbdf2f9872f3e1ed0b0f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZQDIIDUVC%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T200922Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCu9B1gXHmziELzOE7owyRZ90de9yVcLGLrze1GoEEZdgIgd%2FpMIRYmbly0jYqDEgxWDUTWQLsfiP%2BZXlZsTAGLStcqowMI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODY2Nzg2NzczNjMiDP2VvDhAeASey4D22Cr3AuDboMtfY568b3s24OVhVZZ3CDgxkCpT3P8rJEQAN9gLj7XMVFKX3xaUaUnwiLy3K%2BRQpxqaZ76gWIRXgHXspAjosueC1QcKEcg3ttKMUj9tBs0SAOMyFyVfE1I7gMM2ntJokGj9YdaFMO3%2FHeYP72zkdWiX4zTxP9B%2BHL%2BMqkxKNaE8tTO%2FFDsqfGsKcbkt%2Fb6sdVDexPz503J6y4HVWGC8Mbp3MJFN3tH0HRrtcKTHXFu1tXjQVBgugs2CD6F9bABA0EVIad6MjiNH8ms270pJg7nYi3cUJE%2FSFtUNRXvm%2FZUDH3OuPOigrgVR3BLV%2BxxzUWCnPHep3v1uxDHx7SXD1v9U0vrSKHAy3o8esXdOti4DMkitc30%2BouAtzyhPzRBdMC03DujlNMNLHvXbD90ry8MVjThqh5hsxO9rRJIv%2FgBmrnUuMkPpybyarE8v%2BzMCwGIBnc6cRne%2FfKYsoDTITlPfQtz8hao%2Btx7t7te4zFObLVLtqjDYgbOvBjqdAWlPZ0az50g6BwtECNKuFdq4iX4mCyMPU6E%2F9oJK51%2Fopt03t8bRRfVXVXMtfB%2BZziJxR%2FddwxyWFtyMZCzhIrga%2F1tXtiNUdRi0TuwfJQFIvZtUGp9DxqDWIrehuQVJwaApX%2FI%2Fyr3TmxGhKaxzm1bmSMJ9QgXxhWisZJNGlWhw0WQiMhvM2lTvuRFp%2BKpH8EB%2B%2Fy7zQ%2F1nrs%2Bzcdw%3D&X-Amz-Signature=87361bc10e8319347e8aff93bad27ad8f6bae1f0b2e7075085f2a10c39f026bd&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-09-21T07:20:54.661Z",
+    "modifiedAt": "2021-09-21T07:20:54.661Z",
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 225,
+                "time": "540",
+                "clima": -100,
+                "pulse": "0",
+                "preset": "grill"
+            }
+        ]
+    },
+    "preparation": "Procedere innanzitutto con la pulizia dei gamberoni, risciacquarli bene e privarli di zampe e carapace ma avendo l'accortezza di lasciare le teste unite alle code. Con un coltellino affilato incidere anche la parte superiore della coda in modo da poterla pulire perfettamente.\nrisciacquare bene e asciugare delicatamente con della carta.\nUna volta puliti i gamberoni lasciarli marinare per almeno un oretta con un emulsione di olio d'oliva extravergine e il succo di met\u00e0 limone unita al peperoncino al sale e al pepe. Conservare la seconda met\u00e0 del limone per utilizzarla come abbellimento al piatto.\nPer quanto riguarda le zucchine, lavatele bene e tagliatele a fette dello spessore di 2 cm e conditele semplicemente con poco olio.\nA questo punto potrete lanciare il programma consigliato e mentre attendete il preriscaldamento disponete con cura su di una teglia GRILL i vostri gamberoni, le fette di zucchina e la met\u00e0 del limone avanzata.\nCuocete tutto assieme allo stesso tempo: gamberoni, contorno e guarnizione del piatto!!",
+    "ingredients": [
+        "4 gamberoni reali taglia grande",
+        "1 zucchina",
+        "2 g peperoncino secco",
+        "20 ml olio extravergine d'oliva",
+        "1 limone",
+        "sale e pepe"
+    ],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}
