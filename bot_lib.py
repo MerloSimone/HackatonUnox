@@ -120,9 +120,12 @@ def get_rag_chat_response(input_text, memory, index): #chat client function
 
 def get_rag_mail_response(input_text, index): #chat client function
     
-    llm = get_llm() 
-    
-    conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.as_retriever())
+    llm = get_llm()
+    st.session_state.memory=get_memory()
+    st.session_state.chat_history = []
+    st.session_state.chat_history.append({"role":"user", "text":input_text})
+	
+    conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.as_retriever(), memory=st.session_state.memory)
     
     chat_response = conversation_with_retrieval({"question": input_text})
     
