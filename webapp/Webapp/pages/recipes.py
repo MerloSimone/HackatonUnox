@@ -11,5 +11,7 @@ general_recip_butt = right_column.button('General recipes', key="General recipes
 
 if custom_recip_butt:
     st.switch_page("pages/custom_recipes.py")
+    st.session_state.chat_type = "my_recepes"
 if general_recip_butt:
     st.switch_page("pages/general_recipes.py")
+    st.session_state.chat_type = "other_recipes"
