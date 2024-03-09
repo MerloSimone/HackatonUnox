@@ -7,10 +7,9 @@ from googleapiclient.discovery import build
 import time
 import re
 
-import os
 
-from googleapiclient.errors import HttpError
-
+import bot_lib as bot #reference to local lib script
+import streamlit as st #all streamlit commands will be available through the "st" alias
 
 from email.mime.text import MIMEText
 from email.message import EmailMessage
@@ -132,7 +131,12 @@ while (1):
 
         prompt = lista_param[1]
 
-        response = "pollo"
+        st.session_state['chat_type']='email'
+
+
+        response = bot.get_rag_mail_response(input_text=input_text, index=bot.get_index(),) #call the model through the supporting library
+
+
 
         sendEmail(lista_param[0], response)
         
