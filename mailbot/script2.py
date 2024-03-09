@@ -7,8 +7,13 @@ from googleapiclient.discovery import build
 import time
 import re
 
+import os
+
+from googleapiclient.errors import HttpError
+
 
 from email.mime.text import MIMEText
+from email.message import EmailMessage
 from requests import HTTPError
 
 
@@ -50,7 +55,7 @@ def readEmails():
         # Call the Gmail API
         service = build('gmail', 'v1', credentials=creds)
         results = service.users().messages().list(userId='me', labelIds=['INBOX'], q="is:unread").execute()
-        messages = results.get('messages',[]);
+        messages = results.get('messages',[])
         if not messages:
             return ['', 'No new messages.']
         else:
@@ -85,8 +90,24 @@ def sendEmail(recipient, response):
     SCOPES = [
         "https://www.googleapis.com/auth/gmail.send"
     ]
-    flow = InstalledAppFlow.from_client_secrets_file('secret.json', SCOPES)
-    creds = flow.run_local_server(port=5001)
+    creds = None
+    # The file token.json stores the user's access and refresh tokens, and is
+    # created automatically when the authorization flow completes for the first
+    # time.
+    if os.path.exists('token2.json'):
+        creds = Credentials.from_authorized_user_file('token2.json', SCOPES)
+    # If there are no (valid) credentials available, let the user log in.
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(               
+                # your creds file here. Please create json file as here https://cloud.google.com/docs/authentication/getting-started
+                'secret.json', SCOPES)
+            creds = flow.run_local_server(port=5000)
+        # Save the credentials for the next run
+        with open('token2.json', 'w') as token:
+            token.write(creds.to_json())
 
     service = build('gmail', 'v1', credentials=creds)
     message = MIMEText(response)
@@ -101,6 +122,9 @@ def sendEmail(recipient, response):
         print(F'An error occurred: {error}')
         message = None
 
+
+
+
 while (1):
     lista_param = readEmails()
     if (lista_param[1] != "No new messages." and lista_param != None and lista_param[0] != "no-reply@accounts.google.com"): 
@@ -108,9 +132,10 @@ while (1):
 
         prompt = lista_param[1]
 
-        response = ""
+        response = "pollo"
 
         sendEmail(lista_param[0], response)
+        
 
     time.sleep(3)
     print("slept...")
