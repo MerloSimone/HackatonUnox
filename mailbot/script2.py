@@ -8,6 +8,9 @@ import time
 import re
 
 
+import bot_lib as bot #reference to local lib script
+import streamlit as st #all streamlit commands will be available through the "st" alias
+
 from email.mime.text import MIMEText
 from requests import HTTPError
 
@@ -108,7 +111,12 @@ while (1):
 
         prompt = lista_param[1]
 
-        response = ""
+        st.session_state['chat_type']='email'
+
+
+        response = bot.get_rag_mail_response(input_text=input_text, index=bot.get_index(),) #call the model through the supporting library
+
+
 
         sendEmail(lista_param[0], response)
 

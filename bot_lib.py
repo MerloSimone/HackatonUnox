@@ -17,22 +17,19 @@ def get_llm():
 
 	if 'chat_type' not in st.session_state:
 		print('not defined')
-		
-
-
-
-	if st.session_state.chat_history == 'product_exploration':
-		print('ok')
-	elif st.session_state.chat_history == 'my_recipes':
-		print('ok')
-	elif st.session_state.chat_history == 'other_recipes':
-		print('ok')
-	elif st.session_state.chat_history == 'add_recipes':
-		print('ok')
-	elif st.session_state.chat_history == 'email':
-		print('ok')
 	else:
-		print('ok')
+		if st.session_state.chat_type== 'product_exploration':
+			print('ok')
+		elif st.session_state.chat_type == 'my_recipes':
+			print('ok')
+		elif st.session_state.chat_type == 'other_recipes':
+			print('ok')
+		elif st.session_state.chat_type == 'add_recipes':
+			print('ok')
+		elif st.session_state.chat_type == 'email':
+			return llm_model(maxTokens=2048,temperature=0.5,topP=0.5).get_model()
+		else:
+			print('ok')
 
 
 	return llm_model(maxTokens=1024,temperature=0.2,topP=0.5).get_model()
@@ -62,6 +59,7 @@ def get_llm():
 
 def get_index(): #creates and returns an in-memory vector store to be used in the application
     
+    """
     embeddings = BedrockEmbeddings(
         credentials_profile_name="default", #sets the profile name to use for AWS credentials (if not the default)
         region_name="us-east-1", #sets the region name (if not the default)
@@ -97,7 +95,9 @@ def get_index(): #creates and returns an in-memory vector store to be used in th
 
     index_from_loader = index_creator.from_loaders([loader]) #create an vector store index from the loaded PDF
     
-    return index_from_loader #return the index to be cached by the client app
+    #return index_from_loader #return the index to be cached by the client app
+    """
+    return FAISS.load_local("new_index",embeddings)
 
 
 def get_memory(): #create memory for this chat session
@@ -110,9 +110,20 @@ def get_rag_chat_response(input_text, memory, index): #chat client function
     
     llm = get_llm() 
     
-    conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.vectorstore.as_retriever(), memory=memory)
+    #conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.vectorstore.as_retriever(), memory=memory)
+    conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.as_retriever(), memory=memory)
     
     chat_response = conversation_with_retrieval({"question": input_text}) #pass the user message, history, and knowledge to the model
+    
+    return chat_response['answer']
+
+def get_rag_mail_response(input_text, index): #chat client function
+    
+    llm = get_llm() 
+    
+    conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.as_retriever())
+    
+    chat_response = conversation_with_retrieval({"question": input_text})
     
     return chat_response['answer']
 
