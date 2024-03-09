@@ -6,8 +6,10 @@ st.title("Recipes selection") #page title
 
 left_column, right_column = st.columns(2)
 # You can use a column just like st.sidebar:
-custom_recip_butt = left_column.button('Custom recipes', key="Custom recipes")
-general_recip_butt = right_column.button('General recipes', key="General recipes")
+with left_column:
+    custom_recip_butt = left_column.button('Custom recipes', key="Custom recipes")
+with right_column:
+    general_recip_butt = right_column.button('General recipes', key="General recipes")
 
 if custom_recip_butt:
     st.switch_page("pages/custom_recipes.py")
