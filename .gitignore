@@ -163,3 +163,6 @@ webapp/pages/2022-Shareholder-Letter.pdf
 temp.py
 new_index/index.faiss
 new_index/index.pkl
+new_index/index.faiss
+new_index/index.pkl
+new_index/index.pkl
