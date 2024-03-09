@@ -18,7 +18,7 @@ def get_llm():
 	if 'chat_type' not in st.session_state:
 		print('not defined')
 	else:
-		if st.session_state.chat_type== 'product_exploration':
+		if st.session_state.chat_type == 'product_exploration':
 			print('ok')
 		elif st.session_state.chat_type == 'my_recipes':
 			print('ok')
