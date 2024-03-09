@@ -1,0 +1,59 @@
+{
+    "id": "89923",
+    "title": "Beed meatballs with basil",
+    "signatureUrl": null,
+    "author": "Giacomo Bortolussi, UNOX Corporate Chef",
+    "description": "Tasty chicken meatballs with a basil scent. Perfect for a salty buffet or to be eaten as a second course. Be careful, they are addictive, bet you can't eat just one!",
+    "duration": 600,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [
+        "poultry"
+    ],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking",
+        "mm_uip_auto_soft"
+    ],
+    "holdable": false,
+    "image": "company/recipes/da42d13ce841207350ce7492cb61ed5a4097ae68f9d96122bd5c9eec2c091d32.jpg",
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/da42d13ce841207350ce7492cb61ed5a4097ae68f9d96122bd5c9eec2c091d32.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZWRJU6T6U%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T162152Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJIMEYCIQD%2BTxDoxHvk45gEFM1WyPEOMAi6ZBgfnGLnlxiqdcWWMwIhAOTLTx6FRC7KO4hcugO4IIUFH%2F6gvXGUg2W%2F3ZgXDVkBKqMDCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg2Njc4Njc3MzYzIgzDQJOUly2WolfyP%2Bkq9wImp0w4NFIxB9Hb%2FxQjF7E7586%2BfVt%2BAbUEbYiFfg99CFZBF5zG%2BooO%2F3M5JAoiyCF8uER%2FT2M6Avd7T0M9f%2FFQhP%2B4tLPqOZ5IScbnmv1Q58ynSNKIVCk5UnkR4QZYkGakU3jGH8qdmqZl1xCxZNLx%2FRqmF5uPcOfz8OCUD9WgfwgwDlqk5eB%2FdEbgiiqQwyhm8IgCp5CPz3CCdklYLNVCMSbXRXN3qa7NW7sSiA7KqA4bRrH7WUVVCwyPXhGIcsQdxCNWkRLlKHZDsBHLeuDOA9CLXQV9DDiW0G2HX5CHyRJ2Hi2SAbqHGl8xbYn6Nggqr%2BLmrWdYwSUDLaDtb2fSzxIxc0RR3qSeI0GGIRSmNPz2Z8hLmHYvnyCD1qeAe8j4yXcg44CLIdDMWsJC9ImQ49RKjNcV%2F0K%2FosNlgIIjh5Tf0e7uVH86dLKsofLw8YhAw8b2ORsf6kg9nvw0PEUeq0vNx7s3RWhHwclUjFO0N07p3GxCz2sw9Y6yrwY6nAHfmlS8AUidwIxz0hwewQ0Pze3F7X%2BIW6d2GU3bJGTkGUO%2F6UyKdCntDJa64POopdUz7BnvPpCPO4gKEYQEf2hwmQHR8BOD0xp6HeShgQlphG3fJ%2FDKuf2O1n6BYgiWTBb6zZ5UZcCGH2hYDWgh8dIgfO8FqhoOvoK1QqRzmAHvsH76WgtJq9JNE%2Buqja%2F0EHGeNWr91MjFY6BnYo4%3D&X-Amz-Signature=2333b5f93fa7a5c3a823198ddd9bfce2770a572870190561e3bb8f89c54a4774&X-Amz-SignedHeaders=host",
+    "createdAt": "2021-10-21T15:40:24.511Z",
+    "modifiedAt": "2023-10-12T10:46:50.306Z",
+    "id_community_recipe": null,
+    "precooking": [],
+    "postcooking": [],
+    "lifespan": 0,
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 220
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 195,
+                "time": "600",
+                "clima": -50,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "Put the crumb of the bread in a bowl and soak it with milk, let it there for 5 minutes and then squeeze it to remove the excess milk. Mix the bread together with the minced meat, the chopped basil, the grated parmesan and season with salt and pepper. Add the breadcrumbs to the mixture and create some small balls. Preheat the oven. When it is preheated, insert the tray and cook for 12 minutes. Once the cooking program has finished, take out the tray and serve the meatballs with olive oil or tomato sauce.  ",
+    "ingredients": [
+        "400 g Minced chicken breast",
+        "100 ml Milk",
+        "50 g Grated parmesan",
+        "8 Fresh basil leaves",
+        "100 g Bread crumb",
+        "Salt",
+        "Pepper",
+        "Breadcrumbs"
+    ],
+    "autoSoft": 1,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}

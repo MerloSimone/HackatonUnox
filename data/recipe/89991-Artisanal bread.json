@@ -1,0 +1,71 @@
+{
+    "id": "89991",
+    "title": "Artisanal bread",
+    "signatureUrl": null,
+    "author": "Unox S.P.A. Unox",
+    "description": null,
+    "duration": 1800,
+    "family": "MIND_MAPS",
+    "kind": "OVEN_SET",
+    "foodTypes": [],
+    "cookingTypes": [],
+    "features": [
+        "mm_uip_smart_preheat",
+        "mm_uip_adaptive_cooking"
+    ],
+    "holdable": false,
+    "image": "company/recipes/6d2d3e19e0a19ad9cdc64b857b905857f844c29e4520ee1176cdcdd45d70ca11.jpg",
+    "imgUrl": "https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipes/6d2d3e19e0a19ad9cdc64b857b905857f844c29e4520ee1176cdcdd45d70ca11.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVUB6YL5ZRJQXHFDT%2F20240309%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T162149Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJIMEYCIQD6y8cNvtQV2FdO3EnggmWW696oLgTiTzo2ttXVnuqslgIhAPL9YQBxgbeqDIh88AyMNqGCvv1nvfEICHWedCCWfIOGKqMDCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg2Njc4Njc3MzYzIgzcaw%2FU4MHhdsLx9qoq9wIuwlqAKD9VTEpTJtteMpguuEnB79XO4ZUX3x18egsyWz6Vv5SiWu3BcPBr4aFgl8aRgfFFgBClVA30EFfBLGxB48Zk%2B8j4P2aCz4UZA9au0iohoTAdImuWEXuhZfUNAZsxFC2h6cqlclKhc%2FR%2BfDuUqimVbS71Y9gi6zGiADvGRneKbUgdzDdufaTWjQkK84t6c8fuRelNt7P1EhzaQ9cEBEAgtoO2rwmnu%2Bnw%2BNCKB0t9mtWo7qk1N8EFRSaFTphawAtWo6IMZceNLWUQw7KY%2FK5hH00LNPX%2FwhhmbdIVytBcuLe%2Bwkjr6y%2BoIn%2F6Tq0v27DcJXYEIE2EVXU4L5sMUkr18kiEw9tn7rARomP23jFXmXVYkhIYMQcsAb3Jls70ZvSsThfbCY0RkEkZJS10Q%2BfCAUifFGjIbVfb%2FSgWPpWEzwDN%2BbicAD8D3KN5bWHtDtZEvImuej0udt2UWjIFRaTGT3EfhxaWqBYGd36e1Ko%2BPoqmWoww5JSyrwY6nAHhDnWx0X5qljBQwGUOvB8norXQBxtyOMie4a1kd0rJXclbnTZXoigDBVJWjnIxw035NNnKUoGfU2ZQf0B6A1i%2F0AwLqCeBZzkn0W0dAuCvpO53uCXfahvynHU3AEDcE2TluY7AUAiyEO%2FJ0cROhOCO7XUeI2s5vUr%2FE0FDrNaBmTos51wPLOrjoVUlkgzDqTHOt4dEUWIblTVJfo0%3D&X-Amz-Signature=5fe5f96c466e61747a613458fb4451d5036f7a9aa2fe5efe59b469aa33e02fa9&X-Amz-SignedHeaders=host",
+    "createdAt": "2023-10-11T07:12:18.581Z",
+    "modifiedAt": "2023-10-11T10:37:51.955Z",
+    "id_community_recipe": null,
+    "precooking": [],
+    "postcooking": [],
+    "lifespan": 0,
+    "cookingTag": null,
+    "program": {
+        "preheat": {
+            "temp": 0
+        },
+        "steps": [
+            {
+                "fan": 4,
+                "temp": 210,
+                "time": "120",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "manual"
+            },
+            {
+                "fan": 1,
+                "temp": 30,
+                "time": "60",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "manual"
+            },
+            {
+                "fan": 3,
+                "temp": 170,
+                "time": "1020",
+                "clima": 0,
+                "pulse": "0",
+                "preset": "manual"
+            },
+            {
+                "fan": 4,
+                "temp": 210,
+                "time": "600",
+                "clima": 100,
+                "pulse": "0",
+                "preset": "manual"
+            }
+        ]
+    },
+    "preparation": "",
+    "ingredients": [],
+    "autoSoft": 0,
+    "polloCabinet": 0,
+    "adaptiveCooking": 1,
+    "smartPreheating": 1
+}
