@@ -15,24 +15,27 @@ import streamlit as st #all streamlit commands will be available through the "st
 
 def get_llm():
 
-	if 'chat_type' not in st.session_state:
-		print('not defined')
-	else:
-		if st.session_state.chat_type == 'product_exploration':
-			print('ok')
-		elif st.session_state.chat_type == 'my_recipes':
-			print('ok')
-		elif st.session_state.chat_type == 'other_recipes':
-			return llm_model(maxTokens=1024,temperature=0.2, topP=0.2).get_model()
-		elif st.session_state.chat_type == 'add_recipes':
-			print('ok')
-		elif st.session_state.chat_type == 'email':
-			return llm_model(maxTokens=4096,temperature=0.55,topP=0.9).get_model()
-		else:
-			print('ok')
+    if 'chat_type' not in st.session_state:
+        print('not defined')
+    else:
+        if st.session_state.chat_type == 'product_exploration':
+            print('product_exploration')
+            llm_model(maxTokens=2048,temperature=0.55, topP=0.9).get_model()
+        elif st.session_state.chat_type == 'my_recipes':
+            print('my_recipes')
+        elif st.session_state.chat_type == 'other_recipes':
+            print('other_recipes')
+            return llm_model(maxTokens=2048,temperature=0.2, topP=0.2).get_model()
+        elif st.session_state.chat_type == 'add_recipes':
+            print('add_recipes')
+        elif st.session_state.chat_type == 'email':
+            print('email')
+            return llm_model(maxTokens=4096,temperature=0.55,topP=0.9).get_model()
+        else:
+            print('ok')
 
 
-	return llm_model(maxTokens=2048,temperature=0.55, topP=0.9).get_model()
+    return llm_model(maxTokens=2048,temperature=0.55, topP=0.9).get_model()
 """ 
     model_kwargs =  { #AI21
         "maxTokens": 1024, 
@@ -76,7 +79,7 @@ def get_index(index_name=None): #creates and returns an in-memory vector store t
 
     #loaders=[]
     #for(file_path in pdf_files_path):
-    #	loader.append(PyPDFLoader(file_path=file_path))
+    #   loader.append(PyPDFLoader(file_path=file_path))
 
     loader = PyPDFLoader(file_path=pdf_path) #load the pdf file
     
@@ -125,7 +128,7 @@ def get_rag_mail_response(input_text, index): #chat client function
     st.session_state.memory=get_memory()
     st.session_state.chat_history = []
     st.session_state.chat_history.append({"role":"user", "text":input_text})
-	
+    
     conversation_with_retrieval = ConversationalRetrievalChain.from_llm(llm, index.as_retriever(), memory=st.session_state.memory)
     
     chat_response = conversation_with_retrieval({"question": input_text})
