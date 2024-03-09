@@ -8,6 +8,7 @@ import time
 import re
 import boto3
 import json
+import pprint
 
 import sys
 sys.path.append('..')
@@ -20,6 +21,25 @@ from email.mime.text import MIMEText
 from email.message import EmailMessage
 from requests import HTTPError
 
+# Create a dictionary to store the data
+data_structure = {}
+
+
+def process_email(sender, category, summary, response):
+    if sender in data:
+        # If the sender exists, append the new record to the list
+        data[sender].append({
+            'Category': category,
+            'Summary': summary,
+            'Response': response
+        })
+    else:
+        # If the sender does not exist, create a new list with the record
+        data[sender] = [{
+            'Category': category,
+            'Summary': summary,
+            'Response': response
+        }]
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly','https://www.googleapis.com/auth/gmail.modify']
 
@@ -200,6 +220,8 @@ def ask_question(response, user_question, modelId='anthropic.claude-v2', max_tok
 
 
 
+
+
 while (1):
     lista_param = readEmails()
     if (lista_param[1] != "No new messages." and lista_param != None and lista_param[0] != "no-reply@accounts.google.com"): 
@@ -220,6 +242,7 @@ while (1):
         # Load the response as a Python dictionary
         response_dict = json.loads(response_json)
         
+        sender = lista_param[0]
         # Extract the 'response' field
         category = response_dict.get('Category')
         # Extract the 'response' field
@@ -230,12 +253,20 @@ while (1):
         print("Category is: " +category)
         print("Summary is: " +summary)
         print("Response is: " +response)
+        print("Sender is: " +sender)
 
-        
-
+        #Check if the category is already in the dictionary
+        if sender in data_structure:
+           # If the category exists, append the new entry to the existing list
+           data_structure[sender].append({'Category': category, 'Summary': summary, 'Response': response})
+        else:
+           # If the category doesn't exist, create a new list with the first entry
+           data_structure[sender] = [{'Category': category, 'Summary': summary, 'Response': response}]
+    
         sendEmail(lista_param[0], response)
         #insert_response_into_database(db_connection, lista_param[0], lista_param[1], response)
         
+        print(data_structure)
 
     time.sleep(3)
     print("slept...")

@@ -1,13 +1,25 @@
 import streamlit as st #all streamlit commands will be available through the "st" alias
 # import rag_chatbot_lib as glib #reference to local lib script
-from pages import rag_chatbot_lib as glib
+
+import sys
+sys.path.append('../../')
+# Use absolute import for bot_lib
+import bot_lib as glib
 
 st.set_page_config(page_title="Our products") #HTML title
 
-
-
 st.title("Our products") #page title
-st.text("Product expl")
+st.text("Unox's products exploration")
+
+
+return_button = st.button("Return")
+
+if return_button:
+    st.switch_page("pages/webapp.py")
+
+
+
+
 
 if 'memory' not in st.session_state: #see if the memory hasn't been created yet
     st.session_state.memory = glib.get_memory() #initialize the memory
@@ -18,7 +30,7 @@ if 'chat_history' not in st.session_state: #see if the chat history hasn't been 
 
 if 'vector_index' not in st.session_state: #see if the vector index hasn't been created yet
     with st.spinner("Indexing document..."): #show a spinner while the code in this with block runs
-        st.session_state.vector_index = glib.get_index() #retrieve the index through the supporting library and store in the app's session cache
+        st.session_state.vector_index = glib.get_index("../../new_index") #retrieve the index through the supporting library and store in the app's session cache
 
 
 
@@ -30,7 +42,12 @@ for message in st.session_state.chat_history: #loop through the chat history
 
 
 
+
+# with col1:
 input_text = st.chat_input("Chat with your bot here") #display a chat input box
+
+
+
 
 if input_text: #run the code in this if block after the user submits a chat message
     
@@ -45,4 +62,3 @@ if input_text: #run the code in this if block after the user submits a chat mess
         st.markdown(chat_response) #display bot's latest response
     
     st.session_state.chat_history.append({"role":"assistant", "text":chat_response}) #append the bot's latest message to the chat history
-    
