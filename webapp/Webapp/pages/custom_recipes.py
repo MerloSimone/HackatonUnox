@@ -7,7 +7,7 @@ sys.path.append('../../')
 import bot_lib as glib
 
 st.set_page_config(page_title="Custom recipes") #HTML title
-st.title("Custom recipes") #page title
+st.title("Your custom recipes") #page title
 
 
 

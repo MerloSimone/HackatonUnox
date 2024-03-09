@@ -8,10 +8,18 @@ import bot_lib as glib
 
 st.set_page_config(page_title="Our products") #HTML title
 
-
-
 st.title("Our products") #page title
-st.text("Product expl")
+st.text("Unox's products exploration")
+
+
+return_button = st.button("Return")
+
+if return_button:
+    st.switch_page("pages/webapp.py")
+
+
+
+
 
 if 'memory' not in st.session_state: #see if the memory hasn't been created yet
     st.session_state.memory = glib.get_memory() #initialize the memory
@@ -34,7 +42,12 @@ for message in st.session_state.chat_history: #loop through the chat history
 
 
 
+
+# with col1:
 input_text = st.chat_input("Chat with your bot here") #display a chat input box
+
+
+
 
 if input_text: #run the code in this if block after the user submits a chat message
     
@@ -49,4 +62,3 @@ if input_text: #run the code in this if block after the user submits a chat mess
         st.markdown(chat_response) #display bot's latest response
     
     st.session_state.chat_history.append({"role":"assistant", "text":chat_response}) #append the bot's latest message to the chat history
-    
