@@ -160,3 +160,6 @@ cython_debug/
 webapp/pages/2022-Shareholder-Letter.pdf
 .gitignore
 .gitignore
+temp.py
+new_index/index.faiss
+new_index/index.pkl
