@@ -20,7 +20,7 @@ def get_llm():
     else:
         if st.session_state.chat_type == 'product_exploration':
             print('product_exploration')
-            llm_model(maxTokens=2048,temperature=0.55, topP=0.9).get_model()
+            llm_model(maxTokens=2048,temperature=1, topP=0.9).get_model()
         elif st.session_state.chat_type == 'my_recipes':
             print('my_recipes')
         elif st.session_state.chat_type == 'other_recipes':

@@ -1,18 +1,27 @@
 import streamlit as st #all streamlit commands will be available through the "st" alias
-
-
+import os
 import sys
+
+from time import sleep
+
 sys.path.append('../../')
 # Use absolute import for bot_lib
 import bot_lib as glib
 
+st.session_state.chat_type = "other_recipes"
+st.session_state.chat_history = []
+
 st.set_page_config(page_title="General recipes") #HTML title
 st.title("General recipes") #page title
 
+return_button = st.button("Return")
+
+if return_button:
+    st.switch_page("pages/webapp.py")
 
 
 
-st.text("Ricette generali")
+st.text("General recipes")
 
 if 'memory' not in st.session_state: #see if the memory hasn't been created yet
     st.session_state.memory = glib.get_memory() #initialize the memory
@@ -22,9 +31,7 @@ if 'chat_history' not in st.session_state: #see if the chat history hasn't been 
     st.session_state.chat_history = [] #initialize the chat history
 
 if 'vector_index' not in st.session_state: #see if the vector index hasn't been created yet
-    with st.spinner("Indexing document..."): #show a spinner while the code in this with block runs
-        st.session_state.vector_index = glib.get_index("../../general_index") #retrieve the index through the supporting library and store in the app's session cache
-
+    st.session_state.vector_index = glib.get_index("../../pdf_recipe_new_index") #retrieve the index through the supporting library and store in the app's session cache
 
 
 

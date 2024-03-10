@@ -240,7 +240,7 @@ while (1):
         response_json = ask_question(response, prompt)
         
         # Load the response as a Python dictionary
-        response_dict = json.loads(response_json)
+        response_dict = json.loads(response_json, strict=False)
         
         sender = lista_param[0]
         # Extract the 'response' field

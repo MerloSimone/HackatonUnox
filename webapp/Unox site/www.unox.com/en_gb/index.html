@@ -33,14 +33,14 @@
   </style>
   
   <div id="circle" style="z-index: 1001;position: fixed;bottom: 20px; right: 20px; background-color: white; border-color: #0099ff; border-width: 5px;">
-    <i class="fa-solid fa-comments"></i>
+    <i class="fa-solid fa-comments" style="position: fixed; bottom: 37px;right: 35px;"></i>
   </div>
   
   <div id="hiddenDivs" >
   
     <div style="position: fixed; overflow: hidden; bottom: 20px; right: 20px; width: 650px; height: 600px; border: 1px solid lightblue; z-index: 1000; border-radius: 10px;">
       <div style="background-color: #0099ff; color: white; padding: 5px; height: 25px; padding-bottom:30px">
-        <img src="..\static\android-icon-192x192.png" style="vertical-align: middle; height: 30px; float: left;"> 
+        <img src="..\static\android-icon-192x192.png" style="vertical-align: middle; height: 30px; float: left; "> 
         &nbsp;&nbsp;&nbsp; Unox
       </div>
     
@@ -54,7 +54,7 @@
     const hiddenDivs = document.getElementById("hiddenDivs");
   
     circle.addEventListener("click", function() {
-      circle.style.display = 'none';
+      // circle.style.display = 'none';
       hiddenDivs.style.display = "block";
       hiddenDivs.style.opacity = 0;
   
@@ -63,10 +63,10 @@
       let opacity_c = 1; 
       let timer = setInterval(function() {
         opacity += 0.05; 
-        opacity_c -= 0.05; 
+        opacity_c -= 0.04; 
         hiddenDivs.style.opacity = opacity;
         circle.style.opacity = opacity_c;
-        if (opacity >= 1) {
+        if (opacity >= 1 && opacity_c<0) {
           clearInterval(timer);
         }
       }, 50);
