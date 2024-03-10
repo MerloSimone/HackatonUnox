@@ -1,4 +1,6 @@
 import streamlit as st
+import webbrowser as wb
+from time import sleep
 
 st.set_page_config(page_title="How can UNOX help you?")
 st.title("Unox chatbot")
@@ -25,4 +27,12 @@ if recip_button:
    st.switch_page("pages/recipes.py")
 
 if upload:
-   st.switch_page("pages/upload_file.py")
+   wb.open_new_tab("http://localhost:8501/upload_file")
+   # st.switch_page("pages/upload_file.py")
+   text = st.text("Check the new tab to upload the files")
+   bar = st.progress(0)
+   for i in range(101):
+      bar.progress(i)
+      sleep(0.1)
+   bar.empty()
+   text.empty()
