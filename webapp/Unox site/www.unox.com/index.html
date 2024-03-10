@@ -42,7 +42,6 @@
       <div style="background-color: #0099ff; color: white; padding: 5px; height: 25px; padding-bottom:30px">
         <img src="..\static\android-icon-192x192.png" style="vertical-align: middle; height: 30px; float: left; "> 
         &nbsp;&nbsp;&nbsp; Unox
-        <img id="close_tab" src="https://png2.cleanpng.com/sh/e869cd73004cb0dbe07121e428980761/L0KzQYm3UsA3N6N0j5H0aYP2gLBuTfNqepRxfZ9saHXme370ggJsNZRxgeI2YYL3PbXsjwkua51uiNN7dIOwRbKAWfM3PWg1eao7ZUGxSYa7UcgyQGo2TaMCOUOzQIi4UMQ0OV91htk=/kisspng-circle-check-mark-clip-art-deny-cliparts-5a79c6570a82e1.9541818915179300710431.png" style="vertical-align: middle; height: 28px; float: right; margin-right: 10px;"> 
       </div>
     
       <iframe src="http://localhost:8501" style="width: -webkit-fill-available; height: -webkit-fill-available;" frameborder="0"></iframe>
@@ -52,7 +51,6 @@
   
   <script>
     const circle = document.getElementById("circle");
-    const close = document.getElementById("close_tab");
     const hiddenDivs = document.getElementById("hiddenDivs");
   
     circle.addEventListener("click", function() {
@@ -70,31 +68,9 @@
         circle.style.opacity = opacity_c;
         if (opacity >= 1 && opacity_c<0) {
           clearInterval(timer);
-          circle.style.display = "none";
         }
       }, 50);
     });
-
-    close_tab.addEventListener("click", function(){
-      circle.style.display = "block";
-      circle.style.opacity = 0;
-  
-      // Fade in effect
-      let opacity = 1; 
-      let opacity_c = 0; 
-      let timer = setInterval(function() {
-        opacity -= 0.05; 
-        opacity_c += 0.04; 
-        hiddenDivs.style.opacity = opacity;
-        circle.style.opacity = opacity_c;
-        if (opacity < 0 && opacity_c>1) {
-          clearInterval(timer);
-          hiddenDivs.style.display = "none";
-        }
-      }, 50);
-    })
-
-
   </script>
 
 <!-- <script>

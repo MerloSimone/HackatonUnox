@@ -64,7 +64,7 @@ col1, col2 = st.columns(2)
 with col1: 
     send_button = st.button("Send Files", use_container_width=True)
 with col2:
-    ret_button = st.button("Return", use_container_width=True)
+    ret_button = st.button("Home", use_container_width=True)
 
 # Button to trigger function
 if send_button:

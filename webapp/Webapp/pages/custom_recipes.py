@@ -6,13 +6,21 @@ sys.path.append('../../')
 # Use absolute import for bot_lib
 import bot_lib as glib
 st.session_state.chat_type = "my_recipes"
-st.session_state.chat_history = []
+
 
 
 st.set_page_config(page_title="Custom recipes and procedures") #HTML title
 st.title("Your custom recipes and procedures") #page title
 
-return_button = st.button("Return")
+col1, col2 = st.columns(2)
+with col1:
+    return_button = st.button("Home")
+with col2:
+    reset_button = st.button("Reset")
+
+if reset_button:
+    st.session_state.chat_history = []
+    st.session_state.memory = glib.get_memory() #initialize the memory
 
 if return_button:
     st.switch_page("pages/webapp.py")
