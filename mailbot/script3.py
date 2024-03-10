@@ -311,8 +311,8 @@ while (1):
         
         print(data_structure)
 
-    time.sleep(3)
-    print("slept...")
+    time.sleep(1)
+    #print("slept...")
     
 if connection:
    connection.close()
