@@ -90,6 +90,7 @@
         if (opacity < 0 && opacity_c>1) {
           clearInterval(timer);
           hiddenDivs.style.display = "none";
+          sessionStorage.clear();
         }
       }, 50);
     })
