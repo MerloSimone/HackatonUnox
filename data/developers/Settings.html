@@ -1,0 +1,3540 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+  <section id="api-Settings" class="show-api-group show-api-Settings-group">
+  <h1 class="color-primary font-weight-bold">Settings</h1>
+  <div id="api-Settings-GetV2SettingsCompany" class="show-api-article show-api-Settings-article show-api-Settings-GetV2SettingsCompany-article ">
+
+    <article id="api-Settings-GetV2SettingsCompany-0.0.0" data-group="Settings" data-name="GetV2SettingsCompany" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Company details</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get company settings</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/company</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code> - <br> Company name</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            email
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>email</code> - <br> Company email address</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            phone
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>phone</code> - <br> Company phone number</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            address
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>address</code> - <br> Company address</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            image
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>image</code> - <br> Company image uri</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            imageUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>imageUrl</code> - <br> Company image Url</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enable_notification
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>enable_notification</code> - <br> Enable notifications</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;enableAlarmNotification
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enable_notification.enableAlarmNotification</code> - <br> Enable alarm notification for push notification and in app notifications</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;enableCookingEndedNotification
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enable_notification.enableCookingEndedNotification</code> - <br> Enable end of cooking notifications</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarm_notifications
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>alarm_notifications</code> - <br> Enable alarm notification by lometto</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarm_notifications_mail
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>alarm_notifications_mail</code> - <br> Email address used to receive emails</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_cooking_hours
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_cooking_hours</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_washing_hours
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>target_washing_hours</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;min
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_washing_hours.min</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;max
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_washing_hours.max</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_open_door
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>target_open_door</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_20
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.tray_20</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.tray_10</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_7
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.tray_7</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;multiTime
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.multiTime</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-GetV2SettingsCompany-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-GetV2SettingsCompany-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"company Name"</span><span class="token punctuation">,</span>
+    <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"demoddc@unox.com"</span><span class="token punctuation">,</span>
+    <span class="token property">"phone"</span><span class="token operator">:</span> <span class="token string">"049 865 444444"</span><span class="token punctuation">,</span>
+    <span class="token property">"address"</span><span class="token operator">:</span> <span class="token string">"Via Ettore Majorana, 22"</span><span class="token punctuation">,</span>
+    <span class="token property">"image"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"imageUrl"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-PostV2SettingsUser" class="show-api-article show-api-Settings-article show-api-Settings-PostV2SettingsUser-article ">
+
+    <article id="api-Settings-PostV2SettingsUser-0.0.0" data-group="Settings" data-name="PostV2SettingsUser" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Create account</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Create new user</p><p></p>
+      <span class="method meth-post">post</span>
+      <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            firstName
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>firstName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            lastName
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>lastName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            email
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>email</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            password
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>password</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_device_group
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id_device_group</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_ulg
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id_ulg</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-PostV2SettingsUser-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-PostV2SettingsUser-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">242</span><span class="token punctuation">,</span>
+        <span class="token property">"id_ulg"</span><span class="token operator">:</span> <span class="token string">"5f9b1b3b-5b9a-4c7a-8c9a-5a5a5a5a5a5a"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-DeleteV2SettingsUserUserid" class="show-api-article show-api-Settings-article show-api-Settings-DeleteV2SettingsUserUserid-article ">
+
+    <article id="api-Settings-DeleteV2SettingsUserUserid-0.0.0" data-group="Settings" data-name="DeleteV2SettingsUserUserid" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Delete account</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>An admin can delete a collaborator account</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/user/:userId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            userId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>User id</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            userId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>User id</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-DeleteV2SettingsUserUserid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-DeleteV2SettingsUserUserid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+        <span class="token property">"userId"</span><span class="token operator">:</span> <span class="token number">242</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-DeleteV2SettingsUser" class="show-api-article show-api-Settings-article show-api-Settings-DeleteV2SettingsUser-article ">
+
+    <article id="api-Settings-DeleteV2SettingsUser-0.0.0" data-group="Settings" data-name="DeleteV2SettingsUser" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Delete profile</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Delete user</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            userId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>User id</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-DeleteV2SettingsUser-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-DeleteV2SettingsUser-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+        <span class="token property">"userId"</span><span class="token operator">:</span> <span class="token number">242</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-DeleteV2SettingsUlg" class="show-api-article show-api-Settings-article show-api-Settings-DeleteV2SettingsUlg-article ">
+
+    <article id="api-Settings-DeleteV2SettingsUlg-0.0.0" data-group="Settings" data-name="DeleteV2SettingsUlg" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Delete ulg profile</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Delete ulg user</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/ulg</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-DeleteV2SettingsUlg-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-DeleteV2SettingsUlg-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="String" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-string" tabindex="0"><code class="language-string">Response 200
+'request sent'</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-GetV2SettingsCost" class="show-api-article show-api-Settings-article show-api-Settings-GetV2SettingsCost-article ">
+
+    <article id="api-Settings-GetV2SettingsCost-0.0.0" data-group="Settings" data-name="GetV2SettingsCost" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Enterprise fees</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get enterprise fees</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/cost</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            country
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">string</td>
+          <td><p>Country code</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            currency
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>currency</code> - <br> Currency</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            symbol
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>symbol</code> - <br> Currency symbol</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            fees
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>fees</code> - <br> Enterprise fees</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>fees.10</code> - <br> Activation fees up to 10 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;50
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>fees.50</code> - <br> Activation fees up to 50 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;100
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>fees.100</code> - <br> Activation fees up to 100 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;500
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>fees.500</code> - <br> Activation fees up to 500 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;1000
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>fees.1000</code> - <br> Activation fees up to 1000 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            digitalId_features
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>digitalId_features</code> - <br> Digital.id fees</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>digitalId_features.10</code> - <br> Digital.ID fees up to 10 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;50
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>digitalId_features.50</code> - <br> Digital.ID fees up to 50 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;100
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>digitalId_features.100</code> - <br> Digital.ID fees up to 100 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;500
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>digitalId_features.500</code> - <br> Digital.ID fees up to 500 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;1000
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>digitalId_features.1000</code> - <br> Digital.ID fees up to 1000 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            kitchen_scheduler
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>kitchen_scheduler</code> - <br> Kitchen scheduler activation fees</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            kitchen_scheduler_cost
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>kitchen_scheduler_cost</code> - <br> Kitchen scheduler fees</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>kitchen_scheduler_cost.10</code> - <br> Kitchen scheduler fees up to 10 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;50
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>kitchen_scheduler_cost.50</code> - <br> Kitchen scheduler fees up to 50 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;100
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>kitchen_scheduler_cost.100</code> - <br> Kitchen scheduler fees up to 100 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;500
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>kitchen_scheduler_cost.500</code> - <br> Kitchen scheduler fees up to 500 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;1000
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>kitchen_scheduler_cost.1000</code> - <br> Kitchen scheduler fees up to 1000 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            optic_cooking
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>optic_cooking</code> - <br> Optic cooking fees</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>optic_cooking.10</code> - <br> Optic cooking fees up to 10 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;50
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>optic_cooking.50</code> - <br> Optic cooking fees up to 50 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;100
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>optic_cooking.100</code> - <br> Optic cooking fees up to 100 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;500
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>optic_cooking.500</code> - <br> Optic cooking fees up to 500 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;1000
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>optic_cooking.1000</code> - <br> Optic cooking fees up to 1000 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            rest_api
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>rest_api</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>rest_api.10</code> - <br> Rest API fees up to 10 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;50
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>rest_api.50</code> - <br> Rest API fees up to 50 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;100
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>rest_api.100</code> - <br> Rest API fees up to 100 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;500
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>rest_api.500</code> - <br> Rest API fees up to 500 ovens</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;1000
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>rest_api.1000</code> - <br> Rest API fees up to 1000 ovens</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-GetV2SettingsCost-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-GetV2SettingsCost-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"fees"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"10"</span><span class="token operator">:</span> <span class="token number">500</span><span class="token punctuation">,</span>
+        <span class="token property">"50"</span><span class="token operator">:</span> <span class="token number">2000</span><span class="token punctuation">,</span>
+        <span class="token property">"100"</span><span class="token operator">:</span> <span class="token number">3500</span><span class="token punctuation">,</span>
+        <span class="token property">"500"</span><span class="token operator">:</span> <span class="token number">7000</span><span class="token punctuation">,</span>
+        <span class="token property">"1000"</span><span class="token operator">:</span> <span class="token number">12000</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"digitalId_features"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"10"</span><span class="token operator">:</span> <span class="token number">500</span><span class="token punctuation">,</span>
+        <span class="token property">"50"</span><span class="token operator">:</span> <span class="token number">2000</span><span class="token punctuation">,</span>
+        <span class="token property">"100"</span><span class="token operator">:</span> <span class="token number">3500</span><span class="token punctuation">,</span>
+        <span class="token property">"500"</span><span class="token operator">:</span> <span class="token number">7000</span><span class="token punctuation">,</span>
+        <span class="token property">"1000"</span><span class="token operator">:</span> <span class="token number">12000</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"optic_cooking"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"10"</span><span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+        <span class="token property">"50"</span><span class="token operator">:</span> <span class="token number">2000</span><span class="token punctuation">,</span>
+        <span class="token property">"100"</span><span class="token operator">:</span> <span class="token number">3500</span><span class="token punctuation">,</span>
+        <span class="token property">"500"</span><span class="token operator">:</span> <span class="token number">7000</span><span class="token punctuation">,</span>
+        <span class="token property">"1000"</span><span class="token operator">:</span> <span class="token number">12000</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"currency"</span><span class="token operator">:</span> <span class="token string">"EUR"</span><span class="token punctuation">,</span>
+    <span class="token property">"kitchen_scheduler"</span><span class="token operator">:</span> <span class="token number">3500</span><span class="token punctuation">,</span>
+    <span class="token property">"kitchen_scheduler_cost"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"10"</span><span class="token operator">:</span> <span class="token number">3100</span><span class="token punctuation">,</span>
+        <span class="token property">"50"</span><span class="token operator">:</span> <span class="token number">3400</span><span class="token punctuation">,</span>
+        <span class="token property">"100"</span><span class="token operator">:</span> <span class="token number">3700</span><span class="token punctuation">,</span>
+        <span class="token property">"500"</span><span class="token operator">:</span> <span class="token number">4400</span><span class="token punctuation">,</span>
+        <span class="token property">"1000"</span><span class="token operator">:</span> <span class="token number">5400</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"rest_api"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"10"</span><span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+        <span class="token property">"50"</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+        <span class="token property">"100"</span><span class="token operator">:</span> <span class="token number">350</span><span class="token punctuation">,</span>
+        <span class="token property">"500"</span><span class="token operator">:</span> <span class="token number">700</span><span class="token punctuation">,</span>
+        <span class="token property">"1000"</span><span class="token operator">:</span> <span class="token number">1200</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-GetV2SettingsUser" class="show-api-article show-api-Settings-article show-api-Settings-GetV2SettingsUser-article ">
+
+    <article id="api-Settings-GetV2SettingsUser-0.0.0" data-group="Settings" data-name="GetV2SettingsUser" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Get users</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get users list</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_device_group
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>id_device_group</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            email
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>email</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            image
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>image</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            device_group_name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>device_group_name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            permissions
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>permissions</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;role
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>permissions.role</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;manage_devices
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>permissions.manage_devices</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;manage_recipes
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>permissions.manage_recipes</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-GetV2SettingsUser-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-GetV2SettingsUser-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">242</span><span class="token punctuation">,</span>
+        <span class="token property">"id_device_group"</span><span class="token operator">:</span> <span class="token number">33</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Unox S.P.A. Unox"</span><span class="token punctuation">,</span>
+        <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"demoddc@unox.com"</span><span class="token punctuation">,</span>
+        <span class="token property">"device_group_name"</span><span class="token operator">:</span> <span class="token string">"Unox"</span><span class="token punctuation">,</span>
+        <span class="token property">"image"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">"permissions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"role"</span><span class="token operator">:</span> <span class="token string">"ADMIN"</span><span class="token punctuation">,</span>
+            <span class="token property">"manage_devices"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token property">"manage_recipes"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-PatchV2SettingsPermission" class="show-api-article show-api-Settings-article show-api-Settings-PatchV2SettingsPermission-article ">
+
+    <article id="api-Settings-PatchV2SettingsPermission-0.0.0" data-group="Settings" data-name="PatchV2SettingsPermission" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Manage accounts</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Manage permisions</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/permission</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            userId
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>userId</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            manage_devices
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>manage_devices</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            manage_recipes
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>manage_recipes</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_device_group
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id_device_group</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            user
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>user</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            permissions
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>permissions</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;role
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>permissions.role</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;manage_devices
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>permissions.manage_devices</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;manage_recipes
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>permissions.manage_recipes</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-PatchV2SettingsPermission-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-PatchV2SettingsPermission-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+        <span class="token property">"user"</span><span class="token operator">:</span> <span class="token number">242</span><span class="token punctuation">,</span>
+        <span class="token property">"device_group"</span><span class="token operator">:</span> <span class="token number">1</span>
+        <span class="token property">"permissions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"role"</span><span class="token operator">:</span> <span class="token string">"ADMIN"</span><span class="token punctuation">,</span>
+            <span class="token property">"manage_devices"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token property">"manage_recipes"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-PostV2SettingsEnterprise" class="show-api-article show-api-Settings-article show-api-Settings-PostV2SettingsEnterprise-article ">
+
+    <article id="api-Settings-PostV2SettingsEnterprise-0.0.0" data-group="Settings" data-name="PostV2SettingsEnterprise" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Manage enterprise</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Create or update enterprise account</p><p></p>
+      <span class="method meth-post">post</span>
+      <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/enterprise</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            number_ovens
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>number_ovens</code> - <br> Number of oven 10, 50, 100, 500 or 1000</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            number_years
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>number_years</code> - <br> Number of paid years maximum 5 years</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            rest_api
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>rest_api</code> - <br> Rest API feature</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            digitalId_features
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>digitalId_features</code> - <br> Number of oven having digitalId features 10, 50, 100, 500 or 1000</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            optic_cooking
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>optic_cooking</code> - <br> Number of oven having optic cooking features 10, 50, 100, 500 or 1000</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            kitchen_scheduler
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>kitchen_scheduler</code> - <br> Activation of kitchen scheduler feature</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            billingData
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>billingData</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;firstName
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.firstName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;lastName
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.lastName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;companyName
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.companyName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;address
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.address</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;addressNumber
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.addressNumber</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;zipCode
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.zipCode</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;city
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.city</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;state
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.state</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;country
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.country</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;phone
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.phone</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;fiscalCode
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.fiscalCode</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;vatNumber
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.vatNumber</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;sdiCode
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.sdiCode</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;pec
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.pec</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;invoiceEmail
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>billingData.invoiceEmail</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            promo_code
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>promo_code</code> - <br> Promo code</p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            created_account
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>created_account</code> - <br> Enterprise id</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            disactivated
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>disactivated</code> - <br> Old offer id</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            cost
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>cost</code> - <br> Enterprise plan cost</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;enterprise
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.enterprise</code> - <br> Activation fee</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;digitalId_features
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.digitalId_features</code> - <br> Digital.id cost</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;kitchen_scheduler
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.kitchen_scheduler</code> - <br> Kitchen scheduler cost</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;optic_cooking
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.optic_cooking</code> - <br> Optic cooking cost</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;rest_api
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.rest_api</code> - <br> Rest API cost</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-PostV2SettingsEnterprise-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-PostV2SettingsEnterprise-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"created_account"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">"cost"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"enterprise"</span><span class="token operator">:</span> <span class="token number">500</span><span class="token punctuation">,</span>
+        <span class="token property">"digitalId_features"</span><span class="token operator">:</span> <span class="token number">500</span><span class="token punctuation">,</span>
+        <span class="token property">"kitchen_scheduler"</span><span class="token operator">:</span> <span class="token number">900</span><span class="token punctuation">,</span>
+        <span class="token property">"optic_cooking"</span><span class="token operator">:</span> <span class="token number">500</span><span class="token punctuation">,</span>
+        <span class="token property">"rest_api"</span><span class="token operator">:</span> <span class="token number">450</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-GetV2SettingsEnterpriseConfig" class="show-api-article show-api-Settings-article show-api-Settings-GetV2SettingsEnterpriseConfig-article ">
+
+    <article id="api-Settings-GetV2SettingsEnterpriseConfig-0.0.0" data-group="Settings" data-name="GetV2SettingsEnterpriseConfig" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Promo code configuration</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get Promo code configuration</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/enterprise/config</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            promo_code
+          </td>
+          <td class="code">string</td>
+          <td><p>Promo code</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            config
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>config</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>config.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;number_ovens
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>config.number_ovens</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;rest_api
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>config.rest_api</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;digitalid_features
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>config.digitalid_features</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;kitchen_scheduler
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>config.kitchen_scheduler</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;optic_cooking
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>config.optic_cooking</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;promo_code
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>config.promo_code</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;expired_at
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>config.expired_at</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            cost
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>cost</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;currency
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>cost.currency</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;symbol
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>cost.symbol</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;enterprise
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.enterprise</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;digitalId_features
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.digitalId_features</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;kitchen_scheduler
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.kitchen_scheduler</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;optic_cooking
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.optic_cooking</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;rest_api
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>cost.rest_api</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            promo_code
+          </td>
+          <td class="code">
+            string
+          </td>
+          <td>
+            <p>Promo code not valid</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-PatchV2SettingsCompany" class="show-api-article show-api-Settings-article show-api-Settings-PatchV2SettingsCompany-article ">
+
+    <article id="api-Settings-PatchV2SettingsCompany-0.0.0" data-group="Settings" data-name="PatchV2SettingsCompany" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Update company settings</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update company settings</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/company</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            name
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>name</code> - <br> Company name</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            phone
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>phone</code> - <br> Company phone number</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            address
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>address</code> - <br> Company address</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            imageBlob
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>imageBlob</code> - <br> Company image</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarm_notifications
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>alarm_notifications</code> - <br> Enable or disable alarm email notification</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarm_notifications_mail
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>alarm_notifications_mail</code> - <br> Email address that will receive emails</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_cooking_hours
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_cooking_hours</code> - <br> Company target cooking hours</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_washing_hours
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>target_washing_hours</code> - <br> Company target washing hours</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;min
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_washing_hours.min</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;max
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_washing_hours.max</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_open_door
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>target_open_door</code> - <br> Company target open door duration per cooking in seconds</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_20
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_open_door.tray_20</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_10
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_open_door.tray_10</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_7
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_open_door.tray_7</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;multiTime
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>target_open_door.multiTime</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            migrated
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>migrated</code> - <br> Set to true if the user migrate to new DDC</p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            name
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code> - <br> Company name</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            phone
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>phone</code> - <br> Company phone number</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            address
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>address</code> - <br> Company address</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            imageBlob
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>imageBlob</code> - <br> Company image</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarm_notifications
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>alarm_notifications</code> - <br> Enable or disable alarm email notification</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarm_notifications_mail
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>alarm_notifications_mail</code> - <br> Email address that will receive emails</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_cooking_hours
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_cooking_hours</code> - <br> Company target cooking hours</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_washing_hours
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>target_washing_hours</code> - <br> Company target washing hours</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;min
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_washing_hours.min</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;max
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_washing_hours.max</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            target_open_door
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>target_open_door</code> - <br> Company target open door duration per cooking in seconds</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_20
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.tray_20</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_10
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.tray_10</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;tray_7
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.tray_7</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;multiTime
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>target_open_door.multiTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            migrated
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>migrated</code> - <br> Set to true if the user migrate to new DDC</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-PatchV2SettingsCompany-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-PatchV2SettingsCompany-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">"Demo"</span><span class="token punctuation">,</span>
+    <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">"DDC"</span><span class="token punctuation">,</span>
+    <span class="token property">"phone"</span><span class="token operator">:</span> <span class="token string">"659873136444"</span><span class="token punctuation">,</span>
+    <span class="token property">"password"</span><span class="token operator">:</span> <span class="token string">"updated"</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-PatchV2SettingsUser" class="show-api-article show-api-Settings-article show-api-Settings-PatchV2SettingsUser-article ">
+
+    <article id="api-Settings-PatchV2SettingsUser-0.0.0" data-group="Settings" data-name="PatchV2SettingsUser" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Update profile</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update profile</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            firstName
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>firstName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            lastName
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>lastName</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            phone
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>phone</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            password
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>password</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            newPassword
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>newPassword</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            imgBlob
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>imgBlob</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            addressCountry
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>addressCountry</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            firstName
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>firstName</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            lastName
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>lastName</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            phone
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>phone</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            image
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>image</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            password
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>password</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-PatchV2SettingsUser-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-PatchV2SettingsUser-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">"Demo"</span><span class="token punctuation">,</span>
+    <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">"DDC"</span><span class="token punctuation">,</span>
+    <span class="token property">"phone"</span><span class="token operator">:</span> <span class="token string">"659873136444"</span><span class="token punctuation">,</span>
+    <span class="token property">"password"</span><span class="token operator">:</span> <span class="token string">"updated"</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Settings-PatchV2SettingsPlatform" class="show-api-article show-api-Settings-article show-api-Settings-PatchV2SettingsPlatform-article ">
+
+    <article id="api-Settings-PatchV2SettingsPlatform-0.0.0" data-group="Settings" data-name="PatchV2SettingsPlatform" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Settings</span> <span class="text-muted">|</span> Update settings</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update settings</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/settings/platform</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            language
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>language</code> - <br> Profile language for ex: "it", "en", "ar"...</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            measure_units
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measure_units</code> - <br> Profile measure units</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;temperature
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>measure_units.temperature</code> - <br> Tempretaure unit for example: "celsius"</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;volume
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>measure_units.volume</code> - <br> Volume unit for example: "liters"</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;energy
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>measure_units.energy</code> - Energy unit for example: "kwh"</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;gas
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>measure_units.gas</code> - Gas unit fpr example: "smc"</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;weight
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>measure_units.weight</code> - Weight unit for example: "g"</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            calendar
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>calendar</code> - <br> Profile calendar visualisation settings</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;start_day
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>calendar.start_day</code> - Enum: "MONDAY", "TEUSDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY" <br> First day of the week on the calendar</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;hours
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>calendar.hours</code> - ENUM "12", "24" <br> Hours visualisation format</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enable_push_notification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>enable_push_notification</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enableAlarmNotification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>enableAlarmNotification</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enableCookingEndedNotification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>enableCookingEndedNotification</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            language
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>language</code> - <br> Profile language for ex: "it", "en", "ar"...</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            measure_units
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measure_units</code> - <br> Profile measure units</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;temperature
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measure_units.temperature</code> - <br> Tempretaure unit for example: "celsius"</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;volume
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measure_units.volume</code> - <br> Volume unit for example: "liters"</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;energy
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measure_units.energy</code> - Energy unit for example: "kwh"</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;gas
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measure_units.gas</code> - Gas unit fpr example: "smc"</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;weight
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measure_units.weight</code> - Weight unit for example: "g"</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            calendar
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>calendar</code> - <br> Profile calendar visualisation settings</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;start_day
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>calendar.start_day</code> - Enum: "MONDAY", "TEUSDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY" <br> First day of the week on the calendar</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;hours
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>calendar.hours</code> - ENUM "12", "24" <br> Hours visualisation format</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enable_push_notification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enable_push_notification</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enableAlarmNotification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enableAlarmNotification</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enableCookingEndedNotification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enableCookingEndedNotification</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Settings-PatchV2SettingsPlatform-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Settings-PatchV2SettingsPlatform-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"language"</span><span class="token operator">:</span> <span class="token string">"en"</span><span class="token punctuation">,</span>
+    <span class="token property">"measure_units"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token string">"smc"</span><span class="token punctuation">,</span>
+        <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token string">"kwh"</span><span class="token punctuation">,</span>
+        <span class="token property">"volume"</span><span class="token operator">:</span> <span class="token string">"liters"</span><span class="token punctuation">,</span>
+        <span class="token property">"temperature"</span><span class="token operator">:</span> <span class="token string">"celsius"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"calendar"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"hours"</span><span class="token operator">:</span> <span class="token string">"12"</span><span class="token punctuation">,</span>
+        <span class="token property">"start_day"</span><span class="token operator">:</span> <span class="token string">"MONDAY"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+</section>
+</body>
+</html>
+`

@@ -1,0 +1,2779 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<div id="sections">
+  <section id="api-Devices" class="show-api-group show-api-Devices-group">
+    <h1 class="color-primary font-weight-bold">Devices</h1>
+    <div id="api-Devices-GetV1DevicesRealtime" class="show-api-article show-api-Devices-article show-api-Devices-GetV1DevicesRealtime-article ">
+
+      <article id="api-Devices-GetV1DevicesRealtime-0.0.0" data-group="Devices" data-name="GetV1DevicesRealtime" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Get realtime</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get real time status of the device: offline, idle or cooking. If the oven is cooking, program information, estimated duration and temperatures are also provided.</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/realtime</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">Number</td>
+            <td><p>Id of device</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              idDevice
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>idDevice</code> - <br> Id of device</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              states
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>states</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;slaveId
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>states.slaveId</code> - Enum: 2 5 6 24 38 <br> Identifier of the device running the program, it can indicate both master devices or slave accessories. 2 (Mind Maps oven), 5 (SLOWTOP), 6 (PROVER), 24 (DECKTOP), 38 (BakerLux Shop Pro oven)</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.state</code> - Enum: "COOKING" "IDLE" "OFFLINE" <br> Info about the oven status, if "COOKING" recipe's information are added to Json</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;name
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.name</code> - <br> Name of recipe's currently active</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;signature
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.signature</code> - <br> Signature of the author</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;imgName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.imgName</code> - Url of recipes's image</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;kindOfCooking
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>states.kindOfCooking</code> - Enum: 1 2 3 4 5 6 7 8 11 <br> Type of program: 1 (WASHING), 2 (SET), 3 (PROGRAM), 4 (MIND.Maps), 5 (MULTI.Time), 6 (MISE EN PLACE), 7 (CHEFUNOX MULTI.Time), 8 (CHEFUNOX AUTO.Cook), 11 (READY.Cook)</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;startTime
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>states.startTime</code> - <br> When was the recipe started</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;estimatedEnd
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>states.estimatedEnd</code> - <br> When will the recipe end</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;useProbe
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>states.useProbe</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;probeTemp
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.probeTemp</code> - <br> Temperature detected by the probe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;signatureUrl
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.signatureUrl</code> - <br> Url of the Signature Image</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              timeStamp
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>timeStamp</code> - <br> Time considered for realtime data</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              variables
+            </td>
+            <td class="code">
+              Any[]
+            </td>
+            <td>
+              <p><code>variables</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices-GetV1DevicesRealtime-0_0_0-0" role="tab" data-toggle="tab">[</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices-GetV1DevicesRealtime-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json"><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">3522</span><span class="token punctuation">,</span>
+        <span class="token property">"states"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"slaveId"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+                <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">"COOKING"</span><span class="token punctuation">,</span>
+                <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"pollo al forno"</span><span class="token punctuation">,</span>
+                <span class="token property">"signature"</span><span class="token operator">:</span> <span class="token string">"..."</span><span class="token punctuation">,</span>
+                <span class="token property">"imgName"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+                <span class="token property">"kindOfCooking"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+                <span class="token property">"startTime"</span><span class="token operator">:</span> <span class="token string">"2019-06-11T09:22:40.490Z"</span><span class="token punctuation">,</span>
+                <span class="token property">"estimatedEnd"</span><span class="token operator">:</span> <span class="token string">"1970-01-01T00:00:00.000Z"</span><span class="token punctuation">,</span>
+                <span class="token property">"useProbe"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                <span class="token property">"probeTemp"</span><span class="token operator">:</span> <span class="token number">52.2</span><span class="token punctuation">,</span>
+                <span class="token property">"signatureUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">"timeStamp"</span><span class="token operator">:</span> <span class="token string">"2019-06-11T10:16:13.000Z"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+        <h2>403</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              error
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>Access denied to resource</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <h2>422</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              errors
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>No id specified</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#error-examples-Devices-GetV1DevicesRealtime-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+          </li>
+          <li>
+            <a href="#error-examples-Devices-GetV1DevicesRealtime-0_0_0-1" role="tab" data-toggle="tab">No id specified 422</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="error-examples-Devices-GetV1DevicesRealtime-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"error"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"error_type"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">"Access denied to requested resource/s"</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+          <div class="tab-pane" id="error-examples-Devices-GetV1DevicesRealtime-0_0_0-1">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">No id specified <span class="token number">422</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">"One or multiple device id must be specified"</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-GetV1DevicesRecipesRecipeid" class="show-api-article show-api-Devices-article show-api-Devices-GetV1DevicesRecipesRecipeid-article ">
+
+      <article id="api-Devices-GetV1DevicesRecipesRecipeid-0.0.0" data-group="Devices" data-name="GetV1DevicesRecipesRecipeid" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Get recipe by Id</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get details of a recipe in the cloud library, show details with cooking program, description,image, signature, etc…</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/recipes/:recipeId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+        <h2>Parameter</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              recipeId
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p>Recipe Id</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>id</code> - Id of Recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              title
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>title</code> - <br> Recipe's title</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              signatureUrl
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>signatureUrl</code> - <br> Temporary Url of the author's signature</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              author
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>author</code> - <br> Recipe's author</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              duration
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>duration</code> - <br> Cooking time</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              family
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>family</code> - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO" <br> Oven family</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              kind
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>kind</code> - Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET" "EVR_LT0_SET" "EVR_ST0_SET" <br> Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI. <br> Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER <br> accessory saved program, DECK_SET is DECKTOP accessory program</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              foodTypes
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>foodTypes</code> - Array of string <br> Types of food contained in the recipe, useful for filtering</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cookingTypes
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>cookingTypes</code> - Enum: 1 2 3 4 5 6 7 8 11 <br> <strong>Type of program</strong></p> <ul> <li> 1: WASHING </li> <li> 2: SET</li> <li> 3: PROGRAM</li> <li> 4: MIND.Maps</li> <li> 5: MULTI.Time</li> <li> 6: MISE EN PLACE</li> <li> 7: CHEFUNOX MULTI.Time</li> <li> 8: CHEFUNOX AUTO.Cook</li> <li> 11: READY.Cook</li> </ul>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              features
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>features</code> - Array of string <br> Enum: "mm_uip_pollo" "mm_uip_smart_preheat" "mm_uip_adaptive_cooking" "mm_steam_boost" "mm_pressure_steam" "mm_hyper_smoker" "mm_core_probe" "mm_uip_auto_soft" "mm_multi_time" "mm_mise_en_place" "mm_slave_decktop" "mm_slave_decktop" "sp_step_gt_99_mins" "sp_uip_smart_preheat" "sp_uip_adaptive_cooking" "sp_uip_auto_soft" <br> Array of Functionalities required by the oven to execute the recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              imgUrl
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>imgUrl</code> - <br> temporary image url</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              description
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>description</code> - <br> Description of recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              group
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>group</code> - <br> Id group of the oven where the recipe is saved</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              holdable
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>holdable</code> - <br> Option to keep the oven warm after the end of program</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              createdAt
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>createdAt</code> - <br>  Creation date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              modifiedAt
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>modifiedAt</code> - <br> Last update</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              preparation
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>preparation</code> - <br> Recipe's title</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              ingredients
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>ingredients</code> - <br> List of ingredients</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              adaptiveCooking
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>adaptiveCooking</code> - Enum: 0 1 <br> Check for adaptive cooking option</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              smartPreheating
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>smartPreheating</code> - Enum: 0 1 <br> Check for smart preheating option</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              autoSoft
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>autoSoft</code> - Enum: 0 1 <br> Check for smart autoSoft option</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              polloCabinet
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>polloCabinet</code> - Enum: 0 1 <br> Check for polloCabinet option</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              program
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>program</code> - <br> if it is an <strong>EVEREO recipe</strong>:</p> <ul>  <li>"cat": Food category</li>  <li>"hum": Humidity in the device</li>  <li>"temp": Temperature of food holding</li>  <li>"regen": Duration of the pasteurization</li>  <li>"holding": Duartion of food holding</li> </ul> <br> <strong>else</strong>: <ul>  <li>"steps": an array of</li>  <ul>  <li>"fan": Fan speed (1 to 5)</li>  <li>"temp": Temperature of cooking step</li>  <li>"time": Duration time of step</li>  <li>"clima": Humidity setting (-100, 100), negative value means humidity extraction, positive value means humidity addition using steam</li>  <li>"pulse": Define the pulse parameter of the fan, can be 0 or 1</li>  <li>"preset": Enumeration of braise, bread, combi, dehydrate, focaccia, fry, grill, hyper_smoker, manual, over_night, pastry, pizza, pressure_steam, roast,s ous_vide, steam. Type of preset choosen from the possible choices</li>  <li>"microwave": For speed ovens, it is the percentage of waves ranging from 0 to 100 </li>  <li>"smokerSize": Either 0 or 1 </li>  <li>"smoker": Smoking intensity (0 to 10)</li>  <li>"delta": In the cooking steps, it is the diffrence between the probe temperature and the chamber temperature.</li>  </ul>  <li>"preheat": an object of</li> <ul>  <li>"temp": Temperature of preheating</li>  <li>"time": Preheating time in seconds</li>  <li>"delta": The temperature added to the temperature of the previous step</li> </ul> </ul>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              idDevice
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>idDevice</code> - <br> device id</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              position
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>position</code> - <br> recipe position in group</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices-GetV1DevicesRecipesRecipeid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices-GetV1DevicesRecipesRecipeid-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+ <span class="token punctuation">{</span>
+   <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">423</span><span class="token punctuation">,</span>
+   <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"Roast chickens"</span><span class="token punctuation">,</span>
+   <span class="token property">"signatureUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span class="token punctuation">,</span>
+   <span class="token property">"author"</span><span class="token operator">:</span> <span class="token string">"Iginio Massari"</span><span class="token punctuation">,</span>
+   <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">3000</span><span class="token punctuation">,</span>
+   <span class="token property">"family"</span><span class="token operator">:</span> <span class="token string">"MIND_MAPS"</span><span class="token punctuation">,</span>
+   <span class="token property">"kind"</span><span class="token operator">:</span> <span class="token string">"OVEN_SET"</span><span class="token punctuation">,</span>
+   <span class="token property">"foodTypes"</span><span class="token operator">:</span> <span class="token string">"fish"</span><span class="token punctuation">,</span>
+   <span class="token property">"cookingTypes"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"features"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+     <span class="token string">"mm_uip_pollo"</span><span class="token punctuation">,</span>
+     <span class="token string">"mm_uip_smart_preheat"</span><span class="token punctuation">,</span>
+     <span class="token string">"mm_uip_adaptive_cooking"</span>
+   <span class="token punctuation">]</span><span class="token punctuation">,</span>
+   <span class="token property">"holdable"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span class="token punctuation">,</span>
+   <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2019-05-02T15:05:04.082Z"</span><span class="token punctuation">,</span>
+   <span class="token property">"modifiedAt"</span><span class="token operator">:</span> <span class="token string">"2019-05-02T15:09:40.615Z"</span><span class="token punctuation">,</span>
+   <span class="token property">"description"</span><span class="token operator">:</span> <span class="token number">423</span><span class="token punctuation">,</span>
+   <span class="token property">"preparation"</span><span class="token operator">:</span> <span class="token string">"Crush finely the biscuits adding the cinnamon. Pour in the melted butter and mix through.\\nTransfer the mix onto a 16 cm diameter cake mold and push it down with the back of a spoon applying gentle pressure. Set in the fridge while proceeding with the rest of the preparation.\\nNow mix together the fresh cheese and the sugar in a bowl using an electric whisk, proceed with adding eggs, one at the time until you end up with a smooth and creamy mixture. Add now the zest of a lemon, the cream and the sifted starch.\\nTransfer the mixture on top of the biscuit base, level it even and bake.\\nLeave to cool down and set in fridge for at least 3 hours."</span><span class="token punctuation">,</span>
+   <span class="token property">"ingredients"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+     <span class="token string">"Peeled Tomatoes 2 lb"</span><span class="token punctuation">,</span>
+     <span class="token string">"Garlic 4"</span><span class="token punctuation">,</span>
+     <span class="token string">"Bunch of basil 1"</span><span class="token punctuation">,</span>
+     <span class="token string">"Glass of EVO oil 2"</span><span class="token punctuation">,</span>
+     <span class="token string">"Onion 1"</span><span class="token punctuation">,</span>
+     <span class="token string">"Carrot 1"</span><span class="token punctuation">,</span>
+     <span class="token string">"Celery 1"</span><span class="token punctuation">,</span>
+     <span class="token string">"White pepper"</span>
+   <span class="token punctuation">]</span><span class="token punctuation">,</span>
+   <span class="token property">"adaptiveCooking"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"smartPreheating"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"autoSoft"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"polloCabinet"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"program"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+     <span class="token property">"preheat"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+       <span class="token property">"temp"</span><span class="token operator">:</span> <span class="token number">230</span><span class="token punctuation">,</span>
+       <span class="token property">"time"</span><span class="token operator">:</span> <span class="token number">1740</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+     <span class="token property">"steps"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">"fan"</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+         <span class="token property">"temp"</span><span class="token operator">:</span> <span class="token number">140</span><span class="token punctuation">,</span>
+         <span class="token property">"time"</span><span class="token operator">:</span> <span class="token number">300</span><span class="token punctuation">,</span>
+         <span class="token property">"clima"</span><span class="token operator">:</span> <span class="token number">-50</span><span class="token punctuation">,</span>
+         <span class="token property">"pulse"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+         <span class="token property">"preset"</span><span class="token operator">:</span> <span class="token string">"manual"</span>
+       <span class="token punctuation">}</span>
+     <span class="token punctuation">]</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token property">"group"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">"position"</span><span class="token operator">:</span> <span class="token number">1</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+        <h2>403</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              error
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>Access Denied to Resource</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#error-examples-Devices-GetV1DevicesRecipesRecipeid-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="error-examples-Devices-GetV1DevicesRecipesRecipeid-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"error"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"error_type"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">"Access denied to requested resource/s"</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-GetV1DevicesRecipes" class="show-api-article show-api-Devices-article show-api-Devices-GetV1DevicesRecipes-article ">
+
+      <article id="api-Devices-GetV1DevicesRecipes-0.0.0" data-group="Devices" data-name="GetV1DevicesRecipes" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Get recipes</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get recipes on specified devices or on all company devices.</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/recipes</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>id</code> - <br> Id of selected device that is considered for filter</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>id</code> - Id of Recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              title
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>title</code> - <br> Recipe's title</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              signatureUrl
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>signatureUrl</code> - <br> Temporary Url of the author's signature</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              author
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>author</code> - <br> Recipe's author</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              duration
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>duration</code> - <br> Cooking time</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              family
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>family</code> - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO" <br> Oven family</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              kind
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>kind</code> - Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET" "EVR_LT0_SET" "EVR_ST0_SET" <br> Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI. <br> Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER <br> accessory saved program, DECK_SET is DECKTOP accessory program</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              foodTypes
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>foodTypes</code> - Array of string <br> Types of food contained in the recipe, useful for filtering</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cookingTypes
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>cookingTypes</code> - Enum: 1 2 3 4 5 6 7 8 11 <br> <strong>Type of program</strong></p> <ul> <li> 1: WASHING </li> <li> 2: SET</li> <li> 3: PROGRAM</li> <li> 4: MIND.Maps</li> <li> 5: MULTI.Time</li> <li> 6: MISE EN PLACE</li> <li> 7: CHEFUNOX MULTI.Time</li> <li> 8: CHEFUNOX AUTO.Cook</li> <li> 11: READY.Cook</li> </ul>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              features
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>features</code> - Array of string <br> Enum: "mm_uip_pollo" "mm_uip_smart_preheat" "mm_uip_adaptive_cooking" "mm_steam_boost" "mm_pressure_steam" "mm_hyper_smoker" "mm_core_probe" "mm_uip_auto_soft" "mm_multi_time" "mm_mise_en_place" "mm_slave_decktop" "mm_slave_decktop" "sp_step_gt_99_mins" "sp_uip_smart_preheat" "sp_uip_adaptive_cooking" "sp_uip_auto_soft" <br> Array of Functionalities required by the oven to execute the recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              imgUrl
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>imgUrl</code> - <br> temporary image url</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              description
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>description</code> - <br> Description of recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              group
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>group</code> - <br> Id group of the oven where the recipe is saved</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              idDevice
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>idDevice</code> - <br> Id of device</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices-GetV1DevicesRecipes-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices-GetV1DevicesRecipes-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+     <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">423</span><span class="token punctuation">,</span>
+     <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">2940</span><span class="token punctuation">,</span>
+     <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"Roast chickens"</span><span class="token punctuation">,</span>
+     <span class="token property">"signatureUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span class="token punctuation">,</span>
+     <span class="token property">"author"</span><span class="token operator">:</span> <span class="token string">"Iginio Massari"</span><span class="token punctuation">,</span>
+     <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">3000</span><span class="token punctuation">,</span>
+     <span class="token property">"family"</span><span class="token operator">:</span> <span class="token string">"MIND_MAPS"</span><span class="token punctuation">,</span>
+     <span class="token property">"kind"</span><span class="token operator">:</span> <span class="token string">"OVEN_SET"</span><span class="token punctuation">,</span>
+     <span class="token property">"foodTypes"</span><span class="token operator">:</span> <span class="token string">"fish"</span><span class="token punctuation">,</span>
+     <span class="token property">"cookingTypes"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+     <span class="token property">"features"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+       <span class="token string">"mm_uip_pollo"</span><span class="token punctuation">,</span>
+       <span class="token string">"mm_uip_smart_preheat"</span><span class="token punctuation">,</span>
+       <span class="token string">"mm_uip_adaptive_cooking"</span>
+     <span class="token punctuation">]</span><span class="token punctuation">,</span>
+     <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span class="token punctuation">,</span>
+     <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"delizioso piatto di pollo aromatizzato"</span><span class="token punctuation">,</span>
+     <span class="token property">"group"</span><span class="token operator">:</span> <span class="token number">1</span>
+   <span class="token punctuation">}</span>
+ <span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-PostV1DevicesPairing" class="show-api-article show-api-Devices-article show-api-Devices-PostV1DevicesPairing-article ">
+
+      <article id="api-Devices-PostV1DevicesPairing-0.0.0" data-group="Devices" data-name="PostV1DevicesPairing" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Pair a device</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>pair a device by serial and pin with the user accoun</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/pairing</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              serial
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>serial</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              code
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>code</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cloudPin
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>cloudPin</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              pairOffline
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td>
+              <p><code>pairOffline</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              unoxCasa
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td>
+              <p><code>unoxCasa</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              requireConnected
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td>
+              <p><code>requireConnected</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              digitalIdOnly
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td>
+              <p><code>digitalIdOnly</code></p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              created
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>created</code> - <br> Indicate whether the device is paired or not</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              device
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>device</code> - <br> Paired device</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;code
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.code</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;serial
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.serial</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;board_serial
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.board_serial</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alias
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.alias</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;connection_kind
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.connection_kind</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;cloud_pin
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.cloud_pin</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_ip
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.last_ip</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;first_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.first_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;image
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.image</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;auto_pairing_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.auto_pairing_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_sap
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_sap</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_externals
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_externals</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_logical_group
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_logical_group</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_board_model
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_board_model</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;seasonal
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>device.seasonal</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;type
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.type</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;mac_address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.mac_address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_firmware
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>device.id_firmware</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;family
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.family</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;range
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.range</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;version
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.version</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.last_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_log_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.last_log_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              pairedIds
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number[]
+            </td>
+            <td>
+              <p><code>pairedIds</code> - Array of Ids</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-PostV1DevicesPairingVirtual" class="show-api-article show-api-Devices-article show-api-Devices-PostV1DevicesPairingVirtual-article ">
+
+      <article id="api-Devices-PostV1DevicesPairingVirtual-0.0.0" data-group="Devices" data-name="PostV1DevicesPairingVirtual" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Pair virtual device</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Pair a virtual device with the user account</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/pairing/virtual</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              product
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>product</code> - Enum: "cheftop" "speed" "bakertop" <br> Indicates the type of the product</p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              created
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>created</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              device
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>device</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;code
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.code</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;serial
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.serial</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;board_serial
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.board_serial</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alias
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.alias</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;connection_kind
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.connection_kind</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;cloud_pin
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.cloud_pin</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_ip
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.last_ip</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;first_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.first_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;image
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.image</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;auto_pairing_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.auto_pairing_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_sap
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_sap</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_externals
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_externals</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_logical_group
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_logical_group</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_board_model
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.id_board_model</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;seasonal
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>device.seasonal</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;type
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.type</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;mac_address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.mac_address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_firmware
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>device.id_firmware</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;family
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.family</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;range
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.range</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;version
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.version</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.last_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_log_date
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.last_log_date</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>400</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              error
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>Oven not found error</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <h2>403</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              errors
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>Already paired error</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#error-examples-Devices-PostV1DevicesPairingVirtual-0_0_0-0" role="tab" data-toggle="tab">Already paired 403</a>
+          </li>
+          <li>
+            <a href="#error-examples-Devices-PostV1DevicesPairingVirtual-0_0_0-1" role="tab" data-toggle="tab">Oven not found 400</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="error-examples-Devices-PostV1DevicesPairingVirtual-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Already paired <span class="token number">403</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"already_paired"</span><span class="token operator">:</span> <span class="token string">"This device is already paired with your company"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+          <div class="tab-pane" id="error-examples-Devices-PostV1DevicesPairingVirtual-0_0_0-1">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Oven not found <span class="token number">400</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"oven_not_found"</span><span class="token operator">:</span> <span class="token string">"Virtual oven not found"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-PatchV1DevicesDetailsId" class="show-api-article show-api-Devices-article show-api-Devices-PatchV1DevicesDetailsId-article ">
+
+      <article id="api-Devices-PatchV1DevicesDetailsId-0.0.0" data-group="Devices" data-name="PatchV1DevicesDetailsId" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Patch devices details</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Modify the alias, city, goal or image of a device.</p><p></p>
+        <span class="method meth-patch">patch</span>
+        <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/details/:id</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+        <h2>Parameter</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p>Id device</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              alias
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>alias</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              city
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              goal
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Number</td>
+            <td><p><code>goal</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              imgBlob
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>imgBlob</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              updated
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p>status of successful update</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices-PatchV1DevicesDetailsId-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices-PatchV1DevicesDetailsId-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ updated<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-PostV1DevicesRecipesSend" class="show-api-article show-api-Devices-article show-api-Devices-PostV1DevicesRecipesSend-article ">
+
+      <article id="api-Devices-PostV1DevicesRecipesSend-0.0.0" data-group="Devices" data-name="PostV1DevicesRecipesSend" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Send recipes</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>send a list of recipes (cloud, community, device) to a list of devices</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/recipes/send</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              deviceRecipeGroup
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Number</td>
+            <td><p><code>deviceRecipeGroup</code> - integer [ 0 .. 15 ]. <br> id group where to put the recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              companyRecipeId
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Number[]</td>
+            <td><p><code>companyRecipeId</code> - Array of integer <br> array of company recipes Id</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              communityRecipeId
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Number[]</td>
+            <td><p><code>communityRecipeId</code> - Array of integer <br> array of community recipes Id</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              deviceRecipeId
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Number[]</td>
+            <td><p><code>deviceRecipeId</code> - Array of integer <br> array of device recipes Id</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              targetDeviceId
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>targetDeviceId</code> - Array of integer <br> array of device Id targeted for sending</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              clearGroup
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td><p><code>clearGroup</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              sent
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p>Message of successful operation.</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices-PostV1DevicesRecipesSend-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices-PostV1DevicesRecipesSend-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"sent"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+        <h2>403</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              error
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>Family mismatch error</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <h2>422</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Name</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              error
+            </td>
+            <td class="code">
+              json
+            </td>
+            <td>
+              <p>Invalid json</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#error-examples-Devices-PostV1DevicesRecipesSend-0_0_0-0" role="tab" data-toggle="tab">Family mismatch error 403</a>
+          </li>
+          <li>
+            <a href="#error-examples-Devices-PostV1DevicesRecipesSend-0_0_0-1" role="tab" data-toggle="tab">Invalid json 422</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="error-examples-Devices-PostV1DevicesRecipesSend-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Family mismatch error <span class="token number">403</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"error"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+   <span class="token property">"recipies"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+     <span class="token string">"Family type mismatch between recipes and target devices"</span>
+   <span class="token punctuation">]</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+          <div class="tab-pane" id="error-examples-Devices-PostV1DevicesRecipesSend-0_0_0-1">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Invalid json <span class="token number">422</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+   <span class="token property">"request"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+     <span class="token string">"Request payload is not a valid JSON object"</span>
+   <span class="token punctuation">]</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices-PostV1DevicesUnpair" class="show-api-article show-api-Devices-article show-api-Devices-PostV1DevicesUnpair-article ">
+
+      <article id="api-Devices-PostV1DevicesUnpair-0.0.0" data-group="Devices" data-name="PostV1DevicesUnpair" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices</span> <span class="text-muted">|</span> Unpair device</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Unpair a device by id from the user company and remove relative recipe groups associations</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/devices/unpair</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              ids
+            </td>
+            <td class="code">String[]</td>
+            <td>
+              <p><code>ids</code> - <br> Ids of devices</p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              unpaired
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p>Status of the unpairing operation</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices-PostV1DevicesUnpair-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices-PostV1DevicesUnpair-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ unpaired<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+  </section>
+</div>
+</body>
+</html>
+`

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<div id="sections">
+  <section id="api-PayPerUse" class="show-api-group show-api-PayPerUse-group hide">
+    <h1 class="color-primary font-weight-bold">PayPerUse</h1>
+    <div id="api-PayPerUse-PostV2PayperuseCreate" class="show-api-article show-api-PayPerUse-article show-api-PayPerUse-PostV2PayperuseCreate-article ">
+
+      <article id="api-PayPerUse-PostV2PayperuseCreate-2.0.0" data-group="PayPerUse" data-name="PostV2PayperuseCreate" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">PayPerUse</span> <span class="text-muted">|</span> Create pay per use request</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Create a new pay per use request, processing advance payment</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/payperuse/create</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              paymentMethodId
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>paymentMethodId</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              sepa
+            </td>
+            <td class="code">Boolean</td>
+            <td>
+              <p><code>sepa</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              orderNumber
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>orderNumber</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              salesforceData
+            </td>
+            <td class="code">Object[]</td>
+            <td>
+              <p><code>salesforceData</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;first_name
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.first_name</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;last_name
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.last_name</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;email
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.email</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;phone
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.phone</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;job_title
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.job_title</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;dealer_sap_id
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.dealer_sap_id</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;company_name
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.company_name</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;company_name_installation
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.company_name_installation</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;category
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.category</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;billing_country
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.billing_country</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;billing_street
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.billing_street</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;billing_postal_code
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.billing_postal_code</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;billing_city
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.billing_city</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;shipping_country
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.shipping_country</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;shipping_street
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.shipping_street</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;shipping_postal_code
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.shipping_postal_code</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;shipping_city
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.shipping_city</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;expected_installation_date
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.expected_installation_date</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;usage_plan
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.usage_plan</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;total_lease_value
+            </td>
+            <td class="code">Number</td>
+            <td>
+              <p><code>salesforceData.total_lease_value</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lease_fee_goods
+            </td>
+            <td class="code">Number</td>
+            <td>
+              <p><code>salesforceData.lease_fee_goods</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lease_fee_services
+            </td>
+            <td class="code">Number</td>
+            <td>
+              <p><code>salesforceData.lease_fee_services</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;money_up_front_goods
+            </td>
+            <td class="code">Number</td>
+            <td>
+              <p><code>salesforceData.money_up_front_goods</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;money_up_front_services
+            </td>
+            <td class="code">Number</td>
+            <td>
+              <p><code>salesforceData.money_up_front_services</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;contractBase64
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.contractBase64</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;product_type
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>salesforceData.product_type</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;products
+            </td>
+            <td class="code">Object[]</td>
+            <td>
+              <p><code>salesforceData.products</code></p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-PayPerUse-PostV2PayperuseCreate-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-PayPerUse-PostV2PayperuseCreate-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+      <span class="token property">"paymentStatus"</span><span class="token operator">:</span> <span class="token string">"succeeded"</span><span class="token punctuation">,</span>
+      <span class="token property">"requestCreated"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+     <span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+  </section>
+</div>
+</body>
+</html>
+`

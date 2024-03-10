@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<div id="sections">
+  <section id="api-Devices_Dashboard" class="show-api-group show-api-Devices_Dashboard-group hide">
+    <h1 class="color-primary font-weight-bold">Devices Dashboard</h1>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardActualstate" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboardActualstate-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboardActualstate-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardActualstate" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get actual state</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the actual state of devices in the previous seven days.</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard/actualState</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              from
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Date</td>
+            <td><p><code>from</code> - <br> Starting date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              to
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Date</td>
+            <td><p><code>to</code> - <br> End date</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              onlineDevices
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>onlineDevices</code> - <br> Number of devices online</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              totalDevices
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>totalDevices</code> - <br> Total number of devices online and offline</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              recipesInQueue
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>recipesInQueue</code> - <br> Number of recipes being sent</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;idDevice
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>recipesInQueue.idDevice</code> - Id of device sent to</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;waiting
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>recipesInQueue.waiting</code> - <br> Number of requests in queue</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;requests
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>recipesInQueue.requests</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              warnings
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>warnings</code> - <br> Number of avtive warnings</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              alarms
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>alarms</code> - <br> Number of acive alarms</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cooking
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>cooking</code> - <br> Number of devices cooking</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              washing
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>washing</code> - <br> Number of devices washing</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardActualstate-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboardActualstate-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+        <span class="token property">"onlineDevices"</span><span class="token operator">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+        <span class="token property">"totalDevices"</span><span class="token operator">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
+        <span class="token property">"recipesInQueue"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                <span class="token property">"programs"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token property">"kind"</span><span class="token operator">:</span> <span class="token string">"OVEN_MT"</span><span class="token punctuation">,</span>
+                        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"BREAKFAST"</span><span class="token punctuation">,</span>
+                        <span class="token property">"program"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                            <span class="token property">"steps"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token punctuation">{</span>
+                                    <span class="token property">"fan"</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+                                    <span class="token property">"temp"</span><span class="token operator">:</span> <span class="token number">215</span><span class="token punctuation">,</span>
+                                    <span class="token property">"time"</span><span class="token operator">:</span> <span class="token string">"INF"</span><span class="token punctuation">,</span>
+                                    <span class="token property">"clima"</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+                                    <span class="token property">"preset"</span><span class="token operator">:</span> <span class="token string">"manual"</span>
+                                <span class="token punctuation">}</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"preheat"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                                <span class="token property">"temp"</span><span class="token operator">:</span> <span class="token number">215</span><span class="token punctuation">,</span>
+                                <span class="token property">"time"</span><span class="token operator">:</span> <span class="token number">0</span>
+                            <span class="token punctuation">}</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token property">"essName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+                        <span class="token property">"imgName"</span><span class="token operator">:</span> <span class="token string">"SUNNY_SIDE_UP"</span><span class="token punctuation">,</span>
+                        <span class="token property">"group"</span><span class="token operator">:</span> <span class="token number">15</span><span class="token punctuation">,</span>
+                        <span class="token property">"autoSoft"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                        <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">62</span><span class="token punctuation">,</span>
+                        <span class="token property">"polloCabinet"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                        <span class="token property">"adaptiveCooking"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                        <span class="token property">"smartPreheating"</span><span class="token operator">:</span> <span class="token number">1</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">"warnings"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token property">"alarms"</span><span class="token operator">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboard" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboard-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboard-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboard" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get dashboard</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the all required data for dashboard.</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              from
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>from</code> - <br> Starting date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              to
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>to</code> - <br> end Date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              ids
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>ids</code> - <br> Ids of devices</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              analytics
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>analytics</code> - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice" <br> Array of field required for analytics</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              dashboard
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>dashboard</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              total
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td><p><code>total</code> - <br> if true retuen all data of devices and not only the specified range date</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              type
+            </td>
+            <td class="code">
+              String[]
+            </td>
+            <td>
+              <p><code>type</code> - <br> devices type: electric or gas</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              totalConsumption
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>totalConsumption</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>totalConsumption.date</code> - <br> Date of the consumption</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;steam
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>totalConsumption.steam</code> - <br> The amount of consumed steam</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;energy
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>totalConsumption.energy</code> - <br> The amount of consumed energy</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;gas
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>totalConsumption.gas</code> - <br> The amount of consumed gas</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              washingFrequency
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>washingFrequency</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;_id
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>washingFrequency._id</code> - <br> Date of the data</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;devices
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>washingFrequency.devices</code> - <br> Array of objects:</p> <pre>{
+idDevice: number
+frequency: number
+cookingHoursSum: number
+washingHoursSum: number
+cookingCount: number
+}
+</pre>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              mostUsedRecipes
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>mostUsedRecipes</code> - <br> Object having the following form:</p> <pre>{
+  duration: number
+  execution: number
+  lastDate: Date
+  image: string
+  company_recipe_id: number
+  family: string
+}
+</pre>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              actualStatus
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>actualStatus</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;onlineDevices
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.onlineDevices</code> - <br> Number of devices online</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;totalDevices
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.totalDevices</code> - <br> Total number of devices online and offline</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;recipesInQueue
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>actualStatus.recipesInQueue</code> - <br> Number of recipes being sent</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;idDevice
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.recipesInQueue.idDevice</code> - Id of device sent to</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;waiting
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.recipesInQueue.waiting</code> - <br> Number of requests in queue</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;requests
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>actualStatus.recipesInQueue.requests</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;warnings
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.warnings</code> - <br> Number of avtive warnings</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alarms
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.alarms</code> - <br> Number of acive alarms</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;cooking
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.cooking</code> - <br> Number of devices cooking</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;washing
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>actualStatus.washing</code> - <br> Number of devices washing</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              totalConsumptionByDevice
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>totalConsumptionByDevice</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>totalConsumptionByDevice.date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;devices
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>totalConsumptionByDevice.devices</code> - <br> An array of objects:</p> <pre>{
+idDevice: number
+steam: number
+gas: number
+electricity: number
+}
+</pre>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              openDoorDuration
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>openDoorDuration</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>openDoorDuration.date</code> - <br> Date of calculation</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;duration
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>openDoorDuration.duration</code> - <br> Total open door duration during cooking</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              hourlyWashing
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>hourlyWashing</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>hourlyWashing.date</code> - <br> Date of calculation</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;hourlyWashing
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>hourlyWashing.hourlyWashing</code> - <br> The number of washing initiated during the 24 hours of a day <br> for example: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,0,0,0,0]</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              dailyGoals
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>dailyGoals</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>dailyGoals.date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;devices
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>dailyGoals.devices</code> - <br> An array of object having the following form:</p> <pre>{
+  idDevice: number
+  cookingHours: number
+  washingHours: number
+  openDoorDuration: number
+  openDoorMultiTime: number
+  cookingCount: number
+  multiTimeCount: number
+}
+</pre>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboard-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboard-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"electric"</span>
+    <span class="token property">"washingFrequency"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingHoursSum"</span><span class="token operator">:</span> <span class="token number">22089587</span><span class="token punctuation">,</span>
+                    <span class="token property">"washingHoursSum"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingCount"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                    <span class="token property">"frequency"</span><span class="token operator">:</span> <span class="token number">0</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingHoursSum"</span><span class="token operator">:</span> <span class="token number">4572269</span><span class="token punctuation">,</span>
+                    <span class="token property">"washingHoursSum"</span><span class="token operator">:</span> <span class="token number">4913356</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingCount"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+                    <span class="token property">"frequency"</span><span class="token operator">:</span> <span class="token number">1.0745990666778356</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"2023-08-10T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingHoursSum"</span><span class="token operator">:</span> <span class="token number">39012</span><span class="token punctuation">,</span>
+                    <span class="token property">"washingHoursSum"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingCount"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                    <span class="token property">"frequency"</span><span class="token operator">:</span> <span class="token number">0</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"totalConsumption"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"steam"</span><span class="token operator">:</span> <span class="token number">130.4901587500057</span><span class="token punctuation">,</span>
+            <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token number">4.75393345021113</span><span class="token punctuation">,</span>
+            <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token number">0</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"steam"</span><span class="token operator">:</span> <span class="token number">27.009835342676606</span><span class="token punctuation">,</span>
+            <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token number">2.051658377491247</span><span class="token punctuation">,</span>
+            <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token number">0</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-10T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"steam"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+            <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token number">0.002226875272758039</span><span class="token punctuation">,</span>
+            <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token number">0</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"openDoorDuration"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">1276360</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">846516</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-10T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"hourlyWashing"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"hourlyWashing"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"hourlyWashing"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-10T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"hourlyWashing"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"mostUsedRecipes"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                <span class="token property">"5_CK CHICKEN SANDWICH"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">987000</span><span class="token punctuation">,</span>
+                    <span class="token property">"execution"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                    <span class="token property">"lastDate"</span><span class="token operator">:</span> <span class="token string">"2023-09-06T12:24:07.000Z"</span><span class="token punctuation">,</span>
+                    <span class="token property">"image"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+                    <span class="token property">"company_recipe_id"</span><span class="token operator">:</span> <span class="token string">"452"</span><span class="token punctuation">,</span>
+                    <span class="token property">"family"</span><span class="token operator">:</span> <span class="token string">"MIND_MAPS"</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token property">"15_SANDWICH BLUE 3-4"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">354910</span><span class="token punctuation">,</span>
+                    <span class="token property">"execution"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+                    <span class="token property">"lastDate"</span><span class="token operator">:</span> <span class="token string">"2023-09-06T15:00:23.240Z"</span><span class="token punctuation">,</span>
+                    <span class="token property">"image"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+                    <span class="token property">"company_recipe_id"</span><span class="token operator">:</span> <span class="token string">"412"</span><span class="token punctuation">,</span>
+                    <span class="token property">"family"</span><span class="token operator">:</span> <span class="token string">"MIND_MAPS"</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token property">"5_EXECUTION"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"duration"</span><span class="token operator">:</span> <span class="token number">21516999</span><span class="token punctuation">,</span>
+                    <span class="token property">"execution"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                    <span class="token property">"lastDate"</span><span class="token operator">:</span> <span class="token string">"2023-09-06T16:01:23.000Z"</span><span class="token punctuation">,</span>
+                    <span class="token property">"image"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+                    <span class="token property">"company_recipe_id"</span><span class="token operator">:</span> <span class="token string">"485"</span><span class="token punctuation">,</span>
+                    <span class="token property">"family"</span><span class="token operator">:</span> <span class="token string">"MIND_MAPS"</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"actualStatus"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"onlineDevices"</span><span class="token operator">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+        <span class="token property">"totalDevices"</span><span class="token operator">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
+        <span class="token property">"cooking"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+        <span class="token property">"washing"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token property">"warnings"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token property">"alarms"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token property">"recipesInQueue"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                <span class="token property">"requests"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                  <span class="token punctuation">{</span>
+                    <span class="token property">"programs"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                      <span class="token string">"CAKE"</span><span class="token punctuation">,</span>
+                      <span class="token string">"BROWNIES"</span><span class="token punctuation">,</span>
+                    <span class="token punctuation">]</span>
+                  <span class="token punctuation">}</span>
+                <span class="token punctuation">]</span>
+                <span class="token property">"waiting"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"dailyGoals"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingHours"</span><span class="token operator">:</span> <span class="token number">17076060</span><span class="token punctuation">,</span>
+                    <span class="token property">"washingHours"</span><span class="token operator">:</span> <span class="token number">2417630</span><span class="token punctuation">,</span>
+                    <span class="token property">"cookingCount"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+                    <span class="token property">"multiTimeCount"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                    <span class="token property">"openDoorMultiTime"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                    <span class="token property">"openDoorDuration"</span><span class="token operator">:</span> <span class="token number">192170</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-10T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardHourlywashing" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardHourlywashing" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get hourly washing</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the number of oven washed during the daily hours for the last seven days</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard/hourlyWashing</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              from
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>from</code> - <br> Starting date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              to
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>to</code> - <br> end Date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              ids
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>ids</code> - <br> Ids of devices</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              analytics
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>analytics</code> - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice" <br> Array of field required for analytics</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              dashboard
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>dashboard</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              hourlyWashing
+            </td>
+            <td class="code">
+              Number[]
+            </td>
+            <td>
+              <p>The array represent the 24 hour of the day starting from 0 as midnight to 23 as 11 pm. If a cell is set to one at index 10 means an oven was washed at 10 am.</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"hourlyWashing"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token number">2</span><span class="token punctuation">,</span>
+        <span class="token number">2</span><span class="token punctuation">,</span>
+        <span class="token number">2</span><span class="token punctuation">,</span>
+        <span class="token number">2</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">2</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token number">0</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardMostusedrecipes" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get most used recipes</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the most used recipes in the specified range of time.</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard/mostUsedRecipes</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              from
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>from</code> - <br> Starting date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              to
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>to</code> - <br> end Date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              ids
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>ids</code> - <br> Ids of devices</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              analytics
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>analytics</code> - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice" <br> Array of field required for analytics</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              dashboard
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>dashboard</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>date</code> - <br> date of the most used recipe</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              mostUsedRecipes
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>mostUsedRecipes</code> - <br> Array of most used recipes during a day</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"mostUsedRecipes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                    <span class="token property">"recipes"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                        <span class="token property">"20_MULTI.Speed"</span><span class="token operator">:</span> <span class="token number">22089587</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"mostUsedRecipes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                    <span class="token property">"recipes"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                        <span class="token property">"20_MULTI.Speed"</span><span class="token operator">:</span> <span class="token number">4572269</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-08-18T00:00:00.000Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"mostUsedRecipes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                    <span class="token property">"recipes"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                        <span class="token property">"2_"</span><span class="token operator">:</span> <span class="token number">9811</span><span class="token punctuation">,</span>
+                        <span class="token property">"5_MULTI.Time"</span><span class="token operator">:</span> <span class="token number">14976</span><span class="token punctuation">,</span>
+                        <span class="token property">"3_Trancio di pesce"</span><span class="token operator">:</span> <span class="token number">14225</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardOvensstate" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboardOvensstate-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboardOvensstate-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardOvensstate" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get ovens state</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the ovens state.</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard/ovensState</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Object[]</td>
+            <td><p>Array of number <br> Array of devices' ids</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              idDevice
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>idDevice</code> - <br> Id of device</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              states
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>states</code> - <br> device state</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;slaveId
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>states.slaveId</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>states.state</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardOvensstate-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboardOvensstate-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token property">"states"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"slaveId"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+                <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">"OFFLINE"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">646</span><span class="token punctuation">,</span>
+        <span class="token property">"states"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"slaveId"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+                <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">"IDLE"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardTotalconsumption" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get total consumption</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the total consumption of a list of devices</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard/totalConsumption</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              from
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>from</code> - <br> Starting date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              to
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>to</code> - <br> end Date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              ids
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>ids</code> - <br> Ids of devices</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              analytics
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>analytics</code> - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice" <br> Array of field required for analytics</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              dashboard
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>dashboard</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              total
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Boolean</td>
+            <td><p><code>total</code> - <br> if true retuen all data of devices and not only the specified range date</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>date</code> - <br> Date of the consumption</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              steam
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>steam</code> - <br> The amount of consumed steam</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              energy
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>energy</code> - <br> The amount of consumed energy</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              gas
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>gas</code> - <br> The amount of consumed gas</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              washingHours
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>washingHours</code> - <br> The amount of time used for washing</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              manualCookingHours
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>manualCookingHours</code> - <br> The amount of time used for manual cooking</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              multiTimeHours
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>multiTimeHours</code> - <br> The amount of time used for mutiTime usage</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              miseEnPlaceHours
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>miseEnPlaceHours</code> - <br> The amount of time used for mise en place usage</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cookingHours
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>cookingHours</code> - <br> The amount of time used for cooking</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+   <span class="token punctuation">{</span>
+        <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-09-07T00:00:00.000Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"steam"</span><span class="token operator">:</span> <span class="token number">3945</span><span class="token punctuation">,</span>
+        <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token number">45047</span><span class="token punctuation">,</span>
+        <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token number">42924</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2023-09-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"steam"</span><span class="token operator">:</span> <span class="token number">8692</span><span class="token punctuation">,</span>
+        <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token number">52371</span><span class="token punctuation">,</span>
+        <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token number">51446</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency" class="show-api-article show-api-Devices_Dashboard-article show-api-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-article ">
+
+      <article id="api-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-2.0.0" data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardWashingfrequency" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Devices Dashboard</span> <span class="text-muted">|</span> Get washing frequency</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get the washing frequency of a list of devices</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/devices/dashboard/washingFrequency</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              from
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>from</code> - <br> Starting date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              to
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String</td>
+            <td><p><code>to</code> - <br> end Date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              ids
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>ids</code> - <br> Ids of devices</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              analytics
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>analytics</code> - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice" <br> Array of field required for analytics</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              dashboard
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">String[]</td>
+            <td><p><code>dashboard</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              _id
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>_id</code> - <br> Date of the data</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              devices
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>devices</code> - <br> Array of objects:</p> <pre>{
+ idDevice: number
+ frequency: number
+ cookingHoursSum: number
+ washingHoursSum: number
+ cookingCount: number
+}
+</pre>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;idDevices
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>devices.idDevices</code> - <br> Id of device</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;cookingHoursSum
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>devices.cookingHoursSum</code> - <br> Sum of daily cooking hours of a device</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;washingHoursSum
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>devices.washingHoursSum</code> - <br> Sum of daily washing hours of a device</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;frequency
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>devices.frequency</code> - <br> frequency of washing per day of device ( sum of washing hours / sum of cooking hours)</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;cookingCount
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>devices.cookingCount</code> - <br> The number of cookings</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+   <span class="token punctuation">{</span>
+        <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"2023-08-08T00:00:00.000Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                <span class="token property">"cookingHoursSum"</span><span class="token operator">:</span> <span class="token number">22089587</span><span class="token punctuation">,</span>
+                <span class="token property">"washingHoursSum"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                <span class="token property">"frequency"</span><span class="token operator">:</span> <span class="token number">0</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"2023-08-09T00:00:00.000Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                <span class="token property">"cookingHoursSum"</span><span class="token operator">:</span> <span class="token number">4572269</span><span class="token punctuation">,</span>
+                <span class="token property">"washingHoursSum"</span><span class="token operator">:</span> <span class="token number">4913356</span><span class="token punctuation">,</span>
+                <span class="token property">"frequency"</span><span class="token operator">:</span> <span class="token number">1.0745990666778356</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"2023-08-18T00:00:00.000Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"devices"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"idDevice"</span><span class="token operator">:</span> <span class="token number">683</span><span class="token punctuation">,</span>
+                <span class="token property">"cookingHoursSum"</span><span class="token operator">:</span> <span class="token number">39012</span><span class="token punctuation">,</span>
+                <span class="token property">"washingHoursSum"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                <span class="token property">"frequency"</span><span class="token operator">:</span> <span class="token number">0</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+  </section>
+</div>
+</body>
+</html>
+`

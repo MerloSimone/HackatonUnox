@@ -1,0 +1,3597 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <div id="sections">
+   <section id="api-Community">
+    <h1>
+     Community
+    </h1>
+    <div id="api-Community-GetV1CommunityRecipesGroups">
+     <article data-group="Community" data-name="GetV1CommunityRecipesGroups" data-version="0.0.0" id="api-Community-GetV1CommunityRecipesGroups-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Community
+        </span>
+        <span>
+         |
+        </span>
+        Get groups of recipes
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       GET retrieves a list of community recipe groups (with details).
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/community/recipes/groups</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of Community group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          name
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            name
+           </code>
+           -
+           <br/>
+           Group name
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            description
+           </code>
+           -
+           <br/>
+           Description of group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slug
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            slug
+           </code>
+           -
+           <br/>
+           Slug
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          imgUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            imgUrl
+           </code>
+           -
+           <br/>
+           Url of the image that is shown
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            kind
+           </code>
+           - Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET"
+           <br/>
+           Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI.Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER accessory saved program, DECK_SET is DECKTOP accessory program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          recipesCount
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipesCount
+           </code>
+           -
+           <br/>
+           Number of recipe's in this group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          createdAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            createdAt
+           </code>
+           -
+           <br/>
+           Creation date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          modifiedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            modifiedAt
+           </code>
+           -
+           <br/>
+           Last modification date
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Community-GetV1CommunityRecipesGroups-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Community-GetV1CommunityRecipesGroups-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+  <span>{</span>
+    <span>"id"</span><span>:</span> <span>148</span><span>,</span>
+    <span>"name"</span><span>:</span> <span>"First dishes"</span><span>,</span>
+    <span>"description"</span><span>:</span> <span>"Delicious recipes for your pastry!"</span><span>,</span>
+    <span>"slug"</span><span>:</span> <span>"unox-pastry"</span><span>,</span>
+    <span>"imgUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipe-groups/301d0318ebcbc2551c44a156017de32de162357b1d23309e6beaf156cac7ab39.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5ZZVSEL3GN%2F20190530%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190530T081724Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=3c2d7912465bf29ddbe9cc49aa9ba3c7a7d81f5c80d46d26cf5cab78caf3a8ed&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+    <span>"kind"</span><span>:</span> <span>"OVEN_SET"</span><span>,</span>
+    <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+    <span>"recipesCount"</span><span>:</span> <span>2</span><span>,</span>
+    <span>"createdAt"</span><span>:</span> <span>"2019-05-03T07:14:43.925Z"</span><span>,</span>
+    <span>"modifiedAt"</span><span>:</span> <span>"2019-05-03T07:14:43.925Z"</span>
+  <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <h2>
+       403
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Name
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          error
+         </td>
+         <td>
+          json
+         </td>
+         <td>
+          <p>
+           Access Denied to Resource
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#error-examples-Community-GetV1CommunityRecipesGroups-0_0_0-0" role="tab">
+         Access Denied to Resource 403
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="error-examples-Community-GetV1CommunityRecipesGroups-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Access Denied to Resource <span>403</span>
+<span>{</span>
+  <span>"error"</span><span>:</span> <span>{</span>
+    <span>"error_type"</span><span>:</span> <span>[</span>
+      <span>"Access denied to requested resource/s"</span>
+    <span>]</span>
+  <span>}</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Community-GetV1CommunityRecipesGroupsRecipegroupid">
+     <article data-group="Community" data-name="GetV1CommunityRecipesGroupsRecipegroupid" data-version="0.0.0" id="api-Community-GetV1CommunityRecipesGroupsRecipegroupid-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Community
+        </span>
+        <span>
+         |
+        </span>
+        Get recipe group
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       GET retrieves details of community group.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/community/recipes/groups/:recipeGroupId</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Parameter
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          recipeGroupId
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           Id of selected group that need to be considered for filter
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of Community group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          name
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            name
+           </code>
+           -
+           <br/>
+           Group name
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            description
+           </code>
+           - Nullable
+           <br/>
+           Description of group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slug
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            slug
+           </code>
+           -
+           <br/>
+           Slug
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          imgUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            imgUrl
+           </code>
+           -
+           <br/>
+           Url of the image that is shown
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            kind
+           </code>
+           - Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET"
+           <br/>
+           Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI.Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER accessory saved program, DECK_SET is DECKTOP accessory program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          recipesCount
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipesCount
+           </code>
+           -
+           <br/>
+           Number of recipe's in this group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          rating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            rating
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          popularity
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            popularity
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          userRating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            userRating
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          createdAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            createdAt
+           </code>
+           -
+           <br/>
+           Creation date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          modifiedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            modifiedAt
+           </code>
+           -
+           <br/>
+           Last modification date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          recipes
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.id
+           </code>
+           -
+           <br/>
+           Id of Recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.title
+           </code>
+           -
+           <br/>
+           Recipe's title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          signatureUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.signatureUrl
+           </code>
+           -
+           <br/>
+           Temporary Url of the author's signature
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          author
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.author
+           </code>
+           -
+           <br/>
+           Author's name
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.description
+           </code>
+           -
+           <br/>
+           Recipe's description
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          duration
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.duration
+           </code>
+           -
+           <br/>
+           Cooking time
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.kind
+           </code>
+           -
+           <br/>
+           Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET"
+           <br/>
+           Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI.Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER accessory saved program, DECK_SET is DECKTOP accessory program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          foodTypes
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.foodTypes
+           </code>
+           - Array of string
+           <br/>
+           Types of food contained in the recipe, useful for filtering
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTypes
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.cookingTypes
+           </code>
+           - Enum: 1 2 3 4 5 6 7 8 11
+           <br/>
+           <strong>
+            Type of program
+           </strong>
+          </p>
+          <ul>
+           <li>
+            1: WASHING
+           </li>
+           <li>
+            2: SET
+           </li>
+           <li>
+            3: PROGRAM
+           </li>
+           <li>
+            4: MIND.Maps
+           </li>
+           <li>
+            5: MULTI.Time
+           </li>
+           <li>
+            6: MISE EN PLACE
+           </li>
+           <li>
+            7: CHEFUNOX MULTI.Time
+           </li>
+           <li>
+            8: CHEFUNOX AUTO.Cook
+           </li>
+           <li>
+            11: READY.Cook
+           </li>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          features
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.features
+           </code>
+           - Enum: "mm_uip_pollo" "mm_uip_smart_preheat" "mm_uip_adaptive_cooking" "mm_steam_boost" "mm_pressure_steam" "mm_hyper_smoker" "mm_core_probe" "mm_uip_auto_soft" "mm_multi_time" "mm_mise_en_place" "mm_slave_decktop" "mm_slave_decktop" "sp_step_gt_99_mins" "sp_uip_smart_preheat" "sp_uip_adaptive_cooking" "sp_uip_auto_soft"
+           <br/>
+           Array of Functionalities required by the oven to execute the recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          rating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.rating
+           </code>
+           -
+           <br/>
+           Recipe's rating
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          popularity
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.popularity
+           </code>
+           -
+           <br/>
+           Recipe's popularity
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          userRating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.userRating
+           </code>
+           -
+           <br/>
+           Recipe's user rating
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          holdable
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.holdable
+           </code>
+           -
+           <br/>
+           Option to keep the oven warm after the end of program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          preparation
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.preparation
+           </code>
+           -
+           <br/>
+           Recipe's title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ingredients
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.ingredients
+           </code>
+           - Array of string
+           <br/>
+           List of ingredients
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          imgUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.imgUrl
+           </code>
+           -
+           <br/>
+           Url of recipe's image
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          program
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.program
+           </code>
+           -
+           <br/>
+           if it is an
+           <strong>
+            EVEREO recipe
+           </strong>
+           :
+          </p>
+          <ul>
+           <li>
+            "cat": Food category
+           </li>
+           <li>
+            "hum": Humidity in the device
+           </li>
+           <li>
+            "temp": Temperature of food holding
+           </li>
+           <li>
+            "regen": Duration of the pasteurization
+           </li>
+           <li>
+            "holding": Duartion of food holding
+           </li>
+          </ul>
+          <br/>
+          <strong>
+           else
+          </strong>
+          :
+          <ul>
+           <li>
+            "steps": an array of
+           </li>
+           <ul>
+            <li>
+             "fan": Fan speed (1 to 5)
+            </li>
+            <li>
+             "temp": Temperature of cooking step
+            </li>
+            <li>
+             "time": Duration time of step
+            </li>
+            <li>
+             "clima": Humidity setting (-100, 100), negative value means humidity extraction, positive value means humidity addition using steam
+            </li>
+            <li>
+             "pulse": Define the pulse parameter of the fan, can be 0 or 1
+            </li>
+            <li>
+             "preset": Enumeration of braise, bread, combi, dehydrate, focaccia, fry, grill, hyper_smoker, manual, over_night, pastry, pizza, pressure_steam, roast,s ous_vide, steam. Type of preset choosen from the possible choices
+            </li>
+            <li>
+             "microwave": For speed ovens, it is the percentage of waves ranging from 0 to 100
+            </li>
+            <li>
+             "smokerSize": Either 0 or 1
+            </li>
+            <li>
+             "smoker": Smoking intensity (0 to 10)
+            </li>
+            <li>
+             "delta": In the cooking steps, it is the diffrence between the probe temperature and the chamber temperature.
+            </li>
+           </ul>
+           <li>
+            "preheat": an object of
+           </li>
+           <ul>
+            <li>
+             "temp": Temperature of preheating
+            </li>
+            <li>
+             "time": Preheating time in seconds
+            </li>
+            <li>
+             "delta": The temperature added to the temperature of the previous step
+            </li>
+           </ul>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          createdAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.createdAt
+           </code>
+           -
+           <br/>
+           Creation date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          modifiedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.modifiedAt
+           </code>
+           -
+           <br/>
+           Last update
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slug
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.slug
+           </code>
+           -
+           <br/>
+           Slug
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTag
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            recipes.cookingTag
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Community-GetV1CommunityRecipesGroupsRecipegroupid-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Community-GetV1CommunityRecipesGroupsRecipegroupid-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+  <span>"id"</span><span>:</span> <span>148</span><span>,</span>
+  <span>"name"</span><span>:</span> <span>"First dishes"</span><span>,</span>
+  <span>"description"</span><span>:</span> <span>"Delicious recipes for your pastry!"</span><span>,</span>
+  <span>"slug"</span><span>:</span> <span>"unox-pastry"</span><span>,</span>
+  <span>"imgUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/company/recipe-groups/301d0318ebcbc2551c44a156017de32de162357b1d23309e6beaf156cac7ab39.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5ZZVSEL3GN%2F20190530%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190530T081724Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=3c2d7912465bf29ddbe9cc49aa9ba3c7a7d81f5c80d46d26cf5cab78caf3a8ed&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+  <span>"kind"</span><span>:</span> <span>"OVEN_SET"</span><span>,</span>
+  <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+  <span>"recipesCount"</span><span>:</span> <span>2</span><span>,</span>
+  <span>"createdAt"</span><span>:</span> <span>"2019-05-03T07:14:43.925Z"</span><span>,</span>
+  <span>"modifiedAt"</span><span>:</span> <span>"2019-05-03T07:14:43.925Z"</span><span>,</span>
+  <span>"recipes"</span><span>:</span> <span>[</span>
+    <span>{</span>
+      <span>"id"</span><span>:</span> <span>423</span><span>,</span>
+      <span>"title"</span><span>:</span> <span>"Roast chickens"</span><span>,</span>
+      <span>"signatureUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+      <span>"author"</span><span>:</span> <span>"Iginio Massari"</span><span>,</span>
+      <span>"duration"</span><span>:</span> <span>3000</span><span>,</span>
+      <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+      <span>"kind"</span><span>:</span> <span>"OVEN_SET"</span><span>,</span>
+      <span>"foodTypes"</span><span>:</span> <span>"fish"</span><span>,</span>
+      <span>"cookingTypes"</span><span>:</span> <span>1</span><span>,</span>
+      <span>"features"</span><span>:</span> <span>[</span>
+        <span>"mm_uip_pollo"</span><span>,</span>
+        <span>"mm_uip_smart_preheat"</span><span>,</span>
+        <span>"mm_uip_adaptive_cooking"</span>
+      <span>]</span><span>,</span>
+      <span>"holdable"</span><span>:</span> <span>1</span><span>,</span>
+      <span>"imgUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+      <span>"createdAt"</span><span>:</span> <span>"2019-05-02T15:05:04.082Z"</span><span>,</span>
+      <span>"modifiedAt"</span><span>:</span> <span>"2019-05-02T15:09:40.615Z"</span><span>,</span>
+      <span>"popularity"</span><span>:</span> <span>1</span><span>,</span>
+      <span>"rating"</span><span>:</span> <span>4</span><span>,</span>
+      <span>"slug"</span><span>:</span> <span>"baked-fish"</span><span>,</span>
+      <span>"userRating"</span><span>:</span> <span>5</span>
+    <span>}</span>
+  <span>]</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <h2>
+       404
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Name
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          errors
+         </td>
+         <td>
+          json
+         </td>
+         <td>
+          <p>
+           Resource not found
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#error-examples-Community-GetV1CommunityRecipesGroupsRecipegroupid-0_0_0-0" role="tab">
+         Resource not found
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="error-examples-Community-GetV1CommunityRecipesGroupsRecipegroupid-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Resource not found
+<span>{</span>
+  <span>"errors"</span><span>:</span> <span>{</span>
+    <span>"server"</span><span>:</span> <span>[</span>
+      <span>"Resource not found"</span>
+    <span>]</span>
+  <span>}</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Community-GetV1CommunityRecipes">
+     <article data-group="Community" data-name="GetV1CommunityRecipes" data-version="0.0.0" id="api-Community-GetV1CommunityRecipes-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Community
+        </span>
+        <span>
+         |
+        </span>
+        Get recipes
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get List of Community recipes
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/community/recipes</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          page
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            page
+           </code>
+           -
+           <br/>
+           Index of the page
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          pageSize
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            pageSize
+           </code>
+           -
+           <br/>
+           Maximum number of results
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          foodTypes
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            foodTypes
+           </code>
+           - Enum: "fish" "veggies" "beef" "pork" "rice_and_pasta" "poultry" "cakes_and_pastries" "bread_and_bakery" "game_meat" "sheep"
+           <br/>
+           Types of food contained in the recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: 'MIND_MAPS', 'SHOP_PRO', 'MIND_MAPS_BIG', 'SPEED_PRO', 'SERIES5', 'DID_SPEED', 'DID_COMBI', 'EVEREO'
+           <br/>
+           Example: family=MIND_MAPS
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTypes
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingTypes
+           </code>
+           - Enum: 1 2 3 4 5 6 7 8 11
+           <br/>
+           <strong>
+            Type of program
+           </strong>
+          </p>
+          <ul>
+           <li>
+            1: WASHING
+           </li>
+           <li>
+            2: SET
+           </li>
+           <li>
+            3: PROGRAM
+           </li>
+           <li>
+            4: MIND.Maps
+           </li>
+           <li>
+            5: MULTI.Time
+           </li>
+           <li>
+            6: MISE EN PLACE
+           </li>
+           <li>
+            7: CHEFUNOX MULTI.Time
+           </li>
+           <li>
+            8: CHEFUNOX AUTO.Cook
+           </li>
+           <li>
+            11: READY.Cook
+           </li>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          search
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            search
+           </code>
+           -
+           <br/>
+           Search word
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of Recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            title
+           </code>
+           -
+           <br/>
+           Recipe's title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          signatureUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            signatureUrl
+           </code>
+           -
+           <br/>
+           Temporary Url of the author's signature
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          author
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            author
+           </code>
+           -
+           <br/>
+           Author's name
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            description
+           </code>
+           -
+           <br/>
+           Recipe's description
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          duration
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            duration
+           </code>
+           -
+           <br/>
+           Cooking time
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            kind
+           </code>
+           -
+           <br/>
+           Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET"
+           <br/>
+           Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI.Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER accessory saved program, DECK_SET is DECKTOP accessory program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          foodTypes
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            foodTypes
+           </code>
+           - Array of string
+           <br/>
+           Types of food contained in the recipe, useful for filtering
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTypes
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingTypes
+           </code>
+           - Enum: 1 2 3 4 5 6 7 8 11
+           <br/>
+           <strong>
+            Type of program
+           </strong>
+          </p>
+          <ul>
+           <li>
+            1: WASHING
+           </li>
+           <li>
+            2: SET
+           </li>
+           <li>
+            3: PROGRAM
+           </li>
+           <li>
+            4: MIND.Maps
+           </li>
+           <li>
+            5: MULTI.Time
+           </li>
+           <li>
+            6: MISE EN PLACE
+           </li>
+           <li>
+            7: CHEFUNOX MULTI.Time
+           </li>
+           <li>
+            8: CHEFUNOX AUTO.Cook
+           </li>
+           <li>
+            11: READY.Cook
+           </li>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          features
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            features
+           </code>
+           - Enum: "mm_uip_pollo" "mm_uip_smart_preheat" "mm_uip_adaptive_cooking" "mm_steam_boost" "mm_pressure_steam" "mm_hyper_smoker" "mm_core_probe" "mm_uip_auto_soft" "mm_multi_time" "mm_mise_en_place" "mm_slave_decktop" "mm_slave_decktop" "sp_step_gt_99_mins" "sp_uip_smart_preheat" "sp_uip_adaptive_cooking" "sp_uip_auto_soft"
+           <br/>
+           Array of Functionalities required by the oven to execute the recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          rating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            rating
+           </code>
+           -
+           <br/>
+           Recipe's rating
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          popularity
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            popularity
+           </code>
+           -
+           <br/>
+           Recipe's popularity
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          userRating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            userRating
+           </code>
+           -
+           <br/>
+           Recipe's user rating
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          holdable
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            holdable
+           </code>
+           -
+           <br/>
+           Option to keep the oven warm after the end of program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          preparation
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            preparation
+           </code>
+           -
+           <br/>
+           Recipe's title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ingredients
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ingredients
+           </code>
+           - Array of string
+           <br/>
+           List of ingredients
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          imgUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            imgUrl
+           </code>
+           -
+           <br/>
+           Url of recipe's image
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          program
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            program
+           </code>
+           -
+           <br/>
+           if it is an
+           <strong>
+            EVEREO recipe
+           </strong>
+           :
+          </p>
+          <ul>
+           <li>
+            "cat": Food category
+           </li>
+           <li>
+            "hum": Humidity in the device
+           </li>
+           <li>
+            "temp": Temperature of food holding
+           </li>
+           <li>
+            "regen": Duration of the pasteurization
+           </li>
+           <li>
+            "holding": Duartion of food holding
+           </li>
+          </ul>
+          <br/>
+          <strong>
+           else
+          </strong>
+          :
+          <ul>
+           <li>
+            "steps": an array of
+           </li>
+           <ul>
+            <li>
+             "fan": Fan speed (1 to 5)
+            </li>
+            <li>
+             "temp": Temperature of cooking step
+            </li>
+            <li>
+             "time": Duration time of step
+            </li>
+            <li>
+             "clima": Humidity setting (-100, 100), negative value means humidity extraction, positive value means humidity addition using steam
+            </li>
+            <li>
+             "pulse": Define the pulse parameter of the fan, can be 0 or 1
+            </li>
+            <li>
+             "preset": Enumeration of braise, bread, combi, dehydrate, focaccia, fry, grill, hyper_smoker, manual, over_night, pastry, pizza, pressure_steam, roast,s ous_vide, steam. Type of preset choosen from the possible choices
+            </li>
+            <li>
+             "microwave": For speed ovens, it is the percentage of waves ranging from 0 to 100
+            </li>
+            <li>
+             "smokerSize": Either 0 or 1
+            </li>
+            <li>
+             "smoker": Smoking intensity (0 to 10)
+            </li>
+            <li>
+             "delta": In the cooking steps, it is the diffrence between the probe temperature and the chamber temperature.
+            </li>
+           </ul>
+           <li>
+            "preheat": an object of
+           </li>
+           <ul>
+            <li>
+             "temp": Temperature of preheating
+            </li>
+            <li>
+             "time": Preheating time in seconds
+            </li>
+            <li>
+             "delta": The temperature added to the temperature of the previous step
+            </li>
+           </ul>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          createdAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            createdAt
+           </code>
+           -
+           <br/>
+           Creation date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          modifiedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            modifiedAt
+           </code>
+           -
+           <br/>
+           Last update
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slug
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            slug
+           </code>
+           -
+           <br/>
+           Slug
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTag
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingTag
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Community-GetV1CommunityRecipes-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Community-GetV1CommunityRecipes-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+  <span>{</span>
+    <span>"id"</span><span>:</span> <span>423</span><span>,</span>
+    <span>"title"</span><span>:</span> <span>"Roast chickens"</span><span>,</span>
+    <span>"signatureUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+    <span>"author"</span><span>:</span> <span>"Iginio Massari"</span><span>,</span>
+    <span>"duration"</span><span>:</span> <span>3000</span><span>,</span>
+    <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+    <span>"kind"</span><span>:</span> <span>"OVEN_SET"</span><span>,</span>
+    <span>"foodTypes"</span><span>:</span> <span>[</span><span>"fish"</span><span>]</span><span>,</span>
+    <span>"cookingTypes"</span><span>:</span> <span>[</span><span>]</span><span>,</span>
+    <span>"features"</span><span>:</span> <span>[</span>
+      <span>"mm_uip_pollo"</span><span>,</span>
+      <span>"mm_uip_smart_preheat"</span><span>,</span>
+      <span>"mm_uip_adaptive_cooking"</span>
+    <span>]</span><span>,</span>
+    <span>"holdable"</span><span>:</span> <span>1</span><span>,</span>
+    <span>"imgUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+    <span>"createdAt"</span><span>:</span> <span>"2019-05-02T15:05:04.082Z"</span><span>,</span>
+    <span>"modifiedAt"</span><span>:</span> <span>"2019-05-02T15:09:40.615Z"</span><span>,</span>
+    <span>"popularity"</span><span>:</span> <span>1</span><span>,</span>
+    <span>"rating"</span><span>:</span> <span>4</span><span>,</span>
+    <span>"slug"</span><span>:</span> <span>"baked-fish"</span><span>,</span>
+    <span>"userRating"</span><span>:</span> <span>5</span>
+  <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Community-GetV1CommunityRecipesShowcase">
+     <article data-group="Community" data-name="GetV1CommunityRecipesShowcase" data-version="0.0.0" id="api-Community-GetV1CommunityRecipesShowcase-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Community
+        </span>
+        <span>
+         |
+        </span>
+        Get showcase
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       GET retrieves Unox Recipe Groups or Unox Recipe to showcase.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/community/recipes/showcase</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Showcase id
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            title
+           </code>
+           -
+           <br/>
+           Title of showcase
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slug
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            slug
+           </code>
+           -
+           <br/>
+           Slug
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            description
+           </code>
+           -
+           <br/>
+           Description of the showcase
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          image
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            image
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          id_community_recipe
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            id_community_recipe
+           </code>
+           -
+           <br/>
+           Id of Community recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          id_community_recipe_group
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            id_community_recipe_group
+           </code>
+           -
+           <br/>
+           Id of Community recipe group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          imgUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            imgUrl
+           </code>
+           -
+           <br/>
+           Url of the Image
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          type
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            type
+           </code>
+           - Enum: "recipe_group" "recipe"
+           <br/>
+           Type of content shown
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          createdAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            createdAt
+           </code>
+           -
+           <br/>
+           Creation date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          modifiedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            modifiedAt
+           </code>
+           -
+           <br/>
+           Last modification date
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Community-GetV1CommunityRecipesShowcase-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Community-GetV1CommunityRecipesShowcase-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+  <span>{</span>
+    <span>"id"</span><span>:</span> <span>12</span><span>,</span>
+    <span>"title"</span><span>:</span> <span>"Welcome to DDC Community!"</span><span>,</span>
+    <span>"slug"</span><span>:</span> <span>"welcome-to-ddc-community"</span><span>,</span>
+    <span>"description"</span><span>:</span> <span>"Try these delicious recipes for your pastry!"</span><span>,</span>
+    <span>"id_community_recipe"</span><span>:</span> <span>null</span><span>,</span>
+    <span>"id_community_recipe_group"</span><span>:</span> <span>12</span><span>,</span>
+    <span>"imgUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/community/recipe-groups/160020c20624a5a057286050209242ac3d0370ef68a2ad64d9f9ccc6a61913b1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5ZZVSEL3GN%2F20190611%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190611T133732Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=8157ab1845453bf5eb10eaff526f88e815941a152a5bba41a85aa4b74ac2ec75&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+    <span>"type"</span><span>:</span> <span>"recipe_group"</span><span>,</span>
+    <span>"createdAt"</span><span>:</span> <span>"2019-04-10T00:00:00.000Z"</span><span>,</span>
+    <span>"modifiedAt"</span><span>:</span> <span>"2019-04-10T00:00:00.000Z"</span>
+  <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Community-GetV1CommunityRecipesRecipeid">
+     <article data-group="Community" data-name="GetV1CommunityRecipesRecipeid" data-version="0.0.0" id="api-Community-GetV1CommunityRecipesRecipeid-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Community
+        </span>
+        <span>
+         |
+        </span>
+        Get single recipe
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Retrieves a recipe details
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/community/recipes/:recipeId</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Parameter
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          recipeId
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           Id of recipe
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of Recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            title
+           </code>
+           -
+           <br/>
+           Recipe's title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          signatureUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            signatureUrl
+           </code>
+           -
+           <br/>
+           Temporary Url of the author's signature
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          author
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            author
+           </code>
+           -
+           <br/>
+           Author's name
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            description
+           </code>
+           -
+           <br/>
+           Recipe's description
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          duration
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            duration
+           </code>
+           -
+           <br/>
+           Cooking time
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            kind
+           </code>
+           -
+           <br/>
+           Enum: "OVEN_SET" "OVEN_MT" "OVEN_MEP" "PROVER_SET" "DECK_SET"
+           <br/>
+           Type of program, OVEN SET is a normal saved program, OVEN_MT is MULTI.Time program, OVEN_MEP is MISE.EN.PLACE program, PROVER_SET is PROVER accessory saved program, DECK_SET is DECKTOP accessory program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          foodTypes
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            foodTypes
+           </code>
+           - Array of string
+           <br/>
+           Types of food contained in the recipe, useful for filtering
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTypes
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingTypes
+           </code>
+           - Enum: 1 2 3 4 5 6 7 8 11
+           <br/>
+           <strong>
+            Type of program
+           </strong>
+          </p>
+          <ul>
+           <li>
+            1: WASHING
+           </li>
+           <li>
+            2: SET
+           </li>
+           <li>
+            3: PROGRAM
+           </li>
+           <li>
+            4: MIND.Maps
+           </li>
+           <li>
+            5: MULTI.Time
+           </li>
+           <li>
+            6: MISE EN PLACE
+           </li>
+           <li>
+            7: CHEFUNOX MULTI.Time
+           </li>
+           <li>
+            8: CHEFUNOX AUTO.Cook
+           </li>
+           <li>
+            11: READY.Cook
+           </li>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          features
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            features
+           </code>
+           - Enum: "mm_uip_pollo" "mm_uip_smart_preheat" "mm_uip_adaptive_cooking" "mm_steam_boost" "mm_pressure_steam" "mm_hyper_smoker" "mm_core_probe" "mm_uip_auto_soft" "mm_multi_time" "mm_mise_en_place" "mm_slave_decktop" "mm_slave_decktop" "sp_step_gt_99_mins" "sp_uip_smart_preheat" "sp_uip_adaptive_cooking" "sp_uip_auto_soft"
+           <br/>
+           Array of Functionalities required by the oven to execute the recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          rating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            rating
+           </code>
+           -
+           <br/>
+           Recipe's rating
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          popularity
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            popularity
+           </code>
+           -
+           <br/>
+           Recipe's popularity
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          userRating
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            userRating
+           </code>
+           -
+           <br/>
+           Recipe's user rating
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          holdable
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            holdable
+           </code>
+           -
+           <br/>
+           Option to keep the oven warm after the end of program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          preparation
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            preparation
+           </code>
+           -
+           <br/>
+           Recipe's title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ingredients
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ingredients
+           </code>
+           - Array of string
+           <br/>
+           List of ingredients
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          imgUrl
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            imgUrl
+           </code>
+           -
+           <br/>
+           Url of recipe's image
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          program
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            program
+           </code>
+           -
+           <br/>
+           if it is an
+           <strong>
+            EVEREO recipe
+           </strong>
+           :
+          </p>
+          <ul>
+           <li>
+            "cat": Food category
+           </li>
+           <li>
+            "hum": Humidity in the device
+           </li>
+           <li>
+            "temp": Temperature of food holding
+           </li>
+           <li>
+            "regen": Duration of the pasteurization
+           </li>
+           <li>
+            "holding": Duartion of food holding
+           </li>
+          </ul>
+          <br/>
+          <strong>
+           else
+          </strong>
+          :
+          <ul>
+           <li>
+            "steps": an array of
+           </li>
+           <ul>
+            <li>
+             "fan": Fan speed (1 to 5)
+            </li>
+            <li>
+             "temp": Temperature of cooking step
+            </li>
+            <li>
+             "time": Duration time of step
+            </li>
+            <li>
+             "clima": Humidity setting (-100, 100), negative value means humidity extraction, positive value means humidity addition using steam
+            </li>
+            <li>
+             "pulse": Define the pulse parameter of the fan, can be 0 or 1
+            </li>
+            <li>
+             "preset": Enumeration of braise, bread, combi, dehydrate, focaccia, fry, grill, hyper_smoker, manual, over_night, pastry, pizza, pressure_steam, roast,s ous_vide, steam. Type of preset choosen from the possible choices
+            </li>
+            <li>
+             "microwave": For speed ovens, it is the percentage of waves ranging from 0 to 100
+            </li>
+            <li>
+             "smokerSize": Either 0 or 1
+            </li>
+            <li>
+             "smoker": Smoking intensity (0 to 10)
+            </li>
+            <li>
+             "delta": In the cooking steps, it is the diffrence between the probe temperature and the chamber temperature.
+            </li>
+           </ul>
+           <li>
+            "preheat": an object of
+           </li>
+           <ul>
+            <li>
+             "temp": Temperature of preheating
+            </li>
+            <li>
+             "time": Preheating time in seconds
+            </li>
+            <li>
+             "delta": The temperature added to the temperature of the previous step
+            </li>
+           </ul>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          createdAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            createdAt
+           </code>
+           -
+           <br/>
+           Creation date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          modifiedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            modifiedAt
+           </code>
+           -
+           <br/>
+           Last update
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slug
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            slug
+           </code>
+           -
+           <br/>
+           Slug
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingTag
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingTag
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Community-GetV1CommunityRecipesRecipeid-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Community-GetV1CommunityRecipesRecipeid-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+  <span>"id"</span><span>:</span> <span>423</span><span>,</span>
+  <span>"title"</span><span>:</span> <span>"Roast chickens"</span><span>,</span>
+  <span>"signatureUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+  <span>"author"</span><span>:</span> <span>"Iginio Massari"</span><span>,</span>
+  <span>"duration"</span><span>:</span> <span>3000</span><span>,</span>
+  <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+  <span>"kind"</span><span>:</span> <span>"OVEN_SET"</span><span>,</span>
+  <span>"foodTypes"</span><span>:</span> <span>[</span><span>"fish"</span><span>]</span><span>,</span>
+  <span>"cookingTypes"</span><span>:</span> <span>[</span><span>1</span><span>]</span><span>,</span>
+  <span>"features"</span><span>:</span> <span>[</span>
+    <span>"mm_uip_pollo"</span><span>,</span>
+    <span>"mm_uip_smart_preheat"</span><span>,</span>
+    <span>"mm_uip_adaptive_cooking"</span>
+  <span>]</span><span>,</span>
+  <span>"holdable"</span><span>:</span> <span>true</span><span>,</span>
+  <span>"imgUrl"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/CHICKEN_ROASTING.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5Z2LM2HPVS%2F20190521%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20190521T122104Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5c63c33945f0e4c0ad8ba4436e1080c89aaa94f8658e62bd097d708e97bceb01&amp;X-Amz-SignedHeaders=host"</span><span>,</span>
+  <span>"createdAt"</span><span>:</span> <span>"2019-05-02T15:05:04.082Z"</span><span>,</span>
+  <span>"modifiedAt"</span><span>:</span> <span>"2019-05-02T15:09:40.615Z"</span><span>,</span>
+  <span>"description"</span><span>:</span> <span>423</span><span>,</span>
+  <span>"preparation"</span><span>:</span> <span>"Crush finely the biscuits adding the cinnamon. Pour in the melted butter and mix through.\\nTransfer the mix onto a 16 cm diameter cake mold and push it down with the back of a spoon applying gentle pressure. Set in the fridge while proceeding with the rest of the preparation.\\nNow mix together the fresh cheese and the sugar in a bowl using an electric whisk, proceed with adding eggs, one at the time until you end up with a smooth and creamy mixture. Add now the zest of a lemon, the cream and the sifted starch.\\nTransfer the mixture on top of the biscuit base, level it even and bake.\\nLeave to cool down and set in fridge for at least 3 hours."</span><span>,</span>
+  <span>"ingredients"</span><span>:</span> <span>[</span>
+    <span>"Peeled Tomatoes 2 lb"</span><span>,</span>
+    <span>"Garlic 4"</span><span>,</span>
+    <span>"Bunch of basil 1"</span><span>,</span>
+    <span>"Glass of EVO oil 2"</span><span>,</span>
+    <span>"Onion 1"</span><span>,</span>
+    <span>"Carrot 1"</span><span>,</span>
+    <span>"Celery 1"</span><span>,</span>
+    <span>"White pepper"</span>
+  <span>]</span><span>,</span>
+  <span>"adaptiveCooking"</span><span>:</span> <span>1</span><span>,</span>
+  <span>"smartPreheating"</span><span>:</span> <span>1</span><span>,</span>
+  <span>"autoSoft"</span><span>:</span> <span>1</span><span>,</span>
+  <span>"polloCabinet"</span><span>:</span> <span>1</span><span>,</span>
+  <span>"program"</span><span>:</span> <span>{</span>
+    <span>"preheat"</span><span>:</span> <span>{</span>
+      <span>"temp"</span><span>:</span> <span>230</span><span>,</span>
+      <span>"time"</span><span>:</span> <span>1740</span>
+    <span>}</span><span>,</span>
+    <span>"steps"</span><span>:</span> <span>[</span>
+      <span>{</span>
+        <span>"fan"</span><span>:</span> <span>4</span><span>,</span>
+        <span>"temp"</span><span>:</span> <span>140</span><span>,</span>
+        <span>"time"</span><span>:</span> <span>300</span><span>,</span>
+        <span>"clima"</span><span>:</span> <span>-50</span><span>,</span>
+        <span>"pulse"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"preset"</span><span>:</span> <span>"manual"</span>
+      <span>}</span>
+    <span>]</span>
+  <span>}</span><span>,</span>
+  <span>"popularity"</span><span>:</span> <span>1</span><span>,</span>
+  <span>"rating"</span><span>:</span> <span>4</span><span>,</span>
+  <span>"slug"</span><span>:</span> <span>"baked-fish"</span><span>,</span>
+  <span>"userRating"</span><span>:</span> <span>5</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <h2>
+       403
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Name
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          error
+         </td>
+         <td>
+          json
+         </td>
+         <td>
+          <p>
+           Access Denied to Resource
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#error-examples-Community-GetV1CommunityRecipesRecipeid-0_0_0-0" role="tab">
+         Access Denied to Resource 403
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="error-examples-Community-GetV1CommunityRecipesRecipeid-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Access Denied to Resource <span>403</span>
+<span>{</span>
+  <span>"error"</span><span>:</span> <span>{</span>
+    <span>"error_type"</span><span>:</span> <span>[</span>
+      <span>"Access denied to requested resource/s"</span>
+    <span>]</span>
+  <span>}</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Community-PostV1CommunityRate">
+     <article data-group="Community" data-name="PostV1CommunityRate" data-version="0.0.0" id="api-Community-PostV1CommunityRate-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Community
+        </span>
+        <span>
+         |
+        </span>
+        Save ratings
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Save user's ratings
+      </p>
+      <p>
+      </p>
+      <span>
+       post
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="post" tabindex="0"><code>/v1/community/rate</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Request Body
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          ratings
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ratings
+           </code>
+           -
+           <br/>
+           Array of pairs recipe-value
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          rate
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           Operation status
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Community-PostV1CommunityRate-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Community-PostV1CommunityRate-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+ rate<span>:</span> <span>true</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <h2>
+       422
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Name
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          errors
+         </td>
+         <td>
+          json
+         </td>
+         <td>
+          <p>
+           Invalid Json
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       500
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Name
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          error
+         </td>
+         <td>
+          json
+         </td>
+         <td>
+          <p>
+           Internal Server Error
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#error-examples-Community-PostV1CommunityRate-0_0_0-0" role="tab">
+         Internal Server Error 500
+        </a>
+       </li>
+       <li>
+        <a data-toggle="tab" href="#error-examples-Community-PostV1CommunityRate-0_0_0-1" role="tab">
+         Invalid Json 422
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="error-examples-Community-PostV1CommunityRate-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Internal Server Error <span>500</span>
+<span>{</span>
+  <span>"errors"</span><span>:</span> <span>{</span>
+    <span>"server"</span><span>:</span> <span>[</span>
+      <span>"Internal server error"</span>
+    <span>]</span>
+  <span>}</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div id="error-examples-Community-PostV1CommunityRate-0_0_0-1">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Invalid Json <span>422</span>
+<span>{</span>
+  <span>"errors"</span><span>:</span> <span>{</span>
+    <span>"request"</span><span>:</span> <span>[</span>
+      <span>"Request payload is not a valid JSON object"</span>
+    <span>]</span>
+  <span>}</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+  </div>
+ </body>
+</html>
+`

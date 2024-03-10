@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+  <section id="api-Support" class="show-api-group show-api-Support-group">
+  <h1 class="color-primary font-weight-bold">Support</h1>
+  <div id="api-Support-GetV1Support" class="show-api-article show-api-Support-article show-api-Support-GetV1Support-article ">
+
+    <article id="api-Support-GetV1Support-0.0.0" data-group="Support" data-name="GetV1Support" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Support</span> <span class="text-muted">|</span> Get support</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get support</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/support/</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            devices
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>devices</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;code
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.code</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;last_date
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.last_date</code> - ISO string.</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;last_log_date
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.last_log_date</code> - ISO string.</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;first_date
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>devices.first_date</code> - ISO string.</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;auto_pairing_date
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.auto_pairing_date</code> - ISO string.</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>devices.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;serial
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.serial</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;board_serial
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.board_serial</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;alias
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.alias</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;city
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.city</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;connection_kind
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.connection_kind</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;cloud_pin
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.cloud_pin</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;last_ip
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.last_ip</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;image
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.image</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_sap
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.id_sap</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_externals
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>devices.id_externals</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;sap
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>devices.id_externals.sap</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_logical_group
+          </td>
+          <td class="code">
+            Any
+          </td>
+          <td>
+            <p><code>devices.id_logical_group</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_board_model
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.id_board_model</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;seasonal
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>devices.seasonal</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;type
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>devices.type</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_firmware
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.id_firmware</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_device_group
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.id_device_group</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;washingOptions
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>devices.washingOptions</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;plain
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>devices.plain</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;end_warranty
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>devices.end_warranty</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;approved
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>devices.approved</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;cloud_pin_user
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.cloud_pin_user</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;goal
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.goal</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id_country
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>devices.id_country</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;mirror
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.mirror</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;isOfflineDevice
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>devices.isOfflineDevice</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;is_online
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>devices.is_online</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;details
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>devices.details</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;family
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.details.family</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;image_format
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.details.image_format</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;reference_market
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.details.reference_market</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;status
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>devices.status</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;connection
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>devices.status.connection</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;sync
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.status.sync</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;first_access
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>devices.status.first_access</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;working_hours
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>devices.status.working_hours</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;&nbsp;&nbsp;status
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>devices.status.status</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarmMail
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>alarmMail</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;addressse
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>alarmMail.addressse</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;notification
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>alarmMail.notification</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Support-GetV1Support-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Support-GetV1Support-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Not supporter</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Support-GetV1Support-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Support-GetV1Support-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"is_support"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Support-PatchV1Support" class="show-api-article show-api-Support-article show-api-Support-PatchV1Support-article ">
+
+    <article id="api-Support-PatchV1Support-0.0.0" data-group="Support" data-name="PatchV1Support" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Support</span> <span class="text-muted">|</span> Update support</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update support</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/support/</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            alarmMailAddresses
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String[]</td>
+          <td>
+            <p><code>alarmMailAddresses</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            alarmMailNotification
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Boolean</td>
+          <td>
+            <p><code>alarmMailNotification</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            notes
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>notes</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;serial
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>notes.serial</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;value
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>notes.value</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            updated
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Support-PatchV1Support-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Support-PatchV1Support-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"updated"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+</section>
+</body>
+</html>
+`

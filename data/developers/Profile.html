@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+  <section id="api-Profile" class="show-api-group show-api-Profile-group">
+  <h1 class="color-primary font-weight-bold">Profile</h1>
+  <div id="api-Profile-GetV1Profile" class="show-api-article show-api-Profile-article show-api-Profile-GetV1Profile-article ">
+
+    <article id="api-Profile-GetV1Profile-0.0.0" data-group="Profile" data-name="GetV1Profile" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Profile</span> <span class="text-muted">|</span> Get profile settings</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get logged in user informations like: name, email, generic profile info, application language, KPI and recipes unit measures (Celsius / Fahrenheit for temperatures, smc / BTU for gas, litres / oz for water and detergent). Please note that all temperatures are stored in celsius and so if programs are created using API, set temperatures must be specified in celsius</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/profile/</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            firstName
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>firstName</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            lastName
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>lastName</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            email
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>email</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            addressCity
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>addressCity</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            addressStreet
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>addressStreet</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            addressProvince
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>addressProvince</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            addressPostaCode
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>addressPostaCode</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            addressCountry
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>addressCountry</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            phone
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>phone</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            measureUnits
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;gas
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measureUnits.gas</code> - Enum: "scf" "smc" <br> Gas unit</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;energy
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measureUnits.energy</code> - Enum: "btu" "kwh" <br> Energy unit</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;volume
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measureUnits.volume</code> - Enum: "gallons" "liters" <br> Volume unit</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;temperature
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measureUnits.temperature</code> - Enum: "fahrenheit" "celsius" <br> Temperature unit</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;weight
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>measureUnits.weight</code> - Enum: "grams" "ounces" <br> Weight unit</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            language
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>language</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            jobTitle
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>jobTitle</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            environment
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>environment</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            rootAccount
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>rootAccount</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            isSupport
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>isSupport</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            image
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>image</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            imageUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>imageUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            foodTypesExclude
+          </td>
+          <td class="code">
+            String[]
+          </td>
+          <td>
+            <p><code>foodTypesExclude</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            cookingTagsExclude
+          </td>
+          <td class="code">
+            String[]
+          </td>
+          <td>
+            <p><code>cookingTagsExclude</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            tutorialState
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>tutorialState</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            userType
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>userType</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            config
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>config</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;hours
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>config.hours</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;start_day
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>config.start_day</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            creationDate
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>creationDate</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            apiKey
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>apiKey</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            country
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>country</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enable_push_notification
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enable_push_notification</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            enable_notification
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>enable_notification</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;enableAlarmNotification
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enable_notification.enableAlarmNotification</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;enableCookingEndedNotification
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>enable_notification.enableCookingEndedNotification</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Profile-GetV1Profile-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Profile-GetV1Profile-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">"username"</span><span class="token punctuation">,</span>
+    <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">"lastname"</span><span class="token punctuation">,</span>
+    <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"username.lastname@unox.com"</span><span class="token punctuation">,</span>
+    <span class="token property">"addressCity"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"addressStreet"</span><span class="token operator">:</span> <span class="token string">"cadoneghe"</span><span class="token punctuation">,</span>
+    <span class="token property">"addressProvince"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"addressPostaCode"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"addressCountry"</span><span class="token operator">:</span> <span class="token string">"IT"</span><span class="token punctuation">,</span>
+    <span class="token property">"phone"</span><span class="token operator">:</span> <span class="token string">"659873136444"</span><span class="token punctuation">,</span>
+    <span class="token property">"measureUnits"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"gas"</span><span class="token operator">:</span> <span class="token string">"smc"</span><span class="token punctuation">,</span>
+        <span class="token property">"energy"</span><span class="token operator">:</span> <span class="token string">"kwh"</span><span class="token punctuation">,</span>
+        <span class="token property">"volume"</span><span class="token operator">:</span> <span class="token string">"liters"</span><span class="token punctuation">,</span>
+        <span class="token property">"temperature"</span><span class="token operator">:</span> <span class="token string">"celsius"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"language"</span><span class="token operator">:</span> <span class="token string">"en"</span><span class="token punctuation">,</span>
+    <span class="token property">"jobTitle"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"environment"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"rootAccount"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">"isSupport"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">"image"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"foodTypesExclude"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"cookingTagsExclude"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"tutorialState"</span><span class="token operator">:</span> <span class="token string">"WELCOME"</span><span class="token punctuation">,</span>
+    <span class="token property">"userType"</span><span class="token operator">:</span> <span class="token string">"dealer"</span><span class="token punctuation">,</span>
+    <span class="token property">"config"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"creationDate"</span><span class="token operator">:</span> <span class="token string">"2023-01-12T11:16:10.230Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"apiKey"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Profile-Post V1ProfileFeedback" class="show-api-article show-api-Profile-article show-api-Profile-Post V1ProfileFeedback-article ">
+
+    <article id="api-Profile-Post V1ProfileFeedback-0.0.0" data-group="Profile" data-name="Post V1ProfileFeedback" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Profile</span> <span class="text-muted">|</span> Send feedback</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Send a feedback about DDC</p><p></p>
+      <span class="method meth-post ">post </span>
+      <div class="code-toolbar"><pre data-type="post " data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/profile/feedback</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            message
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>message</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            windowLocation
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>windowLocation</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            sent
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>operqtion status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Profile-Post V1ProfileFeedback-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Profile-Post V1ProfileFeedback-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ sent<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Profile-PatchV1Profile" class="show-api-article show-api-Profile-article show-api-Profile-PatchV1Profile-article ">
+
+    <article id="api-Profile-PatchV1Profile-0.0.0" data-group="Profile" data-name="PatchV1Profile" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Profile</span> <span class="text-muted">|</span> Update user settings</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update user settings</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/profile/</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            measureUnits
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measureUnits</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;temperature
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measureUnits.temperature</code> - Enum: 'celsius', 'fahrenheit'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;gas
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measureUnits.gas</code> - Enum: 'smc', 'scf'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;energy
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measureUnits.energy</code> - Enum: 'kwh', 'btu'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;volume
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measureUnits.volume</code> - Enum: 'liters', 'gallons'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;weight
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>measureUnits.weight</code> - Enum: 'grams', 'ounces'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            language
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>language</code> - Enum: 'en', 'it', 'de', 'fr', 'cs', 'es', 'ru', 'ja', 'zh'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            jobTitle
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>jobTitle</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            foodTypesExclude
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String[]</td>
+          <td>
+            <p><code>foodTypesExclude</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            oldCookingTagsExclude
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String[]</td>
+          <td>
+            <p><code>oldCookingTagsExclude</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            tutorialState
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>tutorialState</code> - Enum: 'WELCOME', 'SHOW_LIST', 'COMPLETED'</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            imgBlob
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>imgBlob</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            jobTitle
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>jobTitle</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            measureUnits
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;temperature
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits.temperature</code> - Enum: 'celsius', 'fahrenheit'</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;gas
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits.gas</code> - Enum: 'smc', 'scf'</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;energy
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits.energy</code> - Enum: 'kwh', 'btu'</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;volume
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits.volume</code> - Enum: 'liters', 'gallons'</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;weight
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>measureUnits.weight</code> - Enum: 'grams', 'ounces'</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            language
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>language</code> - Enum: 'en', 'it', 'de', 'fr', 'cs', 'es', 'ru', 'ja', 'zh'</p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            image
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>image</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            foodTypesExclude
+          </td>
+          <td class="code">
+            String[]
+          </td>
+          <td>
+            <p><code>foodTypesExclude</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            oldCookingTagsExclude
+          </td>
+          <td class="code">
+            String[]
+          </td>
+          <td>
+            <p><code>oldCookingTagsExclude</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            updated
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p><code>updated</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Profile-PatchV1Profile-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Profile-PatchV1Profile-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+</section>
+</body>
+</html>
+`

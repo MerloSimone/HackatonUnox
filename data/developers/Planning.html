@@ -1,0 +1,3754 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+  <section id="api-Planning" class="show-api-group show-api-Planning-group">
+  <h1 class="color-primary font-weight-bold">Planning</h1>
+  <div id="api-Planning-PostV1PlanningGroup" class="show-api-article show-api-Planning-article show-api-Planning-PostV1PlanningGroup-article ">
+
+    <article id="api-Planning-PostV1PlanningGroup-0.0.0" data-group="Planning" data-name="PostV1PlanningGroup" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Create Company Group</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Create a company planning group</p><p></p>
+      <span class="method meth-post">post</span>
+      <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/group</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>name</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            color
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>color</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            whitelist
+          </td>
+          <td class="code">String[]</td>
+          <td>
+            <p><code>whitelist</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            created
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>created</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>created.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>created.name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;color
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>created.color</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;whitelist
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>created.whitelist</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PostV1PlanningGroup-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PostV1PlanningGroup-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PostV1PlanningExtracooking" class="show-api-article show-api-Planning-article show-api-Planning-PostV1PlanningExtracooking-article ">
+
+    <article id="api-Planning-PostV1PlanningExtracooking-0.0.0" data-group="Planning" data-name="PostV1PlanningExtracooking" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Create extracooking</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Create many new pre/post cooking step for this company</p><p></p>
+      <span class="method meth-post">post</span>
+      <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/extracooking</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">String</td>
+          <td><p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">Object</td>
+          <td><p><code>type</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>type</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PostV1PlanningExtracooking-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PostV1PlanningExtracooking-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"5"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"defrosting"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"PRECOOKING"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-PostV1PlanningExtracooking-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-PostV1PlanningExtracooking-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"view_planning"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PostV1PlanningShipping" class="show-api-article show-api-Planning-article show-api-Planning-PostV1PlanningShipping-article ">
+
+    <article id="api-Planning-PostV1PlanningShipping-0.0.0" data-group="Planning" data-name="PostV1PlanningShipping" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Create shipping</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Create a new shipping: distribute recipes between devices based on shipping due date and cooking tags</p><p></p>
+      <span class="method meth-post">post</span>
+      <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/shipping</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            startTime
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>startTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shippings
+          </td>
+          <td class="code">Object[]</td>
+          <td><p><code>shippings</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;dueDate
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>shippings.dueDate</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;recipient
+          </td>
+          <td class="code">String</td>
+          <td><p><code>shippings.recipient</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;name
+          </td>
+          <td class="code">String</td>
+          <td><p><code>shippings.name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;recipes
+          </td>
+          <td class="code">Object[]</td>
+          <td><p><code>shippings.recipes</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            processes
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>processes</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shippings
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>shippings</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PostV1PlanningShipping-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PostV1PlanningShipping-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"processes"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"shippings"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-PostV1PlanningShipping-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-PostV1PlanningShipping-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"view_planning"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-DeleteV1PlanningDeviceDeviceid" class="show-api-article show-api-Planning-article show-api-Planning-DeleteV1PlanningDeviceDeviceid-article ">
+
+    <article id="api-Planning-DeleteV1PlanningDeviceDeviceid-0.0.0" data-group="Planning" data-name="DeleteV1PlanningDeviceDeviceid" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Delete a planning on a device</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>DELETE a planning on a device</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/device/:deviceId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            deviceId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>Id of device</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            sent
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Opeartion status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-DeleteV1PlanningDeviceDeviceid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-DeleteV1PlanningDeviceDeviceid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ sent<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-DeleteV1PlanningGroup" class="show-api-article show-api-Planning-article show-api-Planning-DeleteV1PlanningGroup-article ">
+
+    <article id="api-Planning-DeleteV1PlanningGroup-0.0.0" data-group="Planning" data-name="DeleteV1PlanningGroup" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Delete company group</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>DELETE a planning group</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/group</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            body
+          </td>
+          <td class="code">Object[]</td>
+          <td>
+            <p>Array of string <br> Array of ids to delete</p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            deleted
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-DeleteV1PlanningGroup-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-DeleteV1PlanningGroup-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ deleted<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-DeleteV1PlanningShiftShiftid" class="show-api-article show-api-Planning-article show-api-Planning-DeleteV1PlanningShiftShiftid-article ">
+
+    <article id="api-Planning-DeleteV1PlanningShiftShiftid-0.0.0" data-group="Planning" data-name="DeleteV1PlanningShiftShiftid" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Delete company shift</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>DELETE a company shift and all its processes + shippings</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/shift/:shiftId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            shiftId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>Id of shift</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            deleted
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-DeleteV1PlanningShiftShiftid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-DeleteV1PlanningShiftShiftid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"deleted"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-DeleteV1PlanningExtracookingExtracookingid" class="show-api-article show-api-Planning-article show-api-Planning-DeleteV1PlanningExtracookingExtracookingid-article ">
+
+    <article id="api-Planning-DeleteV1PlanningExtracookingExtracookingid-0.0.0" data-group="Planning" data-name="DeleteV1PlanningExtracookingExtracookingid" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Delete extracooking</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>DELETE a pre/post cooking step</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/extracooking/:extracookingId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            extracookingId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>Id of extracooking</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            deleted
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-DeleteV1PlanningExtracookingExtracookingid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-DeleteV1PlanningExtracookingExtracookingid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"deleted"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-DeleteV1PlanningExtracookingExtracookingid-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-DeleteV1PlanningExtracookingExtracookingid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"view_planning"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-DeleteV1PlanningProcessProcessid" class="show-api-article show-api-Planning-article show-api-Planning-DeleteV1PlanningProcessProcessid-article ">
+
+    <article id="api-Planning-DeleteV1PlanningProcessProcessid-0.0.0" data-group="Planning" data-name="DeleteV1PlanningProcessProcessid" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Delete process</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>DELETE a specified process</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/process/:processId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            processId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>Id of the process</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            deleted
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-DeleteV1PlanningProcessProcessid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-DeleteV1PlanningProcessProcessid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ deleted<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-DeleteV1PlanningShippingShippingid" class="show-api-article show-api-Planning-article show-api-Planning-DeleteV1PlanningShippingShippingid-article ">
+
+    <article id="api-Planning-DeleteV1PlanningShippingShippingid-0.0.0" data-group="Planning" data-name="DeleteV1PlanningShippingShippingid" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Delete shipping</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>DELETE a shipping with all their processes (onDelete: cascade)</p><p></p>
+      <span class="method meth-delete">delete</span>
+      <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/shipping/:shippingId</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            shippingId
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p>Id of shipping</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            deleted
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-DeleteV1PlanningShippingShippingid-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-DeleteV1PlanningShippingShippingid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ <span class="token property">"deleted"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-DeleteV1PlanningShippingShippingid-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-DeleteV1PlanningShippingShippingid-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"view_planning"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PatchV1PlanningProcess" class="show-api-article show-api-Planning-article show-api-Planning-PatchV1PlanningProcess-article ">
+
+    <article id="api-Planning-PatchV1PlanningProcess-0.0.0" data-group="Planning" data-name="PatchV1PlanningProcess" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Edit process</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>PATCH: edit db processes</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/process</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>id</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_company_recipe
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id_company_recipe</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_shipping
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id_shipping</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            start_time
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td>
+            <p><code>start_time</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>type</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            washing_id
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>washing_id</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_shift_device
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id_shift_device</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            recipeId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>recipeId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shippingId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shippingId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            deviceId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            planningGroupId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>planningGroupId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shiftDeviceId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shiftDeviceId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>type</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            startTime
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>startTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            endTime
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>endTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            washingId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>washingId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            washingName
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>washingName</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            data
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Any
+          </td>
+          <td>
+            <p><code>data</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PatchV1PlanningProcess-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PatchV1PlanningProcess-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-PatchV1PlanningProcess-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-PatchV1PlanningProcess-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+  <span class="token property">"error"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"error_type"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">"Access denied to requested resource/s"</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningGroup" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningGroup-article ">
+
+    <article id="api-Planning-GetV1PlanningGroup-0.0.0" data-group="Planning" data-name="GetV1PlanningGroup" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get company group</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>GET a company's planning groups</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/group</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            created
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>created</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>created.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>created.name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;color
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>created.color</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;whitelist
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>created.whitelist</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningCooking_tags" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningCooking_tags-article ">
+
+    <article id="api-Planning-GetV1PlanningCooking_tags-0.0.0" data-group="Planning" data-name="GetV1PlanningCooking_tags" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get cooking tags</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get cooking tags</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/cooking_tags</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            color
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>color</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-GetV1PlanningCooking_tags-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-GetV1PlanningCooking_tags-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"GRILLED_MEAT"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#e9c46a"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"GRILLED_MEAT"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"FISH"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#264653"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"FISH"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"STEAMED_VEGETABLES"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#e63946"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"STEAMED_VEGETABLES"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"GRILLED_VEGETABLES"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#2a9d8f"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"GRILLED_VEGETABLES"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"CHICKEN"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#f4a261"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"CHICKEN"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"PORK"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#ff5cc9"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"PORK"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningExtracooking" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningExtracooking-article ">
+
+    <article id="api-Planning-GetV1PlanningExtracooking-0.0.0" data-group="Planning" data-name="GetV1PlanningExtracooking" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get extracooking</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get extracooking</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/extracooking</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>type</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-GetV1PlanningExtracooking-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-GetV1PlanningExtracooking-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"5"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"defrosting"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"PRECOOKING"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningProcess" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningProcess-article ">
+
+    <article id="api-Planning-GetV1PlanningProcess-0.0.0" data-group="Planning" data-name="GetV1PlanningProcess" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get process</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>GET all processes in a certain time range (default: today +/- 20 days)</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/process</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            from
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>from</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            to
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>to</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            recipeId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>recipeId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shippingId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shippingId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            deviceId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            planningGroupId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>planningGroupId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shiftDeviceId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shiftDeviceId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>type</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            startTime
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>startTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            endTime
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>endTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            washingId
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>washingId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            washingName
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>washingName</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            data
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Any
+          </td>
+          <td>
+            <p><code>data</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-GetV1PlanningProcess-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-GetV1PlanningProcess-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningSchedulerDate" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningSchedulerDate-article ">
+
+    <article id="api-Planning-GetV1PlanningSchedulerDate-0.0.0" data-group="Planning" data-name="GetV1PlanningSchedulerDate" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get Scheduler job</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get a scheduler job</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/scheduler/:date</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+      <h2>Parameter</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            date
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p>Date of scheduler</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shiftId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shiftId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            nRecipes
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>nRecipes</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            nOvens
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>nOvens</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            startTime
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>startTime</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            status
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>status</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            flags
+          </td>
+          <td class="code">
+            Object
+          </td>
+          <td>
+            <p><code>flags</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningGroupShift_device" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningGroupShift_device-article ">
+
+    <article id="api-Planning-GetV1PlanningGroupShift_device-0.0.0" data-group="Planning" data-name="GetV1PlanningGroupShift_device" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get shift device</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>GET relationship device-planning group for shifts between two dates (default: today+/- 20 days)</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/group/shift_device</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            from
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>from</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            to
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>to</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shiftId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shiftId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            deviceId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            planningGroupId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>planningGroupId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            data
+          </td>
+          <td class="code">
+            Any
+          </td>
+          <td>
+            <p><code>data</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-GetV1PlanningGroupShift_device-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-GetV1PlanningGroupShift_device-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-GetV1PlanningShipping" class="show-api-article show-api-Planning-article show-api-Planning-GetV1PlanningShipping-article ">
+
+    <article id="api-Planning-GetV1PlanningShipping-0.0.0" data-group="Planning" data-name="GetV1PlanningShipping" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Get shipping</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>GET all shippings in a certain time range (default: today +/- 20 days)</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/shipping</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            from
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>from</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            to
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">Date</td>
+          <td><p><code>to</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            recipient
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>recipient</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            dueDate
+          </td>
+          <td class="code">
+            Date
+          </td>
+          <td>
+            <p><code>dueDate</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-GetV1PlanningShipping-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-GetV1PlanningShipping-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"38"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Morning Shipping"</span><span class="token punctuation">,</span>
+        <span class="token property">"recipient"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+        <span class="token property">"dueDate"</span><span class="token operator">:</span> <span class="token string">"2021-10-26T13:30:00"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-GetV1PlanningShipping-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-GetV1PlanningShipping-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"view_planning"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PostV1PlanningDeviceSend" class="show-api-article show-api-Planning-article show-api-Planning-PostV1PlanningDeviceSend-article ">
+
+    <article id="api-Planning-PostV1PlanningDeviceSend-0.0.0" data-group="Planning" data-name="PostV1PlanningDeviceSend" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Send planning to devices</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Send the planning within the specified time range to a device</p><p></p>
+      <span class="method meth-post">post</span>
+      <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/device/send</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            targetDeviceId
+          </td>
+          <td class="code">Object[]</td>
+          <td>
+            <p><code>targetDeviceId</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            from
+          </td>
+          <td class="code">Date</td>
+          <td>
+            <p><code>from</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            to
+          </td>
+          <td class="code">Date</td>
+          <td>
+            <p><code>to</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            sent
+          </td>
+          <td class="code">
+            Boolean
+          </td>
+          <td>
+            <p>Operation status</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PostV1PlanningDeviceSend-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PostV1PlanningDeviceSend-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+ sent<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PatchV1PlanningGroup" class="show-api-article show-api-Planning-article show-api-Planning-PatchV1PlanningGroup-article ">
+
+    <article id="api-Planning-PatchV1PlanningGroup-0.0.0" data-group="Planning" data-name="PatchV1PlanningGroup" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Update company group</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>PATCH company planning groups</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/group</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">String</td>
+          <td><p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">String</td>
+          <td><p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            color
+          </td>
+          <td class="code">Number</td>
+          <td><p><code>color</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            whitelist
+          </td>
+          <td class="code">String[]</td>
+          <td><p><code>whitelist</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            color
+          </td>
+          <td class="code">
+            Number
+          </td>
+          <td>
+            <p><code>color</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            whitelist
+          </td>
+          <td class="code">
+            String[]
+          </td>
+          <td>
+            <p><code>whitelist</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PatchV1PlanningGroup-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PatchV1PlanningGroup-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"3"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"All"</span><span class="token punctuation">,</span>
+        <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"#62a48"</span><span class="token punctuation">,</span>
+        <span class="token property">"whitelist"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"GRILLED_MEAT"</span><span class="token punctuation">,</span>
+            <span class="token string">"FISH"</span><span class="token punctuation">,</span>
+            <span class="token string">"STEAMED_VEGETABLES"</span><span class="token punctuation">,</span>
+            <span class="token string">"GRILLED_VEGETABLES"</span><span class="token punctuation">,</span>
+            <span class="token string">"CHICKEN"</span><span class="token punctuation">,</span>
+            <span class="token string">"PORK"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PatchV1PlanningGroupShift_device" class="show-api-article show-api-Planning-article show-api-Planning-PatchV1PlanningGroupShift_device-article ">
+
+    <article id="api-Planning-PatchV1PlanningGroupShift_device-0.0.0" data-group="Planning" data-name="PatchV1PlanningGroupShift_device" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Update device group</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>PATCH a device planning group for a given shift (day)</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/group/shift_device</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id_device
+          </td>
+          <td class="code">Number</td>
+          <td><p><code>id_device</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_planning_group
+          </td>
+          <td class="code">Number</td>
+          <td><p><code>id_planning_group</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            id_shift
+          </td>
+          <td class="code">Number</td>
+          <td><p><code>id_shift</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            data
+          </td>
+          <td class="code">Any</td>
+          <td><p><code>data</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            shiftId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>shiftId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            deviceId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            planningGroupId
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>planningGroupId</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            data
+          </td>
+          <td class="code">
+            Any
+          </td>
+          <td>
+            <p><code>data</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PatchV1PlanningExtracooking" class="show-api-article show-api-Planning-article show-api-Planning-PatchV1PlanningExtracooking-article ">
+
+    <article id="api-Planning-PatchV1PlanningExtracooking-0.0.0" data-group="Planning" data-name="PatchV1PlanningExtracooking" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Update extracooking</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update extracooking</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/extracooking</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String</td>
+          <td>
+            <p><code>name</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>type</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PatchV1PlanningExtracooking-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PatchV1PlanningExtracooking-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"5"</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"defrosting"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"PRECOOKING"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+      <h2>403</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Name</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            error
+          </td>
+          <td class="code">
+            json
+          </td>
+          <td>
+            <p>Access Denied to Resource</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#error-examples-Planning-PatchV1PlanningExtracooking-0_0_0-0" role="tab" data-toggle="tab">Access Denied to Resource 403</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="error-examples-Planning-PatchV1PlanningExtracooking-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Access Denied to Resource <span class="token number">403</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"errors"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"view_planning"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"Access denied to requested resource/s"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PatchV1PlanningSettings" class="show-api-article show-api-Planning-article show-api-Planning-PatchV1PlanningSettings-article ">
+
+    <article id="api-Planning-PatchV1PlanningSettings-0.0.0" data-group="Planning" data-name="PatchV1PlanningSettings" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> Update planning settings</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update planning settings</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planning/settings</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            startShift
+          </td>
+          <td class="code">String</td>
+          <td><p><code>startShift</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            endShift
+          </td>
+          <td class="code">String</td>
+          <td><p><code>endShift</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            startShift
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>startShift</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            endShift
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>endShift</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Planning-PatchV1PlanningSettings-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Planning-PatchV1PlanningSettings-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+  <div id="api-Planning-PatchV1PlanningdeviceProcess" class="show-api-article show-api-Planning-article show-api-Planning-PatchV1PlanningdeviceProcess-article ">
+
+    <article id="api-Planning-PatchV1PlanningdeviceProcess-0.0.0" data-group="Planning" data-name="PatchV1PlanningdeviceProcess" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Planning</span> <span class="text-muted">|</span> update process status</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Update process status</p><p></p>
+      <span class="method meth-patch">patch</span>
+      <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/planningdevice/process</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+      <h2>Request Body</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            id
+          </td>
+          <td class="code">Number</td>
+          <td>
+            <p><code>id</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            status
+          </td>
+          <td class="code">Object</td>
+          <td>
+            <p><code>status</code></p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+
+
+    </article>
+
+  </div>
+</section>
+</body>
+</html>
+`

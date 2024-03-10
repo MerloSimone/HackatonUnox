@@ -1,0 +1,3017 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <div id="sections">
+   <section id="api-Devices_Dashboard">
+    <h1>
+     Devices Dashboard
+    </h1>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardActualstate">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardActualstate" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboardActualstate-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get actual state
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the actual state of devices in the previous seven days.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard/actualState</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Starting date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           End date
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          onlineDevices
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            onlineDevices
+           </code>
+           -
+           <br/>
+           Number of devices online
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          totalDevices
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            totalDevices
+           </code>
+           -
+           <br/>
+           Total number of devices online and offline
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          recipesInQueue
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipesInQueue
+           </code>
+           -
+           <br/>
+           Number of recipes being sent
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          idDevice
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipesInQueue.idDevice
+           </code>
+           - Id of device sent to
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          waiting
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            recipesInQueue.waiting
+           </code>
+           -
+           <br/>
+           Number of requests in queue
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          requests
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            recipesInQueue.requests
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warnings
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            warnings
+           </code>
+           -
+           <br/>
+           Number of avtive warnings
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          alarms
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            alarms
+           </code>
+           -
+           <br/>
+           Number of acive alarms
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            cooking
+           </code>
+           -
+           <br/>
+           Number of devices cooking
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            washing
+           </code>
+           -
+           <br/>
+           Number of devices washing
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardActualstate-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboardActualstate-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+        <span>"onlineDevices"</span><span>:</span> <span>7</span><span>,</span>
+        <span>"totalDevices"</span><span>:</span> <span>8</span><span>,</span>
+        <span>"recipesInQueue"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"idDevice"</span><span>:</span> <span>1</span><span>,</span>
+                <span>"programs"</span><span>:</span> <span>[</span>
+                    <span>{</span>
+                        <span>"kind"</span><span>:</span> <span>"OVEN_MT"</span><span>,</span>
+                        <span>"name"</span><span>:</span> <span>"BREAKFAST"</span><span>,</span>
+                        <span>"program"</span><span>:</span> <span>{</span>
+                            <span>"steps"</span><span>:</span> <span>[</span>
+                                <span>{</span>
+                                    <span>"fan"</span><span>:</span> <span>4</span><span>,</span>
+                                    <span>"temp"</span><span>:</span> <span>215</span><span>,</span>
+                                    <span>"time"</span><span>:</span> <span>"INF"</span><span>,</span>
+                                    <span>"clima"</span><span>:</span> <span>20</span><span>,</span>
+                                    <span>"preset"</span><span>:</span> <span>"manual"</span>
+                                <span>}</span>
+                            <span>]</span><span>,</span>
+                            <span>"preheat"</span><span>:</span> <span>{</span>
+                                <span>"temp"</span><span>:</span> <span>215</span><span>,</span>
+                                <span>"time"</span><span>:</span> <span>0</span>
+                            <span>}</span>
+                        <span>}</span><span>,</span>
+                        <span>"essName"</span><span>:</span> <span>""</span><span>,</span>
+                        <span>"imgName"</span><span>:</span> <span>"SUNNY_SIDE_UP"</span><span>,</span>
+                        <span>"group"</span><span>:</span> <span>15</span><span>,</span>
+                        <span>"autoSoft"</span><span>:</span> <span>0</span><span>,</span>
+                        <span>"idDevice"</span><span>:</span> <span>62</span><span>,</span>
+                        <span>"polloCabinet"</span><span>:</span> <span>0</span><span>,</span>
+                        <span>"adaptiveCooking"</span><span>:</span> <span>1</span><span>,</span>
+                        <span>"smartPreheating"</span><span>:</span> <span>1</span>
+                    <span>}</span>
+                <span>]</span>
+            <span>}</span>
+        <span>]</span><span>,</span>
+        <span>"warnings"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"alarms"</span><span>:</span> <span>0</span>
+    <span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboard">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboard" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboard-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get dashboard
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the all required data for dashboard.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Starting date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           end Date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ids
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ids
+           </code>
+           -
+           <br/>
+           Ids of devices
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          analytics
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            analytics
+           </code>
+           - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice"
+           <br/>
+           Array of field required for analytics
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          dashboard
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dashboard
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          total
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            total
+           </code>
+           -
+           <br/>
+           if true retuen all data of devices and not only the specified range date
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          type
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            type
+           </code>
+           -
+           <br/>
+           devices type: electric or gas
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          totalConsumption
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumption
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumption.date
+           </code>
+           -
+           <br/>
+           Date of the consumption
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          steam
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumption.steam
+           </code>
+           -
+           <br/>
+           The amount of consumed steam
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          energy
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumption.energy
+           </code>
+           -
+           <br/>
+           The amount of consumed energy
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          gas
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumption.gas
+           </code>
+           -
+           <br/>
+           The amount of consumed gas
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washingFrequency
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            washingFrequency
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          _id
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            washingFrequency._id
+           </code>
+           -
+           <br/>
+           Date of the data
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          devices
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            washingFrequency.devices
+           </code>
+           -
+           <br/>
+           Array of objects:
+          </p>
+          <pre>{
+idDevice: number
+frequency: number
+cookingHoursSum: number
+washingHoursSum: number
+cookingCount: number
+}
+</pre>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          mostUsedRecipes
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            mostUsedRecipes
+           </code>
+           -
+           <br/>
+           Object having the following form:
+          </p>
+          <pre>{
+  duration: number
+  execution: number
+  lastDate: Date
+  image: string
+  company_recipe_id: number
+  family: string
+}
+</pre>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          actualStatus
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          onlineDevices
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.onlineDevices
+           </code>
+           -
+           <br/>
+           Number of devices online
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          totalDevices
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.totalDevices
+           </code>
+           -
+           <br/>
+           Total number of devices online and offline
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          recipesInQueue
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.recipesInQueue
+           </code>
+           -
+           <br/>
+           Number of recipes being sent
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          idDevice
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.recipesInQueue.idDevice
+           </code>
+           - Id of device sent to
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          waiting
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.recipesInQueue.waiting
+           </code>
+           -
+           <br/>
+           Number of requests in queue
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          requests
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.recipesInQueue.requests
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warnings
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.warnings
+           </code>
+           -
+           <br/>
+           Number of avtive warnings
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          alarms
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.alarms
+           </code>
+           -
+           <br/>
+           Number of acive alarms
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.cooking
+           </code>
+           -
+           <br/>
+           Number of devices cooking
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            actualStatus.washing
+           </code>
+           -
+           <br/>
+           Number of devices washing
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          totalConsumptionByDevice
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumptionByDevice
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumptionByDevice.date
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          devices
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            totalConsumptionByDevice.devices
+           </code>
+           -
+           <br/>
+           An array of objects:
+          </p>
+          <pre>{
+idDevice: number
+steam: number
+gas: number
+electricity: number
+}
+</pre>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          openDoorDuration
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            openDoorDuration
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            openDoorDuration.date
+           </code>
+           -
+           <br/>
+           Date of calculation
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          duration
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            openDoorDuration.duration
+           </code>
+           -
+           <br/>
+           Total open door duration during cooking
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          hourlyWashing
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            hourlyWashing
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            hourlyWashing.date
+           </code>
+           -
+           <br/>
+           Date of calculation
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          hourlyWashing
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            hourlyWashing.hourlyWashing
+           </code>
+           -
+           <br/>
+           The number of washing initiated during the 24 hours of a day
+           <br/>
+           for example: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,0,0,0,0]
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          dailyGoals
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dailyGoals
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            dailyGoals.date
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          devices
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dailyGoals.devices
+           </code>
+           -
+           <br/>
+           An array of object having the following form:
+          </p>
+          <pre>{
+  idDevice: number
+  cookingHours: number
+  washingHours: number
+  openDoorDuration: number
+  openDoorMultiTime: number
+  cookingCount: number
+  multiTimeCount: number
+}
+</pre>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboard-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboard-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+    <span>"type"</span><span>:</span> <span>"electric"</span>
+    <span>"washingFrequency"</span><span>:</span> <span>[</span>
+        <span>{</span>
+            <span>"_id"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+            <span>"devices"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                    <span>"cookingHoursSum"</span><span>:</span> <span>22089587</span><span>,</span>
+                    <span>"washingHoursSum"</span><span>:</span> <span>0</span><span>,</span>
+                    <span>"cookingCount"</span><span>:</span> <span>1</span><span>,</span>
+                    <span>"frequency"</span><span>:</span> <span>0</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"_id"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+            <span>"devices"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                    <span>"cookingHoursSum"</span><span>:</span> <span>4572269</span><span>,</span>
+                    <span>"washingHoursSum"</span><span>:</span> <span>4913356</span><span>,</span>
+                    <span>"cookingCount"</span><span>:</span> <span>2</span><span>,</span>
+                    <span>"frequency"</span><span>:</span> <span>1.0745990666778356</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"_id"</span><span>:</span> <span>"2023-08-10T00:00:00.000Z"</span><span>,</span>
+            <span>"devices"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                    <span>"cookingHoursSum"</span><span>:</span> <span>39012</span><span>,</span>
+                    <span>"washingHoursSum"</span><span>:</span> <span>0</span><span>,</span>
+                    <span>"cookingCount"</span><span>:</span> <span>1</span><span>,</span>
+                    <span>"frequency"</span><span>:</span> <span>0</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span>
+    <span>]</span><span>,</span>
+    <span>"totalConsumption"</span><span>:</span> <span>[</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+            <span>"steam"</span><span>:</span> <span>130.4901587500057</span><span>,</span>
+            <span>"energy"</span><span>:</span> <span>4.75393345021113</span><span>,</span>
+            <span>"gas"</span><span>:</span> <span>0</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+            <span>"steam"</span><span>:</span> <span>27.009835342676606</span><span>,</span>
+            <span>"energy"</span><span>:</span> <span>2.051658377491247</span><span>,</span>
+            <span>"gas"</span><span>:</span> <span>0</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-10T00:00:00.000Z"</span><span>,</span>
+            <span>"steam"</span><span>:</span> <span>0</span><span>,</span>
+            <span>"energy"</span><span>:</span> <span>0.002226875272758039</span><span>,</span>
+            <span>"gas"</span><span>:</span> <span>0</span>
+        <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+    <span>"openDoorDuration"</span><span>:</span> <span>[</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+            <span>"duration"</span><span>:</span> <span>1276360</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+            <span>"duration"</span><span>:</span> <span>846516</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-10T00:00:00.000Z"</span><span>,</span>
+            <span>"duration"</span><span>:</span> <span>0</span><span>,</span>
+        <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+    <span>"hourlyWashing"</span><span>:</span> <span>[</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+            <span>"hourlyWashing"</span><span>:</span> <span>[</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>1</span><span>,</span><span>2</span><span>,</span><span>3</span><span>,</span><span>4</span><span>,</span><span>5</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+            <span>"hourlyWashing"</span><span>:</span> <span>[</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>1</span><span>,</span><span>2</span><span>,</span><span>3</span><span>,</span><span>4</span><span>,</span><span>5</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-10T00:00:00.000Z"</span><span>,</span>
+            <span>"hourlyWashing"</span><span>:</span> <span>[</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>1</span><span>,</span><span>2</span><span>,</span><span>3</span><span>,</span><span>4</span><span>,</span><span>5</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>,</span><span>0</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+    <span>"mostUsedRecipes"</span><span>:</span> <span>{</span>
+                <span>"5_CK CHICKEN SANDWICH"</span><span>:</span> <span>{</span>
+                    <span>"duration"</span><span>:</span> <span>987000</span><span>,</span>
+                    <span>"execution"</span><span>:</span> <span>1</span><span>,</span>
+                    <span>"lastDate"</span><span>:</span> <span>"2023-09-06T12:24:07.000Z"</span><span>,</span>
+                    <span>"image"</span><span>:</span> <span>""</span><span>,</span>
+                    <span>"company_recipe_id"</span><span>:</span> <span>"452"</span><span>,</span>
+                    <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span>
+                <span>}</span><span>,</span>
+                <span>"15_SANDWICH BLUE 3-4"</span><span>:</span> <span>{</span>
+                    <span>"duration"</span><span>:</span> <span>354910</span><span>,</span>
+                    <span>"execution"</span><span>:</span> <span>2</span><span>,</span>
+                    <span>"lastDate"</span><span>:</span> <span>"2023-09-06T15:00:23.240Z"</span><span>,</span>
+                    <span>"image"</span><span>:</span> <span>""</span><span>,</span>
+                    <span>"company_recipe_id"</span><span>:</span> <span>"412"</span><span>,</span>
+                    <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span>
+                <span>}</span><span>,</span>
+                <span>"5_EXECUTION"</span><span>:</span> <span>{</span>
+                    <span>"duration"</span><span>:</span> <span>21516999</span><span>,</span>
+                    <span>"execution"</span><span>:</span> <span>1</span><span>,</span>
+                    <span>"lastDate"</span><span>:</span> <span>"2023-09-06T16:01:23.000Z"</span><span>,</span>
+                    <span>"image"</span><span>:</span> <span>""</span><span>,</span>
+                    <span>"company_recipe_id"</span><span>:</span> <span>"485"</span><span>,</span>
+                    <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span>
+                <span>}</span>
+            <span>}</span><span>,</span>
+    <span>"actualStatus"</span><span>:</span> <span>{</span>
+        <span>"onlineDevices"</span><span>:</span> <span>7</span><span>,</span>
+        <span>"totalDevices"</span><span>:</span> <span>8</span><span>,</span>
+        <span>"cooking"</span><span>:</span> <span>5</span><span>,</span>
+        <span>"washing"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"warnings"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"alarms"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"recipesInQueue"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"idDevice"</span><span>:</span> <span>1</span><span>,</span>
+                <span>"requests"</span><span>:</span> <span>[</span>
+                  <span>{</span>
+                    <span>"programs"</span><span>:</span> <span>[</span>
+                      <span>"CAKE"</span><span>,</span>
+                      <span>"BROWNIES"</span><span>,</span>
+                    <span>]</span>
+                  <span>}</span>
+                <span>]</span>
+                <span>"waiting"</span><span>:</span> <span>1</span><span>,</span>
+            <span>}</span>
+        <span>]</span>
+    <span>}</span><span>,</span>
+    <span>"dailyGoals"</span><span>:</span> <span>[</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+            <span>"devices"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>1</span><span>,</span>
+                    <span>"cookingHours"</span><span>:</span> <span>17076060</span><span>,</span>
+                    <span>"washingHours"</span><span>:</span> <span>2417630</span><span>,</span>
+                    <span>"cookingCount"</span><span>:</span> <span>5</span><span>,</span>
+                    <span>"multiTimeCount"</span><span>:</span> <span>0</span><span>,</span>
+                    <span>"openDoorMultiTime"</span><span>:</span> <span>0</span><span>,</span>
+                    <span>"openDoorDuration"</span><span>:</span> <span>192170</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+            <span>"devices"</span><span>:</span> <span>[</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-10T00:00:00.000Z"</span><span>,</span>
+            <span>"devices"</span><span>:</span> <span>[</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardHourlywashing">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardHourlywashing" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get hourly washing
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the number of oven washed during the daily hours for the last seven days
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard/hourlyWashing</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Starting date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           end Date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ids
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ids
+           </code>
+           -
+           <br/>
+           Ids of devices
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          analytics
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            analytics
+           </code>
+           - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice"
+           <br/>
+           Array of field required for analytics
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          dashboard
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dashboard
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          hourlyWashing
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           The array represent the 24 hour of the day starting from 0 as midnight to 23 as 11 pm. If a cell is set to one at index 10 means an oven was washed at 10 am.
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboardHourlywashing-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+    <span>"hourlyWashing"</span><span>:</span> <span>[</span>
+        <span>2</span><span>,</span>
+        <span>2</span><span>,</span>
+        <span>2</span><span>,</span>
+        <span>2</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>2</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span><span>,</span>
+        <span>0</span>
+    <span>]</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardMostusedrecipes" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get most used recipes
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the most used recipes in the specified range of time.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard/mostUsedRecipes</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Starting date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           end Date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ids
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ids
+           </code>
+           -
+           <br/>
+           Ids of devices
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          analytics
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            analytics
+           </code>
+           - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice"
+           <br/>
+           Array of field required for analytics
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          dashboard
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dashboard
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            date
+           </code>
+           -
+           <br/>
+           date of the most used recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          mostUsedRecipes
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            mostUsedRecipes
+           </code>
+           -
+           <br/>
+           Array of most used recipes during a day
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboardMostusedrecipes-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+            <span>"mostUsedRecipes"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                    <span>"recipes"</span><span>:</span> <span>{</span>
+                        <span>"20_MULTI.Speed"</span><span>:</span> <span>22089587</span>
+                    <span>}</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+            <span>"mostUsedRecipes"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                    <span>"recipes"</span><span>:</span> <span>{</span>
+                        <span>"20_MULTI.Speed"</span><span>:</span> <span>4572269</span>
+                    <span>}</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>"date"</span><span>:</span> <span>"2023-08-18T00:00:00.000Z"</span><span>,</span>
+            <span>"mostUsedRecipes"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                    <span>"recipes"</span><span>:</span> <span>{</span>
+                        <span>"2_"</span><span>:</span> <span>9811</span><span>,</span>
+                        <span>"5_MULTI.Time"</span><span>:</span> <span>14976</span><span>,</span>
+                        <span>"3_Trancio di pesce"</span><span>:</span> <span>14225</span>
+                    <span>}</span>
+                <span>}</span>
+            <span>]</span>
+        <span>}</span><span>,</span>
+    <span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardOvensstate">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardOvensstate" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboardOvensstate-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get ovens state
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the ovens state.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard/ovensState</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           Array of number
+           <br/>
+           Array of devices' ids
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          idDevice
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            idDevice
+           </code>
+           -
+           <br/>
+           Id of device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          states
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            states
+           </code>
+           -
+           <br/>
+           device state
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slaveId
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            states.slaveId
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          state
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            states.state
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardOvensstate-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboardOvensstate-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+    <span>{</span>
+        <span>"idDevice"</span><span>:</span> <span>1</span><span>,</span>
+        <span>"states"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"slaveId"</span><span>:</span> <span>2</span><span>,</span>
+                <span>"state"</span><span>:</span> <span>"OFFLINE"</span>
+            <span>}</span>
+        <span>]</span>
+    <span>}</span><span>,</span>
+    <span>{</span>
+        <span>"idDevice"</span><span>:</span> <span>646</span><span>,</span>
+        <span>"states"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"slaveId"</span><span>:</span> <span>2</span><span>,</span>
+                <span>"state"</span><span>:</span> <span>"IDLE"</span>
+            <span>}</span>
+        <span>]</span>
+    <span>}</span><span>,</span>
+  <span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardTotalconsumption" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get total consumption
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the total consumption of a list of devices
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard/totalConsumption</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Starting date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           end Date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ids
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ids
+           </code>
+           -
+           <br/>
+           Ids of devices
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          analytics
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            analytics
+           </code>
+           - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice"
+           <br/>
+           Array of field required for analytics
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          dashboard
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dashboard
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          total
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            total
+           </code>
+           -
+           <br/>
+           if true retuen all data of devices and not only the specified range date
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            date
+           </code>
+           -
+           <br/>
+           Date of the consumption
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          steam
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            steam
+           </code>
+           -
+           <br/>
+           The amount of consumed steam
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          energy
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            energy
+           </code>
+           -
+           <br/>
+           The amount of consumed energy
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          gas
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            gas
+           </code>
+           -
+           <br/>
+           The amount of consumed gas
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washingHours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            washingHours
+           </code>
+           -
+           <br/>
+           The amount of time used for washing
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          manualCookingHours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            manualCookingHours
+           </code>
+           -
+           <br/>
+           The amount of time used for manual cooking
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          multiTimeHours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            multiTimeHours
+           </code>
+           -
+           <br/>
+           The amount of time used for mutiTime usage
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          miseEnPlaceHours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            miseEnPlaceHours
+           </code>
+           -
+           <br/>
+           The amount of time used for mise en place usage
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingHours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingHours
+           </code>
+           -
+           <br/>
+           The amount of time used for cooking
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboardTotalconsumption-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+   <span>{</span>
+        <span>"date"</span><span>:</span> <span>"2023-09-07T00:00:00.000Z"</span><span>,</span>
+        <span>"steam"</span><span>:</span> <span>3945</span><span>,</span>
+        <span>"energy"</span><span>:</span> <span>45047</span><span>,</span>
+        <span>"gas"</span><span>:</span> <span>42924</span><span>,</span>
+    <span>{</span>
+        <span>"date"</span><span>:</span> <span>"2023-09-08T00:00:00.000Z"</span><span>,</span>
+        <span>"steam"</span><span>:</span> <span>8692</span><span>,</span>
+        <span>"energy"</span><span>:</span> <span>52371</span><span>,</span>
+        <span>"gas"</span><span>:</span> <span>51446</span><span>,</span>
+    <span>}</span><span>,</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency">
+     <article data-group="Devices_Dashboard" data-name="GetV2DevicesDashboardWashingfrequency" data-version="2.0.0" id="api-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices Dashboard
+        </span>
+        <span>
+         |
+        </span>
+        Get washing frequency
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get the washing frequency of a list of devices
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/dashboard/washingFrequency</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Starting date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           end Date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          ids
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            ids
+           </code>
+           -
+           <br/>
+           Ids of devices
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          analytics
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            analytics
+           </code>
+           - Enum "totalConsumptionByDevice", "openDoorDurationByDevice", "hourlyWashingByDevice" or "washingFrequencyByDevice"
+           <br/>
+           Array of field required for analytics
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          dashboard
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            dashboard
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          _id
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            _id
+           </code>
+           -
+           <br/>
+           Date of the data
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          devices
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            devices
+           </code>
+           -
+           <br/>
+           Array of objects:
+          </p>
+          <pre>{
+ idDevice: number
+ frequency: number
+ cookingHoursSum: number
+ washingHoursSum: number
+ cookingCount: number
+}
+</pre>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          idDevices
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            devices.idDevices
+           </code>
+           -
+           <br/>
+           Id of device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingHoursSum
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            devices.cookingHoursSum
+           </code>
+           -
+           <br/>
+           Sum of daily cooking hours of a device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washingHoursSum
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            devices.washingHoursSum
+           </code>
+           -
+           <br/>
+           Sum of daily washing hours of a device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          frequency
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            devices.frequency
+           </code>
+           -
+           <br/>
+           frequency of washing per day of device ( sum of washing hours / sum of cooking hours)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingCount
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            devices.cookingCount
+           </code>
+           -
+           <br/>
+           The number of cookings
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices_Dashboard-GetV2DevicesDashboardWashingfrequency-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+   <span>{</span>
+        <span>"_id"</span><span>:</span> <span>"2023-08-08T00:00:00.000Z"</span><span>,</span>
+        <span>"devices"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                <span>"cookingHoursSum"</span><span>:</span> <span>22089587</span><span>,</span>
+                <span>"washingHoursSum"</span><span>:</span> <span>0</span><span>,</span>
+                <span>"frequency"</span><span>:</span> <span>0</span>
+            <span>}</span>
+        <span>]</span>
+    <span>}</span><span>,</span>
+    <span>{</span>
+        <span>"_id"</span><span>:</span> <span>"2023-08-09T00:00:00.000Z"</span><span>,</span>
+        <span>"devices"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                <span>"cookingHoursSum"</span><span>:</span> <span>4572269</span><span>,</span>
+                <span>"washingHoursSum"</span><span>:</span> <span>4913356</span><span>,</span>
+                <span>"frequency"</span><span>:</span> <span>1.0745990666778356</span>
+            <span>}</span>
+        <span>]</span>
+    <span>}</span><span>,</span>
+    <span>{</span>
+        <span>"_id"</span><span>:</span> <span>"2023-08-18T00:00:00.000Z"</span><span>,</span>
+        <span>"devices"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"idDevice"</span><span>:</span> <span>683</span><span>,</span>
+                <span>"cookingHoursSum"</span><span>:</span> <span>39012</span><span>,</span>
+                <span>"washingHoursSum"</span><span>:</span> <span>0</span><span>,</span>
+                <span>"frequency"</span><span>:</span> <span>0</span>
+            <span>}</span>
+        <span>]</span>
+    <span>}</span><span>,</span>
+  <span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+  </div>
+ </body>
+</html>
+`

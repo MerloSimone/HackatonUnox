@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <div id="sections">
+   <section id="api-Unsubscribe">
+    <h1>
+     Unsubscribe
+    </h1>
+    <div id="api-Unsubscribe-GetUnsubscribe">
+     <article data-group="Unsubscribe" data-name="GetUnsubscribe" data-version="0.0.0" id="api-Unsubscribe-GetUnsubscribe-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Unsubscribe
+        </span>
+        <span>
+         |
+        </span>
+        Forward email
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Forward email to unox using SNS
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/unsubscribe</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          token
+         </td>
+         <td>
+          string
+         </td>
+         <td>
+          <p>
+           Generated token
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          success
+         </td>
+         <td>
+          string
+         </td>
+         <td>
+          <p>
+           requset sent
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Unsubscribe-GetUnsubscribe-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Unsubscribe-GetUnsubscribe-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+success<span>:</span> 'requset sent'
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Unsubscribe-PostUnsubscribe">
+     <article data-group="Unsubscribe" data-name="PostUnsubscribe" data-version="0.0.0" id="api-Unsubscribe-PostUnsubscribe-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Unsubscribe
+        </span>
+        <span>
+         |
+        </span>
+        Send email
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Send email to user with valid token
+      </p>
+      <p>
+      </p>
+      <span>
+       post
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="post" tabindex="0"><code>/unsubscribe</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Request Body
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          email
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            email
+           </code>
+           -
+           <br/>
+           User's email address
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          application
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            application
+           </code>
+           -
+           <br/>
+           Application from which the user wants to unsubscribe
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          success
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            success
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Unsubscribe-PostUnsubscribe-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Unsubscribe-PostUnsubscribe-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+success<span>:</span> 'Email forwarded'
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<div id="sections">
+  <section id="api-Unsubscribe" class="show-api-group show-api-Unsubscribe-group">
+    <h1 class="color-primary font-weight-bold">Unsubscribe</h1>
+    <div id="api-Unsubscribe-GetUnsubscribe" class="show-api-article show-api-Unsubscribe-article show-api-Unsubscribe-GetUnsubscribe-article ">
+
+      <article id="api-Unsubscribe-GetUnsubscribe-0.0.0" data-group="Unsubscribe" data-name="GetUnsubscribe" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Unsubscribe</span> <span class="text-muted">|</span> Forward email</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Forward email to unox using SNS</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/unsubscribe</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              token
+            </td>
+            <td class="code">string</td>
+            <td><p>Generated token</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              success
+            </td>
+            <td class="code">
+              string
+            </td>
+            <td>
+              <p>requset sent</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Unsubscribe-GetUnsubscribe-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Unsubscribe-GetUnsubscribe-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+success<span class="token operator">:</span> 'requset sent'
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Unsubscribe-PostUnsubscribe" class="show-api-article show-api-Unsubscribe-article show-api-Unsubscribe-PostUnsubscribe-article ">
+
+      <article id="api-Unsubscribe-PostUnsubscribe-0.0.0" data-group="Unsubscribe" data-name="PostUnsubscribe" data-version="0.0.0" class="">
+        <div class="pull-left">
+          <h1><span class="color-primary">Unsubscribe</span> <span class="text-muted">|</span> Send email</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">0.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Send email to user with valid token</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/unsubscribe</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              email
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>email</code> - <br> User's email address</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              application
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>application</code> - <br> Application from which the user wants to unsubscribe</p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              success
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>success</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Unsubscribe-PostUnsubscribe-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Unsubscribe-PostUnsubscribe-0_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+success<span class="token operator">:</span> 'Email forwarded'
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+  </section>
+</div>
+</div>
+</body>
+</html>

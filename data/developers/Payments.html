@@ -1,0 +1,3658 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<div id="sections">
+  <section id="api-Payments" class="show-api-group show-api-Payments-group hide">
+    <h1 class="color-primary font-weight-bold">Payments</h1>
+    <div id="api-Payments-PostV2PaymentsSetupintent" class="show-api-article show-api-Payments-article show-api-Payments-PostV2PaymentsSetupintent-article ">
+
+      <article id="api-Payments-PostV2PaymentsSetupintent-2.0.0" data-group="Payments" data-name="PostV2PaymentsSetupintent" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Payments</span> <span class="text-muted">|</span> Create setup intent</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Create a setup intent to add a new payment method</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/payments/setupintent</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              service
+            </td>
+            <td class="code">Object</td>
+            <td>
+              <p><code>service</code></p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              clientSecret
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Payments-PostV2PaymentsSetupintent-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Payments-PostV2PaymentsSetupintent-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+      <span class="token property">"clientSecret"</span><span class="token operator">:</span> <span class="token string">"secret"</span>
+     <span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Payments-PostV2PaymentsUser" class="show-api-article show-api-Payments-article show-api-Payments-PostV2PaymentsUser-article ">
+
+      <article id="api-Payments-PostV2PaymentsUser-2.0.0" data-group="Payments" data-name="PostV2PaymentsUser" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Payments</span> <span class="text-muted">|</span> Create user</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Create a new user</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/payments/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              invoiceData
+            </td>
+            <td class="code">Object</td>
+            <td><p><code>invoiceData</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;customerType
+            </td>
+            <td class="code">Enum</td>
+            <td><p><code>invoiceData.customerType</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;firstName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.firstName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lastName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.lastName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipcode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.zipcode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;email
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;pecMail
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.pecMail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;sdiCode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.sdiCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;vatNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.vatNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;fiscalCode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.fiscalCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;phoneNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.phoneNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerified
+            </td>
+            <td class="code">Boolean</td>
+            <td><p><code>invoiceData.viesVerified</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerifiedAt
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.viesVerifiedAt</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              shippingData
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Object[]</td>
+            <td><p><code>shippingData</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipCode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.zipCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.country</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              invoice_data
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>invoice_data</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;customerType
+            </td>
+            <td class="code">
+              Enum
+            </td>
+            <td>
+              <p><code>invoice_data.customerType</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;firstName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.firstName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lastName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.lastName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipcode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.zipcode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;email
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;pecMail
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.pecMail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;sdiCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.sdiCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;vatNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.vatNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;fiscalCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.fiscalCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;phoneNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.phoneNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerified
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>invoice_data.viesVerified</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerifiedAt
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.viesVerifiedAt</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              shipping_data
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>shipping_data</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.zipCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_customer_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_customer_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_subscription_id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_subscription_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              subscription_status
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>subscription_status</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              subscription_period_end
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>subscription_period_end</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_brand
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_brand</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_last4
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_last4</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_owner
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_owner</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_iban_last4
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_iban_last4</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_iban_owner
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_iban_owner</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_iban_email
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_iban_email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cancel_at_period_end
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>cancel_at_period_end</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              available_digital_training
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>available_digital_training</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              first_subscription
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>first_subscription</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              User
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;dataValues
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User.dataValues</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>User.dataValues.id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;id_ulg
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.id_ulg</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;language
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.language</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;measure_units
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>User.dataValues.measure_units</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;job_title
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.job_title</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;id_company
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>User.dataValues.id_company</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;environment
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.environment</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;image
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.image</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;food_types_exclude
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User.dataValues.food_types_exclude</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;old_cooking_tags_exclude
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User.dataValues.old_cooking_tags_exclude</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;_deviceGroup
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>User.dataValues._deviceGroup</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;instance
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>User.dataValues.instance</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;tutorial_state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.tutorial_state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;config
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>User.dataValues.config</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              paying_user_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>paying_user_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              company_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>company_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              Company
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>Company</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>Company.id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;name
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.name</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_sap
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>Company.id_sap</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;manager_mode
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.manager_mode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;business_type
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.business_type</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;image
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.image</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;clear_not_synced
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.clear_not_synced</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;planning_enabled
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.planning_enabled</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;planning_settings
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>Company.planning_settings</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;admin_pin
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>Company.admin_pin</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;admin_permissions
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>Company.admin_permissions</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;settings_pin_override
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.settings_pin_override</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alarm_notifications
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.alarm_notifications</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alarm_notifications_mail
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.alarm_notifications_mail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.enterprise_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_middleman_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.enterprise_middleman_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_start_date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>Company.enterprise_start_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_deleted_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>Company.enterprise_deleted_at</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_trial_end
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>Company.enterprise_trial_end</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;DeviceGroups
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>Company.DeviceGroups</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              applyVat
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>applyVat</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Payments-PostV2PaymentsUser-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Payments-PostV2PaymentsUser-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Payments-GetV2PaymentsUser" class="show-api-article show-api-Payments-article show-api-Payments-GetV2PaymentsUser-article ">
+
+      <article id="api-Payments-GetV2PaymentsUser-2.0.0" data-group="Payments" data-name="GetV2PaymentsUser" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Payments</span> <span class="text-muted">|</span> Get user stripe data</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get user stripe data</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/payments/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              user_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>user_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_customer_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_customer_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              invoice_data
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>invoice_data</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;customerType
+            </td>
+            <td class="code">
+              Enum
+            </td>
+            <td>
+              <p><code>invoice_data.customerType</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;firstName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.firstName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lastName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.lastName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipcode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.zipcode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;email
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;pecMail
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.pecMail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;sdiCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.sdiCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;vatNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.vatNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;fiscalCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.fiscalCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;phoneNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.phoneNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerified
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>invoice_data.viesVerified</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerifiedAt
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.viesVerifiedAt</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              shipping_data
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>shipping_data</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.zipCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_brand
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_brand</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_last4
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_last4</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_owner
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_owner</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              created_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>created_at</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              updated_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>updated_at</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              deleted_at
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>deleted_at</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Payments-GetV2PaymentsUser-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Payments-GetV2PaymentsUser-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">[</span><span class="token punctuation">{</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">"user_id"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">"stripe_customer_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"invoice_data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"city"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"address"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"country"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"sdiCode"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"zipcode"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"vatNumber"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"phoneNumber"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"businessName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"customerType"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"streetNumber"</span><span class="token operator">:</span> <span class="token string">""</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"shipping_data"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"businessName"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"address"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"streetNumber"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"zipCode"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"city"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"country"</span><span class="token operator">:</span> <span class="token string">""</span>
+      <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">"stripe_payment_method_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"stripe_payment_method_brand"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"stripe_payment_method_last4"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"stripe_payment_method_owner"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-29T12:24:22.160Z"</span><span class="token punctuation">,</span>
+      <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-29T12:24:44.041Z"</span><span class="token punctuation">,</span>
+      <span class="token property">"deleted_at"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Payments-PatchV2PaymentsShippingdata" class="show-api-article show-api-Payments-article show-api-Payments-PatchV2PaymentsShippingdata-article ">
+
+      <article id="api-Payments-PatchV2PaymentsShippingdata-2.0.0" data-group="Payments" data-name="PatchV2PaymentsShippingdata" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Payments</span> <span class="text-muted">|</span> update user shipping data</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Update user shipping data</p><p></p>
+        <span class="method meth-patch">patch</span>
+        <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/payments/shippingdata</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              shipping_data
+            </td>
+            <td class="code">Object[]</td>
+            <td>
+              <p><code>shipping_data</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>shipping_data.businessName</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>shipping_data.address</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>shipping_data.streetNumber</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipCode
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>shipping_data.zipCode</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>shipping_data.city</code></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">String</td>
+            <td>
+              <p><code>shipping_data.country</code></p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              OK
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Payments-PatchV2PaymentsShippingdata-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Payments-PatchV2PaymentsShippingdata-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="String" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-string" tabindex="0"><code class="language-string">Response 200
+OK</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Payments-PatchV2PaymentsUser" class="show-api-article show-api-Payments-article show-api-Payments-PatchV2PaymentsUser-article ">
+
+      <article id="api-Payments-PatchV2PaymentsUser-2.0.0" data-group="Payments" data-name="PatchV2PaymentsUser" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Payments</span> <span class="text-muted">|</span> Update user</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Update an existing user</p><p></p>
+        <span class="method meth-patch">patch</span>
+        <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/payments/user</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              invoiceData
+            </td>
+            <td class="code">Object</td>
+            <td><p><code>invoiceData</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;customerType
+            </td>
+            <td class="code">Enum</td>
+            <td><p><code>invoiceData.customerType</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;firstName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.firstName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lastName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.lastName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipcode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.zipcode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;email
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;pecMail
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.pecMail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;sdiCode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.sdiCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;vatNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.vatNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;fiscalCode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.fiscalCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;phoneNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.phoneNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerified
+            </td>
+            <td class="code">Boolean</td>
+            <td><p><code>invoiceData.viesVerified</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerifiedAt
+            </td>
+            <td class="code">String</td>
+            <td><p><code>invoiceData.viesVerifiedAt</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              shippingData
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Object[]</td>
+            <td><p><code>shippingData</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipCode
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.zipCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">String</td>
+            <td><p><code>shippingData.country</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              invoice_data
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>invoice_data</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;customerType
+            </td>
+            <td class="code">
+              Enum
+            </td>
+            <td>
+              <p><code>invoice_data.customerType</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;firstName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.firstName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;lastName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.lastName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipcode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.zipcode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;email
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;pecMail
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.pecMail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;sdiCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.sdiCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;vatNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.vatNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;fiscalCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.fiscalCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;phoneNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.phoneNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerified
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>invoice_data.viesVerified</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;viesVerifiedAt
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>invoice_data.viesVerifiedAt</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              shipping_data
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>shipping_data</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;businessName
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.businessName</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;address
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.address</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;streetNumber
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.streetNumber</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;zipCode
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.zipCode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;city
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.city</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;country
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>shipping_data.country</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_customer_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_customer_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_subscription_id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_subscription_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              subscription_status
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>subscription_status</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              subscription_period_end
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>subscription_period_end</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_id
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_brand
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_brand</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_last4
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_last4</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_owner
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_owner</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_iban_last4
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_iban_last4</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_iban_owner
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_iban_owner</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              stripe_payment_method_iban_email
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>stripe_payment_method_iban_email</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              cancel_at_period_end
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>cancel_at_period_end</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              available_digital_training
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>available_digital_training</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              first_subscription
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>first_subscription</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              User
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;dataValues
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User.dataValues</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>User.dataValues.id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;id_ulg
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.id_ulg</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;language
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.language</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;measure_units
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>User.dataValues.measure_units</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;job_title
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.job_title</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;id_company
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>User.dataValues.id_company</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;environment
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.environment</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;image
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.image</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;food_types_exclude
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User.dataValues.food_types_exclude</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;old_cooking_tags_exclude
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>User.dataValues.old_cooking_tags_exclude</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;_deviceGroup
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>User.dataValues._deviceGroup</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;instance
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>User.dataValues.instance</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;tutorial_state
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>User.dataValues.tutorial_state</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;&nbsp;&nbsp;config
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>User.dataValues.config</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              paying_user_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>paying_user_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              company_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>company_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              Company
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>Company</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>Company.id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;name
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.name</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id_sap
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>Company.id_sap</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;manager_mode
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.manager_mode</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;business_type
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.business_type</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;image
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.image</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;clear_not_synced
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.clear_not_synced</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;planning_enabled
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.planning_enabled</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;planning_settings
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>Company.planning_settings</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;admin_pin
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>Company.admin_pin</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;admin_permissions
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>Company.admin_permissions</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;settings_pin_override
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.settings_pin_override</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alarm_notifications
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>Company.alarm_notifications</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;alarm_notifications_mail
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.alarm_notifications_mail</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.enterprise_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_middleman_id
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>Company.enterprise_middleman_id</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_start_date
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>Company.enterprise_start_date</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_deleted_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>Company.enterprise_deleted_at</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;enterprise_trial_end
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>Company.enterprise_trial_end</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;DeviceGroups
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>Company.DeviceGroups</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              applyVat
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>applyVat</code></p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+
+
+      </article>
+
+    </div>
+  </section>
+</div>
+</body>
+</html>
+`

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<div id="sections">
+  <section id="api-Notifications" class="show-api-group show-api-Notifications-group hide">
+    <h1 class="color-primary font-weight-bold">Notifications</h1>
+    <div id="api-Notifications-GetV2Notifications" class="show-api-article show-api-Notifications-article show-api-Notifications-GetV2Notifications-article ">
+
+      <article id="api-Notifications-GetV2Notifications-2.0.0" data-group="Notifications" data-name="GetV2Notifications" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Notifications</span> <span class="text-muted">|</span> get Notifications</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Get all notifictaions of the last 7 days</p><p></p>
+        <span class="method meth-get">get</span>
+        <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/notifications</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              notifications
+            </td>
+            <td class="code">
+              Object[]
+            </td>
+            <td>
+              <p><code>notifications</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>notifications.id</code> - <br> Notification ID</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;user_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>notifications.user_id</code> - <br> User ID</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;type
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>notifications.type</code> - <br> Notificatino type: ALARM or END_COOKING</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;data
+            </td>
+            <td class="code">
+              Any
+            </td>
+            <td>
+              <p><code>notifications.data</code> - <br> Notification information</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;read_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>notifications.read_at</code> - <br> The date in which the notification was marked as read</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;created_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>notifications.created_at</code> - <br> Creation date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;updated_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>notifications.updated_at</code> - <br> Updating date</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Notifications-GetV2Notifications-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Notifications-GetV2Notifications-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"notifications"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"END_COOKING"</span><span class="token punctuation">,</span>
+            <span class="token property">"user_id"</span><span class="token operator">:</span> <span class="token number">222</span><span class="token punctuation">,</span>
+            <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                <span class="token property">"program"</span><span class="token operator">:</span> <span class="token string">"test"</span><span class="token punctuation">,</span>
+                <span class="token property">"id_device"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+                <span class="token property">"kindOfCooking"</span><span class="token operator">:</span> <span class="token string">"COOKING"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token property">"read_at"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-07T07:20:34.388Z"</span><span class="token punctuation">,</span>
+            <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-07T07:20:34.388Z"</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Notifications-PatchV2Notifications" class="show-api-article show-api-Notifications-article show-api-Notifications-PatchV2Notifications-article ">
+
+      <article id="api-Notifications-PatchV2Notifications-2.0.0" data-group="Notifications" data-name="PatchV2Notifications" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Notifications</span> <span class="text-muted">|</span> read Notifications</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Mark notification as read</p><p></p>
+        <span class="method meth-patch">patch</span>
+        <div class="code-toolbar"><pre data-type="patch" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/notifications</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+        <h2>Request Body</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              ids
+              <span class="label optional">optional</span>
+            </td>
+            <td class="code">Number[]</td>
+            <td>
+              <p><code>ids</code></p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              read_notifications
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p>Number of notifications marked as read</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Notifications-PatchV2Notifications-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Notifications-PatchV2Notifications-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"read_notifications"</span><span class="token operator">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Notifications-PostV2NotificationsRegister" class="show-api-article show-api-Notifications-article show-api-Notifications-PostV2NotificationsRegister-article ">
+
+      <article id="api-Notifications-PostV2NotificationsRegister-2.0.0" data-group="Notifications" data-name="PostV2NotificationsRegister" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Notifications</span> <span class="text-muted">|</span> register device</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Add a device to receive notifications</p><p></p>
+        <span class="method meth-post">post</span>
+        <div class="code-toolbar"><pre data-type="post" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/notifications/register</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              os
+            </td>
+            <td class="code">Object</td>
+            <td><p><code>os</code> - <br> Device os system: "ios" or "android"</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              token
+            </td>
+            <td class="code">String</td>
+            <td><p><code>token</code> - <br> Generated token</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              registred
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>registred</code> - <br> True in case of successfull operation</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              device
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>device</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>device.id</code> - <br> Notification device ID</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;token
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.token</code> - <br> Device token</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;os
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.os</code> - <br> Specify the type of device: ANDROID or APPLE</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;user_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>device.user_id</code> - <br> User ID</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;created_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.created_at</code> - <br> Creation date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;updated_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.updated_at</code> - <br> Update Date</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Notifications-PostV2NotificationsRegister-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Notifications-PostV2NotificationsRegister-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"registred"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">"device"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token property">"token"</span><span class="token operator">:</span> <span class="token string">"token_test"</span><span class="token punctuation">,</span>
+        <span class="token property">"os"</span><span class="token operator">:</span> <span class="token string">"ANDROID"</span><span class="token punctuation">,</span>
+        <span class="token property">"user_id"</span><span class="token operator">:</span> <span class="token number">222</span><span class="token punctuation">,</span>
+        <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-07T09:50:26.406Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-07T09:50:26.406Z"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+    <div id="api-Notifications-DeleteV2NotificationsUnregister" class="show-api-article show-api-Notifications-article show-api-Notifications-DeleteV2NotificationsUnregister-article ">
+
+      <article id="api-Notifications-DeleteV2NotificationsUnregister-2.0.0" data-group="Notifications" data-name="DeleteV2NotificationsUnregister" data-version="2.0.0" class="hide">
+        <div class="pull-left">
+          <h1><span class="color-primary">Notifications</span> <span class="text-muted">|</span> unregister device</h1>
+        </div>
+        <div class="pull-right">
+          <div class="btn-group">
+            <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <strong>2.0.0</strong>&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="versions dropdown-menu open-left">
+              <li class="disabled"><a href="#">compare changes to:</a></li>
+              <li class="version"><a href="#">2.0.0</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+
+
+        <p></p><p>Remove a device to receive notifications</p><p></p>
+        <span class="method meth-delete">delete</span>
+        <div class="code-toolbar"><pre data-type="delete" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v2/notifications/unregister</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+        <h2>Query Parameter(s)</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 70%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              token
+            </td>
+            <td class="code">String</td>
+            <td><p><code>token</code> - <br> User's token to get the notifications</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <h2>Success 200</h2>
+        <table>
+          <thead>
+          <tr>
+            <th style="width: 30%">Field</th>
+            <th style="width: 10%">Type</th>
+            <th style="width: 60%">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">
+              unregistred
+            </td>
+            <td class="code">
+              Boolean
+            </td>
+            <td>
+              <p><code>unregistred</code> - <br> THe operation result</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              device
+            </td>
+            <td class="code">
+              Object
+            </td>
+            <td>
+              <p><code>device</code></p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>device.id</code> - <br> Notification device ID</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;token
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.token</code> - <br> Device token</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;os
+            </td>
+            <td class="code">
+              String
+            </td>
+            <td>
+              <p><code>device.os</code> - <br> Specify the type of device: ANDROID or APPLE</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;user_id
+            </td>
+            <td class="code">
+              Number
+            </td>
+            <td>
+              <p><code>device.user_id</code> - <br> User ID</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;created_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.created_at</code> - <br> Creation date</p>
+
+
+            </td>
+          </tr>
+          <tr>
+            <td class="code">
+              &nbsp;&nbsp;updated_at
+            </td>
+            <td class="code">
+              Date
+            </td>
+            <td>
+              <p><code>device.updated_at</code> - <br> Update Date</p>
+
+
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+          <li class="active">
+            <a href="#success-examples-Notifications-DeleteV2NotificationsUnregister-2_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="success-examples-Notifications-DeleteV2NotificationsUnregister-2_0_0-0">
+            <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"unregistred"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">"device"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token property">"token"</span><span class="token operator">:</span> <span class="token string">"token_test"</span><span class="token punctuation">,</span>
+        <span class="token property">"os"</span><span class="token operator">:</span> <span class="token string">"ANDROID"</span><span class="token punctuation">,</span>
+        <span class="token property">"user_id"</span><span class="token operator">:</span> <span class="token number">222</span><span class="token punctuation">,</span>
+        <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-07T09:50:26.406Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2023-11-07T09:50:26.406Z"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </article>
+
+    </div>
+  </section>
+</div>
+</body>
+</html>
+`

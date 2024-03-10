@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<body class="container-fluid">
+<section id="api-Search" class="show-api-group show-api-Search-group">
+  <h1 class="color-primary font-weight-bold">Search</h1>
+  <div id="api-Search-GetV1Search" class="show-api-article show-api-Search-article show-api-Search-GetV1Search-article ">
+
+    <article id="api-Search-GetV1Search-0.0.0" data-group="Search" data-name="GetV1Search" data-version="0.0.0" class="">
+      <div class="pull-left">
+        <h1><span class="color-primary">Search</span> <span class="text-muted">|</span> Get search</h1>
+      </div>
+      <div class="pull-right">
+        <div class="btn-group">
+          <button class="version btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <strong>0.0.0</strong>&nbsp;<span class="caret"></span>
+          </button>
+          <ul class="versions dropdown-menu open-left">
+            <li class="disabled"><a href="#">compare changes to:</a></li>
+            <li class="version"><a href="#">0.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+
+
+      <p></p><p>Get search</p><p></p>
+      <span class="method meth-get">get</span>
+      <div class="code-toolbar"><pre data-type="get" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-http" tabindex="0"><code class="language-http">/v1/search</code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+
+
+
+
+
+
+
+
+      <h2>Query Parameter(s)</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 70%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            value
+          </td>
+          <td class="code">String</td>
+          <td><p><code>value</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            type
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">String[]</td>
+          <td><p><code>type</code> - Enum: "device", "deviceRecipe", "companyRecipe", "companyRecipeGroup", "communityRecipe", or "communityRecipeGroup"</p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+
+
+
+      <h2>Success 200</h2>
+      <table>
+        <thead>
+        <tr>
+          <th style="width: 30%">Field</th>
+          <th style="width: 10%">Type</th>
+          <th style="width: 60%">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="code">
+            device
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>device</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>device.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;alias
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>device.alias</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;serial
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>device.serial</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;code
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>device.code</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;imgUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>device.imgUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            deviceRecipe
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>deviceRecipe</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceRecipe.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;title
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceRecipe.title</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;alias
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceRecipe.alias</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;serial
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceRecipe.serial</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;imgUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceRecipe.imgUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;signatureUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>deviceRecipe.signatureUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            companyRecipe
+            <span class="label optional">optional</span>
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>companyRecipe</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipe.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;title
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipe.title</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;author
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipe.author</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;imgUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipe.imgUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;signatureUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipe.signatureUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            companyRecipeGroup
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>companyRecipeGroup</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipeGroup.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipeGroup.name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;numberOfRecipes
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipeGroup.numberOfRecipes</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;imgUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>companyRecipeGroup.imgUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            communityRecipe
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>communityRecipe</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipe.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;title
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipe.title</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;author
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipe.author</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;imgUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipe.imgUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;signatureUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipe.signatureUrl</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            communityRecipeGroup
+          </td>
+          <td class="code">
+            Object[]
+          </td>
+          <td>
+            <p><code>communityRecipeGroup</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;id
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipeGroup.id</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;name
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipeGroup.name</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;numberOfRecipes
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipeGroup.numberOfRecipes</code></p>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td class="code">
+            &nbsp;&nbsp;imgUrl
+          </td>
+          <td class="code">
+            String
+          </td>
+          <td>
+            <p><code>communityRecipeGroup.imgUrl</code></p>
+
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <ul class="nav nav-tabs nav-tabs-examples" role="tablist">
+        <li class="active">
+          <a href="#success-examples-Search-GetV1Search-0_0_0-0" role="tab" data-toggle="tab">Response 200</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="success-examples-Search-GetV1Search-0_0_0-0">
+          <div class="code-toolbar"><pre data-type="json" data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" class="language-json" tabindex="0"><code class="language-json">Response <span class="token number">200</span>
+<span class="token punctuation">{</span>
+    <span class="token property">"device"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
+            <span class="token property">"alias"</span><span class="token operator">:</span> <span class="token string">"2008NUOVOCL4"</span><span class="token punctuation">,</span>
+            <span class="token property">"serial"</span><span class="token operator">:</span> <span class="token string">"2008NUOVOCL4"</span><span class="token punctuation">,</span>
+            <span class="token property">"code"</span><span class="token operator">:</span> <span class="token string">"XEVC-1011-EPRM"</span><span class="token punctuation">,</span>
+            <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/products/XEVC-1011-EPRM.png"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"362"</span><span class="token punctuation">,</span>
+            <span class="token property">"alias"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">"serial"</span><span class="token operator">:</span> <span class="token string">"2008-sitaraPROD"</span><span class="token punctuation">,</span>
+            <span class="token property">"code"</span><span class="token operator">:</span> <span class="token string">"XECL-2013-E1RS"</span><span class="token punctuation">,</span>
+            <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/products/XECL-2013-E1RS.png"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"646"</span><span class="token punctuation">,</span>
+            <span class="token property">"alias"</span><span class="token operator">:</span> <span class="token string">"Virtual CHEFTOP-X"</span><span class="token punctuation">,</span>
+            <span class="token property">"serial"</span><span class="token operator">:</span> <span class="token string">"CLOUDOVEN-CHEFTOP"</span><span class="token punctuation">,</span>
+            <span class="token property">"code"</span><span class="token operator">:</span> <span class="token string">"XEDA-0611-EXRS"</span><span class="token punctuation">,</span>
+            <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/products/XEDA-0611-EXRS.png"</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"deviceRecipe"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"companyRecipe"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"10959131"</span><span class="token punctuation">,</span>
+            <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"2022-02-07 13:26:24"</span><span class="token punctuation">,</span>
+            <span class="token property">"author"</span><span class="token operator">:</span> <span class="token string">"Mario Rossi"</span><span class="token punctuation">,</span>
+            <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">"signatureUrl"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"14271367"</span><span class="token punctuation">,</span>
+            <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"ricetta15"</span><span class="token punctuation">,</span>
+            <span class="token property">"author"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+            <span class="token property">"imgUrl"</span><span class="token operator">:</span> <span class="token string">"https://unox-ddc.s3.eu-central-1.amazonaws.com/images/unox/recipes/DIGITAL_ID/beef/beef_diced_stew.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVUB6YL5ZWAXXSBN4%2F20230817%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230817T100441Z&amp;X-Amz-Expires=86400&amp;X-Amz-Signature=54123a76379c3b7c4a63fa05202a4925253ddcebd7cf7960ebd1cf69447f22b3&amp;X-Amz-SignedHeaders=host"</span><span class="token punctuation">,</span>
+            <span class="token property">"signatureUrl"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"companyRecipeGroup"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"communityRecipe"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"communityRecipeGroup"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </article>
+
+  </div>
+</section>
+</body>
+</html>
+`

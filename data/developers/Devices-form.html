@@ -1,0 +1,5641 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <div id="sections">
+   <section id="api-Devices">
+    <h1>
+     Devices
+    </h1>
+    <div id="api-Devices-PostV1DevicesRecipesClone">
+     <article data-group="Devices" data-name="PostV1DevicesRecipesClone" data-version="0.0.0" id="api-Devices-PostV1DevicesRecipesClone-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Clone recipe
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Clone recipe from device to target device
+      </p>
+      <p>
+      </p>
+      <span>
+       post
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="post" tabindex="0"><code>/v1/devices/recipes/clone</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Request Body
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          sourceDeviceId
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            sourceDeviceId
+           </code>
+           -
+           <br/>
+           Id of source device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          targetDeviceId
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           <code>
+            targetDeviceId
+           </code>
+           - Array of number
+           <br/>
+           List of target device to clone recipe to
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </article>
+    </div>
+    <div id="api-Devices-GetV1DevicesDashboard">
+     <article data-group="Devices" data-name="GetV1DevicesDashboard" data-version="0.0.0" id="api-Devices-GetV1DevicesDashboard-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Dashboard
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       homepage dashboard data
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/devices/dashboard</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          string
+         </td>
+         <td>
+          <p>
+           Id of device
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          usage
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            usage
+           </code>
+           - Array of usage data
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          day
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.day
+           </code>
+           -
+           <br/>
+           Usage date
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking_hours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.cooking_hours
+           </code>
+           -
+           <br/>
+           Number of cooking hours
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking_energy
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.cooking_energy
+           </code>
+           -
+           <br/>
+           Amount of consumed energy
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking_steam
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.cooking_steam
+           </code>
+           -
+           <br/>
+           Amount of cooking steam
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_hours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.washing_hours
+           </code>
+           -
+           <br/>
+           Number of washing hours
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_energy
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.washing_energy
+           </code>
+           -
+           <br/>
+           Amount of consumed energy during washing
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_water
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.washing_water
+           </code>
+           -
+           <br/>
+           Amount of consumed water during washing
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_detergent
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.washing_detergent
+           </code>
+           -
+           <br/>
+           Amount of used detergent during washing
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          open_door
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            usage.open_door
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          tips
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            tips
+           </code>
+           - Array of tips
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          type
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tips.type
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          redirect
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tips.redirect
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          image
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tips.image
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tips.title
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tips.description
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </article>
+    </div>
+    <div id="api-Devices-GetV1DevicesDetails">
+     <article data-group="Devices" data-name="GetV1DevicesDetails" data-version="0.0.0" id="api-Devices-GetV1DevicesDetails-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get details
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get details about a device such as model, firmware version, number and type of trays, type of power supply (gas or electric), timezone.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/devices/details</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           Id of device
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          code
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            code
+           </code>
+           -
+           <br/>
+           Oven identification code
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          serial
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            serial
+           </code>
+           -
+           <br/>
+           Oven serial number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          firmware
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            firmware
+           </code>
+           -
+           <br/>
+           Firmware version
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          board_serial
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            board_serial
+           </code>
+           -
+           <br/>
+           Board Serial
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          city
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            city
+           </code>
+           -
+           <br/>
+           Oven city location
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          timezone
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            timezone
+           </code>
+           -
+           <br/>
+           Country timezone
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          picture
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            picture
+           </code>
+           -
+           <br/>
+           Url of the oven image
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          refence_market
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            refence_market
+           </code>
+           - Enum: "Europe" "Japan" "America"
+           <br/>
+           Oven market region
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          range
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            range
+           </code>
+           - Enum: "BAKERTOP" "CHEFTOP" "BAKERLUX" "CHEFTOP"
+           <br/>
+           Oven Type
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          trays
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            trays
+           </code>
+           -
+           <br/>
+           Number of possible trays
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          trays_type
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            trays_type
+           </code>
+           - Enum: "GN 1/1" "GN 2/3" "Compatible GN 1/1" "GN 2/1" "EU 600x400" "Full Size" "Half Size" "Quarter Size"
+           <br/>
+           Type of oven trays
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          heating
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            heating
+           </code>
+           - Enum: "Gas" "Electric" "Electric High Voltage" "Single Phase" "Single Phase 120 V"
+           <br/>
+           Type of heating method
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          custom
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            custom
+           </code>
+           -
+           <br/>
+           Type of customization of the oven
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          version
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            version
+           </code>
+           - Enum: "Plus" "One" "Touch" "Master" "Led" "Go"
+           <br/>
+           Oven version
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          image_format
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            image_format
+           </code>
+           - Enum: "MIND_MAPS" "SHOP_PRO_TOUCH"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          door
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            door
+           </code>
+           - Enum: "Right" "Left" "Drop Down"
+           <br/>
+           Door opening side
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          logo
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            logo
+           </code>
+           - Oven logo
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          accessories
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            accessories
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slaves
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            slaves
+           </code>
+           - Enum: 2 5 6 24 38 Identifier of the device running the program, it can indicate both master devices or slave accessories. 2 (Mind Maps oven), 5 (SLOWTOP), 6 (PROVER), 24 (DECKTOP), 38 (BakerLux Shop Pro oven)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          documentation
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            documentation
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            documentation.title
+           </code>
+           - Documentation title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          type
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            documentation.type
+           </code>
+           - Format type
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          url
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            documentation.url
+           </code>
+           - Content url
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          tutorials
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            tutorials
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          title
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tutorials.title
+           </code>
+           - Tutorial title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          type
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tutorials.type
+           </code>
+           - Resource type
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          url
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            tutorials.url
+           </code>
+           - Content url
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          alias
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            alias
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          closure
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            closure
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          connectable
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            connectable
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          settings_pin
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            settings_pin
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          param_city
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            param_city
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warranty
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            warranty
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warranty_type
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            warranty.warranty_type
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warranty_status
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            warranty.warranty_status
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warranty_start
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            warranty.warranty_start
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          warranty_end
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            warranty.warranty_end
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          extended_warranty_request
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            warranty.extended_warranty_request
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          image
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            image
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          users
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            users
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          email
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            users.email
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          visibility
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            users.visibility
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          brand_name
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            brand_name
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          manuals
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            manuals
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          user_manual
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            manuals.user_manual
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          technical_data
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            manuals.technical_data
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          spec_sheet
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            manuals.spec_sheet
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          detergent_safety_sheet
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            manuals.detergent_safety_sheet
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          firmware
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            manuals.firmware
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          alarms
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            alarms
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          code
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            alarms.code
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            alarms.description
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          activatedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            alarms.activatedAt
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          resettedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            alarms.resettedAt
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          is_offline_device
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            is_offline_device
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV1DevicesDetails-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV1DevicesDetails-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+  <span>{</span>
+    <span>"code"</span><span>:</span> <span>"XEFT-04EU-ETRV.0"</span><span>,</span>
+    <span>"serial"</span><span>:</span> <span>"2017K0089959"</span><span>,</span>
+    <span>"firmware"</span><span>:</span> <span>30562</span><span>,</span>
+    <span>"board_serial"</span><span>:</span> <span>159</span><span>,</span>
+    <span>"city"</span><span>:</span> <span>"Adelaide"</span><span>,</span>
+    <span>"timezone"</span><span>:</span> <span>"Australia/Adelaide"</span><span>,</span>
+    <span>"picture"</span><span>:</span> <span>"https://s3.eu-central-1.amazonaws.com/unox-ddc/static/cheftop10.png"</span><span>,</span>
+    <span>"refence_market"</span><span>:</span> <span>"Europe"</span><span>,</span>
+    <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+    <span>"range"</span><span>:</span> <span>"BAKERTOP"</span><span>,</span>
+    <span>"trays"</span><span>:</span> <span>16</span><span>,</span>
+    <span>"trays_type"</span><span>:</span> <span>"EU 600x400"</span><span>,</span>
+    <span>"heating"</span><span>:</span> <span>"Electric"</span><span>,</span>
+    <span>"custom"</span><span>:</span> <span>null</span><span>,</span>
+    <span>"version"</span><span>:</span> <span>"One"</span><span>,</span>
+    <span>"image_format"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+    <span>"door"</span><span>:</span> <span>"Right"</span><span>,</span>
+    <span>"logo"</span><span>:</span> <span>"https://s3.eu-central-1.amazonaws.com/unox-ddc/static/logos/bakertop_mindmaps.png"</span><span>,</span>
+    <span>"accessories"</span><span>:</span> <span>[</span><span>]</span><span>,</span>
+    <span>"slaves"</span><span>:</span> <span>2</span><span>,</span>
+    <span>"documentation"</span><span>:</span> <span>[</span>
+      <span>{</span>
+        <span>"title"</span><span>:</span> <span>"MANUALE CTBT SERIE 6"</span><span>,</span>
+        <span>"type"</span><span>:</span> <span>"pdf"</span><span>,</span>
+        <span>"url"</span><span>:</span> <span>"https://s3.eu-central-1.amazonaws.com/unox-ddc/static/LI2450A2.D01-LDI-01-MANUALE+CTBT+SERIE+6+OVENS-USE+PLUS_EN_WEB.pdf"</span>
+      <span>}</span>
+    <span>]</span><span>,</span>
+    <span>"tutorials"</span><span>:</span> <span>[</span>
+      <span>{</span>
+        <span>"title"</span><span>:</span> <span>"How to bake a full load of Panettone with BAKERTOP MIND.Maps™ Plus combi oven"</span><span>,</span>
+        <span>"type"</span><span>:</span> <span>"youtube"</span><span>,</span>
+        <span>"url"</span><span>:</span> <span>"https://www.youtube.com/watch?v=KqfghlKzi8w&amp;list=PLKLQNlDs_ymG81jh0HOmCrhasGy8JlCBv&amp;index=1"</span>
+      <span>}</span>
+    <span>]</span>
+  <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV2DevicesCustompreset">
+     <article data-group="Devices" data-name="GetV2DevicesCustompreset" data-version="0.0.0" id="api-Devices-GetV2DevicesCustompreset-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get devices custom preset
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get all custom preset of a company's devices
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/customPreset</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Preset Id
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          uuid
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            uuid
+           </code>
+           -
+           <br/>
+           Unique id
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          original_preset
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            original_preset
+           </code>
+           -
+           <br/>
+           Original preset, from which the wctual preset was copied and modified
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          name
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            name
+           </code>
+           -
+           <br/>
+           Preset title
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          configuration
+         </td>
+         <td>
+          Any
+         </td>
+         <td>
+          <p>
+           <code>
+            configuration
+           </code>
+           -
+           <br/>
+           Preset configuration
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          entity_type
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            entity_type
+           </code>
+           -
+           <br/>
+           Preset Type 'DEVICE'
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          entity_id
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            entity_id
+           </code>
+           -
+           <br/>
+           Device ID
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           -
+           <br/>
+           Recipe family
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV2DevicesCustompreset-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV2DevicesCustompreset-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+    <span>{</span>
+        <span>"id"</span><span>:</span> <span>415731</span><span>,</span>
+        <span>"uuid"</span><span>:</span> <span>"83032fd5-67b4-4351-a806-cfeec73772e0"</span><span>,</span>
+        <span>"original_preset"</span><span>:</span> <span>"combi"</span><span>,</span>
+        <span>"name"</span><span>:</span> <span>"Miki"</span><span>,</span>
+        <span>"configuration"</span><span>:</span> <span>{</span>
+            <span>"data"</span><span>:</span> <span>[</span>
+                <span>{</span>
+                    <span>"type"</span><span>:</span> <span>"chamberTemp"</span><span>,</span>
+                    <span>"value"</span><span>:</span> <span>150</span><span>,</span>
+                    <span>"slider"</span><span>:</span> <span>"temperature"</span>
+                <span>}</span><span>,</span>
+                <span>{</span>
+                    <span>"type"</span><span>:</span> <span>"steam"</span><span>,</span>
+                    <span>"value"</span><span>:</span> <span>20</span><span>,</span>
+                    <span>"slider"</span><span>:</span> <span>"clima"</span>
+                <span>}</span><span>,</span>
+                <span>{</span>
+                    <span>"type"</span><span>:</span> <span>"direct"</span><span>,</span>
+                    <span>"value"</span><span>:</span> <span>5</span><span>,</span>
+                    <span>"slider"</span><span>:</span> <span>"fan"</span>
+                <span>}</span>
+            <span>]</span><span>,</span>
+            <span>"device"</span><span>:</span> <span>"oven"</span>
+        <span>}</span><span>,</span>
+        <span>"entity_id"</span><span>:</span> <span>"748"</span><span>,</span>
+        <span>"entity_type"</span><span>:</span> <span>"DEVICE"</span><span>,</span>
+        <span>"family"</span><span>:</span> <span>"DID_COMBI"</span>
+    <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV1Devices">
+     <article data-group="Devices" data-name="GetV1Devices" data-version="0.0.0" id="api-Devices-GetV1Devices-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get devices
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get list of devices associated with an account. This API also provides aggregated data such as cooking hours, usage, washing, etc... it is possible to specify which KPIs to calculate.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/devices</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          kpi
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Any
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi
+           </code>
+           -
+           <br/>
+           Enum: "cooking" "washing" "usage" "open_door" "costs"
+           <br/>
+           Types of KPIs.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kpi_from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi_from
+           </code>
+           -
+           <br/>
+           Example: kpi_from=2018-01-01T09:02:31.485Z
+           <br/>
+           Initial time for filtering KPI data with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kpi_to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi_to
+           </code>
+           -
+           <br/>
+           Example: kpi_to=2018-01-01T09:02:31.485Z
+           <br/>
+           End time for filtering KPI data with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          page
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            page
+           </code>
+           -
+           <br/>
+           page
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          pageSize
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            pageSize
+           </code>
+           -
+           <br/>
+           limit
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          limit
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            limit
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          features
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            features
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          include_offline
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            include_offline
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          id
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           - Array of integer
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          code
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            code
+           </code>
+           -
+           <br/>
+           Oven model code
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          serial
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            serial
+           </code>
+           -
+           <br/>
+           Oven serial number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          board_serial
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            board_serial
+           </code>
+           -
+           <br/>
+           Control board serial number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          board_model
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            board_model
+           </code>
+           -
+           <br/>
+           Control board code number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          firmware
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            firmware
+           </code>
+           -
+           <br/>
+           Device firmware version
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          alias
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            alias
+           </code>
+           -
+           <br/>
+           User-defined oven alias
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          last_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            last_date
+           </code>
+           -
+           <br/>
+           The last time the oven performed an automatic connection test, occurs approximately every 30 min
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          last_log_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            last_log_date
+           </code>
+           -
+           <br/>
+           The last time the oven uploaded a cooking log sample, occurs periodically when the device is working
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          connection_kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            connection_kind
+           </code>
+           -
+           <br/>
+           Enum: "ETH" "WIFI" "3G"
+           <br/>
+           Type of connection module installed on the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          city
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            city
+           </code>
+           -
+           <br/>
+           City specified on the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          timezone
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            timezone
+           </code>
+           -
+           <br/>
+           Standard timezone of the device (based on the city value)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          first_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            first_date
+           </code>
+           -
+           <br/>
+           The first time the oven was connected to the DDC cloud
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          latitude
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            latitude
+           </code>
+           -
+           <br/>
+           Device position latitude
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          longitude
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            longitude
+           </code>
+           -
+           <br/>
+           Device position longitude
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          status
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            status
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          connection
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            status.connection
+           </code>
+           -
+           <br/>
+           Parameter that indicates if the device is connected at this time
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          working_hours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            status.working_hours
+           </code>
+           -
+           <br/>
+           Total number of hours the device have worked
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kpi
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking_steam
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.cooking_steam
+           </code>
+           -
+           <br/>
+           Amount of water used by the device while cooking to produce steam. (in grams)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cooking_hours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.cooking_hours
+           </code>
+           -
+           <br/>
+           The number of hours the device has spent cooking (in hours)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_detergent
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.washing_detergent
+           </code>
+           -
+           <br/>
+           Amount of detergent used by the device while washing. (in cc)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_energy
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.washing_energy
+           </code>
+           -
+           <br/>
+           Amount of energy used by the device while washing. (in kwh if electric, smc if gas)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_frequency
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.washing_frequency
+           </code>
+           -
+           <br/>
+           Ratio between cooking hours and washing hours
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_water
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.washing_water
+           </code>
+           -
+           <br/>
+           Amount of detergent used by the device while washing. (in liters)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washing_hours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.washing_hours
+           </code>
+           -
+           <br/>
+           The number of hours the device has spent washing (in hours)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          usage_manual
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.usage_manual
+           </code>
+           -
+           <br/>
+           Percentage of cooking started in manual mode
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          usage_saved
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.usage_saved
+           </code>
+           -
+           <br/>
+           Percentage of cooking started in saved programs mode
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          usage_chefunox
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.usage_chefunox
+           </code>
+           -
+           <br/>
+           Percentage of cooking started in CHEFUNOX™ mode
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          usage_misenplace
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.usage_misenplace
+           </code>
+           -
+           <br/>
+           Percentage of cooking started in MISE EN PLACE mode
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          usage_multitime
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.usage_multitime
+           </code>
+           -
+           <br/>
+           Percentage of cooking started in MULTI.Time™ mode
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          usage_mindmaps
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kpi.usage_mindmaps
+           </code>
+           -
+           <br/>
+           Percentage of cooking started in MIND.Maps™ mode
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          features
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            features
+           </code>
+           - Enum: "mm_uip_pollo" "mm_uip_smart_preheat" "mm_uip_adaptive_cooking" "mm_steam_boost" "mm_pressure_steam" "mm_hyper_smoker" "mm_core_probe" "mm_uip_auto_soft" "mm_multi_time" "mm_mise_en_place" "mm_slave_decktop" "mm_slave_decktop" "sp_step_gt_99_mins" "sp_uip_smart_preheat" "sp_uip_adaptive_cooking" "sp_uip_auto_soft"
+           <br/>
+           Array of Functionalities required by the oven to execute the recipe
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          group_id
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            group_id
+           </code>
+           -
+           <br/>
+           Id of the group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          range
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            range
+           </code>
+           - Enum: "BAKERTOP" "CHEFTOP" "BAKERLUX" "CHEFTOP"
+           <br/>
+           Oven Type
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          version
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            version
+           </code>
+           - Enum: "Plus" "One" "Touch" "Master" "Led" "Go"
+           <br/>
+           Oven version
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          activeAlarms
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarms
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          code
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarms.code
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarms.description
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          activatedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarms.activatedAt
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          resettedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarms.resettedAt
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          auto_pairing_date
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            auto_pairing_date
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV1Devices-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV1Devices-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+
+
+<span>[</span>
+    <span>{</span>
+      <span>"id"</span><span>:</span> <span>4123</span><span>,</span>
+      <span>"code"</span><span>:</span> <span>"XAVC-0511-GPR"</span><span>,</span>
+      <span>"serial"</span><span>:</span> <span>"2018C0015623"</span><span>,</span>
+      <span>"board_serial"</span><span>:</span> <span>13983</span><span>,</span>
+      <span>"board_model"</span><span>:</span> <span>2044</span><span>,</span>
+      <span>"firmware"</span><span>:</span> <span>32234</span><span>,</span>
+      <span>"alias"</span><span>:</span> <span>"7 TRAYS ONE @ COOKING ACADEMY"</span><span>,</span>
+      <span>"last_date"</span><span>:</span> <span>"2018-08-10T11:09:47.000Z"</span><span>,</span>
+      <span>"last_log_date"</span><span>:</span> <span>"2023-08-01T07:32:00Z"</span><span>,</span>
+      <span>"connection_kind"</span><span>:</span> <span>"ETH"</span><span>,</span>
+      <span>"city"</span><span>:</span> <span>"Rome"</span><span>,</span>
+      <span>"timezone"</span><span>:</span> <span>"Europe/Rome"</span><span>,</span>
+      <span>"first_date"</span><span>:</span> <span>"2018-08-10T11:09:47.000Z"</span><span>,</span>
+      <span>"latitude"</span><span>:</span> <span>45.408</span><span>,</span>
+      <span>"longitude"</span><span>:</span> <span>11.8859</span><span>,</span>
+      <span>"status"</span><span>:</span> <span>{</span>
+        <span>"connection"</span><span>:</span> <span>false</span><span>,</span>
+        <span>"working_hours"</span><span>:</span> <span>5030.24</span>
+      <span>}</span><span>,</span>
+      <span>"kpi"</span><span>:</span> <span>{</span>
+        <span>"cooking_steam"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"cooking_hours"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"washing_detergent"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"washing_energy"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"washing_frequency"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"washing_water"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"washing_hours"</span><span>:</span> <span>1234.5</span><span>,</span>
+        <span>"usage_manual"</span><span>:</span> <span>0.5</span><span>,</span>
+        <span>"usage_saved"</span><span>:</span> <span>0.5</span><span>,</span>
+        <span>"usage_chefunox"</span><span>:</span> <span>0.2</span><span>,</span>
+        <span>"usage_misenplace"</span><span>:</span> <span>0.2</span><span>,</span>
+        <span>"usage_multitime"</span><span>:</span> <span>0.2</span><span>,</span>
+        <span>"usage_mindmaps"</span><span>:</span> <span>0.1</span>
+      <span>}</span><span>,</span>
+      <span>"family"</span><span>:</span> <span>"MIND_MAPS"</span><span>,</span>
+      <span>"features"</span><span>:</span> <span>[</span>
+        <span>"mm_uip_pollo"</span><span>,</span>
+        <span>"mm_uip_smart_preheat"</span><span>,</span>
+        <span>"mm_uip_adaptive_cooking"</span>
+      <span>]</span><span>,</span>
+      <span>"group_id"</span><span>:</span> <span>322847</span><span>,</span>
+      <span>"range"</span><span>:</span> <span>"BAKERTOP"</span><span>,</span>
+      <span>"version"</span><span>:</span> <span>"One"</span>
+    <span>}</span>
+  <span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV2Devices">
+     <article data-group="Devices" data-name="GetV2Devices" data-version="2.0.0" id="api-Devices-GetV2Devices-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get devices
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get list of devices associated with an account. This API also provides aggregated data such as cooking hours, usage, washing, etc... it is possible to specify which KPIs to calculate.
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          page
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            page
+           </code>
+           -
+           <br/>
+           Page number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          pageSize
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            pageSize
+           </code>
+           -
+           <br/>
+           Page size
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          include_offline
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            include_offline
+           </code>
+           -
+           <br/>
+           Include offline devices
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          id
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number[]
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           - Array of integer
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          category
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            category
+           </code>
+           -
+           <br/>
+           Filter by category ex: CHEFTOP-X
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          connection
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            connection
+           </code>
+           -
+           <br/>
+           Filter by 'online':(true) or 'offline':(false)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          serialOrCode
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            serialOrCode
+           </code>
+           -
+           <br/>
+           Filter by serial or code
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          code
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            code
+           </code>
+           -
+           <br/>
+           Oven model code
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          serial
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            serial
+           </code>
+           -
+           <br/>
+           Oven serial number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          alias
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            alias
+           </code>
+           -
+           <br/>
+           User-defined oven alias
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          last_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            last_date
+           </code>
+           -
+           <br/>
+           The last time the oven performed an automatic connection test, occurs approximately every 30 min
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          last_ip
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            last_ip
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          installation_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            installation_date
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          end_warranty
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            end_warranty
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          first_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            first_date
+           </code>
+           -
+           <br/>
+           The first time the oven was connected to the DDC cloud
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          last_log_date
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            last_log_date
+           </code>
+           -
+           <br/>
+           The last time the oven uploaded a cooking log sample, occurs periodically when the device is working
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          city
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            city
+           </code>
+           -
+           <br/>
+           City specified on the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          board_serial
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            board_serial
+           </code>
+           -
+           <br/>
+           Control board serial number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          latitude
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            latitude
+           </code>
+           -
+           <br/>
+           Device position latitude
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          longitude
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            longitude
+           </code>
+           -
+           <br/>
+           Device position longitude
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          status
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            status
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          connection
+         </td>
+         <td>
+          Boolean
+         </td>
+         <td>
+          <p>
+           <code>
+            status.connection
+           </code>
+           -
+           <br/>
+           Parameter that indicates if the device is connected at this time
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          working_hours
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            status.working_hours
+           </code>
+           -
+           <br/>
+           Total number of hours the device have worked
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          sync
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            status.sync
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          first_access
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            status.first_access
+           </code>
+           -
+           <br/>
+           The first time the oven was connected to the DDC cloud
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          status
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            status.status
+           </code>
+           -
+           <br/>
+           "offline", "cooking" or "standby"
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          timezone
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            timezone
+           </code>
+           -
+           <br/>
+           Standard timezone of the device (based on the city value)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          board_model
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            board_model
+           </code>
+           -
+           <br/>
+           Control board code number
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          firmware
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            firmware
+           </code>
+           -
+           <br/>
+           Device firmware version
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          group_id
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            group_id
+           </code>
+           -
+           <br/>
+           Id of the group
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          activeAlarm
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarm
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          code
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarm.code
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          description
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarm.description
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          activatedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarm.activatedAt
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          resettedAt
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            activeAlarm.resettedAt
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          realtime
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            realtime
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slaveId
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            realtime.slaveId
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          state
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            realtime.state
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          senseKlean
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            senseKlean
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          additionDate
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            additionDate
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          last_recipes_update
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            last_recipes_update
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          connection_kind
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            connection_kind
+           </code>
+           -
+           <br/>
+           Enum: "ETH" "WIFI" "3G"
+           <br/>
+           Type of connection module installed on the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          family
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            family
+           </code>
+           - Enum: "MIND_MAPS" "MIND_MAPS_BIG" "SHOP_PRO" "SPEED_PRO" "DIGITAL_ID" "EVEREO"
+           <br/>
+           Oven family
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          range
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            range
+           </code>
+           - Enum: "BAKERTOP" "CHEFTOP" "BAKERLUX" "CHEFTOP"
+           <br/>
+           Oven Type
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          mac_address
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            mac_address
+           </code>
+           - Enum: "Plus" "One" "Touch" "Master" "Led" "Go"
+           <br/>
+           Oven version
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV2Devices-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV2Devices-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+
+
+<span>[</span>
+    <span>{</span>
+        <span>"id"</span><span>:</span> <span>1</span><span>,</span>
+        <span>"code"</span><span>:</span> <span>"XEVC-1011-EPRM.0"</span><span>,</span>
+        <span>"serial"</span><span>:</span> <span>"2008NUOVOCL4"</span><span>,</span>
+        <span>"alias"</span><span>:</span> <span>"2008NUOVOCL4"</span><span>,</span>
+        <span>"last_date"</span><span>:</span> <span>"2021-10-21T11:54:42.000Z"</span><span>,</span>
+        <span>"end_warranty"</span><span>:</span> <span>null</span><span>,</span>
+        <span>"first_date"</span><span>:</span> <span>"2021-10-07T11:42:37.000Z"</span><span>,</span>
+        <span>"last_log_date"</span><span>:</span> <span>"2021-10-07T14:22:32.000Z"</span><span>,</span>
+        <span>"city"</span><span>:</span> <span>"Rome"</span><span>,</span>
+        <span>"board_model"</span><span>:</span> <span>"1057"</span><span>,</span>
+        <span>"firmware"</span><span>:</span> <span>"0"</span><span>,</span>
+        <span>"id_device_group"</span><span>:</span> <span>33</span><span>,</span>
+        <span>"status"</span><span>:</span> <span>{</span>
+            <span>"connection"</span><span>:</span> <span>false</span><span>,</span>
+            <span>"sync"</span><span>:</span> <span>"sync"</span><span>,</span>
+            <span>"first_access"</span><span>:</span> <span>"2021-10-07T11:42:37.000Z"</span><span>,</span>
+            <span>"working_hours"</span><span>:</span> <span>null</span><span>,</span>
+            <span>"status"</span><span>:</span> <span>"offline"</span>
+        <span>}</span><span>,</span>
+        <span>"installation_date"</span><span>:</span> <span>"2023-02-14T00:00:00.000Z"</span><span>,</span>
+        <span>"latitude"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"longitude"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"timezone"</span><span>:</span> <span>"Europe/Rome"</span><span>,</span>
+        <span>"group_id"</span><span>:</span> <span>33</span><span>,</span>
+        <span>"activeAlarms"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"code"</span><span>:</span> <span>"WC06"</span><span>,</span>
+                <span>"description"</span><span>:</span> <span>"HOOD LACK OF POWER"</span><span>,</span>
+                <span>"activatedAt"</span><span>:</span> <span>"2021-10-21T11:56:06.810Z"</span><span>,</span>
+                <span>"resettedAt"</span><span>:</span> <span>null</span>
+            <span>}</span>
+        <span>]</span><span>,</span>
+        <span>"activeAlarm"</span><span>:</span> <span>{</span>
+            <span>"code"</span><span>:</span> <span>"WC06"</span><span>,</span>
+            <span>"description"</span><span>:</span> <span>"HOOD LACK OF POWER"</span><span>,</span>
+            <span>"activatedAt"</span><span>:</span> <span>"2021-10-21T11:56:06.810Z"</span><span>,</span>
+            <span>"resettedAt"</span><span>:</span> <span>null</span>
+        <span>}</span><span>,</span>
+        <span>"realtime"</span><span>:</span> <span>[</span>
+            <span>{</span>
+                <span>"slaveId"</span><span>:</span> <span>2</span><span>,</span>
+                <span>"state"</span><span>:</span> <span>"OFFLINE"</span>
+            <span>}</span>
+        <span>"senseKlean"</span><span>:</span> <span>0</span><span>,</span>
+        <span>"additionDate"</span><span>:</span> <span>"2023-10-17T11:28:47.303Z"</span><span>,</span>
+        <span>]</span>
+    <span>}</span>
+  <span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV1DevicesHaccp">
+     <article data-group="Devices" data-name="GetV1DevicesHaccp" data-version="0.0.0" id="api-Devices-GetV1DevicesHaccp-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get Haccp
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get a log of HACCP relevant variables in Excel format (chamber temperature, chamber humidity, fan, executed programs with resources consumption).
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/devices/haccp</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           - Example: from=2018-01-01T09:02:31.485Z
+           <br/>
+           Initial time for filtering haccp with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           - Example: to=2018-01-01T09:02:31.485Z
+           <br/>
+           End time for filtering haccp with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          query_timezone
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            query_timezone
+           </code>
+           - Enum: "device" "utc"
+           <br/>
+           Timezone of the Date Format
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          format
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            format
+           </code>
+           - Enum: "device" "undefined"
+           <br/>
+           How the data output is formatted (device or not defined)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          file_url
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            file_url
+           </code>
+           -
+           <br/>
+           Url to download the haccp
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV1DevicesHaccp-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV1DevicesHaccp-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>{</span>
+  <span>"file_url"</span><span>:</span> <span>"https://unox-ddc.s3.eu-central-1.amazonaws.com/haccp/haccp-4135-2019-07-11-83edaba6.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAVUB6YL5..."</span>
+<span>}</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV2DevicesLocation">
+     <article data-group="Devices" data-name="GetV2DevicesLocation" data-version="2.0.0" id="api-Devices-GetV2DevicesLocation-2.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get location
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          2.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           2.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get list of locations
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v2/devices/location</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          address
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            address
+           </code>
+           -
+           <br/>
+           Address to search
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          limit
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            limit
+           </code>
+           -
+           <br/>
+           Number of results
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          address
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            address
+           </code>
+           -
+           <br/>
+           Address
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          longitude
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            longitude
+           </code>
+           -
+           <br/>
+           Longitude
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          latitude
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            latitude
+           </code>
+           -
+           <br/>
+           Latitude
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV2DevicesLocation-2_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV2DevicesLocation-2_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+    <span>{</span>
+        <span>"address"</span><span>:</span> <span>"Via Ettore Majorana, 35010 Cadoneghe Padua, Italy"</span><span>,</span>
+        <span>"longitude"</span><span>:</span> <span>11.9025865</span><span>,</span>
+        <span>"latitude"</span><span>:</span> <span>45.47691</span>
+    <span>}</span><span>,</span>
+    <span>{</span>
+        <span>"address"</span><span>:</span> <span>"Via Ettore Majiorana 22, 73040 Castrignano del Capo Lecce, Italy"</span><span>,</span>
+        <span>"longitude"</span><span>:</span> <span>18.355174</span><span>,</span>
+        <span>"latitude"</span><span>:</span> <span>39.802213</span>
+    <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV1DevicesLogs">
+     <article data-group="Devices" data-name="GetV1DevicesLogs" data-version="0.0.0" id="api-Devices-GetV1DevicesLogs-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get logs
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get sensors sample history of devices
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/devices/logs</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           -
+           <br/>
+           Id of device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           -
+           <br/>
+           Example: from=2018-02-28T09:02:31.485Z
+           <br/>
+           Initial time for filtering logs with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           -
+           <br/>
+           Example: to=2018-02-28T09:02:31.485Z
+           <br/>
+           End time for filtering logs with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          idVariable
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            idVariable
+           </code>
+           - Enum: 21 22 23 24 25 26 27 51 52 57 58 56 62 63 64 152
+           <br/>
+           Example: idVariable=21
+           <br/>
+           <strong>
+            Temperatures
+           </strong>
+          </p>
+          <ul>
+           <li>
+            21: Cooking chamber temperature
+           </li>
+           <li>
+            22: Core probe temperature
+           </li>
+           <li>
+            23: PROVER accessory cooking chamber temperature
+           </li>
+           <li>
+            24: SLOWTOP accessory cooking chamber temperature
+           </li>
+           <li>
+            25: SLOWTOP accessory core probe temperature
+           </li>
+           <li>
+            26: DECKTOP accessory upper chamber probe
+           </li>
+           <li>
+            27: DECKTOP accessory lower chamber probe
+           </li>
+           <li>
+            57: Temperature set by the user
+           </li>
+           <li>
+            56: SOUSVIDE core probe temperature
+           </li>
+          </ul>
+          <strong>
+           Humidity
+          </strong>
+          <ul>
+           <li>
+            52: Measured humidity
+           </li>
+           <li>
+            58: Humidity set by the user
+           </li>
+          </ul>
+          <strong>
+           Fan
+          </strong>
+          <ul>
+           <li>
+            51: Fan set by the user
+           </li>
+          </ul>
+          <strong>
+           Microwaves
+          </strong>
+          <ul>
+           <li>
+            64: Microwaves set by the user
+           </li>
+          </ul>
+          <strong>
+           Other measures
+          </strong>
+          <ul>
+           <li>
+            62: Control board temperature probe
+           </li>
+           <li>
+            63: Power board temperature probe
+           </li>
+           <li>
+            152: Engine RPM
+           </li>
+          </ul>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          profile
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            profile
+           </code>
+           - Enum: "clean" "undefined"
+           <br/>
+           Optional output format of logs (undefined or clean)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          timezone
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            timezone
+           </code>
+           - Enum: "device" "utc"
+           <br/>
+           Timezone format of dates
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          maxLogs
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            maxLogs
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          day
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            day
+           </code>
+           -
+           <br/>
+           Starting time of variables records
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          idDevice
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            idDevice
+           </code>
+           -
+           <br/>
+           Id of device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          idVariable
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            idVariable
+           </code>
+           -
+           <br/>
+           Id of registered variable of temperature, humidity, fan (see added documentation)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          step
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            step
+           </code>
+           -
+           <br/>
+           Sampling period in seconds (always 30)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          sample
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            sample
+           </code>
+           -
+           <br/>
+           samples of 120 measurements
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          sampleIndex
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            sampleIndex
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          hourIndex
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            hourIndex
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          time
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            time
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV1DevicesLogs-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV1DevicesLogs-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+  <span>{</span>
+    <span>"day"</span><span>:</span> <span>"2018-05-05T12:00:00.000Z"</span><span>,</span>
+    <span>"idDevice"</span><span>:</span> <span>2940</span><span>,</span>
+    <span>"idVariable"</span><span>:</span> <span>22</span><span>,</span>
+    <span>"step"</span><span>:</span> <span>30</span><span>,</span>
+    <span>"samples"</span><span>:</span> <span>{</span>
+      <span>"0"</span><span>:</span> <span>{</span><span>}</span><span>,</span>
+      <span>"1"</span><span>:</span> <span>{</span><span>}</span><span>,</span>
+      <span>"2"</span><span>:</span> <span>{</span>
+        <span>"11"</span><span>:</span> <span>65</span><span>,</span>
+        <span>"12"</span><span>:</span> <span>65</span><span>,</span>
+        <span>"13"</span><span>:</span> <span>67</span>
+      <span>}</span><span>,</span>
+      <span>"3"</span><span>:</span> <span>{</span><span>}</span><span>,</span>
+      <span>"4"</span><span>:</span> <span>{</span><span>}</span><span>,</span>
+      <span>"5"</span><span>:</span> <span>{</span><span>}</span>
+    <span>}</span>
+  <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+    <div id="api-Devices-GetV1DevicesPrograms">
+     <article data-group="Devices" data-name="GetV1DevicesPrograms" data-version="0.0.0" id="api-Devices-GetV1DevicesPrograms-0.0.0">
+      <div>
+       <h1>
+        <span>
+         Devices
+        </span>
+        <span>
+         |
+        </span>
+        Get programs
+       </h1>
+      </div>
+      <div>
+       <div>
+        <button data-toggle="dropdown">
+         <strong>
+          0.0.0
+         </strong>
+         <span>
+         </span>
+        </button>
+        <ul>
+         <li>
+          <a href="#">
+           compare changes to:
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           0.0.0
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Get history of executed programs
+      </p>
+      <p>
+      </p>
+      <span>
+       get
+      </span>
+      <div>
+       <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="get" tabindex="0"><code>/v1/devices/programs</code></pre>
+       <div>
+        <div>
+         <button data-copy-state="copy" type="button">
+          <span>
+           Copy
+          </span>
+         </button>
+        </div>
+       </div>
+      </div>
+      <h2>
+       Query Parameter(s)
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 70%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          id
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String[]
+         </td>
+         <td>
+          <p>
+           <code>
+            id
+           </code>
+           - Example: id=4111
+           <br/>
+           Id of selected device Status values that need to be considered for filter
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          from
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            from
+           </code>
+           - Example: from=2018-02-28T09:02:31.485Z
+           <br/>
+           Initial time for filtering programs data with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          to
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            to
+           </code>
+           - Example: to=2018-04-30T08:02:53.761Z
+           <br/>
+           End time for filtering programs data with date range.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          timezone
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            timezone
+           </code>
+           - Example: timezone=device
+           <br/>
+           Choose between showing times using device timezone or utc.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          query_timezone
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            query_timezone
+           </code>
+           - Enum: "device" "utc"
+           <br/>
+           Limit
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h2>
+       Success 200
+      </h2>
+      <table>
+       <thead>
+        <tr>
+         <th style="width: 30%">
+          Field
+         </th>
+         <th style="width: 10%">
+          Type
+         </th>
+         <th style="width: 60%">
+          Description
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          idDevice
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            idDevice
+           </code>
+           -
+           <br/>
+           Oven id
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          startTS
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            startTS
+           </code>
+           -
+           <br/>
+           Program start time recorded on the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          endTS
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            endTS
+           </code>
+           -
+           <br/>
+           Program finish time recorded on the device
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          slaveId
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            slaveId
+           </code>
+           - Enum: 2 5 6 24 38
+           <br/>
+           Identifier of the device running the program, it can indicate both master devices or slave accessories. 2 (Mind Maps oven), 5 (SLOWTOP), 6 (PROVER), 24 (DECKTOP), 38 (BakerLux Shop Pro oven)
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          name
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            name
+           </code>
+           -
+           <br/>
+           Program name
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          kindOfCooking
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            kindOfCooking
+           </code>
+           - Enum: 1 2 3 4 5 6 7 8 11
+           <br/>
+           <strong>
+            Type of program
+           </strong>
+          </p>
+          <ul>
+           <li>
+            1: WASHING
+           </li>
+           <li>
+            2: SET
+           </li>
+           <li>
+            3: PROGRAM
+           </li>
+           <li>
+            4: MIND.Maps
+           </li>
+           <li>
+            5: MULTI.Time
+           </li>
+           <li>
+            6: MISE EN PLACE
+           </li>
+           <li>
+            7: CHEFUNOX MULTI.Time
+           </li>
+           <li>
+            8: CHEFUNOX AUTO.Cook
+           </li>
+           <li>
+            11: READY.Cook
+           </li>
+          </ul>
+          <p>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          totStep
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            totStep
+           </code>
+           -
+           <br/>
+           Total number of steps that was set when launching the program
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          cookingStep
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            cookingStep
+           </code>
+           -
+           <br/>
+           Cooking steps
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          flags
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            flags
+           </code>
+           -
+           <br/>
+           Used to detect infinite programs: a program is set to infinite time if floor(flags/2) != 0
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          energy
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            energy
+           </code>
+           -
+           <br/>
+           Energy consumed by the oven when running the program.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          steamWater
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            steamWater
+           </code>
+           -
+           <br/>
+           Steam water consumed.
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          washWater
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            washWater
+           </code>
+           -
+           <br/>
+           Washing water consumed (only if kindOfCooking: 1).
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          detergent
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Number
+         </td>
+         <td>
+          <p>
+           <code>
+            detergent
+           </code>
+           -
+           <br/>
+           Detergent consumed
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          working
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object[]
+         </td>
+         <td>
+          <p>
+           <code>
+            working
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          start
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            working.start
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          end
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            working.end
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          signatureId
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Object
+         </td>
+         <td>
+          <p>
+           <code>
+            signatureId
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          signatureUrl
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            signatureUrl
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          aggregated
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          Date
+         </td>
+         <td>
+          <p>
+           <code>
+            aggregated
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          mongoId
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            mongoId
+           </code>
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          TSK
+          <span>
+           optional
+          </span>
+         </td>
+         <td>
+          String
+         </td>
+         <td>
+          <p>
+           <code>
+            TSK
+           </code>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <ul role="tablist">
+       <li>
+        <a data-toggle="tab" href="#success-examples-Devices-GetV1DevicesPrograms-0_0_0-0" role="tab">
+         Response 200
+        </a>
+       </li>
+      </ul>
+      <div>
+       <div id="success-examples-Devices-GetV1DevicesPrograms-0_0_0-0">
+        <div>
+         <pre data-prismjs-copy="Copy" data-prismjs-copy-error="Press Ctrl+C to copy" data-prismjs-copy-success="copied!" data-type="json" tabindex="0"><code>Response <span>200</span>
+<span>[</span>
+  <span>{</span>
+    <span>"idDevice"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"startTS"</span><span>:</span> <span>"2023-08-02T05:47:33Z"</span><span>,</span>
+    <span>"endTS"</span><span>:</span> <span>"2023-08-02T05:47:33Z"</span><span>,</span>
+    <span>"slaveId"</span><span>:</span> <span>2</span><span>,</span>
+    <span>"name"</span><span>:</span> <span>"string"</span><span>,</span>
+    <span>"kindOfCooking"</span><span>:</span> <span>1</span><span>,</span>
+    <span>"totStep"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"cookingStep"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"flags"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"energy"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"steamWater"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"washWater"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"detergent"</span><span>:</span> <span>0</span><span>,</span>
+    <span>"working"</span><span>:</span> <span>[</span>
+      <span>{</span>
+        <span>"start"</span><span>:</span> <span>"2018-02-28T21:18:52.590Z"</span><span>,</span>
+        <span>"end"</span><span>:</span> <span>"2018-02-28T21:18:52.590Z"</span>
+      <span>}</span>
+    <span>]</span>
+  <span>}</span>
+<span>]</span></code></pre>
+         <div>
+          <div>
+           <button data-copy-state="copy" type="button">
+            <span>
+             Copy
+            </span>
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+  </div>
+ </body>
+</html>
+`
