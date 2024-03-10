@@ -6,7 +6,6 @@ sys.path.append('../../')
 import bot_lib as glib
 
 st.session_state.chat_type = "product_exploration"
-st.session_state.chat_history = []
 
 st.set_page_config(page_title="Our products") #HTML title
 
@@ -14,10 +13,18 @@ st.title("Our products") #page title
 st.text("Unox's products exploration")
 
 
-return_button = st.button("Return")
+col1, col2 = st.columns(2)
+with col1:
+    return_button = st.button("Home")
+with col2:
+    reset_button = st.button("Reset")
 
 if return_button:
     st.switch_page("pages/webapp.py")
+
+if reset_button:
+    st.session_state.chat_history = []
+    st.session_state.memory = glib.get_memory() #initialize the memory
 
 
 

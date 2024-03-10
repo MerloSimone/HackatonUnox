@@ -1,0 +1,31 @@
+
+---------------PRODUCT EXPLORATION----------------
+Tell me about cheftop-x oven
+
+Provide a longer description
+
+tell me about its automatic washing system
+
+
+
+---------------PROCEDURES & CUSTOM PRODUCTS----------------
+
+Upload files (Starbucks recipes)
+
+Tell me the recipe of Iced Salted Caramel Motcha
+
+tell me the ingredients
+
+
+
+---------------NEW PRODUCTS----------------
+
+tell me an hamburger recipe
+
+specify all the steps
+
+
+
+---------------ADD PRODUCTS----------------
+
+Just show the page
