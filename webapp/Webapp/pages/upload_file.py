@@ -41,12 +41,12 @@ def get_files(uploaded_files):
         for doc_path in docs_paths:
             i += 1
             # Update the progress bar with each iteration.
-            bar.progress((len(doc_path)/i)/100)
+            bar.progress(i/len(doc_path))
             documento = get_pdf_splits(doc_path)
             embed_index(doc_list=documento, embed_fn=embeddings, index_store='../../user_product_index')
 
         bar.progress(100)
-        st.success(f"All files have been processed!")
+        st.success(f"{i} files have been processed!")
         # faccio l'index di tutti i file uploadati
 
 
