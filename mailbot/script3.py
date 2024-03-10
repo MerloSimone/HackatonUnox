@@ -9,6 +9,9 @@ import re
 import boto3
 import json
 import pprint
+import mysql.connector
+from datetime import datetime
+
 
 import sys
 sys.path.append('..')
@@ -160,17 +163,15 @@ def connect_to_database(host, user, password, database):
         print(f"Error: {err}")
         return None
     
-def insert_response_into_database(connection, sender_email, email_content, chatbot_response):
+def insert_user_into_database(connection, email_address):
     if connection is not None:
         try:
             cursor = connection.cursor()
             insert_query = """
-                INSERT INTO users (email_address)
+                INSERT IGNORE INTO users (email_address)
                 VALUES (%s);
             """
-            values = []
-            values.append(sender_email)
-            cursor.execute(insert_query, values)
+            cursor.execute(insert_query, (email_address,))
             connection.commit()
         except mysql.connector.Error as err:
             print(f"Error: {err}")
@@ -178,7 +179,37 @@ def insert_response_into_database(connection, sender_email, email_content, chatb
             cursor.close()
 
 
-#db_connection = connect_to_database('89.40.142.15', 'acme_user', 'acme_user', 'unox')
+
+def insert_message_into_database(connection, params_msg, params):
+    if connection is not None:
+        try:
+            cursor = connection.cursor()
+
+            # Fetch the id_user using the email_address
+            user_query = "SELECT id_user FROM users WHERE email_address = %s"
+            cursor.execute(user_query, params)
+            user_result = cursor.fetchone()
+
+            if user_result is not None:
+                id_user = user_result[0]
+                params_msg.append(id_user)
+
+                # Insert the message into the messages table
+                insert_query = """
+                    INSERT INTO messages (user_message, generated_response, datetime, summary, category, id_user)
+                    VALUES (%s, %s, %s, %s, %s, %s);
+                """
+                
+                cursor.execute(insert_query, params_msg)
+                connection.commit()
+            else:
+                print(f"User with email address '{params[0]}' not found.")
+                
+        except mysql.connector.Error as err:
+            print(f"Error: {err}")
+        finally:
+            cursor.close()
+
             
 def ask_question(response, user_question, modelId='anthropic.claude-v2', max_tokens_to_sample=2048, temperature=0, top_p=0.5):
 
@@ -221,6 +252,7 @@ def ask_question(response, user_question, modelId='anthropic.claude-v2', max_tok
 
 
 
+connection = connect_to_database("89.40.142.15", "acme_user", "acme_user", "unox")
 
 while (1):
     lista_param = readEmails()
@@ -264,6 +296,17 @@ while (1):
            data_structure[sender] = [{'Category': category, 'Summary': summary, 'Response': response}]
     
         sendEmail(lista_param[0], response)
+        params = []
+        params.append(lista_param[0])
+        insert_user_into_database(connection, params)
+        params_msg = []
+        current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        params_msg.append(prompt)
+        params_msg.append(response)
+        params_msg.append(current_datetime)
+        params_msg.append(category)
+        params_msg.append(summary)
+        insert_message_into_database(connection, params_msg, params)
         #insert_response_into_database(db_connection, lista_param[0], lista_param[1], response)
         
         print(data_structure)
@@ -271,5 +314,5 @@ while (1):
     time.sleep(3)
     print("slept...")
     
-#if db_connection:
- #   db_connection.close()
+if connection:
+   connection.close()
