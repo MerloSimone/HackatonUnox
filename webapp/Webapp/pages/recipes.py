@@ -16,9 +16,10 @@ with right_column:
 
 if custom_recip_butt: # and esiste l'indice con i file caricati
     folder_path = '../../user_product_index'
-    if os.listdir(folder_path):
+    try:
+        os.listdir(folder_path)
         st.switch_page("pages/custom_recipes.py")
-    else:
+    except:
         st.error("You have not uploaded any file yet")
         with st.spinner("Redirecting"):
             sleep(2)
