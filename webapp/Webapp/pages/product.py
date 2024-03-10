@@ -1,10 +1,12 @@
 import streamlit as st #all streamlit commands will be available through the "st" alias
-# import rag_chatbot_lib as glib #reference to local lib script
-
 import sys
+
 sys.path.append('../../')
 # Use absolute import for bot_lib
 import bot_lib as glib
+
+st.session_state.chat_type = "product_exploration"
+st.session_state.chat_history = []
 
 st.set_page_config(page_title="Our products") #HTML title
 
