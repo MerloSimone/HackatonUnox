@@ -168,8 +168,9 @@ def insert_user_into_database(connection, email_address):
         try:
             cursor = connection.cursor()
             insert_query = """
-                INSERT IGNORE INTO users (email_address)
-                VALUES (%s);
+                INSERT INTO users (email_address)
+                VALUES (%s)
+                ON DUPLICATE KEY UPDATE email_address=email_address;
             """
             cursor.execute(insert_query, (email_address,))
             connection.commit()
@@ -183,7 +184,7 @@ def insert_user_into_database(connection, email_address):
 def insert_message_into_database(connection, params_msg, params):
     if connection is not None:
         try:
-            cursor = connection.cursor()
+            cursor = connection.cursor(buffered=True)
 
             # Fetch the id_user using the email_address
             user_query = "SELECT id_user FROM users WHERE email_address = %s"
@@ -256,7 +257,7 @@ connection = connect_to_database("89.40.142.15", "acme_user", "acme_user", "unox
 
 while (1):
     lista_param = readEmails()
-    if (lista_param[1] != "No new messages." and lista_param != None and lista_param[0] != "no-reply@accounts.google.com"): 
+    if (lista_param[1] != "No new messages." and lista_param != None and lista_param[0] != "no-reply@accounts.google.com" and lista_param[1] != None and lista_param[0] != None): 
         print(lista_param[1] + " from " + lista_param[0])
 
         prompt = lista_param[1]
@@ -298,7 +299,7 @@ while (1):
         sendEmail(lista_param[0], response)
         params = []
         params.append(lista_param[0])
-        insert_user_into_database(connection, params)
+        insert_user_into_database(connection, params[0])
         params_msg = []
         current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         params_msg.append(prompt)
