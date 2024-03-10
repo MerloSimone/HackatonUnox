@@ -27,7 +27,7 @@ if recip_button:
    st.switch_page("pages/recipes.py")
 
 if upload:
-   wb.open_new_tab("http://localhost:8501/upload_file")
+   wb.open_new_tab("http://89.40.142.15:8501/upload_file")
    # st.switch_page("pages/upload_file.py")
    text = st.text("Check the new tab to upload the files")
    bar = st.progress(0)
