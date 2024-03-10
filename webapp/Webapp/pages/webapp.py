@@ -12,7 +12,7 @@ col1, col2 = st.columns(2)
 with col1:
    prod_button = st.button('Products', use_container_width=True)
 with col2:
-   recip_button = st.button('Recipes', use_container_width=True)
+   recip_button = st.button('Recipes & Procedures', use_container_width=True)
 
 # if start_button:
 #    st.write("You clicked the start button!")
