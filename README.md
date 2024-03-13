@@ -54,5 +54,3 @@ To explore our generative AI solutions, follow these steps:
 ## Acknowledgments 🙌
 
 We extend our gratitude to Unox and Amazon AWS for hosting this inspiring hackathon, allowing us to explore the possibilities of generative AI in the realm of professional kitchens.
-
-Feel free to explore our code, contribute, or reach out for any inquiries. Happy hacking! 🍴🔧✨
