@@ -1,4 +1,4 @@
-# ![Logo](hackathon.png)
+<img src="hackathon.png" width="330" alt="Hackathon Logo"/>
 
 # Unox Generative AI Kitchen Solutions 🍳🤖
 
